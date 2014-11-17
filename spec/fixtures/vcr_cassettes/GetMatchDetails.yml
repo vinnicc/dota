@@ -1,0 +1,251 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/V001/?key=2FBBA83745F494FAE688AFB8463CD4FC&match_id=789645621
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Last-Modified:
+      - Mon, 21 Jul 2014 20:12:50 GMT
+      Date:
+      - Mon, 17 Nov 2014 16:54:30 GMT
+      Content-Length:
+      - '14776'
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Cache-Control:
+      - no-cache,must-revalidate
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"result\": {\n\t\t\"players\": [\n\t\t\t{\n\t\t\t\t\"account_id\":
+        98887913,\n\t\t\t\t\"player_slot\": 0,\n\t\t\t\t\"hero_id\": 69,\n\t\t\t\t\"item_0\":
+        1,\n\t\t\t\t\"item_1\": 34,\n\t\t\t\t\"item_2\": 0,\n\t\t\t\t\"item_3\": 79,\n\t\t\t\t\"item_4\":
+        214,\n\t\t\t\t\"item_5\": 38,\n\t\t\t\t\"kills\": 2,\n\t\t\t\t\"deaths\":
+        1,\n\t\t\t\t\"assists\": 13,\n\t\t\t\t\"leaver_status\": 0,\n\t\t\t\t\"gold\":
+        649,\n\t\t\t\t\"last_hits\": 45,\n\t\t\t\t\"denies\": 0,\n\t\t\t\t\"gold_per_min\":
+        437,\n\t\t\t\t\"xp_per_min\": 460,\n\t\t\t\t\"gold_spent\": 6670,\n\t\t\t\t\"hero_damage\":
+        3577,\n\t\t\t\t\"tower_damage\": 153,\n\t\t\t\t\"hero_healing\": 526,\n\t\t\t\t\"level\":
+        11,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5339,\n\t\t\t\t\t\t\"time\": 738,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5340,\n\t\t\t\t\t\t\"time\": 750,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5340,\n\t\t\t\t\t\t\"time\": 821,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5339,\n\t\t\t\t\t\t\"time\": 906,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5340,\n\t\t\t\t\t\t\"time\": 960,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5342,\n\t\t\t\t\t\t\"time\": 1023,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5339,\n\t\t\t\t\t\t\"time\": 1125,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5339,\n\t\t\t\t\t\t\"time\": 1267,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5340,\n\t\t\t\t\t\t\"time\": 1378,\n\t\t\t\t\t\t\"level\": 9\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5341,\n\t\t\t\t\t\t\"time\": 1439,\n\t\t\t\t\t\t\"level\": 10\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5342,\n\t\t\t\t\t\t\"time\": 1506,\n\t\t\t\t\t\t\"level\": 11\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        100883708,\n\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\"hero_id\": 27,\n\t\t\t\t\"item_0\":
+        180,\n\t\t\t\t\"item_1\": 34,\n\t\t\t\t\"item_2\": 0,\n\t\t\t\t\"item_3\":
+        0,\n\t\t\t\t\"item_4\": 16,\n\t\t\t\t\"item_5\": 0,\n\t\t\t\t\"kills\": 2,\n\t\t\t\t\"deaths\":
+        2,\n\t\t\t\t\"assists\": 6,\n\t\t\t\t\"leaver_status\": 0,\n\t\t\t\t\"gold\":
+        2037,\n\t\t\t\t\"last_hits\": 22,\n\t\t\t\t\"denies\": 2,\n\t\t\t\t\"gold_per_min\":
+        320,\n\t\t\t\t\"xp_per_min\": 283,\n\t\t\t\t\"gold_spent\": 3115,\n\t\t\t\t\"hero_damage\":
+        2640,\n\t\t\t\t\"tower_damage\": 793,\n\t\t\t\t\"hero_healing\": 0,\n\t\t\t\t\"level\":
+        8,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5080,\n\t\t\t\t\t\t\"time\": 726,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5078,\n\t\t\t\t\t\t\"time\": 821,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5078,\n\t\t\t\t\t\t\"time\": 905,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5079,\n\t\t\t\t\t\t\"time\": 1016,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5078,\n\t\t\t\t\t\t\"time\": 1152,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5081,\n\t\t\t\t\t\t\"time\": 1288,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5078,\n\t\t\t\t\t\t\"time\": 1369,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5079,\n\t\t\t\t\t\t\"time\": 1445,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        88508515,\n\t\t\t\t\"player_slot\": 2,\n\t\t\t\t\"hero_id\": 106,\n\t\t\t\t\"item_0\":
+        41,\n\t\t\t\t\"item_1\": 50,\n\t\t\t\t\"item_2\": 36,\n\t\t\t\t\"item_3\":
+        71,\n\t\t\t\t\"item_4\": 185,\n\t\t\t\t\"item_5\": 46,\n\t\t\t\t\"kills\":
+        7,\n\t\t\t\t\"deaths\": 0,\n\t\t\t\t\"assists\": 7,\n\t\t\t\t\"leaver_status\":
+        0,\n\t\t\t\t\"gold\": 1463,\n\t\t\t\t\"last_hits\": 97,\n\t\t\t\t\"denies\":
+        4,\n\t\t\t\t\"gold_per_min\": 577,\n\t\t\t\t\"xp_per_min\": 602,\n\t\t\t\t\"gold_spent\":
+        7905,\n\t\t\t\t\"hero_damage\": 8229,\n\t\t\t\t\"tower_damage\": 115,\n\t\t\t\t\"hero_healing\":
+        0,\n\t\t\t\t\"level\": 13,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5603,\n\t\t\t\t\t\t\"time\": 730,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5605,\n\t\t\t\t\t\t\"time\": 800,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5605,\n\t\t\t\t\t\t\"time\": 811,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5603,\n\t\t\t\t\t\t\"time\": 854,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5604,\n\t\t\t\t\t\t\"time\": 903,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5606,\n\t\t\t\t\t\t\"time\": 932,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5605,\n\t\t\t\t\t\t\"time\": 1003,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5605,\n\t\t\t\t\t\t\"time\": 1069,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5604,\n\t\t\t\t\t\t\"time\": 1214,\n\t\t\t\t\t\t\"level\": 9\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5604,\n\t\t\t\t\t\t\"time\": 1310,\n\t\t\t\t\t\t\"level\": 10\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5604,\n\t\t\t\t\t\t\"time\": 1377,\n\t\t\t\t\t\t\"level\": 11\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5603,\n\t\t\t\t\t\t\"time\": 1526,\n\t\t\t\t\t\t\"level\": 12\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5603,\n\t\t\t\t\t\t\"time\": 1587,\n\t\t\t\t\t\t\"level\": 13\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        89217927,\n\t\t\t\t\"player_slot\": 3,\n\t\t\t\t\"hero_id\": 86,\n\t\t\t\t\"item_0\":
+        36,\n\t\t\t\t\"item_1\": 92,\n\t\t\t\t\"item_2\": 0,\n\t\t\t\t\"item_3\":
+        180,\n\t\t\t\t\"item_4\": 0,\n\t\t\t\t\"item_5\": 0,\n\t\t\t\t\"kills\": 4,\n\t\t\t\t\"deaths\":
+        0,\n\t\t\t\t\"assists\": 7,\n\t\t\t\t\"leaver_status\": 0,\n\t\t\t\t\"gold\":
+        1770,\n\t\t\t\t\"last_hits\": 24,\n\t\t\t\t\"denies\": 2,\n\t\t\t\t\"gold_per_min\":
+        334,\n\t\t\t\t\"xp_per_min\": 399,\n\t\t\t\t\"gold_spent\": 3920,\n\t\t\t\t\"hero_damage\":
+        4400,\n\t\t\t\t\"tower_damage\": 190,\n\t\t\t\t\"hero_healing\": 893,\n\t\t\t\t\"level\":
+        11,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5448,\n\t\t\t\t\t\t\"time\": 633,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5450,\n\t\t\t\t\t\t\"time\": 803,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5450,\n\t\t\t\t\t\t\"time\": 942,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5448,\n\t\t\t\t\t\t\"time\": 1043,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5450,\n\t\t\t\t\t\t\"time\": 1155,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5452,\n\t\t\t\t\t\t\"time\": 1277,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5450,\n\t\t\t\t\t\t\"time\": 1351,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5448,\n\t\t\t\t\t\t\"time\": 1442,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5451,\n\t\t\t\t\t\t\"time\": 1517,\n\t\t\t\t\t\t\"level\": 9\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5451,\n\t\t\t\t\t\t\"time\": 1584,\n\t\t\t\t\t\t\"level\": 10\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5452,\n\t\t\t\t\t\t\"time\": 1602,\n\t\t\t\t\t\t\"level\": 11\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        89157606,\n\t\t\t\t\"player_slot\": 4,\n\t\t\t\t\"hero_id\": 78,\n\t\t\t\t\"item_0\":
+        1,\n\t\t\t\t\"item_1\": 60,\n\t\t\t\t\"item_2\": 182,\n\t\t\t\t\"item_3\":
+        36,\n\t\t\t\t\"item_4\": 180,\n\t\t\t\t\"item_5\": 46,\n\t\t\t\t\"kills\":
+        4,\n\t\t\t\t\"deaths\": 0,\n\t\t\t\t\"assists\": 5,\n\t\t\t\t\"leaver_status\":
+        0,\n\t\t\t\t\"gold\": 1476,\n\t\t\t\t\"last_hits\": 73,\n\t\t\t\t\"denies\":
+        20,\n\t\t\t\t\"gold_per_min\": 483,\n\t\t\t\t\"xp_per_min\": 503,\n\t\t\t\t\"gold_spent\":
+        6495,\n\t\t\t\t\"hero_damage\": 5147,\n\t\t\t\t\"tower_damage\": 299,\n\t\t\t\t\"hero_healing\":
+        0,\n\t\t\t\t\"level\": 11,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5402,\n\t\t\t\t\t\t\"time\": 744,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5400,\n\t\t\t\t\t\t\"time\": 777,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5400,\n\t\t\t\t\t\t\"time\": 842,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5002,\n\t\t\t\t\t\t\"time\": 944,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5400,\n\t\t\t\t\t\t\"time\": 1021,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5403,\n\t\t\t\t\t\t\"time\": 1085,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5400,\n\t\t\t\t\t\t\"time\": 1176,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5002,\n\t\t\t\t\t\t\"time\": 1240,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5401,\n\t\t\t\t\t\t\"time\": 1411,\n\t\t\t\t\t\t\"level\": 9\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5402,\n\t\t\t\t\t\t\"time\": 1509,\n\t\t\t\t\t\t\"level\": 10\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5403,\n\t\t\t\t\t\t\"time\": 1512,\n\t\t\t\t\t\t\"level\": 11\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        91698091,\n\t\t\t\t\"player_slot\": 128,\n\t\t\t\t\"hero_id\": 40,\n\t\t\t\t\"item_0\":
+        41,\n\t\t\t\t\"item_1\": 212,\n\t\t\t\t\"item_2\": 86,\n\t\t\t\t\"item_3\":
+        94,\n\t\t\t\t\"item_4\": 29,\n\t\t\t\t\"item_5\": 0,\n\t\t\t\t\"kills\": 0,\n\t\t\t\t\"deaths\":
+        7,\n\t\t\t\t\"assists\": 3,\n\t\t\t\t\"leaver_status\": 0,\n\t\t\t\t\"gold\":
+        242,\n\t\t\t\t\"last_hits\": 69,\n\t\t\t\t\"denies\": 5,\n\t\t\t\t\"gold_per_min\":
+        319,\n\t\t\t\t\"xp_per_min\": 313,\n\t\t\t\t\"gold_spent\": 4285,\n\t\t\t\t\"hero_damage\":
+        5448,\n\t\t\t\t\"tower_damage\": 361,\n\t\t\t\t\"hero_healing\": 0,\n\t\t\t\t\"level\":
+        9,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5179,\n\t\t\t\t\t\t\"time\": 726,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5178,\n\t\t\t\t\t\t\"time\": 785,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5180,\n\t\t\t\t\t\t\"time\": 799,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5180,\n\t\t\t\t\t\t\"time\": 874,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5180,\n\t\t\t\t\t\t\"time\": 921,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5179,\n\t\t\t\t\t\t\"time\": 1004,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5180,\n\t\t\t\t\t\t\"time\": 1116,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5179,\n\t\t\t\t\t\t\"time\": 1213,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5181,\n\t\t\t\t\t\t\"time\": 1413,\n\t\t\t\t\t\t\"level\": 9\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        90882159,\n\t\t\t\t\"player_slot\": 129,\n\t\t\t\t\"hero_id\": 63,\n\t\t\t\t\"item_0\":
+        63,\n\t\t\t\t\"item_1\": 56,\n\t\t\t\t\"item_2\": 44,\n\t\t\t\t\"item_3\":
+        36,\n\t\t\t\t\"item_4\": 0,\n\t\t\t\t\"item_5\": 212,\n\t\t\t\t\"kills\":
+        1,\n\t\t\t\t\"deaths\": 2,\n\t\t\t\t\"assists\": 0,\n\t\t\t\t\"leaver_status\":
+        0,\n\t\t\t\t\"gold\": 414,\n\t\t\t\t\"last_hits\": 55,\n\t\t\t\t\"denies\":
+        3,\n\t\t\t\t\"gold_per_min\": 304,\n\t\t\t\t\"xp_per_min\": 390,\n\t\t\t\t\"gold_spent\":
+        4395,\n\t\t\t\t\"hero_damage\": 2362,\n\t\t\t\t\"tower_damage\": 125,\n\t\t\t\t\"hero_healing\":
+        0,\n\t\t\t\t\"level\": 10,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5290,\n\t\t\t\t\t\t\"time\": 737,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5291,\n\t\t\t\t\t\t\"time\": 760,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5290,\n\t\t\t\t\t\t\"time\": 827,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5289,\n\t\t\t\t\t\t\"time\": 943,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5290,\n\t\t\t\t\t\t\"time\": 1006,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5292,\n\t\t\t\t\t\t\"time\": 1093,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5290,\n\t\t\t\t\t\t\"time\": 1179,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5291,\n\t\t\t\t\t\t\"time\": 1331,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5291,\n\t\t\t\t\t\t\"time\": 1444,\n\t\t\t\t\t\t\"level\": 9\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5291,\n\t\t\t\t\t\t\"time\": 1552,\n\t\t\t\t\t\t\"level\": 10\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        113800818,\n\t\t\t\t\"player_slot\": 130,\n\t\t\t\t\"hero_id\": 68,\n\t\t\t\t\"item_0\":
+        43,\n\t\t\t\t\"item_1\": 42,\n\t\t\t\t\"item_2\": 29,\n\t\t\t\t\"item_3\":
+        187,\n\t\t\t\t\"item_4\": 34,\n\t\t\t\t\"item_5\": 44,\n\t\t\t\t\"kills\":
+        2,\n\t\t\t\t\"deaths\": 1,\n\t\t\t\t\"assists\": 0,\n\t\t\t\t\"leaver_status\":
+        0,\n\t\t\t\t\"gold\": 366,\n\t\t\t\t\"last_hits\": 19,\n\t\t\t\t\"denies\":
+        2,\n\t\t\t\t\"gold_per_min\": 194,\n\t\t\t\t\"xp_per_min\": 186,\n\t\t\t\t\"gold_spent\":
+        3055,\n\t\t\t\t\"hero_damage\": 1256,\n\t\t\t\t\"tower_damage\": 0,\n\t\t\t\t\"hero_healing\":
+        0,\n\t\t\t\t\"level\": 7,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5347,\n\t\t\t\t\t\t\"time\": 727,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5345,\n\t\t\t\t\t\t\"time\": 878,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5346,\n\t\t\t\t\t\t\"time\": 901,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5345,\n\t\t\t\t\t\t\"time\": 1263,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5345,\n\t\t\t\t\t\t\"time\": 1386,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5348,\n\t\t\t\t\t\t\"time\": 1514,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5345,\n\t\t\t\t\t\t\"time\": 1579,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        101695162,\n\t\t\t\t\"player_slot\": 131,\n\t\t\t\t\"hero_id\": 16,\n\t\t\t\t\"item_0\":
+        1,\n\t\t\t\t\"item_1\": 188,\n\t\t\t\t\"item_2\": 34,\n\t\t\t\t\"item_3\":
+        29,\n\t\t\t\t\"item_4\": 16,\n\t\t\t\t\"item_5\": 46,\n\t\t\t\t\"kills\":
+        0,\n\t\t\t\t\"deaths\": 4,\n\t\t\t\t\"assists\": 2,\n\t\t\t\t\"leaver_status\":
+        0,\n\t\t\t\t\"gold\": 393,\n\t\t\t\t\"last_hits\": 46,\n\t\t\t\t\"denies\":
+        1,\n\t\t\t\t\"gold_per_min\": 252,\n\t\t\t\t\"xp_per_min\": 246,\n\t\t\t\t\"gold_spent\":
+        3495,\n\t\t\t\t\"hero_damage\": 3486,\n\t\t\t\t\"tower_damage\": 0,\n\t\t\t\t\"hero_healing\":
+        0,\n\t\t\t\t\"level\": 8,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5102,\n\t\t\t\t\t\t\"time\": 726,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5103,\n\t\t\t\t\t\t\"time\": 861,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5103,\n\t\t\t\t\t\t\"time\": 953,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5102,\n\t\t\t\t\t\t\"time\": 1038,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5103,\n\t\t\t\t\t\t\"time\": 1054,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5105,\n\t\t\t\t\t\t\"time\": 1180,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5102,\n\t\t\t\t\t\t\"time\": 1317,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5102,\n\t\t\t\t\t\t\"time\": 1578,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"account_id\":
+        108382060,\n\t\t\t\t\"player_slot\": 132,\n\t\t\t\t\"hero_id\": 53,\n\t\t\t\t\"item_0\":
+        50,\n\t\t\t\t\"item_1\": 44,\n\t\t\t\t\"item_2\": 0,\n\t\t\t\t\"item_3\":
+        38,\n\t\t\t\t\"item_4\": 67,\n\t\t\t\t\"item_5\": 28,\n\t\t\t\t\"kills\":
+        0,\n\t\t\t\t\"deaths\": 5,\n\t\t\t\t\"assists\": 1,\n\t\t\t\t\"leaver_status\":
+        0,\n\t\t\t\t\"gold\": 820,\n\t\t\t\t\"last_hits\": 64,\n\t\t\t\t\"denies\":
+        5,\n\t\t\t\t\"gold_per_min\": 320,\n\t\t\t\t\"xp_per_min\": 275,\n\t\t\t\t\"gold_spent\":
+        3660,\n\t\t\t\t\"hero_damage\": 1515,\n\t\t\t\t\"tower_damage\": 291,\n\t\t\t\t\"hero_healing\":
+        0,\n\t\t\t\t\"level\": 8,\n\t\t\t\t\"ability_upgrades\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5247,\n\t\t\t\t\t\t\"time\": 616,\n\t\t\t\t\t\t\"level\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5246,\n\t\t\t\t\t\t\"time\": 769,\n\t\t\t\t\t\t\"level\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5247,\n\t\t\t\t\t\t\"time\": 812,\n\t\t\t\t\t\t\"level\": 3\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5245,\n\t\t\t\t\t\t\"time\": 875,\n\t\t\t\t\t\t\"level\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5247,\n\t\t\t\t\t\t\"time\": 902,\n\t\t\t\t\t\t\"level\": 5\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5248,\n\t\t\t\t\t\t\"time\": 1068,\n\t\t\t\t\t\t\"level\": 6\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5247,\n\t\t\t\t\t\t\"time\": 1175,\n\t\t\t\t\t\t\"level\": 7\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"ability\":
+        5246,\n\t\t\t\t\t\t\"time\": 1260,\n\t\t\t\t\t\t\"level\": 8\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t\n\t\t\t}\n\t\t]\n\t\t,\n\t\t\"radiant_win\":
+        true,\n\t\t\"duration\": 908,\n\t\t\"start_time\": 1405973570,\n\t\t\"match_id\":
+        789645621,\n\t\t\"match_seq_num\": 709365483,\n\t\t\"tower_status_radiant\":
+        2039,\n\t\t\"tower_status_dire\": 1974,\n\t\t\"barracks_status_radiant\":
+        63,\n\t\t\"barracks_status_dire\": 63,\n\t\t\"cluster\": 111,\n\t\t\"first_blood_time\":
+        33,\n\t\t\"lobby_type\": 2,\n\t\t\"human_players\": 10,\n\t\t\"leagueid\":
+        600,\n\t\t\"positive_votes\": 34701,\n\t\t\"negative_votes\": 13291,\n\t\t\"game_mode\":
+        2,\n\t\t\"radiant_team_id\": 1375614,\n\t\t\"radiant_name\": \"Newbee\",\n\t\t\"radiant_logo\":
+        794064971723724234,\n\t\t\"radiant_team_complete\": 1,\n\t\t\"dire_team_id\":
+        726228,\n\t\t\"dire_name\": \"Vici Gaming\",\n\t\t\"dire_logo\": 34096951715893495,\n\t\t\"dire_team_complete\":
+        1,\n\t\t\"radiant_captain\": 98887913,\n\t\t\"dire_captain\": 91698091,\n\t\t\"picks_bans\":
+        [\n\t\t\t{\n\t\t\t\t\"is_pick\": false,\n\t\t\t\t\"hero_id\": 15,\n\t\t\t\t\"team\":
+        0,\n\t\t\t\t\"order\": 0\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": false,\n\t\t\t\t\"hero_id\":
+        77,\n\t\t\t\t\"team\": 1,\n\t\t\t\t\"order\": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\":
+        false,\n\t\t\t\t\"hero_id\": 43,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\":
+        2\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": false,\n\t\t\t\t\"hero_id\": 58,\n\t\t\t\t\"team\":
+        1,\n\t\t\t\t\"order\": 3\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\":
+        27,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\": 4\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\":
+        true,\n\t\t\t\t\"hero_id\": 68,\n\t\t\t\t\"team\": 1,\n\t\t\t\t\"order\":
+        5\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\": 53,\n\t\t\t\t\"team\":
+        1,\n\t\t\t\t\"order\": 6\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\":
+        78,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\": 7\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\":
+        false,\n\t\t\t\t\"hero_id\": 10,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\":
+        8\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": false,\n\t\t\t\t\"hero_id\": 73,\n\t\t\t\t\"team\":
+        1,\n\t\t\t\t\"order\": 9\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": false,\n\t\t\t\t\"hero_id\":
+        45,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\": 10\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\":
+        false,\n\t\t\t\t\"hero_id\": 7,\n\t\t\t\t\"team\": 1,\n\t\t\t\t\"order\":
+        11\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\": 63,\n\t\t\t\t\"team\":
+        1,\n\t\t\t\t\"order\": 12\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\":
+        86,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\": 13\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\":
+        true,\n\t\t\t\t\"hero_id\": 16,\n\t\t\t\t\"team\": 1,\n\t\t\t\t\"order\":
+        14\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\": 69,\n\t\t\t\t\"team\":
+        0,\n\t\t\t\t\"order\": 15\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": false,\n\t\t\t\t\"hero_id\":
+        54,\n\t\t\t\t\"team\": 1,\n\t\t\t\t\"order\": 16\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\":
+        false,\n\t\t\t\t\"hero_id\": 99,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\":
+        17\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\": 40,\n\t\t\t\t\"team\":
+        1,\n\t\t\t\t\"order\": 18\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"is_pick\": true,\n\t\t\t\t\"hero_id\":
+        106,\n\t\t\t\t\"team\": 0,\n\t\t\t\t\"order\": 19\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
+    http_version: 
+  recorded_at: Mon, 17 Nov 2014 16:54:30 GMT
+recorded_with: VCR 2.9.3
