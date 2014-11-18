@@ -17,6 +17,16 @@ describe Dota do
       expect(Dota).to receive(:api).and_return(test_client)
     end
 
+    specify "#hero" do
+      match = api.hero(43)
+      expect(match).to be_a Dota::API::Hero
+    end
+
+    specify "#item" do
+      match = api.item(114)
+      expect(match).to be_a Dota::API::Item
+    end
+
     specify "#match" do
       VCR.use_cassette("GetMatchDetails") do
         match = api.match(sample_match_id)

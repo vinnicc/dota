@@ -33,21 +33,15 @@ api = Dota.api
 Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods currently available:
 
 ```ruby
-api.match(MATCH_ID) # => Dota::API::Match
-api.leagues         # => [Dota::API::League, ...]
+api.hero(43)         # => Dota::API::Hero
+api.item(114)        # => Dota::API::Item
+api.match(789645621) # => Dota::API::Match
+api.leagues          # => [Dota::API::League, ...]
 ```
 
 ### API Objects
 
 You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Using `Dota.api` alone should be enough in most cases.
-
-#### Dota::API::Item
-
-```ruby
-item.id        # => 114
-item.name      # => "Heart of Tarrasque"
-item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
-```
 
 #### Dota::API::Hero
 
@@ -55,6 +49,14 @@ item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
 hero.id        # => 43
 hero.name      # => "Death Prophet"
 hero.image_url # => "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png"
+```
+
+#### Dota::API::Item
+
+```ruby
+item.id        # => 114
+item.name      # => "Heart of Tarrasque"
+item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
 ```
 
 #### Dota::API::Match
@@ -114,11 +116,13 @@ league.url         # => "http://www.dota2.com/international/overview/"
 
 ## TODO
 
-1. Move API documentation to https://readthedocs.org/ or somewhere else
-2. Implement all Dota 2 WebAPI methods
-3. Better search filters
-4. Computed attributes such as win rates, hero usage, etc.
-5. ???
+- Validations and error classes
+- More configuration options
+- Move API documentation to https://readthedocs.org/ or somewhere else
+- Implement all Dota 2 WebAPI methods
+- Better search filters
+- Computed attributes such as win rates, hero usage, etc.
+- ???
 
 ## Contributing
 

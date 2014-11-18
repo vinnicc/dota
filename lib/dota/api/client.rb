@@ -12,6 +12,14 @@ module Dota
         yield configuration
       end
 
+      def hero(id)
+        Hero.new(id)
+      end
+
+      def item(id)
+        Item.new(id)
+      end
+
       def match(id)
         response = do_request("GetMatchDetails", match_id: id)["result"]
         Match.new(response) if response
