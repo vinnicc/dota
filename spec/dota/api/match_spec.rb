@@ -9,6 +9,38 @@ describe Dota::API::Match do
     expect(match.id).to eq sample_match_id
   end
 
+  specify "#league_id" do
+    expect(match.league_id).to eq 600
+  end
+
+  specify "#type" do
+    expect(match.type).to eq "Tournament"
+  end
+
+  specify "#type_id" do
+    expect(match.type_id).to eq 2
+  end
+
+  specify "#mode" do
+    expect(match.mode).to eq "Captain's Mode"
+  end
+
+  specify "#mode_id" do
+    expect(match.mode_id).to eq 2
+  end
+
+  specify "#players" do
+    players = match.players
+    expect(players.count).to eq 10
+    expect(players.first).to be_a Dota::API::Match::Player
+  end
+
+  specify "#drafts" do
+    drafts = match.drafts
+    expect(drafts.count).to eq 20
+    expect(drafts.first).to be_a Dota::API::Match::Draft
+  end
+
   specify "#sequence" do
     expect(match.sequence).to eq 709365483
   end
@@ -49,18 +81,6 @@ describe Dota::API::Match do
     expect(match.cluster).to eq 111
   end
 
-  specify "#mode" do
-    expect(match.mode).to eq 2
-  end
-
-  specify "#lobby" do
-    expect(match.lobby).to eq 2
-  end
-
-  specify "#league_id" do
-    expect(match.league_id).to eq 600
-  end
-
   specify "#radiant_tower_status" do
     expect(match.radiant_tower_status).to eq 2039
   end
@@ -75,17 +95,5 @@ describe Dota::API::Match do
 
   specify "#dire_barracks_status" do
     expect(match.dire_barracks_status).to eq 63
-  end
-
-  specify "#players" do
-    players = match.players
-    expect(players.count).to eq 10
-    expect(players.first).to be_a Dota::API::Match::Player
-  end
-
-  specify "#drafts" do
-    drafts = match.drafts
-    expect(drafts.count).to eq 20
-    expect(drafts.first).to be_a Dota::API::Match::Draft
   end
 end
