@@ -60,13 +60,47 @@ hero.image_url # => "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet
 #### Dota::API::Match
 
 ```ruby
-XXX: TODO
+match.id                      # => 789645621
+match.league_id               # => 600
+match.players                 # => [Dota::API::Player, ...]
+match.sequence                # => 709365483
+match.starts_at               # => 2014-07-21 20:12:50 UTC
+match.duration                # => 908
+match.winner                  # => :radiant
+match.first_blood             # => 33
+match.positive_votes          # => 34701
+match.negative_votes          # => 13291
+match.season                  # => nil
+match.human_players           # => 10
+match.cluster                 # => 111
+match.mode                    # => 2
+match.lobby                   # => 2
+match.radiant_tower_status    # => 2039
+match.dire_tower_status       # => 1974
+match.radiant_barracks_status # => 63
+match.dire_barracks_status    # => 63
 ```
 
 #### Dota::API::Match::Player
 
 ```ruby
-XXX: TODO
+player.id           # => 98887913
+player.items        # => [Dota::API::Item, ...]
+player.slot         # => 0
+player.status       # => :played
+player.level        # => 11
+player.kills        # => 2
+player.deaths       # => 1
+player.assists      # => 13
+player.last_hits    # => 45
+player.denies       # => 0
+player.gold         # => 649
+player.gold_spent   # => 6670
+player.gpm          # => 437
+player.xpm          # => 460
+player.hero_damage  # => 3577
+player.tower_damage # => 153
+player.hero_healing # => 526
 ```
 
 #### Dota::API::League
