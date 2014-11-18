@@ -2,7 +2,7 @@
 
 Dota is a Ruby client for the [Dota 2 WebAPI](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2). It provides an easy way to access matches, players, heroes, items, and other public Dota 2 objects in an opinionated manner.
 
-This gem is in alpha, keep that in mind when upgrading. Documentation is also still lacking. In the meantime, you can do `SomeClass.instance_methods(false)` to see what methods are exposed. See [Core Classes](#core-classes) for more info.
+This gem is in alpha, keep that in mind when upgrading. Documentation is also still lacking. In the meantime, just do `SomeClass.instance_methods(false)` to see what methods are exposed.
 
 ## Installation
 
@@ -42,7 +42,7 @@ api.match(MATCH_ID)
 
 ## API Objects
 
-Only for reference. You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Using `Dota.api` alone should be enough in most cases.
+You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Using `Dota.api` alone should be enough in most cases.
 
 ### Dota::API::Item
 
