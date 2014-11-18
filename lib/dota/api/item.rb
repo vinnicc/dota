@@ -247,6 +247,10 @@ module Dota
         @id = id
         @name = MAPPING[id]
       end
+
+      def image_url(type = :lg)
+        "http://cdn.dota2.com/apps/dota2/images/items/#{name}_#{type}.png"
+      end
     end
   end
 end

@@ -27,6 +27,10 @@ module Dota
           end
         end
 
+        def hero
+          Hero.new(raw["hero_id"])
+        end
+
         def level
           raw["level"]
         end

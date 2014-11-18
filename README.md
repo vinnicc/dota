@@ -2,7 +2,7 @@
 
 Dota is a Ruby client for the [Dota 2 WebAPI](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2). It provides an easy way to access matches, players, heroes, items, and other public Dota 2 objects in an opinionated manner.
 
-This gem is in alpha. Take note when upgrading.
+This gem is in alpha, keep that in mind when upgrading. Documentation is also still lacking. In the meantime, you can do `SomeClass.instance_methods(false)` to see what methods are exposed. See [Core Classes](#core-classes) for more info.
 
 ## Installation
 
@@ -24,22 +24,52 @@ Or install it yourself as:
 
 ```ruby
 Dota.configure do |config|
-  config.api_key = "STEAM_API_KEY"
+  config.api_key = "YOUR_STEAM_API_KEY"
 end
 
 api = Dota.api
 ```
 
-Get your Steam API key [here](http://steamcommunity.com/dev/apikey).
-
-### Features
-
-What follows is a list of API methods supported by the gem:
+Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods supported by the gem:
 
 #### Get a single match
 
+Returns an instance of `Dota::API::Match`.
+
 ```ruby
 api.match(MATCH_ID)
+```
+
+## API Objects
+
+Only for reference. You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Using `Dota.api` alone should be enough in most cases.
+
+### Dota::API::Item
+
+```ruby
+item.id        # => 114
+item.name      # => "Heart of Tarrasque"
+item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
+```
+
+### Dota::API::Hero
+
+```ruby
+hero.id        # => 43
+hero.name      # => "Death Prophet"
+hero.image_url # => "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png"
+```
+
+### Dota::API::Match
+
+```ruby
+XXX: TODO
+```
+
+###Dota::API::Match::Player
+
+```ruby
+XXX: TODO
 ```
 
 ## Contributing
