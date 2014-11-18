@@ -5,4 +5,8 @@ VCR.configure do |c|
   c.hook_into :webmock
   c.cassette_library_dir = File.join(File.dirname(__FILE__), "..", "fixtures", "vcr_cassettes")
   c.configure_rspec_metadata!
+
+  c.before_record do |i|
+    i.response.body.force_encoding("UTF-8")
+  end
 end

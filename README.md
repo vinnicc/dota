@@ -72,6 +72,23 @@ XXX: TODO
 XXX: TODO
 ```
 
+### Dota::API::League
+
+```ruby
+league.id          # => 600
+league.name        # => "The International 2014"
+league.description # => "The Aegis of Champions hangs in the balance. See the world's top teams battle in the International."
+league.url         # => "http://www.dota2.com/international/overview/"
+```
+
+## TODO
+
+1. Move API documentation to https://readthedocs.org/ or somewhere else
+2. Implement all Dota 2 WebAPI methods
+3. Better search filters
+4. Computed attributes such as win rates, hero usage, etc.
+5. ???
+
 ## Contributing
 
 1. [Fork It](https://github.com/vinnicc/dota/fork)

@@ -4,17 +4,24 @@ require 'faraday_middleware'
 module Dota
   module API
     class Client
-      def match(id)
-        response = do_request("GetMatchDetails", match_id: id)["result"]
-        Match.new(response) if response
-      end
-
       def configuration
         @configuration ||= Configuration.new
       end
 
       def configure
         yield configuration
+      end
+
+      def match(id)
+        response = do_request("GetMatchDetails", match_id: id)["result"]
+        Match.new(response) if response
+      end
+
+      def leagues
+        response = do_request("GetLeagueListing", language: "en")["result"]
+        if response && (leagues = response["leagues"])
+          leagues.map { |league| League.new(league) }
+        end
       end
 
       private
