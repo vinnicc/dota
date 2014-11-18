@@ -110,9 +110,9 @@ player.hero_healing # => 526
 #### Dota::API::Match::Draft
 
 ```ruby
-player.hero   # => Dota::API::Hero
-player.order  # => 1
-player.pick?  # => true
+draft.hero  # => Dota::API::Hero
+draft.order # => 1
+draft.pick? # => true
 ```
 
 #### Dota::API::League
