@@ -30,14 +30,11 @@ end
 api = Dota.api
 ```
 
-Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods supported by the gem:
-
-#### Get a single match
-
-Returns an instance of `Dota::API::Match`.
+Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods currently available:
 
 ```ruby
-api.match(MATCH_ID)
+api.match(MATCH_ID) # => Dota::API::Match
+api.leagues         # => [Dota::API::League, ...]
 ```
 
 ## API Objects
