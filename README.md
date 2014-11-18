@@ -37,11 +37,11 @@ api.match(MATCH_ID) # => Dota::API::Match
 api.leagues         # => [Dota::API::League, ...]
 ```
 
-## API Objects
+### API Objects
 
 You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Using `Dota.api` alone should be enough in most cases.
 
-### Dota::API::Item
+#### Dota::API::Item
 
 ```ruby
 item.id        # => 114
@@ -49,7 +49,7 @@ item.name      # => "Heart of Tarrasque"
 item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
 ```
 
-### Dota::API::Hero
+#### Dota::API::Hero
 
 ```ruby
 hero.id        # => 43
@@ -57,19 +57,19 @@ hero.name      # => "Death Prophet"
 hero.image_url # => "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png"
 ```
 
-### Dota::API::Match
+#### Dota::API::Match
 
 ```ruby
 XXX: TODO
 ```
 
-###Dota::API::Match::Player
+#### Dota::API::Match::Player
 
 ```ruby
 XXX: TODO
 ```
 
-### Dota::API::League
+#### Dota::API::League
 
 ```ruby
 league.id          # => 600
