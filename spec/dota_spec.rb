@@ -30,14 +30,14 @@ describe Dota do
     specify "#match" do
       VCR.use_cassette("GetMatchDetails") do
         match = api.match(sample_match_id)
-        expect(match).to be_a(Dota::API::Match)
+        expect(match).to be_a Dota::API::Match
       end
     end
 
     specify "#leagues" do
       VCR.use_cassette("GetLeagueListing") do
         league = api.leagues.first
-        expect(league).to be_a(Dota::API::League)
+        expect(league).to be_a Dota::API::League
       end
     end
   end

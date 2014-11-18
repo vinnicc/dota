@@ -82,4 +82,10 @@ describe Dota::API::Match do
     expect(players.count).to eq 10
     expect(players.first).to be_a Dota::API::Match::Player
   end
+
+  specify "#drafts" do
+    drafts = match.drafts
+    expect(drafts.count).to eq 20
+    expect(drafts.first).to be_a Dota::API::Match::Draft
+  end
 end

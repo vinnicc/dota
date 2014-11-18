@@ -9,6 +9,10 @@ describe Dota::API::Match::Player do
     expect(player.id).to eq 98887913
   end
 
+  specify "#hero" do
+    expect(player.hero).to be_a Dota::API::Hero
+  end
+
   specify "#slot" do
     expect(player.slot).to eq 0
   end

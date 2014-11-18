@@ -85,6 +85,12 @@ module Dota
         end
       end
 
+      def drafts
+        raw["picks_bans"].map do |raw_draft|
+          Draft.new(raw_draft)
+        end
+      end
+
       private
 
       attr_reader :raw

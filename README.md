@@ -41,7 +41,7 @@ api.leagues          # => [Dota::API::League, ...]
 
 ### API Objects
 
-You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Using `Dota.api` alone should be enough in most cases.
+You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Starting with the call to `Dota.api` should be enough in most cases.
 
 #### Dota::API::Hero
 
@@ -64,7 +64,8 @@ item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
 ```ruby
 match.id                      # => 789645621
 match.league_id               # => 600
-match.players                 # => [Dota::API::Player, ...]
+match.drafts                  # => [Dota::API::Match::Draft, ...]
+match.players                 # => [Dota::API::Match::Player, ...]
 match.sequence                # => 709365483
 match.starts_at               # => 2014-07-21 20:12:50 UTC
 match.duration                # => 908
@@ -87,6 +88,7 @@ match.dire_barracks_status    # => 63
 
 ```ruby
 player.id           # => 98887913
+player.hero         # => Dota::API::Hero
 player.items        # => [Dota::API::Item, ...]
 player.slot         # => 0
 player.status       # => :played
@@ -103,6 +105,14 @@ player.xpm          # => 460
 player.hero_damage  # => 3577
 player.tower_damage # => 153
 player.hero_healing # => 526
+```
+
+#### Dota::API::Match::Draft
+
+```ruby
+player.hero   # => Dota::API::Hero
+player.order  # => 1
+player.pick?  # => true
 ```
 
 #### Dota::API::League
