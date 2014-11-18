@@ -114,6 +114,10 @@ module Dota
 
       attr_reader :id, :name
 
+      def self.all
+        MAPPING.keys.map { |id| new(id) }
+      end
+
       def initialize(id)
         @id = id
         @internal_name = MAPPING[id][0]

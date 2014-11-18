@@ -16,6 +16,10 @@ module Dota
         Hero.new(id)
       end
 
+      def heroes
+        Hero.all
+      end
+
       def item(id)
         Item.new(id)
       end

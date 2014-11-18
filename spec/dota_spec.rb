@@ -22,6 +22,11 @@ describe Dota do
       expect(match).to be_a Dota::API::Hero
     end
 
+    specify "#heroes" do
+      hero = api.heroes.first
+      expect(hero).to be_a Dota::API::Hero
+    end
+
     specify "#item" do
       match = api.item(114)
       expect(match).to be_a Dota::API::Item
