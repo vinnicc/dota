@@ -24,6 +24,10 @@ module Dota
         Item.new(id)
       end
 
+      def items
+        Item.all
+      end
+
       def match(id)
         response = do_request("GetMatchDetails", match_id: id)["result"]
         Match.new(response) if response

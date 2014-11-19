@@ -18,8 +18,8 @@ describe Dota do
     end
 
     specify "#hero" do
-      match = api.hero(43)
-      expect(match).to be_a Dota::API::Hero
+      hero = api.hero(43)
+      expect(hero).to be_a Dota::API::Hero
     end
 
     specify "#heroes" do
@@ -28,8 +28,13 @@ describe Dota do
     end
 
     specify "#item" do
-      match = api.item(114)
-      expect(match).to be_a Dota::API::Item
+      item = api.item(114)
+      expect(item).to be_a Dota::API::Item
+    end
+
+    specify "#items" do
+      item = api.items.first
+      expect(item).to be_a Dota::API::Item
     end
 
     specify "#match" do

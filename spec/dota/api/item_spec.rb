@@ -5,12 +5,18 @@ describe Dota::API::Item do
     end
   end
 
+  specify ".all" do
+    items = described_class.all
+    expect(items.first).to be_a described_class
+    expect(items.count).to eq 238
+  end
+
   specify "#id" do
     expect(item.id).to eq 1
   end
 
   specify "#name" do
-    expect(item.name).to eq "blink"
+    expect(item.name).to eq "Blink Dagger"
   end
 
   specify "#image_url" do
