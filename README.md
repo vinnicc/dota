@@ -26,13 +26,13 @@ Or install it yourself as:
 Dota.configure do |config|
   config.api_key = "YOUR_STEAM_API_KEY"
 end
-
-api = Dota.api
 ```
 
 Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods currently available:
 
 ```ruby
+api = Dota.api
+
 api.heroes             # => All heroes
 api.heroes(43)         # => A single hero (Death Prophet)
 
