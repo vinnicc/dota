@@ -12,23 +12,15 @@ module Dota
         yield configuration
       end
 
-      def hero(id)
-        Hero.new(id)
+      def heroes(id = nil)
+        id ? Hero.new(id) : Hero.all
       end
 
-      def heroes
-        Hero.all
+      def items(id = nil)
+        id ? Item.new(id) : Item.all
       end
 
-      def item(id)
-        Item.new(id)
-      end
-
-      def items
-        Item.all
-      end
-
-      def match(id)
+      def matches(id)
         response = do_request("GetMatchDetails", match_id: id)["result"]
         Match.new(response) if response
       end

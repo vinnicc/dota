@@ -1,7 +1,7 @@
 describe Dota::API::Hero do
   let(:hero) do
     VCR.use_cassette("GetMatchDetails") do
-      test_client.match(sample_match_id).players.first.hero
+      test_client.matches(sample_match_id).players.first.hero
     end
   end
 

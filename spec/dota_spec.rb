@@ -17,29 +17,33 @@ describe Dota do
       expect(Dota).to receive(:api).and_return(test_client)
     end
 
-    specify "#hero" do
-      hero = api.hero(43)
-      expect(hero).to be_a Dota::API::Hero
+    describe "#heroes" do
+      it "given an id returns a single hero" do
+        hero = api.heroes(43)
+        expect(hero).to be_a Dota::API::Hero
+      end
+
+      it "without params returns all heroes" do
+        hero = api.heroes.first
+        expect(hero).to be_a Dota::API::Hero
+      end
     end
 
-    specify "#heroes" do
-      hero = api.heroes.first
-      expect(hero).to be_a Dota::API::Hero
+    describe "#items" do
+      it "given an id returns a single item" do
+        item = api.items(114)
+        expect(item).to be_a Dota::API::Item
+      end
+
+      it "without params returns all items" do
+        item = api.items.first
+        expect(item).to be_a Dota::API::Item
+      end
     end
 
-    specify "#item" do
-      item = api.item(114)
-      expect(item).to be_a Dota::API::Item
-    end
-
-    specify "#items" do
-      item = api.items.first
-      expect(item).to be_a Dota::API::Item
-    end
-
-    specify "#match" do
+    specify "#matches" do
       VCR.use_cassette("GetMatchDetails") do
-        match = api.match(sample_match_id)
+        match = api.matches(sample_match_id)
         expect(match).to be_a Dota::API::Match
       end
     end

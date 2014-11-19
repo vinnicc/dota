@@ -33,10 +33,15 @@ api = Dota.api
 Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods currently available:
 
 ```ruby
-api.hero(43)         # => Dota::API::Hero
-api.item(114)        # => Dota::API::Item
-api.match(789645621) # => Dota::API::Match
-api.leagues          # => [Dota::API::League, ...]
+api.heroes             # => All heroes
+api.heroes(43)         # => A single hero (Death Prophet)
+
+api.items              # => All items
+api.items(114)         # => A single item (Heart of Tarrasque)
+
+api.matches(789645621) # => A single match (Newbee vs Vici Gaming)
+
+api.leagues            # => All leagues
 ```
 
 ### API Objects
