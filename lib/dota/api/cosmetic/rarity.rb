@@ -2,6 +2,10 @@ module Dota
   module API
     class Cosmetic
       class Rarity
+        include Utilities::Inspectable
+
+        attr_reader :raw 
+
         def initialize(raw)
           @raw = raw
         end
@@ -21,10 +25,6 @@ module Dota
         def name
           raw["localized_name"]
         end
-
-        private
-
-        attr_reader :raw
       end
     end
   end

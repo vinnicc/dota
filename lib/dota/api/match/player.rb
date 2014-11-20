@@ -2,6 +2,10 @@ module Dota
   module API
     class Match
       class Player
+        include Utilities::Inspectable
+
+        attr_reader :raw
+
         def initialize(raw)
           @raw = raw
         end
@@ -86,10 +90,6 @@ module Dota
         def items
           (0..5).map { |i| Item.new(raw["item_#{i}"]) }
         end
-
-        private
-
-        attr_reader :raw
       end
     end
   end

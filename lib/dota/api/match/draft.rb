@@ -2,6 +2,10 @@ module Dota
   module API
     class Match
       class Draft
+        include Utilities::Inspectable
+
+        attr_reader :raw
+
         def initialize(raw)
           @raw = raw
         end
@@ -21,10 +25,6 @@ module Dota
         def hero
           Hero.new(raw["hero_id"])
         end
-
-        private
-
-        attr_reader :raw
       end
     end
   end

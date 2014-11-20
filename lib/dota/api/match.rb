@@ -40,6 +40,8 @@ module Dota
         3 => "Very High"
       }.freeze
 
+      attr_reader :raw
+
       def initialize(raw)
         @raw = raw
       end
@@ -135,10 +137,6 @@ module Dota
       def dire_barracks_status
         raw["barracks_status_dire"]
       end
-
-      private
-
-      attr_reader :raw
     end
   end
 end
