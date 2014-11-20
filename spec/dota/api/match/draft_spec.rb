@@ -9,6 +9,10 @@ describe Dota::API::Match::Draft do
     expect(draft.pick?).to eq true
   end
 
+  specify "#team" do
+    expect(draft.team).to eq :radiant
+  end
+
   specify "#order" do
     expect(draft.order).to eq 20
   end

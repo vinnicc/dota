@@ -14,6 +14,10 @@ module Dota
           raw["is_pick"]
         end
 
+        def team
+          raw["team"] == 0 ? :radiant : :dire
+        end
+
         def hero
           Hero.new(raw["hero_id"])
         end
