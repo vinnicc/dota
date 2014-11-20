@@ -73,8 +73,8 @@ describe Dota::API::Match do
     expect(match.season).to be_nil
   end
 
-  specify "#human_players" do
-    expect(match.human_players).to eq 10
+  specify "#players_count" do
+    expect(match.players_count).to eq 10
   end
 
   specify "#cluster" do

@@ -112,7 +112,7 @@ module Dota
         raw["leagueid"]
       end
 
-      def human_players
+      def players_count
         raw["human_players"]
       end
 
