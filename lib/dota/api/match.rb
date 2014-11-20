@@ -33,6 +33,13 @@ module Dota
         16 => "Captain's Draft"
       }.freeze
 
+      SKILL_LEVELS = {
+        0 => "Any",
+        1 => "Normal",
+        2 => "High",
+        3 => "Very High"
+      }.freeze
+
       def initialize(raw)
         @raw = raw
       end
