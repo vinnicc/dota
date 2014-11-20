@@ -23,7 +23,7 @@ module Dota
       def matches(options = {})
         if options.is_a?(Integer)
           id = options
-          response = do_request("GetMatchDetails", match_id: id)["result"]
+          response = get("IDOTA2Match_570", "GetMatchDetails", match_id: id)["result"]
           Match.new(response) if response
         else
           options[:game_mode]             = options.delete(:mode_id) if options[:mode_id]
@@ -35,7 +35,7 @@ module Dota
           options[:matches_requested]     = options.delete(:limit) if options[:limit]
           options[:tournament_games_only] = options.delete(:league_only) if options[:league_only]
 
-          response = do_request("GetMatchHistory", options)["result"]
+          response = get("IDOTA2Match_570", "GetMatchHistory", options)["result"]
           if response && (matches = response["matches"])
             matches.map { |match| Match.new(match) }
           end
@@ -43,22 +43,26 @@ module Dota
       end
 
       def leagues
-        response = do_request("GetLeagueListing", language: "en")["result"]
+        response = get("IDOTA2Match_570", "GetLeagueListing", language: "en")["result"]
         if response && (leagues = response["leagues"])
           leagues.map { |league| League.new(league) }
         end
       end
 
       def cosmetic_rarities
-        response = do_request("GetRarities", { language: "en" }, "IEconDOTA2_570")["result"]
+        response = get("IEconDOTA2_570", "GetRarities", language: "en")["result"]
         if response && (rarities = response["rarities"])
           rarities.map { |rarity| Cosmetic::Rarity.new(rarity) }
         end
       end
 
+      def get(interface, method, params = {}, *args)
+        do_request(method, params, interface, *args)
+      end
+
       private
 
-      def do_request(method, params = {}, interface = "IDOTA2Match_570", method_version = "V001")
+      def do_request(method, params, interface = "IDOTA2Match_570", method_version = "V001")
         url = "https://api.steampowered.com/#{interface}/#{method}/#{method_version}/"
 
         @faraday = Faraday.new(url) do |faraday|

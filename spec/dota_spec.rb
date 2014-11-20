@@ -79,7 +79,7 @@ describe Dota do
           specify ":#{local} should translate to :#{remote}" do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetMatchHistory") do
-              expect(api).to receive(:do_request).with("GetMatchHistory", remote => random_value) { double.as_null_object }
+              expect(api).to receive(:get).with("IDOTA2Match_570", "GetMatchHistory", remote => random_value) { double.as_null_object }
               matches = api.matches(local => random_value)
             end
           end
@@ -97,7 +97,16 @@ describe Dota do
     specify "#cosmetic_rarities" do
       VCR.use_cassette("GetRarities") do
         rarities = api.cosmetic_rarities
-	expect(rarities.first).to be_a Dota::API::Cosmetic::Rarity
+        expect(rarities.first).to be_a Dota::API::Cosmetic::Rarity
+      end
+    end
+
+    describe "#get" do
+      it "allows custom API requests" do
+        VCR.use_cassette("GetRarities") do
+          response = api.get("IEconDOTA2_570", "GetRarities", language: "en")
+          expect(response["result"]["count"]).to eq 8
+        end
       end
     end
   end
