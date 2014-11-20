@@ -6,12 +6,23 @@ Currently supported endpoints:
 
 - [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails)
 - [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory)
+- [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
+- [GetHeroes](https://wiki.teamfortress.com/wiki/WebAPI/GetHeroes)
+- GetGameItems
 
 This gem is in alpha, keep that in mind when upgrading.
 
 ## TODO
 
 - Support for more endpoints
+  - [GetFriendList](https://wiki.teamfortress.com/wiki/WebAPI/GetFriendList)
+  - [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
+  - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
+  - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
+  - [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
+  - [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
+  - [GetTournamentPlayerStats](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPlayerStats)
+  - [GetTournamentPrizePool](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPrizePool)
 - Validations and error classes
 - More configuration options
 - Move API documentation to [readthedocs.org](https://readthedocs.org/) or somewhere else
@@ -103,7 +114,7 @@ league.url         # => "http://www.dota2.com/international/overview/"
 
 Caveat: Getting a list of matches via `api.matches` will call [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory) which has very few attributes for the matches returned (obviously for performance reasons), as opposed to getting info about a particular match via `api.matches(id)` which will instead call [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails). In both cases, the matches returned will be instances of `Dota::API::Match`. In the future, there will be subclasses to distinguish the two.
 
-When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't support the value required yet.
+When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't provide it yet.
 
 ```ruby
 match.id                      # => 789645621
