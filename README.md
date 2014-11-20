@@ -11,7 +11,7 @@ This gem is in alpha, keep that in mind when upgrading.
 
 ## TODO
 
-- Implement all Dota 2 WebAPI methods
+- Support for more endpoints
 - Validations and error classes
 - More configuration options
 - Move API documentation to [readthedocs.org](https://readthedocs.org/) or somewhere else
