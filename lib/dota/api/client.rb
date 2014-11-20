@@ -20,9 +20,26 @@ module Dota
         id ? Item.new(id) : Item.all
       end
 
-      def matches(id)
-        response = do_request("GetMatchDetails", match_id: id)["result"]
-        Match.new(response) if response
+      def matches(options = {})
+        if options.is_a?(Integer)
+          id = options
+          response = do_request("GetMatchDetails", match_id: id)["result"]
+          Match.new(response) if response
+        else
+          options[:game_mode]             = options.delete(:mode_id) if options[:mode_id]
+          options[:skill]                 = options.delete(:skill_level) if options[:skill_level]
+          options[:date_min]              = options.delete(:from) if options[:from]
+          options[:date_max]              = options.delete(:to) if options[:to]
+          options[:account_id]            = options.delete(:player_id) if options[:player_id]
+          options[:start_at_match_id]     = options.delete(:after) if options[:after]
+          options[:matches_requested]     = options.delete(:limit) if options[:limit]
+          options[:tournament_games_only] = options.delete(:league_only) if options[:league_only]
+
+          response = do_request("GetMatchHistory", options)["result"]
+          if response && (matches = response["matches"])
+            matches.map { |match| Match.new(match) }
+          end
+        end
       end
 
       def leagues
@@ -34,7 +51,7 @@ module Dota
 
       private
 
-      def do_request(method, options = {}, interface = "IDOTA2Match_570", method_version = "V001")
+      def do_request(method, params = {}, interface = "IDOTA2Match_570", method_version = "V001")
         url = "https://api.steampowered.com/#{interface}/#{method}/#{method_version}/"
 
         @faraday = Faraday.new(url) do |faraday|
@@ -43,7 +60,7 @@ module Dota
         end
 
         response = @faraday.get do |request|
-          request.url(url, options.merge(key: configuration.api_key))
+          request.url(url, params.merge(key: configuration.api_key))
         end
         response.body
       end
