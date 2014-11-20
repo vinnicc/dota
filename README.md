@@ -88,9 +88,18 @@ item.name      # => "Heart of Tarrasque"
 item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
 ```
 
+#### Leagues
+
+```ruby
+league.id          # => 600
+league.name        # => "The International 2014"
+league.description # => "The Aegis of Champions hangs in the balance. See the world's top teams battle in the International."
+league.url         # => "http://www.dota2.com/international/overview/"
+```
+
 #### Matches
 
-Getting a list of matches via `api.matches` will call the [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory) endpoint which has very few attributes for the matches returned (obviously for performance reasons), as opposed to getting info about a particular match via `api.matches(id)` which will then call the [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails) endpoint. In both cases, the matches returned are instances of `Dota::API::Match`. There will be subclasses to distiguish between these in the future and reduce confusion.
+Caveat: Getting a list of matches via `api.matches` will call [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory) which has very few attributes for the matches returned (obviously for performance reasons), as opposed to getting info about a particular match via `api.matches(id)` which will instead call [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails). In both cases, the matches returned will be instances of `Dota::API::Match`. In the future, there will be subclasses to distinguish the two.
 
 When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't support the value required yet.
 
@@ -149,15 +158,6 @@ draft.order # => 1
 draft.pick? # => true
 draft.team  # => :radiant
 draft.hero  # => Dota::API::Hero
-```
-
-#### Leagues
-
-```ruby
-league.id          # => 600
-league.name        # => "The International 2014"
-league.description # => "The Aegis of Champions hangs in the balance. See the world's top teams battle in the International."
-league.url         # => "http://www.dota2.com/international/overview/"
 ```
 
 ## Contributing
