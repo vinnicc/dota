@@ -47,15 +47,17 @@ Get your Steam API key [here](http://steamcommunity.com/dev/apikey).
 ```ruby
 api = Dota.api
 
-api.heroes(43)           # A single hero (Death Prophet)
-api.heroes               # All heroes
+api.heroes(43)           # (Cached) A single hero - Death Prophet
+api.heroes               # (Cached) All heroes
 
-api.items(114)           # A single item (Heart of Tarrasque)
-api.items                # All items
+api.items(114)           # (Cached) A single item - Heart of Tarrasque
+api.items                # (Cached) All items
+
+api.cosmetic_rarities    # All cosmetic rarities
 
 api.leagues              # All leagues
 
-api.matches(789645621)   # A single match (Newbee vs Vici Gaming)
+api.matches(789645621)   # A single match - Newbee vs Vici Gaming
 api.matches              # A list of matches
 api.matches(hero_id: 43) # Allowed options:
                          #
@@ -158,6 +160,15 @@ draft.order # => 1
 draft.pick? # => true
 draft.team  # => :radiant
 draft.hero  # => Dota::API::Hero
+```
+
+#### Cosmetic Rarities
+
+```ruby
+rarity.id    # => 1
+rarity.order # => 0
+rarity.color # => "#e4ae39"
+rarity.name  # => "Immortal"
 ```
 
 ## Contributing

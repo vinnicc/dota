@@ -93,5 +93,12 @@ describe Dota do
         expect(league).to be_a Dota::API::League
       end
     end
+
+    specify "#cosmetic_rarities" do
+      VCR.use_cassette("GetRarities") do
+        rarities = api.cosmetic_rarities
+	expect(rarities.first).to be_a Dota::API::Cosmetic::Rarity
+      end
+    end
   end
 end

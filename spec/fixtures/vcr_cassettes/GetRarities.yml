@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.steampowered.com/IEconDOTA2_570/GetRarities/V001/?key=2FBBA83745F494FAE688AFB8463CD4FC&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Thu, 20 Nov 2014 21:13:59 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '907'
+      Date:
+      - Thu, 20 Nov 2014 21:13:59 GMT
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"result\": {\n\t\t\"count\": 8,\n\t\t\"rarities\": [\n\t\t\t{\n\t\t\t\t\"name\":
+        \"common\",\n\t\t\t\t\"id\": 1,\n\t\t\t\t\"order\": 0,\n\t\t\t\t\"color\":
+        \"#b0c3d9\",\n\t\t\t\t\"localized_name\": \"Common\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\":
+        \"uncommon\",\n\t\t\t\t\"id\": 2,\n\t\t\t\t\"order\": 1,\n\t\t\t\t\"color\":
+        \"#5e98d9\",\n\t\t\t\t\"localized_name\": \"Uncommon\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\":
+        \"rare\",\n\t\t\t\t\"id\": 3,\n\t\t\t\t\"order\": 2,\n\t\t\t\t\"color\": \"#4b69ff\",\n\t\t\t\t\"localized_name\":
+        \"Rare\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"mythical\",\n\t\t\t\t\"id\":
+        4,\n\t\t\t\t\"order\": 3,\n\t\t\t\t\"color\": \"#8847ff\",\n\t\t\t\t\"localized_name\":
+        \"Mythical\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"legendary\",\n\t\t\t\t\"id\":
+        5,\n\t\t\t\t\"order\": 4,\n\t\t\t\t\"color\": \"#d32ce6\",\n\t\t\t\t\"localized_name\":
+        \"Legendary\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"ancient\",\n\t\t\t\t\"id\":
+        6,\n\t\t\t\t\"order\": 5,\n\t\t\t\t\"color\": \"#eb4b4b\",\n\t\t\t\t\"localized_name\":
+        \"Ancient\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"name\": \"immortal\",\n\t\t\t\t\"id\":
+        7,\n\t\t\t\t\"order\": 6,\n\t\t\t\t\"color\": \"#e4ae39\",\n\t\t\t\t\"localized_name\":
+        \"Immortal\"\n\t\t\t}\n\t\t]\n\t\t,\n\t\t\"status\": 200\n\t}\n}"
+    http_version: 
+  recorded_at: Thu, 20 Nov 2014 21:13:59 GMT
+recorded_with: VCR 2.9.3

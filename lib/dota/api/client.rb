@@ -49,6 +49,13 @@ module Dota
         end
       end
 
+      def cosmetic_rarities
+        response = do_request("GetRarities", { language: "en" }, "IEconDOTA2_570")["result"]
+        if response && (rarities = response["rarities"])
+          rarities.map { |rarity| Cosmetic::Rarity.new(rarity) }
+        end
+      end
+
       private
 
       def do_request(method, params = {}, interface = "IDOTA2Match_570", method_version = "V001")

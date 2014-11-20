@@ -4,12 +4,13 @@ require 'dota/version'
 require 'dota/utils/inspect'
 
 require 'dota/api/client'
+require 'dota/api/cosmetic/rarity'
 require 'dota/api/hero'
 require 'dota/api/item'
 require 'dota/api/league'
 require 'dota/api/match'
-require 'dota/api/match/player'
 require 'dota/api/match/draft'
+require 'dota/api/match/player'
 
 module Dota
   class << self
