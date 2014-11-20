@@ -1,8 +1,22 @@
 # Dota [![Gem Version](https://badge.fury.io/rb/dota.svg)](http://badge.fury.io/rb/dota) [![Build Status](https://travis-ci.org/vinnicc/dota.svg?branch=master)](https://travis-ci.org/vinnicc/dota)
 
-`dota` is a Ruby client for the [Dota 2 WebAPI](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2). It provides an easy way to access matches, players, heroes, items, and other public Dota 2 objects in an opinionated manner.
+`dota` is a Ruby client for the [Dota 2 WebAPI](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2). It provides an easy way to access matches, players, heroes, items, and other public Dota 2 objects in an opinionated manner.  Check out [their documentation](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2) or [this forum post](http://dev.dota2.com/showthread.php?t=58317) to learn more.
+
+Currently supported endpoints:
+
+- [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails)
+- [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory)
 
 This gem is in alpha, keep that in mind when upgrading.
+
+## TODO
+
+- Implement all Dota 2 WebAPI methods
+- Validations and error classes
+- More configuration options
+- Move API documentation to [readthedocs.org](https://readthedocs.org/) or somewhere else
+- Better search filters
+- Computed attributes such as win rates, hero usage, etc.
 
 ## Installation
 
@@ -28,7 +42,7 @@ Dota.configure do |config|
 end
 ```
 
-Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follows is a list of API methods currently available:
+Get your Steam API key [here](http://steamcommunity.com/dev/apikey).
 
 ```ruby
 api = Dota.api
@@ -58,11 +72,7 @@ api.matches(hero_id: 43) # Allowed options:
                          #   :limit       - Integer, Amount of matches to return (default is 100)
 ```
 
-### API Objects
-
-You won't need to instantiate on these classes directly and it's not advisable to do so as the API might change anytime. Starting with the call to `Dota.api` should be enough in most cases.
-
-#### Dota::API::Hero
+#### Heroes
 
 ```ruby
 hero.id        # => 43
@@ -70,7 +80,7 @@ hero.name      # => "Death Prophet"
 hero.image_url # => "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png"
 ```
 
-#### Dota::API::Item
+#### Items
 
 ```ruby
 item.id        # => 114
@@ -78,7 +88,11 @@ item.name      # => "Heart of Tarrasque"
 item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
 ```
 
-#### Dota::API::Match
+#### Matches
+
+Getting a list of matches via `api.matches` will call the [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory) endpoint which has very few attributes for the matches returned (obviously for performance reasons), as opposed to getting info about a particular match via `api.matches(id)` which will then call the [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails) endpoint. In both cases, the matches returned are instances of `Dota::API::Match`. There will be subclasses to distiguish between these in the future and reduce confusion.
+
+When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't support the value required yet.
 
 ```ruby
 match.id                      # => 789645621
@@ -105,7 +119,7 @@ match.radiant_barracks_status # => 63
 match.dire_barracks_status    # => 63
 ```
 
-#### Dota::API::Match::Player
+#### Players
 
 ```ruby
 player.id           # => 98887913
@@ -128,7 +142,7 @@ player.tower_damage # => 153
 player.hero_healing # => 526
 ```
 
-#### Dota::API::Match::Draft
+#### Drafts
 
 ```ruby
 draft.order # => 1
@@ -137,7 +151,7 @@ draft.team  # => :radiant
 draft.hero  # => Dota::API::Hero
 ```
 
-#### Dota::API::League
+#### Leagues
 
 ```ruby
 league.id          # => 600
@@ -145,15 +159,6 @@ league.name        # => "The International 2014"
 league.description # => "The Aegis of Champions hangs in the balance. See the world's top teams battle in the International."
 league.url         # => "http://www.dota2.com/international/overview/"
 ```
-
-## TODO
-
-- Validations and error classes
-- More configuration options
-- Move API documentation to [readthedocs.org](https://readthedocs.org/) or somewhere else
-- Implement all Dota 2 WebAPI methods
-- Better search filters
-- Computed attributes such as win rates, hero usage, etc.
 
 ## Contributing
 
