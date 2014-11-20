@@ -50,7 +50,7 @@ api.matches(some_filter: abc123) # Allowed options:
                                  #   :hero_id     - Integer, With this hero. See Dota::API::Hero::MAPPING
                                  #   :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
                                  #   :mode_id     - Integer, In this game mode. See Dota::API::Match::MODES
-                                 #   :skill_level - Integer, In this skill level (ignored if :user_id is provided). See Dota::API::Match::SKILL_LEVELS
+                                 #   :skill_level - Integer, In this skill level (ignored if :player_id is provided). See Dota::API::Match::SKILL_LEVELS
                                  #   :from        - Integer, Minimum timestamp
                                  #   :to          - Integer, Maximum timestamp
                                  #   :min_players - Integer, With at least this number of players
