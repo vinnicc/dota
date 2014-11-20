@@ -87,7 +87,7 @@ api.matches(hero_id: 43) # Allowed options:
 
 #### Custom Requests
 
-For the unsupported endpoints, you can use `api.get`. The following code is similar to `api.matches(789645621)` except that it returns the raw JSON response.
+For the unsupported endpoints, you can use `api.get`. The following code is similar to `api.matches(789645621)` except that it only returns the response body.
 
 ```ruby
 api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621)
