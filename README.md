@@ -33,29 +33,29 @@ Get your Steam API key [here](http://steamcommunity.com/dev/apikey). What follow
 ```ruby
 api = Dota.api
 
-api.heroes(43)                   # A single hero (Death Prophet)
-api.heroes                       # All heroes
+api.heroes(43)           # A single hero (Death Prophet)
+api.heroes               # All heroes
 
-api.items(114)                   # A single item (Heart of Tarrasque)
-api.items                        # All items
+api.items(114)           # A single item (Heart of Tarrasque)
+api.items                # All items
 
-api.leagues                      # All leagues
+api.leagues              # All leagues
 
-api.matches(789645621)           # A single match (Newbee vs Vici Gaming)
-api.matches                      # A list of matches
-api.matches(some_filter: abc123) # Allowed options:
-                                 #
-                                 #   :after       - Integer, With match ids equal to greater than this
-                                 #   :player_id   - Integer, With this player (Steam ID)
-                                 #   :hero_id     - Integer, With this hero. See Dota::API::Hero::MAPPING
-                                 #   :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
-                                 #   :mode_id     - Integer, In this game mode. See Dota::API::Match::MODES
-                                 #   :skill_level - Integer, In this skill level (ignored if :player_id is provided). See Dota::API::Match::SKILL_LEVELS
-                                 #   :from        - Integer, Minimum timestamp
-                                 #   :to          - Integer, Maximum timestamp
-                                 #   :min_players - Integer, With at least this number of players
-                                 #   :league_only - Boolean, Only league matches
-                                 #   :limit       - Integer, Amount of matches to return
+api.matches(789645621)   # A single match (Newbee vs Vici Gaming)
+api.matches              # A list of matches
+api.matches(hero_id: 43) # Allowed options:
+                         #
+                         #   :hero_id     - Integer, With this hero. See Dota::API::Hero::MAPPING
+                         #   :after       - Integer, With match ids equal to greater than this
+                         #   :player_id   - Integer, With this player (Steam ID)
+                         #   :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
+                         #   :mode_id     - Integer, In this game mode. See Dota::API::Match::MODES
+                         #   :skill_level - Integer, In this skill level (ignored if :player_id is provided). See Dota::API::Match::SKILL_LEVELS
+                         #   :from        - Integer, Minimum timestamp
+                         #   :to          - Integer, Maximum timestamp
+                         #   :min_players - Integer, With at least this number of players
+                         #   :league_only - Boolean, Only league matches
+                         #   :limit       - Integer, Amount of matches to return (default is 100)
 ```
 
 ### API Objects
