@@ -11,7 +11,8 @@ module Dota
         3 => "Tutorial",
         4 => "Co-op with Bots",
         5 => "Team Match",
-        6 => "Solo Queue"
+        6 => "Solo Queue",
+        7 => "Ranked"
       }.freeze
 
       MODES = {
@@ -30,7 +31,10 @@ module Dota
         12 => "Least Played",
         13 => "New Player Pool",
         14 => "Compendium Matchmaking",
-        16 => "Captain's Draft"
+        15 => "Custom",
+        16 => "Captain's Draft",
+        17 => "Balanced Draft",
+        18 => "Ability Draft"
       }.freeze
 
       SKILL_LEVELS = {
