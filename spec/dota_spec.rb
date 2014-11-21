@@ -101,6 +101,15 @@ describe Dota do
       end
     end
 
+    describe "#friends" do
+      it "given a user id returns its friend list" do
+        VCR.use_cassette("GetFriendList") do
+          friends = api.friends(sample_user_id)
+          expect(friends.first).to be_a Dota::API::Friend
+        end
+      end
+    end
+
     describe "#get" do
       it "allows custom API requests" do
         VCR.use_cassette("GetRarities") do

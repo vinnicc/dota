@@ -56,6 +56,13 @@ module Dota
         end
       end
 
+      def friends(user_id)
+        response = get("ISteamUser", "GetFriendList", steamid: user_id)["friendslist"]
+        if response && (friends = response["friends"])
+          friends.map { |friend| Friend.new(friend) }
+        end
+      end
+
       def get(interface, method, params = {}, *args)
         do_request(method, params, interface, *args)
       end

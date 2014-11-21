@@ -16,6 +16,10 @@ module SpecHelper
   def sample_match_id
     789645621
   end
+
+  def sample_user_id
+    76561198052976237
+  end
 end
 
 RSpec.configure do |config|

@@ -4,18 +4,19 @@
 
 Currently supported endpoints:
 
+- [GetLeagueListing](https://wiki.teamfortress.com/wiki/WebAPI/GetLeagueListing)
 - [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails)
 - [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory)
-- [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
+- [GetFriendList](https://wiki.teamfortress.com/wiki/WebAPI/GetFriendList)
 - [GetHeroes](https://wiki.teamfortress.com/wiki/WebAPI/GetHeroes)
 - GetGameItems
+- [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 
 This gem is in alpha, keep that in mind when upgrading.
 
 ## TODO
 
 - Support for more endpoints
-  - [GetFriendList](https://wiki.teamfortress.com/wiki/WebAPI/GetFriendList)
   - [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
   - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
   - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
@@ -83,6 +84,8 @@ api.matches(hero_id: 43) # Allowed options:
                          #   :min_players - Integer, With at least this number of players
                          #   :league_only - Boolean, Only league matches
                          #   :limit       - Integer, Amount of matches to return (default is 100)
+
+api.friends(76561198052976237) # All friends of user
 ```
 
 #### Custom Requests
@@ -98,26 +101,26 @@ api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621)
 #### Heroes
 
 ```ruby
-hero.id        # => 43
-hero.name      # => "Death Prophet"
-hero.image_url # => "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png"
+hero.id        # Integer, ID of the hero
+hero.name      # String, Name of the hero
+hero.image_url # String, URL of the hero portrait
 ```
 
 #### Items
 
 ```ruby
-item.id        # => 114
-item.name      # => "Heart of Tarrasque"
-item.image_url # => "http://cdn.dota2.com/apps/dota2/images/items/heart_lg.png"
+item.id        # Integer, ID of the item
+item.name      # String, Name of the item
+item.image_url # String, URL of the item image
 ```
 
 #### Leagues
 
 ```ruby
-league.id          # => 600
-league.name        # => "The International 2014"
-league.description # => "The Aegis of Champions hangs in the balance. See the world's top teams battle in the International."
-league.url         # => "http://www.dota2.com/international/overview/"
+league.id          # Integer, ID of the league
+league.name        # String, Name of the league
+league.description # String, A description of the league
+league.url         # String, URL of the league's website
 ```
 
 #### Matches
@@ -177,19 +180,27 @@ player.hero_healing # => 526
 #### Drafts
 
 ```ruby
-draft.order # => 1
-draft.pick? # => true
-draft.team  # => :radiant
-draft.hero  # => Dota::API::Hero
+draft.order # Integer, 1-20
+draft.pick? # Boolean, true if the draft is a pick, and not a ban
+draft.team  # Symbol, :radiant or :dire
+draft.hero  # Dota::API::Hero
 ```
 
 #### Cosmetic Rarities
 
 ```ruby
-rarity.id    # => 1
-rarity.order # => 0
-rarity.color # => "#e4ae39"
-rarity.name  # => "Immortal"
+rarity.id    # Integer, ID of rarity, used for indexing
+rarity.order # Integer, Sorting and logical order, from most distributed to least
+rarity.name  # String, Localized display name
+rarity.color # String, The hexadecimal RGB tuple
+```
+
+#### Friends
+
+```ruby
+friend.id           # String, 64-bit Steam ID
+friend.relationship # String, Relation to the user
+friend.made_at      # Time, When the friend was added to the list
 ```
 
 ## Contributing

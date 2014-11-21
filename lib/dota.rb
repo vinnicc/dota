@@ -5,6 +5,7 @@ require 'dota/utils/inspect'
 
 require 'dota/api/client'
 require 'dota/api/cosmetic/rarity'
+require 'dota/api/friend'
 require 'dota/api/hero'
 require 'dota/api/item'
 require 'dota/api/league'
