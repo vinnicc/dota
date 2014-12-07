@@ -61,38 +61,38 @@ Get your Steam API key [here](http://steamcommunity.com/dev/apikey).
 ```ruby
 api = Dota.api
 
-api.heroes(43)                 # (Cached) A single hero - "Death Prophet"
-api.heroes                     # (Cached) All heroes
+api.heroes(43)                 # => (Cached) A single hero - "Death Prophet"
+api.heroes                     # => (Cached) All heroes
 
-api.items(114)                 # (Cached) A single item - "Heart of Tarrasque"
-api.items                      # (Cached) All items
+api.items(114)                 # => (Cached) A single item - "Heart of Tarrasque"
+api.items                      # => (Cached) All items
 
-api.cosmetic_rarities          # All cosmetic rarities
+api.cosmetic_rarities          # => All cosmetic rarities
 
-api.teams(1375614)             # A single team - "Newbee"
-api.teams                      # A list of teams
-api.teams(after: 1375614)      # Allowed options:
+api.teams(1375614)             # => A single team - "Newbee"
+api.teams                      # => A list of teams
+api.teams(after: 1375614)      #    Allowed options:
                                #
-                               # :after - Integer, With team IDs equal or greater than this
-                               # :limit - Integer, Amount of teams to return (default is 100)
+                               #    :after - Integer, With team IDs equal or greater than this
+                               #    :limit - Integer, Amount of teams to return (default is 100)
 
 api.leagues                    # All leagues
 
-api.matches(789645621)         # A single match - "Newbee vs Vici Gaming"
-api.matches                    # A list of matches
-api.matches(hero_id: 43)       # Allowed options:
+api.matches(789645621)         # => A single match - "Newbee vs Vici Gaming"
+api.matches                    # => A list of matches
+api.matches(hero_id: 43)       #    Allowed options:
                                #
-                               # :hero_id     - Integer, With this hero. See Dota::API::Hero::MAPPING
-                               # :after       - Integer, With match IDs equal or greater than this
-                               # :player_id   - Integer, With this player (32-bit Steam ID)
-                               # :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
-                               # :mode_id     - Integer, In this game mode. See Dota::API::Match::MODES
-                               # :skill_level - Integer, In this skill level (ignored if :player_id is provided). See Dota::API::Match::SKILL_LEVELS
-                               # :from        - Integer, Minimum timestamp
-                               # :to          - Integer, Maximum timestamp
-                               # :min_players - Integer, With at least this number of players
-                               # :league_only - Boolean, Only league matches
-                               # :limit       - Integer, Amount of matches to return (default is 100)
+                               #    :hero_id     - Integer, With this hero. See Dota::API::Hero::MAPPING
+                               #    :after       - Integer, With match IDs equal or greater than this
+                               #    :player_id   - Integer, With this player (32-bit Steam ID)
+                               #    :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
+                               #    :mode_id     - Integer, In this game mode. See Dota::API::Match::MODES
+                               #    :skill_level - Integer, In this skill level (ignored if :player_id is provided). See Dota::API::Match::SKILL_LEVELS
+                               #    :from        - Integer, Minimum timestamp
+                               #    :to          - Integer, Maximum timestamp
+                               #    :min_players - Integer, With at least this number of players
+                               #    :league_only - Boolean, Only league matches
+                               #    :limit       - Integer, Amount of matches to return (default is 100)
 
 api.friends(76561198052976237) # All friends of user
 ```
@@ -155,51 +155,51 @@ Caveat: Getting a list of matches via `api.matches` will call [GetMatchHistory](
 When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't provide it yet.
 
 ```ruby
-match.id                      # => 789645621
-match.league_id               # => 600
-match.type                    # => "Tournament"
-match.type_id                 # => 2
-match.mode                    # => "Captain's Mode"
-match.mode_id                 # => 2
-match.drafts                  # => [Dota::API::Match::Draft, ...]
-match.players                 # => [Dota::API::Match::Player, ...]
-match.sequence                # => 709365483
-match.starts_at               # => 2014-07-21 20:12:50 UTC
-match.duration                # => 908
-match.winner                  # => :radiant
-match.first_blood             # => 33
-match.positive_votes          # => 34701
-match.negative_votes          # => 13291
-match.season                  # => nil
-match.players_count           # => 10
-match.cluster                 # => 111
-match.radiant_tower_status    # => 2039
-match.dire_tower_status       # => 1974
-match.radiant_barracks_status # => 63
-match.dire_barracks_status    # => 63
+match.id                      # Integer, ID of the match
+match.league_id               # Integer, ID of the league this match was a part of
+match.type                    # String, See Dota::API::Match::TYPES
+match.type_id                 # Integer, See Dota::API::Match::TYPES
+match.mode                    # String, See Dota::API::Match::MODES
+match.mode_id                 # Integer, See Dota::API::Match::MODES
+match.sequence                # Integer, A 'sequence number', representing the order in which matches were recorded
+match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
+match.players                 # Array[Dota::API::Match::Player], Players in the match
+match.starts_at               # Time, When the match started
+match.duration                # Integer, Length of the match, in seconds since the match began.
+match.winner                  # Symbol, :radiant or :dire
+match.first_blood             # Integer, Seconds since the match started when first blood occured
+match.positive_votes          # Integer, Number of thumbs-up the game has received
+match.negative_votes          # Integer, Number of thumbs-down the game has received
+match.season                  # Integer, Season the match was played in
+match.players_count           # Integer, Number of players in the match
+match.cluster                 # Integer, Server cluster the match was played on
+match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
+match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
+match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
+match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
 ```
 
 #### Players
 
 ```ruby
-player.id           # => 98887913
-player.hero         # => Dota::API::Hero
-player.items        # => [Dota::API::Item, ...]
-player.slot         # => 0
-player.status       # => :played
-player.level        # => 11
-player.kills        # => 2
-player.deaths       # => 1
-player.assists      # => 13
-player.last_hits    # => 45
-player.denies       # => 0
-player.gold         # => 649
-player.gold_spent   # => 6670
-player.gpm          # => 437
-player.xpm          # => 460
-player.hero_damage  # => 3577
-player.tower_damage # => 153
-player.hero_healing # => 526
+player.id           # Integer, 32-bit Steam ID
+player.hero         # Dota::API::Hero, Player's hero
+player.items        # Array[Dota::API::Item], Player's inventory (6 items)
+player.slot         # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Player_Slot
+player.status       # Symbol, :played, :left_safe, :abandoned, or :bot
+player.level        # Integer, The player's level at match end
+player.kills        # Integer, Amount of kills attributed to this player
+player.deaths       # Integer, Times this player died during the match
+player.assists      # Integer, Amount of assists
+player.last_hits    # Integer, Amount of last-hits the player got during the match
+player.denies       # Integer, Amount of denies the player got during the match
+player.gold         # Integer, Amount of gold the player had remaining at the end of the match
+player.gold_spent   # Integer, Amount of gold the player spent during the match.
+player.gpm          # Integer, Player's overall gold/minute
+player.xpm          # Integer, Player's overall experience/minute
+player.hero_damage  # Integer, Amount of damage the player dealt to heroes
+player.tower_damage # Integer, Amount of damage the player dealt to towers
+player.hero_healing # Integer, Amount of health the player had healed on heroes
 ```
 
 #### Drafts
