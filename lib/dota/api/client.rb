@@ -49,6 +49,13 @@ module Dota
         end
       end
 
+      def live_leagues
+        response = get("IDOTA2Match_570", "GetLiveLeagueGames", language: "en")["result"]
+        if response && (live_leagues = response["games"])
+          live_leagues.map { |match| LiveLeague.new(match) }
+        end
+      end
+
       def cosmetic_rarities
         response = get("IEconDOTA2_570", "GetRarities", language: "en")["result"]
         if response && (rarities = response["rarities"])
