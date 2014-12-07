@@ -5,6 +5,10 @@ module Dota
 
       attr_reader :raw
 
+      def initialize(raw)
+        @raw = raw
+      end
+
       def lobby_id
         raw["lobby_id"]
       end
