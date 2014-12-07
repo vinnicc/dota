@@ -12,6 +12,8 @@ Currently supported endpoints:
 - GetGameItems
 - [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 
+Unsupported endpoints can still be queried via [custom requests](#custom-requests).
+
 This gem is in alpha, keep that in mind when upgrading.
 
 ## TODO
@@ -90,7 +92,7 @@ api.friends(76561198052976237) # All friends of user
 
 #### Custom Requests
 
-For the unsupported endpoints, you can use `api.get`. The following code is similar to `api.matches(789645621)` except that it only returns the response body.
+For the unsupported endpoints, you can use `api.get`. For example, the following code is similar to `api.matches(789645621)` except it will return the raw JSON payload instead of an array of `Dota::Match`es.
 
 ```ruby
 api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621)
