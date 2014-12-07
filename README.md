@@ -188,13 +188,13 @@ player.items        # Array[Dota::API::Item], Player's inventory (6 items)
 player.slot         # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Player_Slot
 player.status       # Symbol, :played, :left_safe, :abandoned, or :bot
 player.level        # Integer, The player's level at match end
-player.kills        # Integer, Amount of kills attributed to this player
+player.kills        # Integer, Number of kills attributed to this player
 player.deaths       # Integer, Times this player died during the match
-player.assists      # Integer, Amount of assists
-player.last_hits    # Integer, Amount of last-hits the player got during the match
-player.denies       # Integer, Amount of denies the player got during the match
+player.assists      # Integer, Number of assists the player got
+player.last_hits    # Integer, Number of last-hits the player got
+player.denies       # Integer, Number of denies the player got
 player.gold         # Integer, Amount of gold the player had remaining at the end of the match
-player.gold_spent   # Integer, Amount of gold the player spent during the match.
+player.gold_spent   # Integer, Amount of gold the player spent
 player.gpm          # Integer, Player's overall gold/minute
 player.xpm          # Integer, Player's overall experience/minute
 player.hero_damage  # Integer, Amount of damage the player dealt to heroes
@@ -208,7 +208,7 @@ player.hero_healing # Integer, Amount of health the player had healed on heroes
 draft.order # Integer, 1-20
 draft.pick? # Boolean, true if the draft is a pick, and not a ban
 draft.team  # Symbol, :radiant or :dire
-draft.hero  # Dota::API::Hero
+draft.hero  # Dota::API::Hero, Picked or banned hero
 ```
 
 #### Cosmetic Rarities
@@ -223,9 +223,9 @@ rarity.color # String, The hexadecimal RGB tuple
 #### Friends
 
 ```ruby
-friend.id           # String, 64-bit Steam ID
-friend.relationship # String, Relation to the user
-friend.made_at      # Time, When the friend was added to the list
+friend.id           # Integer, Friend's 64-bit Steam ID
+friend.relationship # String, Relation to the player
+friend.made_at      # Time, When the friend was added to the player's friend list
 ```
 
 ## Contributing
