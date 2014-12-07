@@ -148,7 +148,6 @@ describe Dota do
       end
     end
 
-
     describe "#get" do
       it "allows custom API requests" do
         VCR.use_cassette("GetRarities") do

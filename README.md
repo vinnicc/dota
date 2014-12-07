@@ -178,7 +178,7 @@ match.radiant_id              # Integer, Radiant team's ID
 match.radiant_captain_id      # Integer, Radiant captain's ID
 match.radiant_logo_id         # Integer, Radiant logo's UGC ID
 match.radiant_name            # String, Radiant team's name
-match.radiant_complete?       # Boolean, true if the Radiant team's roster is complate
+match.radiant_complete?       # Boolean, true if the Radiant team's roster is complete
 match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Tower_Status
 match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Barracks_Status
 
@@ -186,7 +186,7 @@ match.dire_id                 # Integer, Dire team's ID
 match.dire_captain_id         # Integer, Dire captain's ID
 match.dire_logo_id            # Integer, Dire logo's UGC ID
 match.dire_name               # String, Dire team's name
-match.dire_complete?          # Boolean, true if the Dire team's roster is complate
+match.dire_complete?          # Boolean, true if the Dire team's roster is complete
 match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Tower_Status
 match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Barracks_Status
 ```
