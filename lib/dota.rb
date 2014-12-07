@@ -12,6 +12,7 @@ require 'dota/api/league'
 require 'dota/api/match'
 require 'dota/api/match/draft'
 require 'dota/api/match/player'
+require 'dota/api/team'
 
 module Dota
   class << self

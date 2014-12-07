@@ -20,6 +20,22 @@ module Dota
         id ? Item.new(id) : Item.all
       end
 
+      def teams(options = {})
+        if options.is_a?(Integer)
+          id = options
+          response = get("IDOTA2Match_570", "GetTeamInfoByTeamID", start_at_team_id: id, teams_requested: 1)["result"]["teams"][0]
+          Team.new(response) if response
+        else
+          options[:start_at_team_id] = options.delete(:after) if options[:after]
+          options[:teams_requested]  = options.delete(:limit) if options[:limit]
+
+          response = get("IDOTA2Match_570", "GetTeamInfoByTeamID", options)["result"]
+          if response && (teams = response["teams"])
+            teams.map { |team| Team.new(team) }
+          end
+        end
+      end
+
       def matches(options = {})
         if options.is_a?(Integer)
           id = options
