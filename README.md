@@ -76,7 +76,7 @@ api.teams(after: 1375614)      #    Allowed options:
                                #    :after - Integer, With team IDs equal or greater than this
                                #    :limit - Integer, Amount of teams to return (default is 100)
 
-api.leagues                    # All leagues
+api.leagues                    # => All leagues
 
 api.matches(789645621)         # => A single match - "Newbee vs Vici Gaming"
 api.matches                    # => A list of matches
@@ -94,7 +94,7 @@ api.matches(hero_id: 43)       #    Allowed options:
                                #    :league_only - Boolean, Only league matches
                                #    :limit       - Integer, Amount of matches to return (default is 100)
 
-api.friends(76561198052976237) # All friends of user
+api.friends(76561198052976237) # => All friends of user
 ```
 
 #### Custom Requests
