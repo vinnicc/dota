@@ -73,7 +73,7 @@ api.teams(1375614)             # A single team - "Newbee"
 api.teams                      # A list of teams
 api.teams(after: 1375614)      # Allowed options:
                                #
-                               # :after - Integer, With teams IDs equal or greater than this
+                               # :after - Integer, With team IDs equal or greater than this
                                # :limit - Integer, Amount of teams to return (default is 100)
 
 api.leagues                    # All leagues
