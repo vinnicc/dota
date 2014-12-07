@@ -21,8 +21,10 @@ module Dota
         raw["spectators"]
       end
 
-      def league_id
-        raw["league_id"]
+      def league
+        league_id = raw["league_id"]
+        leagues = Dota.api.leagues
+        leagues.detect { |league| league.id == league_id }
       end
 
       def stream_delay
@@ -45,11 +47,13 @@ module Dota
         raw["league_tier"]
       end
 
-      # lookup league details
-      #def league_id
-      #  raw["league_id"]
-      #end
+      #def scoreboard
 
+      #def players
+      # - account_id
+      # - name
+      # - hero_id
+      # - team (0,1,2,4)
     end
   end
 end
