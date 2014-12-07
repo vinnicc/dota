@@ -203,6 +203,19 @@ friend.relationship # String, Relation to the user
 friend.made_at      # Time, When the friend was added to the list
 ```
 
+#### Live League Games
+```ruby
+live_leagues.lobby_id
+live_leagues.match_id
+live_leagues.spectators
+live_leagues.league_id
+live_leagues.stream_delay
+live_leagues.radiant_series_wins
+live_leagues.dire_series_wins
+live_leagues.series_type
+live_leagues.league_tier
+```
+
 ## Contributing
 
 1. [Fork it!](https://github.com/vinnicc/dota/fork)
