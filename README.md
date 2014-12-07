@@ -162,21 +162,33 @@ match.type_id                 # Integer, See Dota::API::Match::TYPES
 match.mode                    # String, See Dota::API::Match::MODES
 match.mode_id                 # Integer, See Dota::API::Match::MODES
 match.sequence                # Integer, A 'sequence number', representing the order in which matches were recorded
+match.season                  # Integer, Season the match was played in
+match.cluster                 # Integer, Server cluster the match was played on
 match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
 match.players                 # Array[Dota::API::Match::Player], Players in the match
+match.players_count           # Integer, Number of players in the match
 match.starts_at               # Time, When the match started
+match.first_blood             # Integer, Seconds since the match started when first blood occured
 match.duration                # Integer, Length of the match, in seconds since the match began.
 match.winner                  # Symbol, :radiant or :dire
-match.first_blood             # Integer, Seconds since the match started when first blood occured
 match.positive_votes          # Integer, Number of thumbs-up the game has received
 match.negative_votes          # Integer, Number of thumbs-down the game has received
-match.season                  # Integer, Season the match was played in
-match.players_count           # Integer, Number of players in the match
-match.cluster                 # Integer, Server cluster the match was played on
-match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
-match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
-match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
-match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
+
+match.radiant_id              # Integer, Radiant team's ID
+match.radiant_captain_id      # Integer, Radiant captain's ID
+match.radiant_logo_id         # Integer, Radiant logo's UGC ID
+match.radiant_name            # String, Radiant team's name
+match.radiant_complete?       # Boolean, true if the Radiant team's roster is complate
+match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Tower_Status
+match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Barracks_Status
+
+match.dire_id                 # Integer, Dire team's ID
+match.dire_captain_id         # Integer, Dire captain's ID
+match.dire_logo_id            # Integer, Dire logo's UGC ID
+match.dire_name               # String, Dire team's name
+match.dire_complete?          # Boolean, true if the Dire team's roster is complate
+match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Tower_Status
+match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Barracks_Status
 ```
 
 #### Players
