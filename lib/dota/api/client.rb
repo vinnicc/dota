@@ -52,7 +52,7 @@ module Dota
       def live_leagues
         response = get("IDOTA2Match_570", "GetLiveLeagueGames", language: "en")["result"]
         if response && (live_leagues = response["games"])
-          live_leagues.map { |match| LiveLeague.new(match) }
+          live_leagues.map { |game| LiveLeague.new(game) }
         end
       end
 
