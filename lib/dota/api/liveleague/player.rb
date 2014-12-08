@@ -2,7 +2,7 @@ module Dota
   module API
     class LiveLeague
       class Player
-        
+
         TEAM = {
           0 => "Radiant",
           1 => "Dire",
@@ -31,7 +31,7 @@ module Dota
         end
 
         def team
-          raw["team"]
+          TEAM[raw["team"]]
         end
       end
     end

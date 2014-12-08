@@ -30,6 +30,7 @@ module Dota
       def stream_delay
         raw["stream_delay_s"]
       end
+      #this is in seconds
 
       def radiant_series_wins
         raw["radiant_series_wins"]
@@ -55,11 +56,16 @@ module Dota
       def league_tier
         raw["league_tier"]
       end
+      #this should be something like pro, amateur, etc
 
       def players
         raw["players"].map do |raw_player|
           Player.new(raw_player)
         end
+      end
+
+      def scoreboard
+        Scoreboard.new(raw["scoreboard"])
       end
     end
   end
