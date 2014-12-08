@@ -1,6 +1,6 @@
 module Dota
   module API
-    class LiveLeague
+    class LiveMatch
       class Player
 
         TEAM = {

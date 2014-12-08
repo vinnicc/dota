@@ -1,6 +1,6 @@
 module Dota
   module API
-    class LiveLeague
+    class LiveMatch
       include Utilities::Inspectable
 
       attr_reader :raw
@@ -13,11 +13,11 @@ module Dota
         raw["lobby_id"]
       end
 
-      def match_id
+      def id
         raw["match_id"]
       end
 
-      def spectators
+      def spectators_count
         raw["spectators"]
       end
 
@@ -27,7 +27,7 @@ module Dota
         leagues.detect { |league| league.id == league_id }
       end
 
-      def stream_delay
+      def stream_delay_count
         raw["stream_delay_s"]
       end
       #this is in seconds
