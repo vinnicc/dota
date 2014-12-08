@@ -40,13 +40,12 @@ module Dota
         raw["dire_series_wins"]
       end
 
-      def side(team)
-        case team
-        when "radiant"
-          Side.new(raw["radiant_team"])
-        when "dire"
-          Side.new(raw["dire_team"])
-        end
+      def radiant
+        Side.new(raw["radiant_team"])
+      end
+
+      def dire
+        Side.new(raw["dire_team"])
       end 
 
       def series_type
