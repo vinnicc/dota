@@ -50,11 +50,7 @@ module Dota
 
       #def scoreboard
 
-      #def players
-      # - account_id
-      # - name
-      # - hero_id
-      # - team (0,1,2,4)
+      
       #def radiant team
       # - team_name
       # - team_id
