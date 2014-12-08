@@ -10,7 +10,7 @@ module Dota
       end
 
       def id
-        raw["steamid"]
+        raw["steamid"].to_i
       end
 
       def relationship

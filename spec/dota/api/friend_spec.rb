@@ -6,7 +6,7 @@ describe Dota::API::Friend do
   end
 
   specify "#id" do
-    expect(friend.id).to eq "76561197992246166"
+    expect(friend.id).to eq 76561197992246166
   end
 
   specify "#relationship" do

@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetTeamInfoByTeamID/V001/?key=2FBBA83745F494FAE688AFB8463CD4FC&start_at_team_id=1375614&teams_requested=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Expires:
+      - Sun, 07 Dec 2014 15:19:16 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '1174'
+      Date:
+      - Sun, 07 Dec 2014 15:19:16 GMT
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"result\": {\n\t\t\"status\": 1,\n\t\t\"teams\": [\n\t\t\t{\n\t\t\t\t\"team_id\":
+        1375614,\n\t\t\t\t\"name\": \"Newbee\",\n\t\t\t\t\"tag\": \"Newbee\",\n\t\t\t\t\"time_created\":
+        1393518254,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 794064971723724234,\n\t\t\t\t\"logo_sponsor\":
+        532872513435338107,\n\t\t\t\t\"country_code\": \"cn\",\n\t\t\t\t\"url\": \"http://t.qq.com/NBgaming\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 88508515,\n\t\t\t\t\"player_1_account_id\":
+        89157606,\n\t\t\t\t\"player_2_account_id\": 89217927,\n\t\t\t\t\"player_3_account_id\":
+        100883708,\n\t\t\t\t\"player_4_account_id\": 123854991,\n\t\t\t\t\"admin_account_id\":
+        104652351,\n\t\t\t\t\"league_id_0\": 177,\n\t\t\t\t\"league_id_1\": 189,\n\t\t\t\t\"league_id_2\":
+        232,\n\t\t\t\t\"league_id_3\": 600,\n\t\t\t\t\"league_id_4\": 1014,\n\t\t\t\t\"league_id_5\":
+        1097,\n\t\t\t\t\"league_id_6\": 1116,\n\t\t\t\t\"league_id_7\": 1157,\n\t\t\t\t\"league_id_8\":
+        1284,\n\t\t\t\t\"league_id_9\": 1350,\n\t\t\t\t\"league_id_10\": 1407,\n\t\t\t\t\"league_id_11\":
+        1418,\n\t\t\t\t\"league_id_12\": 1448,\n\t\t\t\t\"league_id_13\": 1523,\n\t\t\t\t\"league_id_14\":
+        1663,\n\t\t\t\t\"league_id_15\": 1709,\n\t\t\t\t\"league_id_16\": 1761,\n\t\t\t\t\"league_id_17\":
+        1803,\n\t\t\t\t\"league_id_18\": 1886,\n\t\t\t\t\"league_id_19\": 1934,\n\t\t\t\t\"league_id_20\":
+        1936,\n\t\t\t\t\"league_id_21\": 2045,\n\t\t\t\t\"league_id_22\": 2079\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
+    http_version: 
+  recorded_at: Sun, 07 Dec 2014 15:19:16 GMT
+recorded_with: VCR 2.9.3

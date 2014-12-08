@@ -1,0 +1,888 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetTeamInfoByTeamID/V001/?key=2FBBA83745F494FAE688AFB8463CD4FC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '13744'
+      Date:
+      - Sun, 07 Dec 2014 15:37:05 GMT
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Cache-Control:
+      - no-cache,must-revalidate
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"result\": {\n\t\t\"status\": 1,\n\t\t\"teams\": [\n\t\t\t{\n\t\t\t\t\"team_id\":
+        2,\n\t\t\t\t\"name\": \"Zenith\",\n\t\t\t\t\"tag\": \"Zenith\",\n\t\t\t\t\"time_created\":
+        1338330222,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 612767741208345582,\n\t\t\t\t\"logo_sponsor\":
+        612767741208349882,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 84772440,\n\t\t\t\t\"player_1_account_id\":
+        85417034,\n\t\t\t\t\"admin_account_id\": 84772440,\n\t\t\t\t\"league_id_0\":
+        5,\n\t\t\t\t\"league_id_1\": 7,\n\t\t\t\t\"league_id_2\": 8,\n\t\t\t\t\"league_id_3\":
+        23,\n\t\t\t\t\"league_id_4\": 26,\n\t\t\t\t\"league_id_5\": 34,\n\t\t\t\t\"league_id_6\":
+        38,\n\t\t\t\t\"league_id_7\": 39,\n\t\t\t\t\"league_id_8\": 40,\n\t\t\t\t\"league_id_9\":
+        44,\n\t\t\t\t\"league_id_10\": 54,\n\t\t\t\t\"league_id_11\": 58,\n\t\t\t\t\"league_id_12\":
+        65001,\n\t\t\t\t\"league_id_13\": 65006\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        3,\n\t\t\t\t\"name\": \"compLexity Gaming\",\n\t\t\t\t\"tag\": \"coL\",\n\t\t\t\t\"time_created\":
+        1338330535,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 533996689981983341,\n\t\t\t\t\"logo_sponsor\":
+        542940926646147236,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"http://compLexityGaming.com\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 28291366,\n\t\t\t\t\"player_1_account_id\":
+        49317728,\n\t\t\t\t\"player_2_account_id\": 44111721,\n\t\t\t\t\"player_3_account_id\":
+        50828662,\n\t\t\t\t\"player_4_account_id\": 38628747,\n\t\t\t\t\"player_5_account_id\":
+        12231202,\n\t\t\t\t\"player_6_account_id\": 59752811,\n\t\t\t\t\"admin_account_id\":
+        28291366,\n\t\t\t\t\"league_id_0\": 4,\n\t\t\t\t\"league_id_1\": 7,\n\t\t\t\t\"league_id_2\":
+        9,\n\t\t\t\t\"league_id_3\": 65001\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        5,\n\t\t\t\t\"name\": \"Invictus Gaming\",\n\t\t\t\t\"tag\": \"iG\",\n\t\t\t\t\"time_created\":
+        1338448478,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 79128337325388690,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"cn\",\n\t\t\t\t\"url\": \"www.facebook.com/InvictusGaming.Official/\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 88553213,\n\t\t\t\t\"player_1_account_id\":
+        88585077,\n\t\t\t\t\"player_2_account_id\": 89246836,\n\t\t\t\t\"player_3_account_id\":
+        90031225,\n\t\t\t\t\"player_4_account_id\": 138885864,\n\t\t\t\t\"admin_account_id\":
+        88585077,\n\t\t\t\t\"league_id_0\": 5,\n\t\t\t\t\"league_id_1\": 7,\n\t\t\t\t\"league_id_2\":
+        8,\n\t\t\t\t\"league_id_3\": 17,\n\t\t\t\t\"league_id_4\": 24,\n\t\t\t\t\"league_id_5\":
+        34,\n\t\t\t\t\"league_id_6\": 42,\n\t\t\t\t\"league_id_7\": 52,\n\t\t\t\t\"league_id_8\":
+        54,\n\t\t\t\t\"league_id_9\": 76,\n\t\t\t\t\"league_id_10\": 81,\n\t\t\t\t\"league_id_11\":
+        91,\n\t\t\t\t\"league_id_12\": 104,\n\t\t\t\t\"league_id_13\": 114,\n\t\t\t\t\"league_id_14\":
+        120,\n\t\t\t\t\"league_id_15\": 177,\n\t\t\t\t\"league_id_16\": 189,\n\t\t\t\t\"league_id_17\":
+        232,\n\t\t\t\t\"league_id_18\": 600,\n\t\t\t\t\"league_id_19\": 1014,\n\t\t\t\t\"league_id_20\":
+        1097,\n\t\t\t\t\"league_id_21\": 1116,\n\t\t\t\t\"league_id_22\": 1157,\n\t\t\t\t\"league_id_23\":
+        1245,\n\t\t\t\t\"league_id_24\": 1248,\n\t\t\t\t\"league_id_25\": 1284,\n\t\t\t\t\"league_id_26\":
+        1350,\n\t\t\t\t\"league_id_27\": 1407,\n\t\t\t\t\"league_id_28\": 1418,\n\t\t\t\t\"league_id_29\":
+        1663,\n\t\t\t\t\"league_id_30\": 1709,\n\t\t\t\t\"league_id_31\": 1803,\n\t\t\t\t\"league_id_32\":
+        1869,\n\t\t\t\t\"league_id_33\": 1886,\n\t\t\t\t\"league_id_34\": 1934,\n\t\t\t\t\"league_id_35\":
+        1936,\n\t\t\t\t\"league_id_36\": 2032,\n\t\t\t\t\"league_id_37\": 2045,\n\t\t\t\t\"league_id_38\":
+        2096,\n\t\t\t\t\"league_id_39\": 65001,\n\t\t\t\t\"league_id_40\": 65006,\n\t\t\t\t\"league_id_41\":
+        65008\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 7,\n\t\t\t\t\"name\": \"DK\",\n\t\t\t\t\"tag\":
+        \"DK\",\n\t\t\t\t\"time_created\": 1338551060,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        577870551233852518,\n\t\t\t\t\"logo_sponsor\": 577870551233854595,\n\t\t\t\t\"country_code\":
+        \"cn\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 108376607,\n\t\t\t\t\"player_1_account_id\":
+        103089999,\n\t\t\t\t\"player_2_account_id\": 114031486,\n\t\t\t\t\"player_3_account_id\":
+        132239985,\n\t\t\t\t\"player_4_account_id\": 92588070,\n\t\t\t\t\"admin_account_id\":
+        92588070,\n\t\t\t\t\"league_id_0\": 5,\n\t\t\t\t\"league_id_1\": 7,\n\t\t\t\t\"league_id_2\":
+        10,\n\t\t\t\t\"league_id_3\": 17,\n\t\t\t\t\"league_id_4\": 24,\n\t\t\t\t\"league_id_5\":
+        26,\n\t\t\t\t\"league_id_6\": 34,\n\t\t\t\t\"league_id_7\": 42,\n\t\t\t\t\"league_id_8\":
+        52,\n\t\t\t\t\"league_id_9\": 54,\n\t\t\t\t\"league_id_10\": 81,\n\t\t\t\t\"league_id_11\":
+        91,\n\t\t\t\t\"league_id_12\": 104,\n\t\t\t\t\"league_id_13\": 110,\n\t\t\t\t\"league_id_14\":
+        114,\n\t\t\t\t\"league_id_15\": 120,\n\t\t\t\t\"league_id_16\": 189,\n\t\t\t\t\"league_id_17\":
+        232,\n\t\t\t\t\"league_id_18\": 600,\n\t\t\t\t\"league_id_19\": 1014,\n\t\t\t\t\"league_id_20\":
+        1097,\n\t\t\t\t\"league_id_21\": 1116,\n\t\t\t\t\"league_id_22\": 1157,\n\t\t\t\t\"league_id_23\":
+        1284,\n\t\t\t\t\"league_id_24\": 1407,\n\t\t\t\t\"league_id_25\": 1418,\n\t\t\t\t\"league_id_26\":
+        65001,\n\t\t\t\t\"league_id_27\": 65006,\n\t\t\t\t\"league_id_28\": 65008,\n\t\t\t\t\"league_id_29\":
+        65013\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 12,\n\t\t\t\t\"name\": \"Ahead.kz\",\n\t\t\t\t\"tag\":
+        \"Ahead.kz\",\n\t\t\t\t\"time_created\": 1338723753,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 903258706267744502,\n\t\t\t\t\"logo_sponsor\":
+        903258706267754055,\n\t\t\t\t\"country_code\": \"kz\",\n\t\t\t\t\"url\": \"http://ahead-gaming.com/\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 69325073,\n\t\t\t\t\"player_1_account_id\":
+        89742217,\n\t\t\t\t\"player_2_account_id\": 121841707,\n\t\t\t\t\"admin_account_id\":
+        69325073,\n\t\t\t\t\"league_id_0\": 2,\n\t\t\t\t\"league_id_1\": 4,\n\t\t\t\t\"league_id_2\":
+        6,\n\t\t\t\t\"league_id_3\": 8,\n\t\t\t\t\"league_id_4\": 13,\n\t\t\t\t\"league_id_5\":
+        16,\n\t\t\t\t\"league_id_6\": 18,\n\t\t\t\t\"league_id_7\": 20,\n\t\t\t\t\"league_id_8\":
+        21,\n\t\t\t\t\"league_id_9\": 29,\n\t\t\t\t\"league_id_10\": 32,\n\t\t\t\t\"league_id_11\":
+        46,\n\t\t\t\t\"league_id_12\": 51,\n\t\t\t\t\"league_id_13\": 57,\n\t\t\t\t\"league_id_14\":
+        61,\n\t\t\t\t\"league_id_15\": 64,\n\t\t\t\t\"league_id_16\": 65,\n\t\t\t\t\"league_id_17\":
+        69,\n\t\t\t\t\"league_id_18\": 78,\n\t\t\t\t\"league_id_19\": 99,\n\t\t\t\t\"league_id_20\":
+        108,\n\t\t\t\t\"league_id_21\": 109,\n\t\t\t\t\"league_id_22\": 65003\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        15,\n\t\t\t\t\"name\": \"LGD-GAMING\",\n\t\t\t\t\"tag\": \"LGD\",\n\t\t\t\t\"time_created\":
+        1338727837,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 630787216938014761,\n\t\t\t\t\"logo_sponsor\":
+        531745346303722374,\n\t\t\t\t\"country_code\": \"cn\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 82327674,\n\t\t\t\t\"player_1_account_id\":
+        89407113,\n\t\t\t\t\"player_2_account_id\": 98878010,\n\t\t\t\t\"player_3_account_id\":
+        108382060,\n\t\t\t\t\"player_4_account_id\": 111291593,\n\t\t\t\t\"admin_account_id\":
+        98878010,\n\t\t\t\t\"league_id_0\": 5,\n\t\t\t\t\"league_id_1\": 7,\n\t\t\t\t\"league_id_2\":
+        14,\n\t\t\t\t\"league_id_3\": 17,\n\t\t\t\t\"league_id_4\": 23,\n\t\t\t\t\"league_id_5\":
+        24,\n\t\t\t\t\"league_id_6\": 34,\n\t\t\t\t\"league_id_7\": 42,\n\t\t\t\t\"league_id_8\":
+        52,\n\t\t\t\t\"league_id_9\": 54,\n\t\t\t\t\"league_id_10\": 68,\n\t\t\t\t\"league_id_11\":
+        76,\n\t\t\t\t\"league_id_12\": 81,\n\t\t\t\t\"league_id_13\": 91,\n\t\t\t\t\"league_id_14\":
+        104,\n\t\t\t\t\"league_id_15\": 114,\n\t\t\t\t\"league_id_16\": 120,\n\t\t\t\t\"league_id_17\":
+        177,\n\t\t\t\t\"league_id_18\": 189,\n\t\t\t\t\"league_id_19\": 232,\n\t\t\t\t\"league_id_20\":
+        600,\n\t\t\t\t\"league_id_21\": 1014,\n\t\t\t\t\"league_id_22\": 1097,\n\t\t\t\t\"league_id_23\":
+        1116,\n\t\t\t\t\"league_id_24\": 1157,\n\t\t\t\t\"league_id_25\": 1245,\n\t\t\t\t\"league_id_26\":
+        1248,\n\t\t\t\t\"league_id_27\": 1284,\n\t\t\t\t\"league_id_28\": 1350,\n\t\t\t\t\"league_id_29\":
+        1407,\n\t\t\t\t\"league_id_30\": 1418,\n\t\t\t\t\"league_id_31\": 1523,\n\t\t\t\t\"league_id_32\":
+        1524,\n\t\t\t\t\"league_id_33\": 1663,\n\t\t\t\t\"league_id_34\": 1709,\n\t\t\t\t\"league_id_35\":
+        1761,\n\t\t\t\t\"league_id_36\": 1803,\n\t\t\t\t\"league_id_37\": 1869,\n\t\t\t\t\"league_id_38\":
+        1886,\n\t\t\t\t\"league_id_39\": 1934,\n\t\t\t\t\"league_id_40\": 1936,\n\t\t\t\t\"league_id_41\":
+        2032,\n\t\t\t\t\"league_id_42\": 2045,\n\t\t\t\t\"league_id_43\": 2096,\n\t\t\t\t\"league_id_44\":
+        2158,\n\t\t\t\t\"league_id_45\": 65001,\n\t\t\t\t\"league_id_46\": 65004,\n\t\t\t\t\"league_id_47\":
+        65006,\n\t\t\t\t\"league_id_48\": 65008\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        20,\n\t\t\t\t\"name\": \"TongFu|\",\n\t\t\t\t\"tag\": \"TongFu\",\n\t\t\t\t\"time_created\":
+        1338733268,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 613896720944358650,\n\t\t\t\t\"logo_sponsor\":
+        613896720944362592,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"http://t.qq.com/tongfu_2011\",\n\t\t\t\t\"games_played_with_current_roster\":
+        1,\n\t\t\t\t\"player_0_account_id\": 88521435,\n\t\t\t\t\"player_1_account_id\":
+        117281554,\n\t\t\t\t\"player_2_account_id\": 136186119,\n\t\t\t\t\"player_3_account_id\":
+        137925613,\n\t\t\t\t\"player_4_account_id\": 157475523,\n\t\t\t\t\"admin_account_id\":
+        117281554,\n\t\t\t\t\"league_id_0\": 3,\n\t\t\t\t\"league_id_1\": 5,\n\t\t\t\t\"league_id_2\":
+        7,\n\t\t\t\t\"league_id_3\": 10,\n\t\t\t\t\"league_id_4\": 17,\n\t\t\t\t\"league_id_5\":
+        24,\n\t\t\t\t\"league_id_6\": 34,\n\t\t\t\t\"league_id_7\": 38,\n\t\t\t\t\"league_id_8\":
+        40,\n\t\t\t\t\"league_id_9\": 42,\n\t\t\t\t\"league_id_10\": 44,\n\t\t\t\t\"league_id_11\":
+        52,\n\t\t\t\t\"league_id_12\": 54,\n\t\t\t\t\"league_id_13\": 76,\n\t\t\t\t\"league_id_14\":
+        81,\n\t\t\t\t\"league_id_15\": 91,\n\t\t\t\t\"league_id_16\": 104,\n\t\t\t\t\"league_id_17\":
+        114,\n\t\t\t\t\"league_id_18\": 120,\n\t\t\t\t\"league_id_19\": 600,\n\t\t\t\t\"league_id_20\":
+        1014,\n\t\t\t\t\"league_id_21\": 1097,\n\t\t\t\t\"league_id_22\": 1116,\n\t\t\t\t\"league_id_23\":
+        1157,\n\t\t\t\t\"league_id_24\": 1284,\n\t\t\t\t\"league_id_25\": 1407,\n\t\t\t\t\"league_id_26\":
+        1524,\n\t\t\t\t\"league_id_27\": 1542,\n\t\t\t\t\"league_id_28\": 65001,\n\t\t\t\t\"league_id_29\":
+        65006,\n\t\t\t\t\"league_id_30\": 65008\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        22,\n\t\t\t\t\"name\": \"Counter Logic Gaming\",\n\t\t\t\t\"tag\": \"CLG\",\n\t\t\t\t\"time_created\":
+        1338738070,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 560943464330050085,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"ae\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 51068005,\n\t\t\t\t\"admin_account_id\":
+        51068005,\n\t\t\t\t\"league_id_0\": 4,\n\t\t\t\t\"league_id_1\": 6,\n\t\t\t\t\"league_id_2\":
+        7,\n\t\t\t\t\"league_id_3\": 8,\n\t\t\t\t\"league_id_4\": 12,\n\t\t\t\t\"league_id_5\":
+        13,\n\t\t\t\t\"league_id_6\": 65001\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        24,\n\t\t\t\t\"name\": \"MiTH-Trust\",\n\t\t\t\t\"tag\": \"MiTH\",\n\t\t\t\t\"time_created\":
+        1338741327,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 884111088312994582,\n\t\t\t\t\"logo_sponsor\":
+        884111088313003174,\n\t\t\t\t\"country_code\": \"th\",\n\t\t\t\t\"url\": \"http://mithesports.com/\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 91191397,\n\t\t\t\t\"player_1_account_id\":
+        101208242,\n\t\t\t\t\"player_2_account_id\": 101460882,\n\t\t\t\t\"player_3_account_id\":
+        85485252,\n\t\t\t\t\"admin_account_id\": 91191397,\n\t\t\t\t\"league_id_0\":
+        3,\n\t\t\t\t\"league_id_1\": 5,\n\t\t\t\t\"league_id_2\": 14,\n\t\t\t\t\"league_id_3\":
+        23,\n\t\t\t\t\"league_id_4\": 26,\n\t\t\t\t\"league_id_5\": 30,\n\t\t\t\t\"league_id_6\":
+        34,\n\t\t\t\t\"league_id_7\": 38,\n\t\t\t\t\"league_id_8\": 39,\n\t\t\t\t\"league_id_9\":
+        40,\n\t\t\t\t\"league_id_10\": 44,\n\t\t\t\t\"league_id_11\": 58,\n\t\t\t\t\"league_id_12\":
+        59,\n\t\t\t\t\"league_id_13\": 64,\n\t\t\t\t\"league_id_14\": 68,\n\t\t\t\t\"league_id_15\":
+        98,\n\t\t\t\t\"league_id_16\": 131,\n\t\t\t\t\"league_id_17\": 135,\n\t\t\t\t\"league_id_18\":
+        136,\n\t\t\t\t\"league_id_19\": 146,\n\t\t\t\t\"league_id_20\": 174,\n\t\t\t\t\"league_id_21\":
+        177,\n\t\t\t\t\"league_id_22\": 181,\n\t\t\t\t\"league_id_23\": 191,\n\t\t\t\t\"league_id_24\":
+        201,\n\t\t\t\t\"league_id_25\": 210,\n\t\t\t\t\"league_id_26\": 513,\n\t\t\t\t\"league_id_27\":
+        600,\n\t\t\t\t\"league_id_28\": 1088,\n\t\t\t\t\"league_id_29\": 1124,\n\t\t\t\t\"league_id_30\":
+        1175,\n\t\t\t\t\"league_id_31\": 1229,\n\t\t\t\t\"league_id_32\": 1244,\n\t\t\t\t\"league_id_33\":
+        1248,\n\t\t\t\t\"league_id_34\": 1264,\n\t\t\t\t\"league_id_35\": 1301,\n\t\t\t\t\"league_id_36\":
+        1400,\n\t\t\t\t\"league_id_37\": 1407,\n\t\t\t\t\"league_id_38\": 1423,\n\t\t\t\t\"league_id_39\":
+        1432,\n\t\t\t\t\"league_id_40\": 65004\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        26,\n\t\t\t\t\"name\": \"mousesports\",\n\t\t\t\t\"tag\": \"mouz\",\n\t\t\t\t\"time_created\":
+        1338745325,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 612798804465920303,\n\t\t\t\t\"logo_sponsor\":
+        612798804465924361,\n\t\t\t\t\"country_code\": \"de\",\n\t\t\t\t\"url\": \"http://www.mousesports.com/\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 31078647,\n\t\t\t\t\"admin_account_id\":
+        11562,\n\t\t\t\t\"league_id_0\": 2,\n\t\t\t\t\"league_id_1\": 4,\n\t\t\t\t\"league_id_2\":
+        6,\n\t\t\t\t\"league_id_3\": 7,\n\t\t\t\t\"league_id_4\": 8,\n\t\t\t\t\"league_id_5\":
+        12,\n\t\t\t\t\"league_id_6\": 13,\n\t\t\t\t\"league_id_7\": 16,\n\t\t\t\t\"league_id_8\":
+        21,\n\t\t\t\t\"league_id_9\": 22,\n\t\t\t\t\"league_id_10\": 27,\n\t\t\t\t\"league_id_11\":
+        28,\n\t\t\t\t\"league_id_12\": 29,\n\t\t\t\t\"league_id_13\": 32,\n\t\t\t\t\"league_id_14\":
+        33,\n\t\t\t\t\"league_id_15\": 34,\n\t\t\t\t\"league_id_16\": 37,\n\t\t\t\t\"league_id_17\":
+        41,\n\t\t\t\t\"league_id_18\": 45,\n\t\t\t\t\"league_id_19\": 46,\n\t\t\t\t\"league_id_20\":
+        47,\n\t\t\t\t\"league_id_21\": 48,\n\t\t\t\t\"league_id_22\": 51,\n\t\t\t\t\"league_id_23\":
+        53,\n\t\t\t\t\"league_id_24\": 57,\n\t\t\t\t\"league_id_25\": 70,\n\t\t\t\t\"league_id_26\":
+        78,\n\t\t\t\t\"league_id_27\": 97,\n\t\t\t\t\"league_id_28\": 99,\n\t\t\t\t\"league_id_29\":
+        103,\n\t\t\t\t\"league_id_30\": 104,\n\t\t\t\t\"league_id_31\": 108,\n\t\t\t\t\"league_id_32\":
+        109,\n\t\t\t\t\"league_id_33\": 124,\n\t\t\t\t\"league_id_34\": 223,\n\t\t\t\t\"league_id_35\":
+        600,\n\t\t\t\t\"league_id_36\": 1100,\n\t\t\t\t\"league_id_37\": 1157,\n\t\t\t\t\"league_id_38\":
+        1244,\n\t\t\t\t\"league_id_39\": 1248,\n\t\t\t\t\"league_id_40\": 1350,\n\t\t\t\t\"league_id_41\":
+        1667,\n\t\t\t\t\"league_id_42\": 65001,\n\t\t\t\t\"league_id_43\": 65005,\n\t\t\t\t\"league_id_44\":
+        65006\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 29,\n\t\t\t\t\"name\": \"Team
+        Quantic\",\n\t\t\t\t\"tag\": \"Quantic\",\n\t\t\t\t\"time_created\": 1338750618,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 594720461538684519,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 66254722,\n\t\t\t\t\"admin_account_id\":
+        66254722,\n\t\t\t\t\"league_id_0\": 2,\n\t\t\t\t\"league_id_1\": 4,\n\t\t\t\t\"league_id_2\":
+        8,\n\t\t\t\t\"league_id_3\": 9,\n\t\t\t\t\"league_id_4\": 12,\n\t\t\t\t\"league_id_5\":
+        13,\n\t\t\t\t\"league_id_6\": 15\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        35,\n\t\t\t\t\"name\": \"ICE`\",\n\t\t\t\t\"tag\": \"ICE`\",\n\t\t\t\t\"time_created\":
+        1338833459,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 540677266058450004,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 29053724,\n\t\t\t\t\"player_1_account_id\":
+        90190111,\n\t\t\t\t\"player_2_account_id\": 95284076,\n\t\t\t\t\"player_3_account_id\":
+        95419831,\n\t\t\t\t\"player_4_account_id\": 100737768,\n\t\t\t\t\"admin_account_id\":
+        94531730,\n\t\t\t\t\"league_id_0\": 3\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        36,\n\t\t\t\t\"name\": \"Natus Vincere\",\n\t\t\t\t\"tag\": \"Na`Vi\",\n\t\t\t\t\"time_created\":
+        1338843412,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 920110421043409228,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"ua\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 70388657,\n\t\t\t\t\"player_1_account_id\":
+        86723143,\n\t\t\t\t\"player_2_account_id\": 89625472,\n\t\t\t\t\"player_3_account_id\":
+        94049589,\n\t\t\t\t\"player_4_account_id\": 11550182,\n\t\t\t\t\"player_5_account_id\":
+        89137399,\n\t\t\t\t\"admin_account_id\": 70388657,\n\t\t\t\t\"league_id_0\":
+        4,\n\t\t\t\t\"league_id_1\": 6,\n\t\t\t\t\"league_id_2\": 8,\n\t\t\t\t\"league_id_3\":
+        13,\n\t\t\t\t\"league_id_4\": 16,\n\t\t\t\t\"league_id_5\": 18,\n\t\t\t\t\"league_id_6\":
+        20,\n\t\t\t\t\"league_id_7\": 21,\n\t\t\t\t\"league_id_8\": 22,\n\t\t\t\t\"league_id_9\":
+        28,\n\t\t\t\t\"league_id_10\": 29,\n\t\t\t\t\"league_id_11\": 32,\n\t\t\t\t\"league_id_12\":
+        34,\n\t\t\t\t\"league_id_13\": 41,\n\t\t\t\t\"league_id_14\": 46,\n\t\t\t\t\"league_id_15\":
+        48,\n\t\t\t\t\"league_id_16\": 51,\n\t\t\t\t\"league_id_17\": 53,\n\t\t\t\t\"league_id_18\":
+        54,\n\t\t\t\t\"league_id_19\": 69,\n\t\t\t\t\"league_id_20\": 70,\n\t\t\t\t\"league_id_21\":
+        78,\n\t\t\t\t\"league_id_22\": 103,\n\t\t\t\t\"league_id_23\": 104,\n\t\t\t\t\"league_id_24\":
+        106,\n\t\t\t\t\"league_id_25\": 108,\n\t\t\t\t\"league_id_26\": 112,\n\t\t\t\t\"league_id_27\":
+        124,\n\t\t\t\t\"league_id_28\": 184,\n\t\t\t\t\"league_id_29\": 196,\n\t\t\t\t\"league_id_30\":
+        203,\n\t\t\t\t\"league_id_31\": 223,\n\t\t\t\t\"league_id_32\": 232,\n\t\t\t\t\"league_id_33\":
+        600,\n\t\t\t\t\"league_id_34\": 1068,\n\t\t\t\t\"league_id_35\": 1135,\n\t\t\t\t\"league_id_36\":
+        1157,\n\t\t\t\t\"league_id_37\": 1248,\n\t\t\t\t\"league_id_38\": 65001,\n\t\t\t\t\"league_id_39\":
+        65002,\n\t\t\t\t\"league_id_40\": 65006,\n\t\t\t\t\"league_id_41\": 65013\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        39,\n\t\t\t\t\"name\": \"Evil Geniuses\",\n\t\t\t\t\"tag\": \"EG\",\n\t\t\t\t\"time_created\":
+        1338981400,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 538504547711268281,\n\t\t\t\t\"logo_sponsor\":
+        538504547711272115,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"www.myeg.net\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 73562326,\n\t\t\t\t\"player_1_account_id\":
+        86727555,\n\t\t\t\t\"player_2_account_id\": 86745912,\n\t\t\t\t\"player_3_account_id\":
+        87276347,\n\t\t\t\t\"player_4_account_id\": 87177591,\n\t\t\t\t\"player_5_account_id\":
+        110880087,\n\t\t\t\t\"admin_account_id\": 82984073,\n\t\t\t\t\"league_id_0\":
+        4,\n\t\t\t\t\"league_id_1\": 6,\n\t\t\t\t\"league_id_2\": 7,\n\t\t\t\t\"league_id_3\":
+        9,\n\t\t\t\t\"league_id_4\": 11,\n\t\t\t\t\"league_id_5\": 12,\n\t\t\t\t\"league_id_6\":
+        13,\n\t\t\t\t\"league_id_7\": 17,\n\t\t\t\t\"league_id_8\": 21,\n\t\t\t\t\"league_id_9\":
+        22,\n\t\t\t\t\"league_id_10\": 25,\n\t\t\t\t\"league_id_11\": 32,\n\t\t\t\t\"league_id_12\":
+        34,\n\t\t\t\t\"league_id_13\": 41,\n\t\t\t\t\"league_id_14\": 45,\n\t\t\t\t\"league_id_15\":
+        47,\n\t\t\t\t\"league_id_16\": 48,\n\t\t\t\t\"league_id_17\": 50,\n\t\t\t\t\"league_id_18\":
+        51,\n\t\t\t\t\"league_id_19\": 53,\n\t\t\t\t\"league_id_20\": 57,\n\t\t\t\t\"league_id_21\":
+        61,\n\t\t\t\t\"league_id_22\": 70,\n\t\t\t\t\"league_id_23\": 74,\n\t\t\t\t\"league_id_24\":
+        78,\n\t\t\t\t\"league_id_25\": 92,\n\t\t\t\t\"league_id_26\": 97,\n\t\t\t\t\"league_id_27\":
+        103,\n\t\t\t\t\"league_id_28\": 104,\n\t\t\t\t\"league_id_29\": 109,\n\t\t\t\t\"league_id_30\":
+        112,\n\t\t\t\t\"league_id_31\": 114,\n\t\t\t\t\"league_id_32\": 176,\n\t\t\t\t\"league_id_33\":
+        181,\n\t\t\t\t\"league_id_34\": 184,\n\t\t\t\t\"league_id_35\": 223,\n\t\t\t\t\"league_id_36\":
+        232,\n\t\t\t\t\"league_id_37\": 235,\n\t\t\t\t\"league_id_38\": 600,\n\t\t\t\t\"league_id_39\":
+        1068,\n\t\t\t\t\"league_id_40\": 1135,\n\t\t\t\t\"league_id_41\": 1157,\n\t\t\t\t\"league_id_42\":
+        1248,\n\t\t\t\t\"league_id_43\": 1262,\n\t\t\t\t\"league_id_44\": 1667,\n\t\t\t\t\"league_id_45\":
+        65001,\n\t\t\t\t\"league_id_46\": 65002,\n\t\t\t\t\"league_id_47\": 65005,\n\t\t\t\t\"league_id_48\":
+        65013\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 40,\n\t\t\t\t\"name\": \"Virtus.Pro\",\n\t\t\t\t\"tag\":
+        \"VP\",\n\t\t\t\t\"time_created\": 1338981437,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        30720726073720342,\n\t\t\t\t\"logo_sponsor\": 30720726073830325,\n\t\t\t\t\"country_code\":
+        \"ru\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 36547811,\n\t\t\t\t\"player_1_account_id\":
+        87586992,\n\t\t\t\t\"player_2_account_id\": 53178236,\n\t\t\t\t\"player_3_account_id\":
+        96196828,\n\t\t\t\t\"player_4_account_id\": 76600360,\n\t\t\t\t\"admin_account_id\":
+        36547811,\n\t\t\t\t\"league_id_0\": 2,\n\t\t\t\t\"league_id_1\": 13,\n\t\t\t\t\"league_id_2\":
+        15,\n\t\t\t\t\"league_id_3\": 20,\n\t\t\t\t\"league_id_4\": 21,\n\t\t\t\t\"league_id_5\":
+        22,\n\t\t\t\t\"league_id_6\": 27,\n\t\t\t\t\"league_id_7\": 28,\n\t\t\t\t\"league_id_8\":
+        29,\n\t\t\t\t\"league_id_9\": 33,\n\t\t\t\t\"league_id_10\": 34,\n\t\t\t\t\"league_id_11\":
+        45,\n\t\t\t\t\"league_id_12\": 46,\n\t\t\t\t\"league_id_13\": 48,\n\t\t\t\t\"league_id_14\":
+        51,\n\t\t\t\t\"league_id_15\": 53,\n\t\t\t\t\"league_id_16\": 57,\n\t\t\t\t\"league_id_17\":
+        61,\n\t\t\t\t\"league_id_18\": 69,\n\t\t\t\t\"league_id_19\": 70,\n\t\t\t\t\"league_id_20\":
+        78,\n\t\t\t\t\"league_id_21\": 97,\n\t\t\t\t\"league_id_22\": 103,\n\t\t\t\t\"league_id_23\":
+        104,\n\t\t\t\t\"league_id_24\": 106,\n\t\t\t\t\"league_id_25\": 108,\n\t\t\t\t\"league_id_26\":
+        109,\n\t\t\t\t\"league_id_27\": 110,\n\t\t\t\t\"league_id_28\": 112,\n\t\t\t\t\"league_id_29\":
+        124,\n\t\t\t\t\"league_id_30\": 166,\n\t\t\t\t\"league_id_31\": 176,\n\t\t\t\t\"league_id_32\":
+        181,\n\t\t\t\t\"league_id_33\": 184,\n\t\t\t\t\"league_id_34\": 196,\n\t\t\t\t\"league_id_35\":
+        223,\n\t\t\t\t\"league_id_36\": 232,\n\t\t\t\t\"league_id_37\": 600,\n\t\t\t\t\"league_id_38\":
+        1003,\n\t\t\t\t\"league_id_39\": 1068,\n\t\t\t\t\"league_id_40\": 1118,\n\t\t\t\t\"league_id_41\":
+        1157,\n\t\t\t\t\"league_id_42\": 1175,\n\t\t\t\t\"league_id_43\": 1362,\n\t\t\t\t\"league_id_44\":
+        65006\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 41,\n\t\t\t\t\"name\": \"4
+        Friends + Chrillee\",\n\t\t\t\t\"tag\": \"4FC\",\n\t\t\t\t\"time_created\":
+        1339019028,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 596987480020856414,\n\t\t\t\t\"logo_sponsor\":
+        596987480020863196,\n\t\t\t\t\"country_code\": \"se\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 27738470,\n\t\t\t\t\"player_1_account_id\":
+        57835748,\n\t\t\t\t\"player_2_account_id\": 81150290,\n\t\t\t\t\"player_3_account_id\":
+        86664345,\n\t\t\t\t\"player_4_account_id\": 102732874,\n\t\t\t\t\"admin_account_id\":
+        27738470,\n\t\t\t\t\"league_id_0\": 4,\n\t\t\t\t\"league_id_1\": 20,\n\t\t\t\t\"league_id_2\":
+        21,\n\t\t\t\t\"league_id_3\": 28,\n\t\t\t\t\"league_id_4\": 29,\n\t\t\t\t\"league_id_5\":
+        32,\n\t\t\t\t\"league_id_6\": 37,\n\t\t\t\t\"league_id_7\": 46,\n\t\t\t\t\"league_id_8\":
+        47,\n\t\t\t\t\"league_id_9\": 51,\n\t\t\t\t\"league_id_10\": 53,\n\t\t\t\t\"league_id_11\":
+        57,\n\t\t\t\t\"league_id_12\": 61,\n\t\t\t\t\"league_id_13\": 64,\n\t\t\t\t\"league_id_14\":
+        69,\n\t\t\t\t\"league_id_15\": 70,\n\t\t\t\t\"league_id_16\": 78,\n\t\t\t\t\"league_id_17\":
+        99,\n\t\t\t\t\"league_id_18\": 108,\n\t\t\t\t\"league_id_19\": 109,\n\t\t\t\t\"league_id_20\":
+        124,\n\t\t\t\t\"league_id_21\": 180,\n\t\t\t\t\"league_id_22\": 181,\n\t\t\t\t\"league_id_23\":
+        1070,\n\t\t\t\t\"league_id_24\": 1127,\n\t\t\t\t\"league_id_25\": 1175,\n\t\t\t\t\"league_id_26\":
+        1350,\n\t\t\t\t\"league_id_27\": 1640,\n\t\t\t\t\"league_id_28\": 1755,\n\t\t\t\t\"league_id_29\":
+        65002\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 46,\n\t\t\t\t\"name\": \"Team
+        Empire\",\n\t\t\t\t\"tag\": \"Empire\",\n\t\t\t\t\"time_created\": 1340178158,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 721995326557136212,\n\t\t\t\t\"logo_sponsor\":
+        26221462402529621,\n\t\t\t\t\"country_code\": \"ru\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        2,\n\t\t\t\t\"player_0_account_id\": 86725175,\n\t\t\t\t\"player_1_account_id\":
+        86802844,\n\t\t\t\t\"player_2_account_id\": 89269794,\n\t\t\t\t\"player_3_account_id\":
+        91064780,\n\t\t\t\t\"player_4_account_id\": 112250781,\n\t\t\t\t\"player_5_account_id\":
+        134556694,\n\t\t\t\t\"admin_account_id\": 89269794,\n\t\t\t\t\"league_id_0\":
+        4,\n\t\t\t\t\"league_id_1\": 6,\n\t\t\t\t\"league_id_2\": 12,\n\t\t\t\t\"league_id_3\":
+        13,\n\t\t\t\t\"league_id_4\": 15,\n\t\t\t\t\"league_id_5\": 16,\n\t\t\t\t\"league_id_6\":
+        18,\n\t\t\t\t\"league_id_7\": 20,\n\t\t\t\t\"league_id_8\": 21,\n\t\t\t\t\"league_id_9\":
+        22,\n\t\t\t\t\"league_id_10\": 27,\n\t\t\t\t\"league_id_11\": 28,\n\t\t\t\t\"league_id_12\":
+        29,\n\t\t\t\t\"league_id_13\": 32,\n\t\t\t\t\"league_id_14\": 33,\n\t\t\t\t\"league_id_15\":
+        34,\n\t\t\t\t\"league_id_16\": 37,\n\t\t\t\t\"league_id_17\": 41,\n\t\t\t\t\"league_id_18\":
+        46,\n\t\t\t\t\"league_id_19\": 51,\n\t\t\t\t\"league_id_20\": 57,\n\t\t\t\t\"league_id_21\":
+        61,\n\t\t\t\t\"league_id_22\": 65,\n\t\t\t\t\"league_id_23\": 69,\n\t\t\t\t\"league_id_24\":
+        70,\n\t\t\t\t\"league_id_25\": 78,\n\t\t\t\t\"league_id_26\": 97,\n\t\t\t\t\"league_id_27\":
+        103,\n\t\t\t\t\"league_id_28\": 108,\n\t\t\t\t\"league_id_29\": 124,\n\t\t\t\t\"league_id_30\":
+        161,\n\t\t\t\t\"league_id_31\": 166,\n\t\t\t\t\"league_id_32\": 167,\n\t\t\t\t\"league_id_33\":
+        181,\n\t\t\t\t\"league_id_34\": 184,\n\t\t\t\t\"league_id_35\": 188,\n\t\t\t\t\"league_id_36\":
+        196,\n\t\t\t\t\"league_id_37\": 223,\n\t\t\t\t\"league_id_38\": 232,\n\t\t\t\t\"league_id_39\":
+        600,\n\t\t\t\t\"league_id_40\": 1003,\n\t\t\t\t\"league_id_41\": 1014,\n\t\t\t\t\"league_id_42\":
+        1068,\n\t\t\t\t\"league_id_43\": 1118,\n\t\t\t\t\"league_id_44\": 1127,\n\t\t\t\t\"league_id_45\":
+        1135,\n\t\t\t\t\"league_id_46\": 1244,\n\t\t\t\t\"league_id_47\": 1248,\n\t\t\t\t\"league_id_48\":
+        1350,\n\t\t\t\t\"league_id_49\": 1712,\n\t\t\t\t\"league_id_50\": 1761,\n\t\t\t\t\"league_id_51\":
+        1803,\n\t\t\t\t\"league_id_52\": 1886,\n\t\t\t\t\"league_id_53\": 1887,\n\t\t\t\t\"league_id_54\":
+        1934,\n\t\t\t\t\"league_id_55\": 1936,\n\t\t\t\t\"league_id_56\": 1942,\n\t\t\t\t\"league_id_57\":
+        2096,\n\t\t\t\t\"league_id_58\": 2158,\n\t\t\t\t\"league_id_59\": 65002,\n\t\t\t\t\"league_id_60\":
+        65005\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 51,\n\t\t\t\t\"name\": \"We
+        haz Asian\",\n\t\t\t\t\"tag\": \"WhA\",\n\t\t\t\t\"time_created\": 1340539048,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 596987479973141342,\n\t\t\t\t\"logo_sponsor\":
+        596987479973143579,\n\t\t\t\t\"country_code\": \"de\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 1162243,\n\t\t\t\t\"player_1_account_id\":
+        16761380,\n\t\t\t\t\"player_2_account_id\": 17541236,\n\t\t\t\t\"player_3_account_id\":
+        19811260,\n\t\t\t\t\"player_4_account_id\": 22484883,\n\t\t\t\t\"admin_account_id\":
+        17541236,\n\t\t\t\t\"league_id_0\": 4,\n\t\t\t\t\"league_id_1\": 12,\n\t\t\t\t\"league_id_2\":
+        13,\n\t\t\t\t\"league_id_3\": 20,\n\t\t\t\t\"league_id_4\": 21,\n\t\t\t\t\"league_id_5\":
+        65002\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 54,\n\t\t\t\t\"name\": \"Storm
+        Games Clan\",\n\t\t\t\t\"tag\": \"SGC\",\n\t\t\t\t\"time_created\": 1340659645,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 542930855896114848,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 7932121,\n\t\t\t\t\"admin_account_id\":
+        7932121,\n\t\t\t\t\"league_id_0\": 4,\n\t\t\t\t\"league_id_1\": 8\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        55,\n\t\t\t\t\"name\": \"PowerRangers\",\n\t\t\t\t\"tag\": \"PR\",\n\t\t\t\t\"time_created\":
+        1340895741,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 882991962433471691,\n\t\t\t\t\"logo_sponsor\":
+        882991962431766958,\n\t\t\t\t\"country_code\": \"by\",\n\t\t\t\t\"url\": \"esfxtv.com\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 75750590,\n\t\t\t\t\"player_1_account_id\":
+        86870856,\n\t\t\t\t\"player_2_account_id\": 123787524,\n\t\t\t\t\"player_3_account_id\":
+        149591474,\n\t\t\t\t\"player_4_account_id\": 117421467,\n\t\t\t\t\"admin_account_id\":
+        86870856,\n\t\t\t\t\"league_id_0\": 4,\n\t\t\t\t\"league_id_1\": 20,\n\t\t\t\t\"league_id_2\":
+        29,\n\t\t\t\t\"league_id_3\": 46,\n\t\t\t\t\"league_id_4\": 61,\n\t\t\t\t\"league_id_5\":
+        69,\n\t\t\t\t\"league_id_6\": 70,\n\t\t\t\t\"league_id_7\": 99,\n\t\t\t\t\"league_id_8\":
+        103,\n\t\t\t\t\"league_id_9\": 106,\n\t\t\t\t\"league_id_10\": 108,\n\t\t\t\t\"league_id_11\":
+        109,\n\t\t\t\t\"league_id_12\": 123,\n\t\t\t\t\"league_id_13\": 124,\n\t\t\t\t\"league_id_14\":
+        142,\n\t\t\t\t\"league_id_15\": 160,\n\t\t\t\t\"league_id_16\": 161,\n\t\t\t\t\"league_id_17\":
+        166,\n\t\t\t\t\"league_id_18\": 176,\n\t\t\t\t\"league_id_19\": 180,\n\t\t\t\t\"league_id_20\":
+        181,\n\t\t\t\t\"league_id_21\": 184,\n\t\t\t\t\"league_id_22\": 188,\n\t\t\t\t\"league_id_23\":
+        190,\n\t\t\t\t\"league_id_24\": 196,\n\t\t\t\t\"league_id_25\": 202,\n\t\t\t\t\"league_id_26\":
+        232,\n\t\t\t\t\"league_id_27\": 236,\n\t\t\t\t\"league_id_28\": 502,\n\t\t\t\t\"league_id_29\":
+        600,\n\t\t\t\t\"league_id_30\": 1003,\n\t\t\t\t\"league_id_31\": 1040,\n\t\t\t\t\"league_id_32\":
+        1068,\n\t\t\t\t\"league_id_33\": 1069,\n\t\t\t\t\"league_id_34\": 1127,\n\t\t\t\t\"league_id_35\":
+        1157,\n\t\t\t\t\"league_id_36\": 1175,\n\t\t\t\t\"league_id_37\": 1248,\n\t\t\t\t\"league_id_38\":
+        1270,\n\t\t\t\t\"league_id_39\": 1296,\n\t\t\t\t\"league_id_40\": 1350,\n\t\t\t\t\"league_id_41\":
+        1362\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 59,\n\t\t\t\t\"name\": \"Kaipi\",\n\t\t\t\t\"tag\":
+        \"KP\",\n\t\t\t\t\"time_created\": 1341929840,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        1137416147448948067,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 6922000,\n\t\t\t\t\"player_1_account_id\":
+        43276219,\n\t\t\t\t\"player_2_account_id\": 88719902,\n\t\t\t\t\"admin_account_id\":
+        6922000,\n\t\t\t\t\"league_id_0\": 16,\n\t\t\t\t\"league_id_1\": 20,\n\t\t\t\t\"league_id_2\":
+        21,\n\t\t\t\t\"league_id_3\": 27,\n\t\t\t\t\"league_id_4\": 28,\n\t\t\t\t\"league_id_5\":
+        29,\n\t\t\t\t\"league_id_6\": 32,\n\t\t\t\t\"league_id_7\": 34,\n\t\t\t\t\"league_id_8\":
+        45,\n\t\t\t\t\"league_id_9\": 46,\n\t\t\t\t\"league_id_10\": 47,\n\t\t\t\t\"league_id_11\":
+        51,\n\t\t\t\t\"league_id_12\": 57,\n\t\t\t\t\"league_id_13\": 65,\n\t\t\t\t\"league_id_14\":
+        69,\n\t\t\t\t\"league_id_15\": 74,\n\t\t\t\t\"league_id_16\": 78,\n\t\t\t\t\"league_id_17\":
+        108,\n\t\t\t\t\"league_id_18\": 65003\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        63,\n\t\t\t\t\"name\": \"skill difference\",\n\t\t\t\t\"tag\": \"sd\",\n\t\t\t\t\"time_created\":
+        1342299789,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 576709682229137092,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 5714839,\n\t\t\t\t\"player_1_account_id\":
+        86764856,\n\t\t\t\t\"admin_account_id\": 5714839,\n\t\t\t\t\"league_id_0\":
+        18,\n\t\t\t\t\"league_id_1\": 32\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        67,\n\t\t\t\t\"name\": \"paiN Gaming\",\n\t\t\t\t\"tag\": \"paiN\",\n\t\t\t\t\"time_created\":
+        1342757132,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 22838588353323265,\n\t\t\t\t\"logo_sponsor\":
+        22838588353317335,\n\t\t\t\t\"country_code\": \"br\",\n\t\t\t\t\"url\": \"http://paingaming.net/\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 16317795,\n\t\t\t\t\"player_1_account_id\":
+        86919603,\n\t\t\t\t\"player_2_account_id\": 84853828,\n\t\t\t\t\"player_3_account_id\":
+        85937380,\n\t\t\t\t\"player_4_account_id\": 102304762,\n\t\t\t\t\"player_5_account_id\":
+        84677534,\n\t\t\t\t\"admin_account_id\": 16317795,\n\t\t\t\t\"league_id_0\":
+        8,\n\t\t\t\t\"league_id_1\": 21,\n\t\t\t\t\"league_id_2\": 27,\n\t\t\t\t\"league_id_3\":
+        36,\n\t\t\t\t\"league_id_4\": 50,\n\t\t\t\t\"league_id_5\": 62,\n\t\t\t\t\"league_id_6\":
+        64,\n\t\t\t\t\"league_id_7\": 121\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        70,\n\t\t\t\t\"name\": \"EYES ON U\",\n\t\t\t\t\"tag\": \"EYES\",\n\t\t\t\t\"time_created\":
+        1343162207,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 939249452376708788,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"de\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 91461908,\n\t\t\t\t\"admin_account_id\":
+        91461908,\n\t\t\t\t\"league_id_0\": 28,\n\t\t\t\t\"league_id_1\": 47,\n\t\t\t\t\"league_id_2\":
+        65003\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 71,\n\t\t\t\t\"name\": \"Vince
+        Te Ipsum\",\n\t\t\t\t\"tag\": \"vTi\",\n\t\t\t\t\"time_created\": 1343173963,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 1155423501545105482,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"br\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 30178690,\n\t\t\t\t\"player_1_account_id\":
+        50832056,\n\t\t\t\t\"player_2_account_id\": 57391927,\n\t\t\t\t\"player_3_account_id\":
+        62960147,\n\t\t\t\t\"admin_account_id\": 57391927,\n\t\t\t\t\"league_id_0\":
+        9\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 80,\n\t\t\t\t\"name\": \"Mineski
+        HyperX\",\n\t\t\t\t\"tag\": \"Mineski\",\n\t\t\t\t\"time_created\": 1344016405,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 576719343091616349,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"admin_account_id\": 94012600,\n\t\t\t\t\"league_id_0\": 10,\n\t\t\t\t\"league_id_1\":
+        14,\n\t\t\t\t\"league_id_2\": 26,\n\t\t\t\t\"league_id_3\": 30,\n\t\t\t\t\"league_id_4\":
+        34,\n\t\t\t\t\"league_id_5\": 36\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        94,\n\t\t\t\t\"name\": \"joinDOTAwesome\",\n\t\t\t\t\"tag\": \"jD3\",\n\t\t\t\t\"time_created\":
+        1345841952,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 541810680936430092,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 26290891,\n\t\t\t\t\"player_1_account_id\":
+        33079773,\n\t\t\t\t\"player_2_account_id\": 71040815,\n\t\t\t\t\"player_3_account_id\":
+        87360552,\n\t\t\t\t\"admin_account_id\": 33079773\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        102,\n\t\t\t\t\"name\": \"TI3 Champ\",\n\t\t\t\t\"tag\": \"TI3CHAMP\",\n\t\t\t\t\"time_created\":
+        1346656238,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 1136285831879572995,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 105591101,\n\t\t\t\t\"admin_account_id\":
+        86813501,\n\t\t\t\t\"league_id_0\": 14,\n\t\t\t\t\"league_id_1\": 31\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        116,\n\t\t\t\t\"name\": \"Genuineness of Geeks\",\n\t\t\t\t\"tag\": \"GoG\",\n\t\t\t\t\"time_created\":
+        1347567612,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"www.facebook.com/TeamGoG\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 59481445,\n\t\t\t\t\"player_1_account_id\":
+        86725183,\n\t\t\t\t\"player_2_account_id\": 93328973,\n\t\t\t\t\"player_3_account_id\":
+        93762778,\n\t\t\t\t\"admin_account_id\": 91809021,\n\t\t\t\t\"league_id_0\":
+        31\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 119,\n\t\t\t\t\"name\": \"e-Club[MUFC]\",\n\t\t\t\t\"tag\":
+        \"MUFC.\",\n\t\t\t\t\"time_created\": 1347625204,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        541820196262480004,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"my\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 85849567,\n\t\t\t\t\"player_1_account_id\":
+        101717780,\n\t\t\t\t\"admin_account_id\": 85849567,\n\t\t\t\t\"league_id_0\":
+        14,\n\t\t\t\t\"league_id_1\": 17,\n\t\t\t\t\"league_id_2\": 23,\n\t\t\t\t\"league_id_3\":
+        24\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 138,\n\t\t\t\t\"name\": \"Natural
+        9\",\n\t\t\t\t\"tag\": \"N9\",\n\t\t\t\t\"time_created\": 1348563120,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 884096868348030066,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"au\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 37139952,\n\t\t\t\t\"admin_account_id\":
+        37139952,\n\t\t\t\t\"league_id_0\": 14,\n\t\t\t\t\"league_id_1\": 17,\n\t\t\t\t\"league_id_2\":
+        20\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 142,\n\t\t\t\t\"name\": \"Team
+        Dignitas\",\n\t\t\t\t\"tag\": \"dignitas\",\n\t\t\t\t\"time_created\": 1348601358,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 558722001460412650,\n\t\t\t\t\"logo_sponsor\":
+        558722001460423207,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"www.team-dignitas.net\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 29904110,\n\t\t\t\t\"admin_account_id\":
+        168293968,\n\t\t\t\t\"league_id_0\": 12,\n\t\t\t\t\"league_id_1\": 15,\n\t\t\t\t\"league_id_2\":
+        21,\n\t\t\t\t\"league_id_3\": 22,\n\t\t\t\t\"league_id_4\": 25,\n\t\t\t\t\"league_id_5\":
+        27,\n\t\t\t\t\"league_id_6\": 29,\n\t\t\t\t\"league_id_7\": 32,\n\t\t\t\t\"league_id_8\":
+        33,\n\t\t\t\t\"league_id_9\": 34,\n\t\t\t\t\"league_id_10\": 41,\n\t\t\t\t\"league_id_11\":
+        47,\n\t\t\t\t\"league_id_12\": 48,\n\t\t\t\t\"league_id_13\": 50,\n\t\t\t\t\"league_id_14\":
+        51,\n\t\t\t\t\"league_id_15\": 53,\n\t\t\t\t\"league_id_16\": 57,\n\t\t\t\t\"league_id_17\":
+        67,\n\t\t\t\t\"league_id_18\": 70,\n\t\t\t\t\"league_id_19\": 74,\n\t\t\t\t\"league_id_20\":
+        78,\n\t\t\t\t\"league_id_21\": 97,\n\t\t\t\t\"league_id_22\": 103,\n\t\t\t\t\"league_id_23\":
+        104,\n\t\t\t\t\"league_id_24\": 109,\n\t\t\t\t\"league_id_25\": 110,\n\t\t\t\t\"league_id_26\":
+        1304,\n\t\t\t\t\"league_id_27\": 1667,\n\t\t\t\t\"league_id_28\": 65002,\n\t\t\t\t\"league_id_29\":
+        65006\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 147,\n\t\t\t\t\"name\": \"Learn2Gank\",\n\t\t\t\t\"tag\":
+        \"L2G\",\n\t\t\t\t\"time_created\": 1348775423,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        902101705435959796,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"mx\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 64948828,\n\t\t\t\t\"player_1_account_id\":
+        87024422,\n\t\t\t\t\"player_2_account_id\": 87040694,\n\t\t\t\t\"player_3_account_id\":
+        115485241,\n\t\t\t\t\"player_4_account_id\": 172213726,\n\t\t\t\t\"admin_account_id\":
+        87024422,\n\t\t\t\t\"league_id_0\": 1304,\n\t\t\t\t\"league_id_1\": 1409\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        157,\n\t\t\t\t\"name\": \"Darer.female\",\n\t\t\t\t\"tag\": \"Darer.fm\",\n\t\t\t\t\"time_created\":
+        1349123438,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 1136293535413282243,\n\t\t\t\t\"logo_sponsor\":
+        1136293535413290947,\n\t\t\t\t\"country_code\": \"bg\",\n\t\t\t\t\"url\":
+        \"\",\n\t\t\t\t\"games_played_with_current_roster\": 0,\n\t\t\t\t\"player_0_account_id\":
+        43427106,\n\t\t\t\t\"player_1_account_id\": 57724159,\n\t\t\t\t\"player_2_account_id\":
+        87581640,\n\t\t\t\t\"player_3_account_id\": 94451472,\n\t\t\t\t\"player_4_account_id\":
+        98427807,\n\t\t\t\t\"admin_account_id\": 98427807\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        162,\n\t\t\t\t\"name\": \"Flip.Sid3 Tactics\",\n\t\t\t\t\"tag\": \"[F.3]\",\n\t\t\t\t\"time_created\":
+        1349193092,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 900999586924821869,\n\t\t\t\t\"logo_sponsor\":
+        900999586925214571,\n\t\t\t\t\"country_code\": \"dk\",\n\t\t\t\t\"url\": \"www.flipsidetactics.com\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"admin_account_id\": 42749645,\n\t\t\t\t\"league_id_0\": 13,\n\t\t\t\t\"league_id_1\":
+        15,\n\t\t\t\t\"league_id_2\": 20,\n\t\t\t\t\"league_id_3\": 21,\n\t\t\t\t\"league_id_4\":
+        27,\n\t\t\t\t\"league_id_5\": 28,\n\t\t\t\t\"league_id_6\": 29,\n\t\t\t\t\"league_id_7\":
+        32,\n\t\t\t\t\"league_id_8\": 34,\n\t\t\t\t\"league_id_9\": 47,\n\t\t\t\t\"league_id_10\":
+        51,\n\t\t\t\t\"league_id_11\": 53,\n\t\t\t\t\"league_id_12\": 57,\n\t\t\t\t\"league_id_13\":
+        70,\n\t\t\t\t\"league_id_14\": 78,\n\t\t\t\t\"league_id_15\": 97,\n\t\t\t\t\"league_id_16\":
+        108,\n\t\t\t\t\"league_id_17\": 181,\n\t\t\t\t\"league_id_18\": 202,\n\t\t\t\t\"league_id_19\":
+        1051,\n\t\t\t\t\"league_id_20\": 65002,\n\t\t\t\t\"league_id_21\": 65003,\n\t\t\t\t\"league_id_22\":
+        65005\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 164,\n\t\t\t\t\"name\": \"Insight
+        Esports Female\",\n\t\t\t\t\"tag\": \"INSG\",\n\t\t\t\t\"time_created\": 1349234071,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 1136289618142051559,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"admin_account_id\": 0\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        165,\n\t\t\t\t\"name\": \"absolyt-_-gamynG\",\n\t\t\t\t\"tag\": \"absolyt\",\n\t\t\t\t\"time_created\":
+        1349291037,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 577843264349534864,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 24106261,\n\t\t\t\t\"player_1_account_id\":
+        57606434,\n\t\t\t\t\"player_2_account_id\": 71407072,\n\t\t\t\t\"player_3_account_id\":
+        87186470,\n\t\t\t\t\"player_4_account_id\": 100624252,\n\t\t\t\t\"admin_account_id\":
+        24106261,\n\t\t\t\t\"league_id_0\": 16,\n\t\t\t\t\"league_id_1\": 18,\n\t\t\t\t\"league_id_2\":
+        69\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 166,\n\t\t\t\t\"name\": \"Scenario\",\n\t\t\t\t\"tag\":
+        \"Scenario\",\n\t\t\t\t\"time_created\": 1349291905,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 556513875553582452,\n\t\t\t\t\"logo_sponsor\":
+        556513875553585920,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"www.facebook.com/Scenario.ReBorn\",\n\t\t\t\t\"games_played_with_current_roster\":
+        17,\n\t\t\t\t\"player_0_account_id\": 87373024,\n\t\t\t\t\"player_1_account_id\":
+        92311277,\n\t\t\t\t\"player_2_account_id\": 96133582,\n\t\t\t\t\"player_3_account_id\":
+        100800283,\n\t\t\t\t\"player_4_account_id\": 146407973,\n\t\t\t\t\"admin_account_id\":
+        92311277,\n\t\t\t\t\"league_id_0\": 1202,\n\t\t\t\t\"league_id_1\": 1234,\n\t\t\t\t\"league_id_2\":
+        1350,\n\t\t\t\t\"league_id_3\": 1574,\n\t\t\t\t\"league_id_4\": 1702,\n\t\t\t\t\"league_id_5\":
+        1739,\n\t\t\t\t\"league_id_6\": 1798\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        171,\n\t\t\t\t\"name\": \"HardwareArena Gaming\",\n\t\t\t\t\"tag\": \"HWA^\",\n\t\t\t\t\"time_created\":
+        1349310937,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 108688401,\n\t\t\t\t\"admin_account_id\":
+        108688401\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 172,\n\t\t\t\t\"name\":
+        \"HARDWAREARENAGAMING\",\n\t\t\t\t\"tag\": \"HWA.\",\n\t\t\t\t\"time_created\":
+        1349311200,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 108780130,\n\t\t\t\t\"admin_account_id\":
+        108780130\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 183,\n\t\t\t\t\"name\":
+        \"GosuGamers\",\n\t\t\t\t\"tag\": \"GGnet\",\n\t\t\t\t\"time_created\": 1349359826,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 920116836037547369,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"se\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 46174171,\n\t\t\t\t\"player_1_account_id\":
+        60424314,\n\t\t\t\t\"player_2_account_id\": 87413542,\n\t\t\t\t\"player_3_account_id\":
+        91521378,\n\t\t\t\t\"admin_account_id\": 60424314\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        185,\n\t\t\t\t\"name\": \"Coming Soon\",\n\t\t\t\t\"tag\": \"CS\",\n\t\t\t\t\"time_created\":
+        1349396890,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 938131234585660217,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 1962309,\n\t\t\t\t\"player_1_account_id\":
+        11533875,\n\t\t\t\t\"player_2_account_id\": 57597599,\n\t\t\t\t\"admin_account_id\":
+        1962309\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 189,\n\t\t\t\t\"name\": \"The
+        Derps\",\n\t\t\t\t\"tag\": \"DERP\",\n\t\t\t\t\"time_created\": 1349397060,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 541814467350768040,\n\t\t\t\t\"logo_sponsor\":
+        560966208458224985,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 4858380,\n\t\t\t\t\"player_1_account_id\":
+        12036036,\n\t\t\t\t\"player_2_account_id\": 31907914,\n\t\t\t\t\"player_3_account_id\":
+        33005967,\n\t\t\t\t\"player_4_account_id\": 33027652,\n\t\t\t\t\"player_5_account_id\":
+        55618602,\n\t\t\t\t\"admin_account_id\": 33005967\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        191,\n\t\t\t\t\"name\": \"Charles Barkley Dunk Squad\",\n\t\t\t\t\"tag\":
+        \"DUNK\",\n\t\t\t\t\"time_created\": 1349397088,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        560954765761624483,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"af\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 738310,\n\t\t\t\t\"player_1_account_id\":
+        2482180,\n\t\t\t\t\"player_2_account_id\": 4467867,\n\t\t\t\t\"player_3_account_id\":
+        64944326,\n\t\t\t\t\"player_4_account_id\": 137706810,\n\t\t\t\t\"admin_account_id\":
+        738310\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 192,\n\t\t\t\t\"name\": \"DS_Spirit\",\n\t\t\t\t\"tag\":
+        \"DSS\",\n\t\t\t\t\"time_created\": 1349397103,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        0,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\":
+        \"\",\n\t\t\t\t\"games_played_with_current_roster\": 0,\n\t\t\t\t\"player_0_account_id\":
+        100245545,\n\t\t\t\t\"player_1_account_id\": 104500695,\n\t\t\t\t\"player_2_account_id\":
+        112642892,\n\t\t\t\t\"player_3_account_id\": 112729536,\n\t\t\t\t\"player_4_account_id\":
+        124570741,\n\t\t\t\t\"player_5_account_id\": 137098312,\n\t\t\t\t\"admin_account_id\":
+        89176184\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 193,\n\t\t\t\t\"name\":
+        \"TEAM WRONA\",\n\t\t\t\t\"tag\": \"WRONA\",\n\t\t\t\t\"time_created\": 1349397111,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 612790734218656802,\n\t\t\t\t\"logo_sponsor\":
+        612790734218544534,\n\t\t\t\t\"country_code\": \"ug\",\n\t\t\t\t\"url\": \"http://wronaistdumm.de\",\n\t\t\t\t\"games_played_with_current_roster\":
+        1,\n\t\t\t\t\"player_0_account_id\": 24148096,\n\t\t\t\t\"player_1_account_id\":
+        24687174,\n\t\t\t\t\"player_2_account_id\": 28290042,\n\t\t\t\t\"player_3_account_id\":
+        90647924,\n\t\t\t\t\"player_4_account_id\": 126130349,\n\t\t\t\t\"admin_account_id\":
+        28290042\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 194,\n\t\t\t\t\"name\":
+        \"Taylor Gang\",\n\t\t\t\t\"tag\": \"TG\",\n\t\t\t\t\"time_created\": 1349397115,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 937005334647522758,\n\t\t\t\t\"logo_sponsor\":
+        937005334647523301,\n\t\t\t\t\"country_code\": \"ca\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 60527115,\n\t\t\t\t\"player_1_account_id\":
+        140697197,\n\t\t\t\t\"admin_account_id\": 100602707\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        196,\n\t\t\t\t\"name\": \"Hey\",\n\t\t\t\t\"tag\": \"Hey\",\n\t\t\t\t\"time_created\":
+        1349397135,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 103365720,\n\t\t\t\t\"admin_account_id\":
+        103365720\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 198,\n\t\t\t\t\"name\":
+        \"Crits.org\",\n\t\t\t\t\"tag\": \"Crits\",\n\t\t\t\t\"time_created\": 1349397141,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 595878516385639707,\n\t\t\t\t\"logo_sponsor\":
+        630782671448200721,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 11050442,\n\t\t\t\t\"player_1_account_id\":
+        34314560,\n\t\t\t\t\"player_2_account_id\": 66858051,\n\t\t\t\t\"player_3_account_id\":
+        69956180,\n\t\t\t\t\"player_4_account_id\": 70202518,\n\t\t\t\t\"admin_account_id\":
+        34314560\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 200,\n\t\t\t\t\"name\":
+        \"DotA\",\n\t\t\t\t\"tag\": \"DotA\",\n\t\t\t\t\"time_created\": 1349397192,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 900976537657237645,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"de\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 20208361,\n\t\t\t\t\"player_1_account_id\":
+        87935228,\n\t\t\t\t\"admin_account_id\": 87935228\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        201,\n\t\t\t\t\"name\": \"Python Fan Club\",\n\t\t\t\t\"tag\": \"PFC\",\n\t\t\t\t\"time_created\":
+        1349397195,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 920116836076637191,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 2453740,\n\t\t\t\t\"player_1_account_id\":
+        16876048,\n\t\t\t\t\"player_2_account_id\": 19913169,\n\t\t\t\t\"player_3_account_id\":
+        30150071,\n\t\t\t\t\"player_4_account_id\": 34175012,\n\t\t\t\t\"player_5_account_id\":
+        34541629,\n\t\t\t\t\"admin_account_id\": 30150071\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        202,\n\t\t\t\t\"name\": \"FUCK YOU\",\n\t\t\t\t\"tag\": \"DmC\",\n\t\t\t\t\"time_created\":
+        1349397199,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 560966433150418301,\n\t\t\t\t\"logo_sponsor\":
+        560966433151788262,\n\t\t\t\t\"country_code\": \"je\",\n\t\t\t\t\"url\": \"http://dmc.com/\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 35013402,\n\t\t\t\t\"player_1_account_id\":
+        35155202,\n\t\t\t\t\"player_2_account_id\": 37342358,\n\t\t\t\t\"player_3_account_id\":
+        49732637,\n\t\t\t\t\"player_4_account_id\": 56215910,\n\t\t\t\t\"admin_account_id\":
+        35155202\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 204,\n\t\t\t\t\"name\":
+        \"in bloom\",\n\t\t\t\t\"tag\": \"[i.b]\",\n\t\t\t\t\"time_created\": 1349397219,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 918990936137059951,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"ru\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 3648,\n\t\t\t\t\"player_1_account_id\":
+        122409,\n\t\t\t\t\"player_2_account_id\": 806337,\n\t\t\t\t\"player_3_account_id\":
+        120626339,\n\t\t\t\t\"admin_account_id\": 806337\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        207,\n\t\t\t\t\"name\": \"Dragon\",\n\t\t\t\t\"tag\": \"DRGN\",\n\t\t\t\t\"time_created\":
+        1349397232,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 576717364466221439,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 14407103,\n\t\t\t\t\"player_1_account_id\":
+        36619824,\n\t\t\t\t\"player_2_account_id\": 54283164,\n\t\t\t\t\"player_3_account_id\":
+        83523295,\n\t\t\t\t\"player_4_account_id\": 100482274,\n\t\t\t\t\"admin_account_id\":
+        14407103\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 209,\n\t\t\t\t\"name\":
+        \"POWER CLAN\",\n\t\t\t\t\"tag\": \"PC\",\n\t\t\t\t\"time_created\": 1349397242,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 541814467350848818,\n\t\t\t\t\"logo_sponsor\":
+        560964212030423596,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 865593,\n\t\t\t\t\"player_1_account_id\":
+        3022580,\n\t\t\t\t\"player_2_account_id\": 18066754,\n\t\t\t\t\"player_3_account_id\":
+        18531024,\n\t\t\t\t\"player_4_account_id\": 39051357,\n\t\t\t\t\"admin_account_id\":
+        18066754\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 210,\n\t\t\t\t\"name\":
+        \"KZZ + 4\",\n\t\t\t\t\"tag\": \"KZZ+4\",\n\t\t\t\t\"time_created\": 1349397244,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 937006451785042562,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 77182422,\n\t\t\t\t\"player_1_account_id\":
+        106497354,\n\t\t\t\t\"admin_account_id\": 106497354\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        213,\n\t\t\t\t\"name\": \"The Useless Group\",\n\t\t\t\t\"tag\": \"Useless\",\n\t\t\t\t\"time_created\":
+        1349397252,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 594731762971332263,\n\t\t\t\t\"logo_sponsor\":
+        613883652968426716,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 2616008,\n\t\t\t\t\"player_1_account_id\":
+        14122814,\n\t\t\t\t\"player_2_account_id\": 19365501,\n\t\t\t\t\"player_3_account_id\":
+        25436005,\n\t\t\t\t\"player_4_account_id\": 27801478,\n\t\t\t\t\"admin_account_id\":
+        14122814\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 214,\n\t\t\t\t\"name\":
+        \"Orange Gaming\",\n\t\t\t\t\"tag\": \"OG\",\n\t\t\t\t\"time_created\": 1349397263,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 937005334645488273,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 30564333,\n\t\t\t\t\"player_1_account_id\":
+        39898692,\n\t\t\t\t\"player_2_account_id\": 67714499,\n\t\t\t\t\"player_3_account_id\":
+        114887421,\n\t\t\t\t\"player_4_account_id\": 115283500,\n\t\t\t\t\"admin_account_id\":
+        39898692\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 216,\n\t\t\t\t\"name\":
+        \"Low Priority Queue\",\n\t\t\t\t\"tag\": \"LPQ\",\n\t\t\t\t\"time_created\":
+        1349397264,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 630789657335506798,\n\t\t\t\t\"logo_sponsor\":
+        630789657335508539,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"www.youfail.org\",\n\t\t\t\t\"games_played_with_current_roster\":
+        4,\n\t\t\t\t\"player_0_account_id\": 49943788,\n\t\t\t\t\"player_1_account_id\":
+        52028734,\n\t\t\t\t\"player_2_account_id\": 76775657,\n\t\t\t\t\"player_3_account_id\":
+        79649171,\n\t\t\t\t\"player_4_account_id\": 103936935,\n\t\t\t\t\"admin_account_id\":
+        49943788\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 218,\n\t\t\t\t\"name\":
+        \"WeAreBoatMen\",\n\t\t\t\t\"tag\": \"Boats\",\n\t\t\t\t\"time_created\":
+        1349397269,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 578969164280207216,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"io\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 44395469,\n\t\t\t\t\"player_1_account_id\":
+        50224487,\n\t\t\t\t\"player_2_account_id\": 78888343,\n\t\t\t\t\"player_3_account_id\":
+        81693466,\n\t\t\t\t\"player_4_account_id\": 91469651,\n\t\t\t\t\"admin_account_id\":
+        50224487\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 219,\n\t\t\t\t\"name\":
+        \"Team #Y0L0\",\n\t\t\t\t\"tag\": \"YOLO\",\n\t\t\t\t\"time_created\": 1349397270,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 937005334645874233,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 67411448,\n\t\t\t\t\"admin_account_id\":
+        67411448\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 224,\n\t\t\t\t\"name\":
+        \"FastForward\",\n\t\t\t\t\"tag\": \"[>>]\",\n\t\t\t\t\"time_created\": 1349397291,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 576717364480553336,\n\t\t\t\t\"logo_sponsor\":
+        576717364480555035,\n\t\t\t\t\"country_code\": \"aq\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 4958944,\n\t\t\t\t\"player_1_account_id\":
+        8676303,\n\t\t\t\t\"admin_account_id\": 4958944\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        226,\n\t\t\t\t\"name\": \"Watermelon Space Jam\",\n\t\t\t\t\"tag\": \"WSJ\",\n\t\t\t\t\"time_created\":
+        1349397301,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 594731762967571608,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 36028888,\n\t\t\t\t\"player_1_account_id\":
+        42010729,\n\t\t\t\t\"player_2_account_id\": 95890828,\n\t\t\t\t\"player_3_account_id\":
+        100534308,\n\t\t\t\t\"admin_account_id\": 42010729\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        228,\n\t\t\t\t\"name\": \"Fire in the Eye\",\n\t\t\t\t\"tag\": \"FITE\",\n\t\t\t\t\"time_created\":
+        1349397307,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 867219482960145839,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"de\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 20039883,\n\t\t\t\t\"player_1_account_id\":
+        20640424,\n\t\t\t\t\"player_2_account_id\": 20645874,\n\t\t\t\t\"player_3_account_id\":
+        23971712,\n\t\t\t\t\"player_4_account_id\": 50045551,\n\t\t\t\t\"player_5_account_id\":
+        113812643,\n\t\t\t\t\"admin_account_id\": 20645874\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        231,\n\t\t\t\t\"name\": \"Ignition\",\n\t\t\t\t\"tag\": \"Ign\",\n\t\t\t\t\"time_created\":
+        1349397312,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 542940367258005663,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"ar\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 86742547,\n\t\t\t\t\"player_1_account_id\":
+        86772274,\n\t\t\t\t\"player_2_account_id\": 96183496,\n\t\t\t\t\"player_3_account_id\":
+        108974214,\n\t\t\t\t\"player_4_account_id\": 124357978,\n\t\t\t\t\"admin_account_id\":
+        86772274\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 232,\n\t\t\t\t\"name\":
+        \"The Goatmen\",\n\t\t\t\t\"tag\": \"GOAT\",\n\t\t\t\t\"time_created\": 1349397314,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 920116836069163413,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"penisboobs\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 17570543,\n\t\t\t\t\"admin_account_id\":
+        17570543\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 233,\n\t\t\t\t\"name\":
+        \"The Moon Parliament\",\n\t\t\t\t\"tag\": \"TMP\",\n\t\t\t\t\"time_created\":
+        1349397322,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 921242735951809405,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 16300127,\n\t\t\t\t\"player_1_account_id\":
+        17363514,\n\t\t\t\t\"player_2_account_id\": 24367665,\n\t\t\t\t\"player_3_account_id\":
+        29125024,\n\t\t\t\t\"player_4_account_id\": 30115023,\n\t\t\t\t\"admin_account_id\":
+        24367665\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 236,\n\t\t\t\t\"name\":
+        \"Squadron51\",\n\t\t\t\t\"tag\": \"S51\",\n\t\t\t\t\"time_created\": 1349397334,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 902102437535447541,\n\t\t\t\t\"logo_sponsor\":
+        902102437535449195,\n\t\t\t\t\"country_code\": \"pl\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 39830079,\n\t\t\t\t\"player_1_account_id\":
+        48218441,\n\t\t\t\t\"player_2_account_id\": 93852500,\n\t\t\t\t\"admin_account_id\":
+        39830079\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 240,\n\t\t\t\t\"name\":
+        \"No One Lives Forever\",\n\t\t\t\t\"tag\": \"Nolf\",\n\t\t\t\t\"time_created\":
+        1349397350,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 596983562798957477,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 25901309,\n\t\t\t\t\"player_1_account_id\":
+        30380103,\n\t\t\t\t\"player_2_account_id\": 47493723,\n\t\t\t\t\"player_3_account_id\":
+        50753199,\n\t\t\t\t\"player_4_account_id\": 86762858,\n\t\t\t\t\"admin_account_id\":
+        47493723\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 243,\n\t\t\t\t\"name\":
+        \"Team USA\",\n\t\t\t\t\"tag\": \"USA\",\n\t\t\t\t\"time_created\": 1349397356,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 9448757,\n\t\t\t\t\"player_1_account_id\":
+        17499043,\n\t\t\t\t\"player_2_account_id\": 17967757,\n\t\t\t\t\"player_3_account_id\":
+        49870957,\n\t\t\t\t\"player_4_account_id\": 70666939,\n\t\t\t\t\"admin_account_id\":
+        17967757\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 246,\n\t\t\t\t\"name\":
+        \"Millenium\",\n\t\t\t\t\"tag\": \"[M]\",\n\t\t\t\t\"time_created\": 1349397364,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 1136289618159211721,\n\t\t\t\t\"logo_sponsor\":
+        1117160762467777259,\n\t\t\t\t\"country_code\": \"fr\",\n\t\t\t\t\"url\":
+        \"\",\n\t\t\t\t\"games_played_with_current_roster\": 0,\n\t\t\t\t\"player_0_account_id\":
+        111086272,\n\t\t\t\t\"admin_account_id\": 111086272\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        247,\n\t\t\t\t\"name\": \"Mortal Kombat\",\n\t\t\t\t\"tag\": \"MK\",\n\t\t\t\t\"time_created\":
+        1349397364,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 101081104,\n\t\t\t\t\"player_1_account_id\":
+        101799422,\n\t\t\t\t\"admin_account_id\": 101799422\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        255,\n\t\t\t\t\"name\": \"Flying Panda\",\n\t\t\t\t\"tag\": \"FP\",\n\t\t\t\t\"time_created\":
+        1349397388,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 918990936154032295,\n\t\t\t\t\"logo_sponsor\":
+        918990936154032509,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 67692050,\n\t\t\t\t\"player_1_account_id\":
+        72055259,\n\t\t\t\t\"player_2_account_id\": 78241736,\n\t\t\t\t\"player_3_account_id\":
+        86759475,\n\t\t\t\t\"player_4_account_id\": 114078214,\n\t\t\t\t\"admin_account_id\":
+        78241736\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 258,\n\t\t\t\t\"name\":
+        \"TribunaL\",\n\t\t\t\t\"tag\": \"TribunaL\",\n\t\t\t\t\"time_created\": 1349397394,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 565518537757292051,\n\t\t\t\t\"logo_sponsor\":
+        920116836091593033,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 33277250,\n\t\t\t\t\"player_1_account_id\":
+        68171831,\n\t\t\t\t\"admin_account_id\": 68171831,\n\t\t\t\t\"league_id_0\":
+        1667\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 259,\n\t\t\t\t\"name\": \"Mundane\",\n\t\t\t\t\"tag\":
+        \"Mundane\",\n\t\t\t\t\"time_created\": 1349397396,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\":
+        596987479945559386,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"cx\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 29989995,\n\t\t\t\t\"player_1_account_id\":
+        42062111,\n\t\t\t\t\"player_2_account_id\": 49436866,\n\t\t\t\t\"player_3_account_id\":
+        85763330,\n\t\t\t\t\"admin_account_id\": 85763330\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        263,\n\t\t\t\t\"name\": \"Team bacon\",\n\t\t\t\t\"tag\": \"TB\",\n\t\t\t\t\"time_created\":
+        1349397407,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 921252182228128756,\n\t\t\t\t\"logo_sponsor\":
+        921252182228133994,\n\t\t\t\t\"country_code\": \"se\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 59136376,\n\t\t\t\t\"player_1_account_id\":
+        72517144,\n\t\t\t\t\"admin_account_id\": 56605723\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        270,\n\t\t\t\t\"name\": \"Cutie Pie Club\",\n\t\t\t\t\"tag\": \"cPc~\",\n\t\t\t\t\"time_created\":
+        1349397419,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 578969164280219850,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"ca\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 18026097,\n\t\t\t\t\"player_1_account_id\":
+        74425032,\n\t\t\t\t\"admin_account_id\": 18026097\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        271,\n\t\t\t\t\"name\": \"NEXPTIME\",\n\t\t\t\t\"tag\": \"NEXPT\",\n\t\t\t\t\"time_created\":
+        1349397419,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 594731762967203343,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 39871933,\n\t\t\t\t\"player_1_account_id\":
+        78926395,\n\t\t\t\t\"player_2_account_id\": 91857543,\n\t\t\t\t\"player_3_account_id\":
+        92044300,\n\t\t\t\t\"player_4_account_id\": 94241337,\n\t\t\t\t\"admin_account_id\":
+        78926395\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 287,\n\t\t\t\t\"name\":
+        \"Macropyre\",\n\t\t\t\t\"tag\": \"MP\",\n\t\t\t\t\"time_created\": 1349397453,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 542940367257693128,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"ax\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 129147,\n\t\t\t\t\"player_1_account_id\":
+        65292909,\n\t\t\t\t\"player_2_account_id\": 86451077,\n\t\t\t\t\"player_3_account_id\":
+        86740892,\n\t\t\t\t\"admin_account_id\": 129147\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        289,\n\t\t\t\t\"name\": \"The Fighting Mongooses\",\n\t\t\t\t\"tag\": \"TFM\",\n\t\t\t\t\"time_created\":
+        1349397457,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 937005334645576844,\n\t\t\t\t\"logo_sponsor\":
+        937005334645578278,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 4755662,\n\t\t\t\t\"player_1_account_id\":
+        4800191,\n\t\t\t\t\"player_2_account_id\": 6578845,\n\t\t\t\t\"player_3_account_id\":
+        36544626,\n\t\t\t\t\"admin_account_id\": 4800191\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        290,\n\t\t\t\t\"name\": \"All Pick Easy Mode\",\n\t\t\t\t\"tag\": \"APEM\",\n\t\t\t\t\"time_created\":
+        1349397457,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 594733216756775995,\n\t\t\t\t\"logo_sponsor\":
+        594733216756855887,\n\t\t\t\t\"country_code\": \"ca\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 10656351,\n\t\t\t\t\"player_1_account_id\":
+        24281454,\n\t\t\t\t\"player_2_account_id\": 33688685,\n\t\t\t\t\"player_3_account_id\":
+        75955090,\n\t\t\t\t\"admin_account_id\": 33688685\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        293,\n\t\t\t\t\"name\": \"Bad Players\",\n\t\t\t\t\"tag\": \"BAD\",\n\t\t\t\t\"time_created\":
+        1349397465,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 559850022897662897,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 418795,\n\t\t\t\t\"player_1_account_id\":
+        8978796,\n\t\t\t\t\"player_2_account_id\": 10151067,\n\t\t\t\t\"player_3_account_id\":
+        19928492,\n\t\t\t\t\"player_4_account_id\": 29691841,\n\t\t\t\t\"player_5_account_id\":
+        36518094,\n\t\t\t\t\"admin_account_id\": 19928492\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        294,\n\t\t\t\t\"name\": \"UNC\",\n\t\t\t\t\"tag\": \"UNC\",\n\t\t\t\t\"time_created\":
+        1349397466,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 594731763001968823,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 73815105,\n\t\t\t\t\"player_1_account_id\":
+        80843276,\n\t\t\t\t\"player_2_account_id\": 90456857,\n\t\t\t\t\"admin_account_id\":
+        73815105\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 296,\n\t\t\t\t\"name\":
+        \"Fun Asian Guys\",\n\t\t\t\t\"tag\": \"FAG\",\n\t\t\t\t\"time_created\":
+        1349397468,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 1136289618158715084,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 83939317,\n\t\t\t\t\"player_1_account_id\":
+        83940085,\n\t\t\t\t\"player_2_account_id\": 86735565,\n\t\t\t\t\"player_3_account_id\":
+        102903339,\n\t\t\t\t\"player_4_account_id\": 111104010,\n\t\t\t\t\"admin_account_id\":
+        83940085\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 299,\n\t\t\t\t\"name\":
+        \"Cafe News Team\",\n\t\t\t\t\"tag\": \"Cafe\",\n\t\t\t\t\"time_created\":
+        1349397470,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 615022166459696801,\n\t\t\t\t\"logo_sponsor\":
+        615022166459697582,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"http://cafeofbrokendreams.com\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 11331272,\n\t\t\t\t\"player_1_account_id\":
+        34046132,\n\t\t\t\t\"player_2_account_id\": 40071707,\n\t\t\t\t\"player_3_account_id\":
+        45996281,\n\t\t\t\t\"player_4_account_id\": 62078506,\n\t\t\t\t\"admin_account_id\":
+        45996281\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 302,\n\t\t\t\t\"name\":
+        \"Inbreed\",\n\t\t\t\t\"tag\": \"Inbreed\",\n\t\t\t\t\"time_created\": 1349397473,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 578969164280218952,\n\t\t\t\t\"logo_sponsor\":
+        576735140859663915,\n\t\t\t\t\"country_code\": \"az\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 1328641,\n\t\t\t\t\"player_1_account_id\":
+        2039100,\n\t\t\t\t\"player_2_account_id\": 18234328,\n\t\t\t\t\"player_3_account_id\":
+        29538153,\n\t\t\t\t\"player_4_account_id\": 31262192,\n\t\t\t\t\"player_5_account_id\":
+        33223439,\n\t\t\t\t\"admin_account_id\": 33223439\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        303,\n\t\t\t\t\"name\": \"peaceful skeleton realm\",\n\t\t\t\t\"tag\": \"BONER\",\n\t\t\t\t\"time_created\":
+        1349397474,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 939257134464371751,\n\t\t\t\t\"logo_sponsor\":
+        939257134464372997,\n\t\t\t\t\"country_code\": \"mk\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 8166475,\n\t\t\t\t\"player_1_account_id\":
+        11031068,\n\t\t\t\t\"player_2_account_id\": 11207712,\n\t\t\t\t\"player_3_account_id\":
+        22349847,\n\t\t\t\t\"admin_account_id\": 11207712\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        304,\n\t\t\t\t\"name\": \"Rapecraft\",\n\t\t\t\t\"tag\": \"RC\",\n\t\t\t\t\"time_created\":
+        1349397474,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 612773448399694463,\n\t\t\t\t\"logo_sponsor\":
+        612773448399685269,\n\t\t\t\t\"country_code\": \"fi\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 1605140,\n\t\t\t\t\"player_1_account_id\":
+        9779514,\n\t\t\t\t\"player_2_account_id\": 34504767,\n\t\t\t\t\"player_3_account_id\":
+        47476887,\n\t\t\t\t\"player_4_account_id\": 78873398,\n\t\t\t\t\"admin_account_id\":
+        34504767\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 305,\n\t\t\t\t\"name\":
+        \"Buff Dudes United\",\n\t\t\t\t\"tag\": \"BDU\",\n\t\t\t\t\"time_created\":
+        1349397475,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 576717364456590131,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 22579290,\n\t\t\t\t\"player_1_account_id\":
+        29403910,\n\t\t\t\t\"player_2_account_id\": 39894036,\n\t\t\t\t\"player_3_account_id\":
+        40405349,\n\t\t\t\t\"player_4_account_id\": 84189500,\n\t\t\t\t\"admin_account_id\":
+        53042537\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 308,\n\t\t\t\t\"name\":
+        \"As Baller As Possible\",\n\t\t\t\t\"tag\": \"ABAP\",\n\t\t\t\t\"time_created\":
+        1349397479,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"td\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 20803645,\n\t\t\t\t\"player_1_account_id\":
+        26375433,\n\t\t\t\t\"player_2_account_id\": 27855536,\n\t\t\t\t\"player_3_account_id\":
+        49574683,\n\t\t\t\t\"player_4_account_id\": 84101234,\n\t\t\t\t\"admin_account_id\":
+        27855536\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 315,\n\t\t\t\t\"name\":
+        \"Mind Power\",\n\t\t\t\t\"tag\": \"mindP\",\n\t\t\t\t\"time_created\": 1349397494,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 541814467372213681,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"br\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 26341624,\n\t\t\t\t\"player_1_account_id\":
+        48930384,\n\t\t\t\t\"player_2_account_id\": 66193978,\n\t\t\t\t\"player_3_account_id\":
+        66216069,\n\t\t\t\t\"player_4_account_id\": 83965485,\n\t\t\t\t\"admin_account_id\":
+        66193978\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 317,\n\t\t\t\t\"name\":
+        \"Regards\",\n\t\t\t\t\"tag\": \"RGDS\",\n\t\t\t\t\"time_created\": 1349397495,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 596983562786948383,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"br\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 25588776,\n\t\t\t\t\"player_1_account_id\":
+        41468289,\n\t\t\t\t\"player_2_account_id\": 49959615,\n\t\t\t\t\"player_3_account_id\":
+        78706064,\n\t\t\t\t\"player_4_account_id\": 83649318,\n\t\t\t\t\"admin_account_id\":
+        25588776\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 319,\n\t\t\t\t\"name\":
+        \"Jefferbads\",\n\t\t\t\t\"tag\": \"J-bads\",\n\t\t\t\t\"time_created\": 1349397503,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 1135165172027241739,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 46142888,\n\t\t\t\t\"player_1_account_id\":
+        70937173,\n\t\t\t\t\"player_2_account_id\": 72815976,\n\t\t\t\t\"player_3_account_id\":
+        73569929,\n\t\t\t\t\"player_4_account_id\": 84755590,\n\t\t\t\t\"player_5_account_id\":
+        85350008,\n\t\t\t\t\"admin_account_id\": 85350008\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        324,\n\t\t\t\t\"name\": \"The Fail Train\",\n\t\t\t\t\"tag\": \"CHOO\",\n\t\t\t\t\"time_created\":
+        1349397511,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 597009398803331170,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"us\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 35047363,\n\t\t\t\t\"player_1_account_id\":
+        55897135,\n\t\t\t\t\"player_2_account_id\": 57876911,\n\t\t\t\t\"player_3_account_id\":
+        65818997,\n\t\t\t\t\"player_4_account_id\": 75399688,\n\t\t\t\t\"admin_account_id\":
+        55897135\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 326,\n\t\t\t\t\"name\":
+        \"Blame it on Lag\",\n\t\t\t\t\"tag\": \"BioL\",\n\t\t\t\t\"time_created\":
+        1349397513,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 6229563,\n\t\t\t\t\"player_1_account_id\":
+        38715218,\n\t\t\t\t\"player_2_account_id\": 42784298,\n\t\t\t\t\"player_3_account_id\":
+        123254026,\n\t\t\t\t\"admin_account_id\": 42784298\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        328,\n\t\t\t\t\"name\": \"Potato\",\n\t\t\t\t\"tag\": \"pot\",\n\t\t\t\t\"time_created\":
+        1349397515,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 60444121,\n\t\t\t\t\"admin_account_id\":
+        60444121\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 330,\n\t\t\t\t\"name\":
+        \"Moop\",\n\t\t\t\t\"tag\": \"Moop\",\n\t\t\t\t\"time_created\": 1349397520,\n\t\t\t\t\"rating\":
+        \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\": 0,\n\t\t\t\t\"country_code\":
+        \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 36545510,\n\t\t\t\t\"player_1_account_id\":
+        91376290,\n\t\t\t\t\"admin_account_id\": 36545510\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        335,\n\t\t\t\t\"name\": \"Team Lisp\",\n\t\t\t\t\"tag\": \"TL\",\n\t\t\t\t\"time_created\":
+        1349397523,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 0,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 28934366,\n\t\t\t\t\"player_1_account_id\":
+        33045145,\n\t\t\t\t\"player_2_account_id\": 34830396,\n\t\t\t\t\"player_3_account_id\":
+        43647691,\n\t\t\t\t\"player_4_account_id\": 44500023,\n\t\t\t\t\"player_5_account_id\":
+        89634901,\n\t\t\t\t\"admin_account_id\": 44500023\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\":
+        336,\n\t\t\t\t\"name\": \"Gnome Busters United\",\n\t\t\t\t\"tag\": \"GBU\",\n\t\t\t\t\"time_created\":
+        1349397528,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 918991495535603930,\n\t\t\t\t\"logo_sponsor\":
+        918991495535608826,\n\t\t\t\t\"country_code\": \"fr\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 19373067,\n\t\t\t\t\"player_1_account_id\":
+        20679935,\n\t\t\t\t\"player_2_account_id\": 43642639,\n\t\t\t\t\"player_3_account_id\":
+        52627644,\n\t\t\t\t\"player_4_account_id\": 87930974,\n\t\t\t\t\"admin_account_id\":
+        14389621\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"team_id\": 346,\n\t\t\t\t\"name\":
+        \"Black Eight Squadron\",\n\t\t\t\t\"tag\": \"BES\",\n\t\t\t\t\"time_created\":
+        1349397546,\n\t\t\t\t\"rating\": \"inactive\",\n\t\t\t\t\"logo\": 559828865908891842,\n\t\t\t\t\"logo_sponsor\":
+        0,\n\t\t\t\t\"country_code\": \"cz\",\n\t\t\t\t\"url\": \"\",\n\t\t\t\t\"games_played_with_current_roster\":
+        0,\n\t\t\t\t\"player_0_account_id\": 11043940,\n\t\t\t\t\"player_1_account_id\":
+        30375525,\n\t\t\t\t\"player_2_account_id\": 33030511,\n\t\t\t\t\"player_3_account_id\":
+        33672350,\n\t\t\t\t\"player_4_account_id\": 34713823,\n\t\t\t\t\"admin_account_id\":
+        34713823\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
+    http_version: 
+  recorded_at: Sun, 07 Dec 2014 15:37:05 GMT
+recorded_with: VCR 2.9.3

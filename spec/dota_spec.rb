@@ -43,7 +43,68 @@ describe Dota do
 
     describe "#matches" do
       context "given an id" do
-        it "returns a single match" do
+        it "returns a single team" do
+          VCR.use_cassette("GetTeamInfoByTeamID") do
+            team = api.teams(sample_team_id)
+            expect(team).to be_a Dota::API::Team
+          end
+        end
+      end
+
+      context "without args" do
+        it "returns a list of teams" do
+          VCR.use_cassette("GetTeamInfoByTeamID_many") do
+            teams = api.teams
+            expect(teams.count).to eq 100
+            expect(teams.first).to be_a Dota::API::Team
+          end
+        end
+      end
+
+      context "given a hash" do
+        accepted_params = {
+          after: :start_at_team_id,
+          limit: :teams_requested,
+        }
+        accepted_params.each do |local, remote|
+
+          specify ":#{local} should translate to :#{remote}" do
+            random_value = SecureRandom.hex
+            VCR.use_cassette("GetTeamInfoByTeamID") do
+              expect(api).to receive(:get).with("IDOTA2Match_570", "GetTeamInfoByTeamID", remote => random_value) { double.as_null_object }
+              teams = api.teams(local => random_value)
+            end
+          end
+        end
+      end
+    end
+
+    specify "#leagues" do
+      VCR.use_cassette("GetLeagueListing") do
+        league = api.leagues.first
+        expect(league).to be_a Dota::API::League
+      end
+    end
+
+    specify "#cosmetic_rarities" do
+      VCR.use_cassette("GetRarities") do
+        rarities = api.cosmetic_rarities
+        expect(rarities.first).to be_a Dota::API::Cosmetic::Rarity
+      end
+    end
+
+    describe "#friends" do
+      it "given a user id returns its friend list" do
+        VCR.use_cassette("GetFriendList") do
+          friends = api.friends(sample_user_id)
+          expect(friends.first).to be_a Dota::API::Friend
+        end
+      end
+    end
+
+    describe "#teams" do
+      context "given an id" do
+        it "returns a single team" do
           VCR.use_cassette("GetMatchDetails") do
             match = api.matches(sample_match_id)
             expect(match).to be_a Dota::API::Match
@@ -83,29 +144,6 @@ describe Dota do
               matches = api.matches(local => random_value)
             end
           end
-        end
-      end
-    end
-
-    specify "#leagues" do
-      VCR.use_cassette("GetLeagueListing") do
-        league = api.leagues.first
-        expect(league).to be_a Dota::API::League
-      end
-    end
-
-    specify "#cosmetic_rarities" do
-      VCR.use_cassette("GetRarities") do
-        rarities = api.cosmetic_rarities
-        expect(rarities.first).to be_a Dota::API::Cosmetic::Rarity
-      end
-    end
-
-    describe "#friends" do
-      it "given a user id returns its friend list" do
-        VCR.use_cassette("GetFriendList") do
-          friends = api.friends(sample_user_id)
-          expect(friends.first).to be_a Dota::API::Friend
         end
       end
     end
