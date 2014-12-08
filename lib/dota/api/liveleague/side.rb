@@ -27,10 +27,10 @@ module Dota
         end
       end
       class Radiant < Side
-
+        #sometimes this doesn't exist
       end
       class Dire < Side   
-
+        #sometimes this doesn't exist
       end 
     end    
   end
