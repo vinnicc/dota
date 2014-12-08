@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.steampowered.com/IEconDOTA2_570/GetRarities/V001/?key=2FBBA83745F494FAE688AFB8463CD4FC&language=en
+    uri: https://api.steampowered.com/IEconDOTA2_570/GetRarities/V001/?key=<STEAM_API_KEY>&language=en
     body:
       encoding: US-ASCII
       string: ''
