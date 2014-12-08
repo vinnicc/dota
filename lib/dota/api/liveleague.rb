@@ -32,20 +32,20 @@ module Dota
       end
       #this is in seconds
 
-      def radiant_series_wins
+      def radiant_wins
         raw["radiant_series_wins"]
       end
 
-      def dire_series_wins
+      def dire_wins
         raw["dire_series_wins"]
       end
 
-      def radiant_team
-      
+      def radiant
+        Radiant.new(raw["radiant_team"])
       end
 
-      def dire_team
-
+      def dire
+        Dire.new(raw["dire_team"])
       end
 
       def series_type
@@ -67,6 +67,36 @@ module Dota
       def scoreboard
         Scoreboard.new(raw["scoreboard"])
       end
+    end 
+    class Side
+      include Utilities::Inspectable
+
+      attr_reader :raw
+
+      def initialize(raw)
+        @raw = raw
+      end
+
+      def name
+        raw["team_name"]
+      end
+
+      def id
+        raw["team_id"]
+      end
+
+      def logo
+        raw["team_logo"]
+      end
+
+      def compelete?
+        #raw["team_name"]
+      end
     end
+
+    class Radiant < Side
+    end
+    class Dire < Side     
+    end     
   end
 end
