@@ -1,6 +1,12 @@
 module Dota
   module API
     class LiveMatch
+      LEAGUE_TIER = {
+        1 => "amateur",
+        2 => "professional",
+        3 => "premier"
+      }
+
       include Utilities::Inspectable
 
       attr_reader :raw
@@ -30,7 +36,6 @@ module Dota
       def stream_delay_count
         raw["stream_delay_s"]
       end
-      #this is in seconds
 
       def radiant_wins
         raw["radiant_series_wins"]
@@ -51,12 +56,10 @@ module Dota
       def series_type
         raw["series_type"]
       end
-      # does this have any info about it?
 
       def league_tier
-        raw["league_tier"]
+        LEAGUE_TIER[raw["league_tier"]]
       end
-      #this should be something like pro, amateur, etc
 
       def players
         raw["players"].map do |raw_player|

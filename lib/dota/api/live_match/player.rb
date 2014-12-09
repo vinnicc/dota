@@ -2,13 +2,12 @@ module Dota
   module API
     class LiveMatch
       class Player
-
         TEAM = {
           0 => "Radiant",
           1 => "Dire",
           2 => "Broadcaster",
           4 => "Unassigned"
-          }.freeze
+        }.freeze
 
         include Utilities::Inspectable
 

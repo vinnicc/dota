@@ -242,19 +242,19 @@ friend.made_at      # Time, When the friend was added to the player's friend lis
 
 #### Live Matches
 ```ruby
-live_matches.id                   # Integer, id of match
-live_matches.lobby_id             # Integer, id of match
-live_matches.spectators_count     # Integer, Number of spectators
-live_matches.league_id            # [Dota::API::League]
-live_matches.stream_delay_count   # Integer, Number of seconds that the stream is behind actual game
+live_matches.id                   # Integer, Id of match
+live_matches.lobby_id             # Integer, Id of lobby
+live_matches.spectators_count     # Integer, Number of spectators watching on DotaTV
+live_matches.league_id            # Dota::API::League, League of live game
+live_matches.stream_delay_count   # Integer, Number of seconds that the stream is behind actual game time
 live_matches.radiant_series_wins  # Integer, Number of wins the radiant team has in the series
 live_matches.dire_series_wins     # Integer, Number of wins the dire team has in the series
-live_matches.radiant              # [Dota::API::LiveMatch::Side], Info about the team on the radiant side 
-live_matches.dire                 # [Dota::API::LiveMatch::Side], Info about the team on the dire side
-live_matches.series_type          # Integer, not sure yet!
-live_matches.league_tier          # Integer, not sure yet!
-live_matches.players              # [Dota::API::LiveMatch::Players], High level info about the players in the match (some info is redudant in scoreboard)
-live_matches.scoreboard             # Hash, A hash of the scoreboard (to be converted soon to a ruby object / integrated with our players object)
+live_matches.radiant              # Dota::API::LiveMatch::Side, Info about the team on the radiant side 
+live_matches.dire                 # Dota::API::LiveMatch::Side, Info about the team on the dire side
+live_matches.series_type          # Integer, Best of X series
+live_matches.league_tier          # String, What tier the match is 
+live_matches.players              # Array[Dota::API::LiveMatch::Players], High level info about the players in the match (some info is redudant in scoreboard)
+live_matches.scoreboard           # Hash, A hash of the scoreboard (to be converted soon to a object / integrated with our players class)
 ```
 
 ## Contributing
