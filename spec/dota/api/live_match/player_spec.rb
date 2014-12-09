@@ -8,8 +8,8 @@ describe Dota::API::LiveMatch::Player do
     end
   end
 
-  specify "#account_id" do
-    expect(player.account_id).to eq 34145091
+  specify "#id" do
+    expect(player.id).to eq 34145091
   end
 
   specify "#name" do

@@ -18,11 +18,11 @@ module Dota
           raw["team_id"]
         end
 
-        def logo
+        def logo_id
           raw["team_logo"]
         end
 
-        def complete
+        def complete?
           raw["complete"]
         end
       end

@@ -1,10 +1,10 @@
 module Dota
   module API
     class LiveMatch
-      LEAGUE_TIER = {
+      LEAGUE_TIERS = {
         1 => "amateur",
         2 => "professional",
-        3 => "premier"
+        3 => "premiere"
       }
 
       include Utilities::Inspectable
@@ -31,7 +31,7 @@ module Dota
         league_id = raw["league_id"]
       end
 
-      def stream_delay_count
+      def stream_delay
         raw["stream_delay_s"]
       end
 
@@ -56,7 +56,7 @@ module Dota
       end
 
       def league_tier
-        LEAGUE_TIER[raw["league_tier"]]
+        LEAGUE_TIERS[raw["league_tier"]]
       end
 
       def players

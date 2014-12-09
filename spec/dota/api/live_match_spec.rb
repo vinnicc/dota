@@ -22,8 +22,8 @@ describe Dota::API::LiveMatch do
     expect(live_match.league_id).to eq 2091
   end
 
-  specify "#stream_delay_count" do
-    expect(live_match.stream_delay_count).to eq 120
+  specify "#stream_delay" do
+    expect(live_match.stream_delay).to eq 120
   end
 
   specify "#radiant_wins" do

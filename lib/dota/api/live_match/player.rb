@@ -17,7 +17,7 @@ module Dota
           @raw = raw
         end
 
-        def account_id
+        def id
           raw["account_id"]
         end
 

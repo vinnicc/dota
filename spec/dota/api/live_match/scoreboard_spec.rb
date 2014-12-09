@@ -15,11 +15,11 @@ describe Dota::API::LiveMatch::Scoreboard do
     expect(scoreboard.roshan_timer).to eq 278
   end
 
-  #specify "#radiant"
-  #  expect(scoreboard.radiant).to eq { hash }
-  #end
+  xspecify "#radiant" do
+    expect(scoreboard.radiant).to eq 
+  end
 
-  #specify "#dire"
-  #  expect(scoreboard.dire).to eq { hash }
-  #end
+  xspecify "#dire" do
+    expect(scoreboard.dire).to eq
+  end
 end
