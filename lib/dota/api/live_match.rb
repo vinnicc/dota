@@ -4,7 +4,7 @@ module Dota
       LEAGUE_TIERS = {
         1 => "amateur",
         2 => "professional",
-        3 => "premiere"
+        3 => "premier"
       }
 
       include Utilities::Inspectable
