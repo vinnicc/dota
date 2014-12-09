@@ -1,3 +1,6 @@
+require 'dotenv'
+Dotenv.load
+
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
 require 'dota'
@@ -8,7 +11,7 @@ module SpecHelper
 
     @client = Dota::API::Client.new
     @client.configure do |config|
-      config.api_key = "2FBBA83745F494FAE688AFB8463CD4FC"
+      config.api_key = ENV.fetch("STEAM_API_KEY")
     end
     @client
   end
