@@ -21,6 +21,6 @@ describe Dota::API::LiveMatch::Player do
   end
 
   specify "#team" do
-    expect(player.team).to eq "Radiant"
+    expect(player.team).to eq :radiant
   end
 end

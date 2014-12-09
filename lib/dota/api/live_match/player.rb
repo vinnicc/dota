@@ -2,13 +2,6 @@ module Dota
   module API
     class LiveMatch
       class Player
-        TEAM = {
-          0 => "Radiant",
-          1 => "Dire",
-          2 => "Broadcaster",
-          4 => "Unassigned"
-        }.freeze
-
         include Utilities::Inspectable
 
         attr_reader :raw
@@ -30,7 +23,16 @@ module Dota
         end
 
         def team
-          TEAM[raw["team"]]
+          case raw["team"]
+          when 0
+            :radiant
+          when 1
+            :dire 
+          when 2 
+            "Broadcaster"
+          when 4
+            "Unassigned"
+          end
         end
       end
     end

@@ -79,6 +79,13 @@ describe Dota do
       end
     end
 
+    specify "#leagues" do
+      VCR.use_cassette("GetLeagueListing") do
+        league = api.leagues.first
+        expect(league).to be_a Dota::API::League
+      end
+    end
+
     specify "#live_matches" do
       VCR.use_cassette("GetLiveLeagueGames") do
         matches = api.live_matches

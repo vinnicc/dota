@@ -16,10 +16,10 @@ describe Dota::API::LiveMatch::Side do
   end
 
   specify "#logo" do
-    expect(side.logo).to eq 547513665869798854
+    expect(side.logo_id).to eq 547513665869798854
   end
 
   specify "#complete" do
-    expect(side.complete).to eq false
+    expect(side.complete?).to eq false
   end
 end
