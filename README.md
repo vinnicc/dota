@@ -12,6 +12,7 @@ Currently supported endpoints:
 - GetGameItems
 - [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 - [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
+- [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames) # scoreboard not fully functional
 
 Unsupported endpoints can still be queried via [custom requests](#custom-requests).
 
@@ -20,7 +21,6 @@ This gem is in alpha, keep that in mind when upgrading.
 ## TODO
 
 - Support for more endpoints
-  - [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
   - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
   - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
   - [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)

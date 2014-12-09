@@ -13,17 +13,19 @@ module Dota
         def duration
           raw["duration"]
         end
+
         def roshan_timer
           raw["roshan_respawn_timer"]
         end
+
         def radiant
-          raw["radiant"]
+          raw["radiant"] # this maps out much further. for now it'll act as a hash
         end
-          # this maps out much further. for now it'll act as a hash
+          
         def dire
-          raw["dire"]
+          raw["dire"] # this maps out much further. for now it'll act as a hash
         end
-          # this maps out much further. for now it'll act as a hash
+          
       end
     end
   end
