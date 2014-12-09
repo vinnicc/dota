@@ -254,7 +254,7 @@ live_matches.dire                 # [Dota::API::LiveMatch::Side], Info about the
 live_matches.series_type          # Integer, not sure yet!
 live_matches.league_tier          # Integer, not sure yet!
 live_matches.players              # [Dota::API::LiveMatch::Players], High level info about the players in the match (some info is redudant in scoreboard)
-live_matches.players              # Hash, A hash of the scoreboard (to be converted soon to a ruby object / integrated with our players object)
+live_matches.scoreboard             # Hash, A hash of the scoreboard (to be converted soon to a ruby object / integrated with our players object)
 ```
 
 ## Contributing
