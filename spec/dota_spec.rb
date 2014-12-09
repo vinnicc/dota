@@ -80,7 +80,7 @@ describe Dota do
     end
 
     specify "#live_matches" do
-      VCR.use_cassette("GetLeagueListing") do
+      VCR.use_cassette("GetLiveLeagueGames") do
         matches = api.live_matches
         expect(matches.first).to be_a Dota::API::LiveMatch
       end

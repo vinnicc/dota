@@ -8,11 +8,11 @@ describe Dota::API::LiveMatch::Scoreboard do
   end
 
   specify "#duration" do
-    expect(scoreboard.duration).to eq 2390
+    expect(scoreboard.duration).to eq 2840.2998046875
   end
 
   specify "#roshan_timer" do
-    expect(scoreboard.roshan_timer).to eq 145
+    expect(scoreboard.roshan_timer).to eq 278
   end
 
   #specify "#radiant"

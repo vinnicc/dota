@@ -7,19 +7,19 @@ describe Dota::API::LiveMatch do
   end
 
   specify "#id" do
-    expect(live_match.id).to eq 1079288808
+    expect(live_match.id).to eq 1080324763
   end
 
   specify "#lobby_id" do
-    expect(live_match.lobby_id).to eq 1079288808
+    expect(live_match.lobby_id).to eq 23791470898109516
   end
 
   specify "#spectators_count" do
-    expect(live_match.spectators_count).to eq 405
+    expect(live_match.spectators_count).to eq 58
   end
 
-  specify "#league" do
-    expect(live_match.league).to eq 1203
+  specify "#league_id" do
+    expect(live_match.league_id).to eq 2091
   end
 
   specify "#stream_delay_count" do
@@ -31,7 +31,7 @@ describe Dota::API::LiveMatch do
   end
 
   specify "#dire_wins" do
-    expect(live_match.dire_wins).to eq 2
+    expect(live_match.dire_wins).to eq 0
   end
 
   specify "#radiant" do
@@ -47,16 +47,16 @@ describe Dota::API::LiveMatch do
   end
 
   specify "#league_tier" do
-    expect(live_match.league_tier).to eq 1
+    expect(live_match.league_tier).to eq "amateur"
   end
 
   specify "#players" do
     players = live_match.players
-    expect(players.count).to eq 10
-    expect(live_match.first).to be_a Dota::API::LiveMatch::Player
+    expect(players.count).to eq 11
+    expect(players.first).to be_a Dota::API::LiveMatch::Player
   end
 
   specify "#scoreboard" do
-    expect(live_match.scoreboard).to be_a Dota::API::Match::Draft
+    expect(live_match.scoreboard).to be_a Dota::API::LiveMatch::Scoreboard
   end
 end

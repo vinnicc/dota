@@ -27,10 +27,8 @@ module Dota
         raw["spectators"]
       end
 
-      def league
+      def league_id
         league_id = raw["league_id"]
-        leagues = Dota.api.leagues
-        leagues.detect { |league| league.id == league_id }
       end
 
       def stream_delay_count

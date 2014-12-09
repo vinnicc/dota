@@ -8,18 +8,18 @@ describe Dota::API::LiveMatch::Side do
   end
 
   specify "#name" do
-    expect(side.name).to eq "name"
+    expect(side.name).to eq "Haunti Gaming"
   end
 
   specify "#id" do
-    expect(side.id).to eq 32909055
+    expect(side.id).to eq 1846074
   end
 
   specify "#logo" do
-    expect(side.logo).to eq 249209059
+    expect(side.logo).to eq 547513665869798854
   end
 
   specify "#complete" do
-    expect(side.logo).to eq true
+    expect(side.complete).to eq false
   end
 end

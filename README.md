@@ -245,7 +245,7 @@ friend.made_at      # Time, When the friend was added to the player's friend lis
 live_matches.id                   # Integer, Id of match
 live_matches.lobby_id             # Integer, Id of lobby
 live_matches.spectators_count     # Integer, Number of spectators watching on DotaTV
-live_matches.league_id            # Dota::API::League, League of live game
+live_matches.league_id            # Integer, Id of league 
 live_matches.stream_delay_count   # Integer, Number of seconds that the stream is behind actual game time
 live_matches.radiant_series_wins  # Integer, Number of wins the radiant team has in the series
 live_matches.dire_series_wins     # Integer, Number of wins the dire team has in the series

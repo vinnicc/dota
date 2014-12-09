@@ -9,11 +9,11 @@ describe Dota::API::LiveMatch::Player do
   end
 
   specify "#account_id" do
-    expect(player.account_id).to eq 249029055
+    expect(player.account_id).to eq 34145091
   end
 
   specify "#name" do
-    expect(player.name).to eq "SingSing"
+    expect(player.name).to eq "Lunar Gato @ CSPL.ru"
   end
 
   specify "#hero" do
@@ -21,6 +21,6 @@ describe Dota::API::LiveMatch::Player do
   end
 
   specify "#team" do
-    expect(player.team).to eq 1
+    expect(player.team).to eq "Radiant"
   end
 end
