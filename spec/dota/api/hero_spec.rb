@@ -8,7 +8,7 @@ describe Dota::API::Hero do
   specify ".all" do
     heroes = described_class.all
     expect(heroes.first).to be_a described_class
-    expect(heroes.count).to eq 108
+    expect(heroes.count).to eq 109
   end
 
   specify "#id" do

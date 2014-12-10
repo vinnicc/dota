@@ -109,7 +109,8 @@ module Dota
         106 => ["ember_spirit", "Ember Spirit"],
         107 => ["earth_spirit", "Earth Spirit"],
         109 => ["terrorblade", "Terrorblade"],
-        110 => ["phoenix", "Phoenix"]
+        110 => ["phoenix", "Phoenix"],
+        111 => ["oracle", "Oracle"]
       }.freeze
 
       attr_reader :id, :name
