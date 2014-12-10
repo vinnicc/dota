@@ -1,12 +1,6 @@
 module Dota
   module API
     class LiveMatch
-      LEAGUE_TIERS = {
-        1 => "Amateur",
-        2 => "Professional",
-        3 => "Premier"
-      }
-
       include Utilities::Inspectable
 
       attr_reader :raw
@@ -56,7 +50,7 @@ module Dota
       end
 
       def league_tier
-        LEAGUE_TIERS[raw["league_tier"]]
+        League::TIERS[raw["league_tier"]]
       end
 
       def players

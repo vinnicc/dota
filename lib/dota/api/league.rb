@@ -1,6 +1,12 @@
 module Dota
   module API
     class League
+      TIERS = {
+        1 => "Amateur",
+        2 => "Professional",
+        3 => "Premier"
+      }
+
       include Utilities::Inspectable
 
       attr_reader :raw
