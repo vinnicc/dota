@@ -2,9 +2,9 @@ module Dota
   module API
     class LiveMatch
       LEAGUE_TIERS = {
-        1 => "amateur",
-        2 => "professional",
-        3 => "premier"
+        1 => "Amateur",
+        2 => "Professional",
+        3 => "Premier"
       }
 
       include Utilities::Inspectable
@@ -28,7 +28,7 @@ module Dota
       end
 
       def league_id
-        league_id = raw["league_id"]
+        raw["league_id"]
       end
 
       def stream_delay
@@ -49,7 +49,7 @@ module Dota
 
       def dire
         Side.new(raw["dire_team"])
-      end 
+      end
 
       def series_type
         raw["series_type"]
@@ -68,6 +68,6 @@ module Dota
       def scoreboard
         Scoreboard.new(raw["scoreboard"])
       end
-    end     
+    end
   end
 end

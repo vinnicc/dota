@@ -47,7 +47,7 @@ describe Dota::API::LiveMatch do
   end
 
   specify "#league_tier" do
-    expect(live_match.league_tier).to eq "amateur"
+    expect(live_match.league_tier).to eq "Amateur"
   end
 
   specify "#players" do

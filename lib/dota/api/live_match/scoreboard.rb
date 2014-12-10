@@ -21,11 +21,10 @@ module Dota
         def radiant
           raw["radiant"] # this maps out much further. for now it'll act as a hash
         end
-          
+
         def dire
           raw["dire"] # this maps out much further. for now it'll act as a hash
         end
-          
       end
     end
   end

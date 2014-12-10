@@ -12,7 +12,7 @@ Currently supported endpoints:
 - GetGameItems
 - [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 - [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
-- [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames) # scoreboard not fully functional
+- [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
 
 Unsupported endpoints can still be queried via [custom requests](#custom-requests).
 
@@ -93,6 +93,8 @@ api.matches(hero_id: 43)       #    Allowed options:
                                #    :min_players - Integer, With at least this number of players
                                #    :league_only - Boolean, Only league matches
                                #    :limit       - Integer, Amount of matches to return (default is 100)
+
+api.live_matches               # => A list of live matches
 
 api.friends(76561198052976237) # => All friends of user
 ```
@@ -226,7 +228,7 @@ draft.hero  # Dota::API::Hero, Picked or banned hero
 #### Cosmetic Rarities
 
 ```ruby
-rarity.id    # Integer, ID of rarity, used for indexing
+rarity.id    # Integer, ID of the rarity, used for indexing
 rarity.order # Integer, Sorting and logical order, from most distributed to least
 rarity.name  # String, Localized display name
 rarity.color # String, The hexadecimal RGB tuple
@@ -242,19 +244,19 @@ friend.made_at      # Time, When the friend was added to the player's friend lis
 
 #### Live Matches
 ```ruby
-live_matches.id                   # Integer, Id of match
-live_matches.lobby_id             # Integer, Id of lobby
+live_matches.id                   # Integer, ID of the match
+live_matches.lobby_id             # Integer, ID of the lobby
 live_matches.spectators_count     # Integer, Number of spectators watching on DotaTV
-live_matches.league_id            # Integer, Id of league 
-live_matches.stream_delay_count   # Integer, Number of seconds that the stream is behind actual game time
-live_matches.radiant_series_wins  # Integer, Number of wins the radiant team has in the series
-live_matches.dire_series_wins     # Integer, Number of wins the dire team has in the series
-live_matches.radiant              # Dota::API::LiveMatch::Side, Info about the team on the radiant side 
-live_matches.dire                 # Dota::API::LiveMatch::Side, Info about the team on the dire side
+live_matches.league_id            # Integer, ID of the league
+live_matches.stream_delay         # Integer, Number of seconds the stream is behind actual game time
+live_matches.radiant_series_wins  # Integer, Number of wins the Radiant team has in the series
+live_matches.dire_series_wins     # Integer, Number of wins the Dire team has in the series
+live_matches.radiant              # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
+live_matches.dire                 # Dota::API::LiveMatch::Side, Info about the team on the Dire side
 live_matches.series_type          # Integer, Best of X series
-live_matches.league_tier          # String, What tier the match is 
-live_matches.players              # Array[Dota::API::LiveMatch::Players], High level info about the players in the match (some info is redudant in scoreboard)
-live_matches.scoreboard           # Hash, A hash of the scoreboard (to be converted soon to a object / integrated with our players class)
+live_matches.league_tier          # String, What tier the match's league is
+live_matches.players              # Array[Dota::API::LiveMatch::Players], High level info about the players in the match (some redundant info in scoreboard)
+live_matches.scoreboard           # Hash, Details of the scoreboard (to be converted soon to an object and/or integrated with our players class)
 ```
 
 ## Contributing

@@ -26,6 +26,6 @@ module Dota
           raw["complete"]
         end
       end
-    end    
+    end
   end
 end

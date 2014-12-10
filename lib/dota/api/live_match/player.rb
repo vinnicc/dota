@@ -27,11 +27,11 @@ module Dota
           when 0
             :radiant
           when 1
-            :dire 
-          when 2 
-            "Broadcaster"
+            :dire
+          when 2
+            :broadcaster
           when 4
-            "Unassigned"
+            :unassigned
           end
         end
       end
