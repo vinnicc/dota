@@ -86,6 +86,13 @@ describe Dota do
       end
     end
 
+    specify "#live_matches" do
+      VCR.use_cassette("GetLiveLeagueGames") do
+        matches = api.live_matches
+        expect(matches.first).to be_a Dota::API::LiveMatch
+      end
+    end
+
     specify "#cosmetic_rarities" do
       VCR.use_cassette("GetRarities") do
         rarities = api.cosmetic_rarities

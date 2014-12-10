@@ -1,0 +1,1336 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetLiveLeagueGames/V001/?key=<STEAM_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Last-Modified:
+      - Tue, 09 Dec 2014 16:05:57 GMT
+      Date:
+      - Tue, 09 Dec 2014 16:05:57 GMT
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '15569'
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Cache-Control:
+      - no-cache,must-revalidate
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"result\": {\n\t\t\"games\": [\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 34145091,\n\t\t\t\t\t\t\"name\":
+        \"Lunar Gato @ CSPL.ru\",\n\t\t\t\t\t\t\"hero_id\": 84,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 131905004,\n\t\t\t\t\t\t\"name\":
+        \"Patrikeich\",\n\t\t\t\t\t\t\"hero_id\": 16,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        202776263,\n\t\t\t\t\t\t\"name\": \"Ibrik\",\n\t\t\t\t\t\t\"hero_id\": 86,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 110981154,\n\t\t\t\t\t\t\"name\":
+        \"AaA.Kana\",\n\t\t\t\t\t\t\"hero_id\": 9,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        117203343,\n\t\t\t\t\t\t\"name\": \"HG Meangreen\",\n\t\t\t\t\t\t\"hero_id\":
+        101,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        129303544,\n\t\t\t\t\t\t\"name\": \"RazeKR14 * CSPL.ru\",\n\t\t\t\t\t\t\"hero_id\":
+        7,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        206063660,\n\t\t\t\t\t\t\"name\": \"[B.v.D]PADLA V DELE\",\n\t\t\t\t\t\t\"hero_id\":
+        62,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        178689390,\n\t\t\t\t\t\t\"name\": \"negativ\",\n\t\t\t\t\t\t\"hero_id\": 47,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 147613914,\n\t\t\t\t\t\t\"name\":
+        \"[M]avelick\",\n\t\t\t\t\t\t\"hero_id\": 42,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        119723554,\n\t\t\t\t\t\t\"name\": \"Won538ez___(int)^\",\n\t\t\t\t\t\t\"hero_id\":
+        94,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        23793799,\n\t\t\t\t\t\t\"name\": \"twitch.tv/stery0\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\":
+        {\n\t\t\t\t\t\"team_name\": \"ReallyCoolGuys\",\n\t\t\t\t\t\"team_id\": 1677303,\n\t\t\t\t\t\"team_logo\":
+        29595255080842763,\n\t\t\t\t\t\"complete\": false\n\t\t\t\t},\n\t\t\t\t\"dire_team\":
+        {\n\t\t\t\t\t\"team_name\": \"Haunti Gaming\",\n\t\t\t\t\t\"team_id\": 1846074,\n\t\t\t\t\t\"team_logo\":
+        547513665869798854,\n\t\t\t\t\t\"complete\": false\n\t\t\t\t},\n\t\t\t\t\"lobby_id\":
+        23791470898109516,\n\t\t\t\t\"match_id\": 1080324763,\n\t\t\t\t\"spectators\":
+        58,\n\t\t\t\t\"league_id\": 2091,\n\t\t\t\t\"stream_delay_s\": 120,\n\t\t\t\t\"radiant_series_wins\":
+        0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\": 0,\n\t\t\t\t\"league_tier\":
+        1,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\": 2840.2998046875,\n\t\t\t\t\t\"roshan_respawn_timer\":
+        278,\n\t\t\t\t\t\"radiant\": {\n\t\t\t\t\t\t\"score\": 42,\n\t\t\t\t\t\t\"tower_state\":
+        1540,\n\t\t\t\t\t\t\"barracks_state\": 3,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        84\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 86\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        47\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 42\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        62\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        43\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 75\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        96\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 76\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        202776263,\n\t\t\t\t\t\t\t\t\"hero_id\": 86,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\":
+        13,\n\t\t\t\t\t\t\t\t\"assists\": 23,\n\t\t\t\t\t\t\t\t\"last_hits\": 86,\n\t\t\t\t\t\t\t\t\"denies\":
+        7,\n\t\t\t\t\t\t\t\t\"gold\": 1904,\n\t\t\t\t\t\t\t\t\"level\": 19,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        318,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 405,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        1,\n\t\t\t\t\t\t\t\t\"item1\": 92,\n\t\t\t\t\t\t\t\t\"item2\": 46,\n\t\t\t\t\t\t\t\t\"item3\":
+        60,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 180,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": -4383.83740234375,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -4267.72509765625,\n\t\t\t\t\t\t\t\t\"net_worth\": 7779\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 178689390,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        47,\n\t\t\t\t\t\t\t\t\"kills\": 2,\n\t\t\t\t\t\t\t\t\"death\": 21,\n\t\t\t\t\t\t\t\t\"assists\":
+        17,\n\t\t\t\t\t\t\t\t\"last_hits\": 58,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        777,\n\t\t\t\t\t\t\t\t\"level\": 14,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 241,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        236,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 152,\n\t\t\t\t\t\t\t\t\"item1\": 44,\n\t\t\t\t\t\t\t\t\"item2\":
+        170,\n\t\t\t\t\t\t\t\t\"item3\": 75,\n\t\t\t\t\t\t\t\t\"item4\": 29,\n\t\t\t\t\t\t\t\t\"item5\":
+        61,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -5438.2216796875,\n\t\t\t\t\t\t\t\t\"position_y\": -4997.35400390625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        7987\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 147613914,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        42,\n\t\t\t\t\t\t\t\t\"kills\": 14,\n\t\t\t\t\t\t\t\t\"death\": 8,\n\t\t\t\t\t\t\t\t\"assists\":
+        16,\n\t\t\t\t\t\t\t\t\"last_hits\": 261,\n\t\t\t\t\t\t\t\t\"denies\": 15,\n\t\t\t\t\t\t\t\t\"gold\":
+        297,\n\t\t\t\t\t\t\t\t\"level\": 25,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 565,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        702,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 63,\n\t\t\t\t\t\t\t\t\"item1\": 168,\n\t\t\t\t\t\t\t\t\"item2\":
+        208,\n\t\t\t\t\t\t\t\t\"item3\": 46,\n\t\t\t\t\t\t\t\t\"item4\": 127,\n\t\t\t\t\t\t\t\t\"item5\":
+        1,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 40,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -3258.42578125,\n\t\t\t\t\t\t\t\t\"position_y\": -2130.89794921875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        19697\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 34145091,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        84,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\": 6,\n\t\t\t\t\t\t\t\t\"assists\":
+        15,\n\t\t\t\t\t\t\t\t\"last_hits\": 42,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        3131,\n\t\t\t\t\t\t\t\t\"level\": 19,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 279,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        409,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 180,\n\t\t\t\t\t\t\t\t\"item1\": 36,\n\t\t\t\t\t\t\t\t\"item2\":
+        102,\n\t\t\t\t\t\t\t\t\"item3\": 108,\n\t\t\t\t\t\t\t\t\"item4\": 188,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -4874.2314453125,\n\t\t\t\t\t\t\t\t\"position_y\": -4778.44677734375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        11531\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 206063660,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        62,\n\t\t\t\t\t\t\t\t\"kills\": 16,\n\t\t\t\t\t\t\t\t\"death\": 6,\n\t\t\t\t\t\t\t\t\"assists\":
+        11,\n\t\t\t\t\t\t\t\t\"last_hits\": 118,\n\t\t\t\t\t\t\t\t\"denies\": 2,\n\t\t\t\t\t\t\t\t\"gold\":
+        4266,\n\t\t\t\t\t\t\t\t\"level\": 25,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 571,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        684,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 50,\n\t\t\t\t\t\t\t\t\"item1\": 98,\n\t\t\t\t\t\t\t\t\"item2\":
+        116,\n\t\t\t\t\t\t\t\t\"item3\": 96,\n\t\t\t\t\t\t\t\t\"item4\": 185,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -4756.134765625,\n\t\t\t\t\t\t\t\t\"position_y\": -4842.50634765625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        21241\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5448,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5449,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5450,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5451,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5452,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5218,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5219,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5220,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5221,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5086,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5087,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5088,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5089,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        10\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5438,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5439,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5440,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5466,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5441,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5285,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5286,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5287,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5288,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        10\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 54,\n\t\t\t\t\t\t\"tower_state\": 1958,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 16\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        7\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 94\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        9\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        29\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 41\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        15\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 106\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        99\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        131905004,\n\t\t\t\t\t\t\t\t\"hero_id\": 16,\n\t\t\t\t\t\t\t\t\"kills\": 6,\n\t\t\t\t\t\t\t\t\"death\":
+        12,\n\t\t\t\t\t\t\t\t\"assists\": 30,\n\t\t\t\t\t\t\t\t\"last_hits\": 55,\n\t\t\t\t\t\t\t\t\"denies\":
+        0,\n\t\t\t\t\t\t\t\t\"gold\": 330,\n\t\t\t\t\t\t\t\t\"level\": 19,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        297,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 412,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        180,\n\t\t\t\t\t\t\t\t\"item1\": 1,\n\t\t\t\t\t\t\t\t\"item2\": 92,\n\t\t\t\t\t\t\t\t\"item3\":
+        108,\n\t\t\t\t\t\t\t\t\"item4\": 21,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        15,\n\t\t\t\t\t\t\t\t\"position_x\": -2245.740478515625,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -1530.8759765625,\n\t\t\t\t\t\t\t\t\"net_worth\": 10285\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 110981154,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        9,\n\t\t\t\t\t\t\t\t\"kills\": 13,\n\t\t\t\t\t\t\t\t\"death\": 9,\n\t\t\t\t\t\t\t\t\"assists\":
+        20,\n\t\t\t\t\t\t\t\t\"last_hits\": 166,\n\t\t\t\t\t\t\t\t\"denies\": 2,\n\t\t\t\t\t\t\t\t\"gold\":
+        1506,\n\t\t\t\t\t\t\t\t\"level\": 22,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 447,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        555,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 158,\n\t\t\t\t\t\t\t\t\"item1\": 147,\n\t\t\t\t\t\t\t\t\"item2\":
+        50,\n\t\t\t\t\t\t\t\t\"item3\": 46,\n\t\t\t\t\t\t\t\t\"item4\": 212,\n\t\t\t\t\t\t\t\t\"item5\":
+        8,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 46,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1718.205078125,\n\t\t\t\t\t\t\t\t\"position_y\": -6233.43212890625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        16216\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 129303544,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        7,\n\t\t\t\t\t\t\t\t\"kills\": 15,\n\t\t\t\t\t\t\t\t\"death\": 8,\n\t\t\t\t\t\t\t\t\"assists\":
+        24,\n\t\t\t\t\t\t\t\t\"last_hits\": 75,\n\t\t\t\t\t\t\t\t\"denies\": 4,\n\t\t\t\t\t\t\t\t\"gold\":
+        476,\n\t\t\t\t\t\t\t\t\"level\": 22,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 397,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        544,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        49,\n\t\t\t\t\t\t\t\t\"item0\": 1,\n\t\t\t\t\t\t\t\t\"item1\": 180,\n\t\t\t\t\t\t\t\t\"item2\":
+        190,\n\t\t\t\t\t\t\t\t\"item3\": 36,\n\t\t\t\t\t\t\t\t\"item4\": 21,\n\t\t\t\t\t\t\t\t\"item5\":
+        108,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -824.94091796875,\n\t\t\t\t\t\t\t\t\"position_y\": -759.72528076171875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        14146\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 119723554,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        94,\n\t\t\t\t\t\t\t\t\"kills\": 8,\n\t\t\t\t\t\t\t\t\"death\": 5,\n\t\t\t\t\t\t\t\t\"assists\":
+        19,\n\t\t\t\t\t\t\t\t\"last_hits\": 223,\n\t\t\t\t\t\t\t\t\"denies\": 15,\n\t\t\t\t\t\t\t\t\"gold\":
+        4719,\n\t\t\t\t\t\t\t\t\"level\": 22,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 473,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        560,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        18,\n\t\t\t\t\t\t\t\t\"item0\": 160,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        63,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 123,\n\t\t\t\t\t\t\t\t\"item5\":
+        149,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -371.78372192382812,\n\t\t\t\t\t\t\t\t\"position_y\": 5850.87939453125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        19119\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 117203343,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101,\n\t\t\t\t\t\t\t\t\"kills\": 12,\n\t\t\t\t\t\t\t\t\"death\": 8,\n\t\t\t\t\t\t\t\t\"assists\":
+        18,\n\t\t\t\t\t\t\t\t\"last_hits\": 7,\n\t\t\t\t\t\t\t\t\"denies\": 1,\n\t\t\t\t\t\t\t\t\"gold\":
+        2424,\n\t\t\t\t\t\t\t\t\"level\": 18,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 282,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        360,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 2,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 180,\n\t\t\t\t\t\t\t\t\"item1\": 40,\n\t\t\t\t\t\t\t\t\"item2\":
+        108,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        60,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1045.2840576171875,\n\t\t\t\t\t\t\t\t\"position_y\": -696.087158203125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        9454\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5102,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5103,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5104,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5105,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5051,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5048,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5050,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5049,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        7\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5023,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5024,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5025,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5026,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        7\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5504,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5505,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5506,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5507,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        7\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5581,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5582,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5583,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5584,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 44835396,\n\t\t\t\t\t\t\"name\":
+        \"mikelorus\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        176177083,\n\t\t\t\t\t\t\"name\": \"Prigorelo #Dota2.Net\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        67315591,\n\t\t\t\t\t\t\"name\": \"n1ce #Dota2.Net\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        71286125,\n\t\t\t\t\t\t\"name\": \"Sealkid\",\n\t\t\t\t\t\t\"hero_id\": 20,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 100317750,\n\t\t\t\t\t\t\"name\":
+        \"Era\",\n\t\t\t\t\t\t\"hero_id\": 93,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        18180970,\n\t\t\t\t\t\t\"name\": \"TjebbaEnberg\",\n\t\t\t\t\t\t\"hero_id\":
+        33,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        112955952,\n\t\t\t\t\t\t\"name\": \"Grandis V\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        43720230,\n\t\t\t\t\t\t\"name\": \"Apemother\",\n\t\t\t\t\t\t\"hero_id\":
+        47,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        91460772,\n\t\t\t\t\t\t\"name\": \"CeMaTheSlayeR\",\n\t\t\t\t\t\t\"hero_id\":
+        87,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        106573901,\n\t\t\t\t\t\t\"name\": \"No[o]ne-\",\n\t\t\t\t\t\t\"hero_id\":
+        13,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        92423451,\n\t\t\t\t\t\t\"name\": \"9pasha <3 Ksl\",\n\t\t\t\t\t\t\"hero_id\":
+        110,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        40209325,\n\t\t\t\t\t\t\"name\": \"Big Easy\",\n\t\t\t\t\t\t\"hero_id\": 98,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 125106821,\n\t\t\t\t\t\t\"name\":
+        \"STALIANER\",\n\t\t\t\t\t\t\"hero_id\": 44,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        100028335,\n\t\t\t\t\t\t\"name\": \"ArsZeeqq\",\n\t\t\t\t\t\t\"hero_id\":
+        103,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\":
+        {\n\t\t\t\t\t\"team_name\": \"Vega_Squadron\",\n\t\t\t\t\t\"team_id\": 2006913,\n\t\t\t\t\t\"team_logo\":
+        28474431994764654,\n\t\t\t\t\t\"complete\": true\n\t\t\t\t},\n\t\t\t\t\"dire_team\":
+        {\n\t\t\t\t\t\"team_name\": \"Lajons\",\n\t\t\t\t\t\"team_id\": 2006291,\n\t\t\t\t\t\"team_logo\":
+        541884168947857532,\n\t\t\t\t\t\"complete\": true\n\t\t\t\t},\n\t\t\t\t\"lobby_id\":
+        23791470935663870,\n\t\t\t\t\"match_id\": 1080425668,\n\t\t\t\t\"spectators\":
+        37,\n\t\t\t\t\"league_id\": 2125,\n\t\t\t\t\"stream_delay_s\": 120,\n\t\t\t\t\"radiant_series_wins\":
+        0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\": 1,\n\t\t\t\t\"league_tier\":
+        2,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\": 121.1370849609375,\n\t\t\t\t\t\"roshan_respawn_timer\":
+        0,\n\t\t\t\t\t\"radiant\": {\n\t\t\t\t\t\t\"score\": 0,\n\t\t\t\t\t\t\"tower_state\":
+        2047,\n\t\t\t\t\t\t\"barracks_state\": 63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        103\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 13\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        44\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 110\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        87\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        29\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 43\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        6\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 77\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        61\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        100028335,\n\t\t\t\t\t\t\t\t\"hero_id\": 103,\n\t\t\t\t\t\t\t\t\"kills\":
+        0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\":
+        1,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\": 232,\n\t\t\t\t\t\t\t\t\"level\":
+        1,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 114,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        85,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        44,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 29,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -2380.70361328125,\n\t\t\t\t\t\t\t\t\"position_y\": 2018.59814453125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        807\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 2,\n\t\t\t\t\t\t\t\t\"account_id\":
+        125106821,\n\t\t\t\t\t\t\t\t\"hero_id\": 44,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 6,\n\t\t\t\t\t\t\t\t\"denies\":
+        2,\n\t\t\t\t\t\t\t\t\"gold\": 212,\n\t\t\t\t\t\t\t\t\"level\": 2,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        253,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 193,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        44,\n\t\t\t\t\t\t\t\t\"item1\": 88,\n\t\t\t\t\t\t\t\t\"item2\": 14,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 5745.01220703125,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -5023.1396484375,\n\t\t\t\t\t\t\t\t\"net_worth\": 1012\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 106573901,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        13,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 9,\n\t\t\t\t\t\t\t\t\"denies\": 2,\n\t\t\t\t\t\t\t\t\"gold\":
+        659,\n\t\t\t\t\t\t\t\t\"level\": 3,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 299,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        326,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 16,\n\t\t\t\t\t\t\t\t\"item1\": 77,\n\t\t\t\t\t\t\t\t\"item2\":
+        16,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        241,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1082.733642578125,\n\t\t\t\t\t\t\t\t\"position_y\": -787.19488525390625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        1259\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 91460772,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        87,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 1,\n\t\t\t\t\t\t\t\t\"gold\":
+        252,\n\t\t\t\t\t\t\t\t\"level\": 1,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 100,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        91,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 44,\n\t\t\t\t\t\t\t\t\"item2\":
+        38,\n\t\t\t\t\t\t\t\t\"item3\": 16,\n\t\t\t\t\t\t\t\t\"item4\": 16,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        2976.027099609375,\n\t\t\t\t\t\t\t\t\"position_y\": -3979.28173828125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        527\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 5,\n\t\t\t\t\t\t\t\t\"account_id\":
+        92423451,\n\t\t\t\t\t\t\t\t\"hero_id\": 110,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 4,\n\t\t\t\t\t\t\t\t\"denies\":
+        1,\n\t\t\t\t\t\t\t\t\"gold\": 471,\n\t\t\t\t\t\t\t\t\"level\": 2,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        191,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 245,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        12,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 44,\n\t\t\t\t\t\t\t\t\"item3\":
+        16,\n\t\t\t\t\t\t\t\t\"item4\": 16,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": -6475.91943359375,\n\t\t\t\t\t\t\t\t\"position_y\":
+        2657.849365234375,\n\t\t\t\t\t\t\t\t\"net_worth\": 896\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5591,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5592,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5190,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5069,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5072,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5070,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5458,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5623,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5625,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5631,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5624,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 0,\n\t\t\t\t\t\t\"tower_state\": 2047,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        20\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 47\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        93\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 33\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        98\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 64\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        36\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 17\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        86\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        18180970,\n\t\t\t\t\t\t\t\t\"hero_id\": 33,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 6,\n\t\t\t\t\t\t\t\t\"denies\":
+        1,\n\t\t\t\t\t\t\t\t\"gold\": 655,\n\t\t\t\t\t\t\t\t\"level\": 2,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        225,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 100,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        44,\n\t\t\t\t\t\t\t\t\"item1\": 38,\n\t\t\t\t\t\t\t\t\"item2\": 0,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 833.2545166015625,\n\t\t\t\t\t\t\t\t\"position_y\":
+        3960.539306640625,\n\t\t\t\t\t\t\t\t\"net_worth\": 830\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 43720230,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        47,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 7,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        69,\n\t\t\t\t\t\t\t\t\"level\": 3,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 244,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        311,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        39,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        75,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1499.6552734375,\n\t\t\t\t\t\t\t\t\"position_y\": 1488.8846435546875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        1119\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 100317750,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        93,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 9,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        177,\n\t\t\t\t\t\t\t\t\"level\": 3,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 293,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        250,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 39,\n\t\t\t\t\t\t\t\t\"item1\": 16,\n\t\t\t\t\t\t\t\t\"item2\":
+        44,\n\t\t\t\t\t\t\t\t\"item3\": 29,\n\t\t\t\t\t\t\t\t\"item4\": 16,\n\t\t\t\t\t\t\t\t\"item5\":
+        182,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -6269.42333984375,\n\t\t\t\t\t\t\t\t\"position_y\": 3695.148193359375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        1217\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 71286125,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        20,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 1,\n\t\t\t\t\t\t\t\t\"gold\":
+        252,\n\t\t\t\t\t\t\t\t\"level\": 1,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 100,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        76,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 44,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        16,\n\t\t\t\t\t\t\t\t\"item3\": 38,\n\t\t\t\t\t\t\t\t\"item4\": 16,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -3541.641845703125,\n\t\t\t\t\t\t\t\t\"position_y\": 6149.13037109375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        527\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 5,\n\t\t\t\t\t\t\t\t\"account_id\":
+        40209325,\n\t\t\t\t\t\t\t\t\"hero_id\": 98,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 1,\n\t\t\t\t\t\t\t\t\"denies\":
+        1,\n\t\t\t\t\t\t\t\t\"gold\": 276,\n\t\t\t\t\t\t\t\t\"level\": 3,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        119,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 286,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        0,\n\t\t\t\t\t\t\t\t\"item1\": 182,\n\t\t\t\t\t\t\t\t\"item2\": 44,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 16,\n\t\t\t\t\t\t\t\t\"item5\": 16,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 4555.697265625,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -2787.9765625,\n\t\t\t\t\t\t\t\t\"net_worth\": 751\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5146,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5147,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5218,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5219,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5494,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5495,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5496,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5122,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5524,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5525,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 103196920,\n\t\t\t\t\t\t\"name\":
+        \"@ẞenQ ︻デ═一 - -\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        93736444,\n\t\t\t\t\t\t\"name\": \"Inkvizitor\",\n\t\t\t\t\t\t\"hero_id\":
+        20,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        199531726,\n\t\t\t\t\t\t\"name\": \"шилипятый\",\n\t\t\t\t\t\t\"hero_id\":
+        57,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        86937884,\n\t\t\t\t\t\t\"name\": \"Mine\",\n\t\t\t\t\t\t\"hero_id\": 22,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 113372833,\n\t\t\t\t\t\t\"name\":
+        \"UnderShock\",\n\t\t\t\t\t\t\"hero_id\": 94,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        99326103,\n\t\t\t\t\t\t\"name\": \"1\",\n\t\t\t\t\t\t\"hero_id\": 7,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 66620961,\n\t\t\t\t\t\t\"name\":
+        \"EcNart\",\n\t\t\t\t\t\t\"hero_id\": 101,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        100095295,\n\t\t\t\t\t\t\"name\": \"Isaak Quing\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        100630244,\n\t\t\t\t\t\t\"name\": \"QwisTa\",\n\t\t\t\t\t\t\"hero_id\": 93,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 90423751,\n\t\t\t\t\t\t\"name\":
+        \"Bignum\",\n\t\t\t\t\t\t\"hero_id\": 50,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        98134803,\n\t\t\t\t\t\t\"name\": \"CHOMY\",\n\t\t\t\t\t\t\"hero_id\": 78,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 86785083,\n\t\t\t\t\t\t\"name\":
+        \"AfterLife\",\n\t\t\t\t\t\t\"hero_id\": 104,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\":
+        {\n\t\t\t\t\t\"team_name\": \"SCARYFACEZZZZZ\",\n\t\t\t\t\t\"team_id\": 1529126,\n\t\t\t\t\t\"team_logo\":
+        68998071561529397,\n\t\t\t\t\t\"complete\": false\n\t\t\t\t},\n\t\t\t\t\"dire_team\":
+        {\n\t\t\t\t\t\"team_name\": \"AlbumSheet\",\n\t\t\t\t\t\"team_id\": 1653234,\n\t\t\t\t\t\"team_logo\":
+        566646974607373523,\n\t\t\t\t\t\"complete\": true\n\t\t\t\t},\n\t\t\t\t\"lobby_id\":
+        23791470939438161,\n\t\t\t\t\"match_id\": 1080405750,\n\t\t\t\t\"spectators\":
+        288,\n\t\t\t\t\"league_id\": 2171,\n\t\t\t\t\"stream_delay_s\": 120,\n\t\t\t\t\"radiant_series_wins\":
+        0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\": 0,\n\t\t\t\t\"league_tier\":
+        2,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\": 804.5091552734375,\n\t\t\t\t\t\"roshan_respawn_timer\":
+        0,\n\t\t\t\t\t\"radiant\": {\n\t\t\t\t\t\t\"score\": 2,\n\t\t\t\t\t\t\"tower_state\":
+        2047,\n\t\t\t\t\t\t\"barracks_state\": 63,\n\t\t\t\t\t\t\"players\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        1,\n\t\t\t\t\t\t\t\t\"account_id\": 86937884,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        22,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 21,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        945,\n\t\t\t\t\t\t\t\t\"level\": 7,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 186,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        202,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        178,\n\t\t\t\t\t\t\t\t\"item3\": 214,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -2503.06689453125,\n\t\t\t\t\t\t\t\t\"position_y\": -1609.841796875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        2745\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 199531726,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        57,\n\t\t\t\t\t\t\t\t\"kills\": 1,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 70,\n\t\t\t\t\t\t\t\t\"denies\": 10,\n\t\t\t\t\t\t\t\t\"gold\":
+        205,\n\t\t\t\t\t\t\t\t\"level\": 10,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 395,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        431,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 41,\n\t\t\t\t\t\t\t\t\"item1\": 29,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 16,\n\t\t\t\t\t\t\t\t\"item4\": 65,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1431.5301513671875,\n\t\t\t\t\t\t\t\t\"position_y\": -1018.7190551757812,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        5805\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 66620961,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101,\n\t\t\t\t\t\t\t\t\"kills\": 1,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 7,\n\t\t\t\t\t\t\t\t\"denies\": 2,\n\t\t\t\t\t\t\t\t\"gold\":
+        643,\n\t\t\t\t\t\t\t\t\"level\": 5,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 168,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        140,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 13,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\":
+        16,\n\t\t\t\t\t\t\t\t\"item3\": 34,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        29,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -102.07651519775391,\n\t\t\t\t\t\t\t\t\"position_y\": -2494.586669921875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        1593\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 100630244,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        93,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        1,\n\t\t\t\t\t\t\t\t\"last_hits\": 96,\n\t\t\t\t\t\t\t\t\"denies\": 17,\n\t\t\t\t\t\t\t\t\"gold\":
+        847,\n\t\t\t\t\t\t\t\t\"level\": 11,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 493,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        460,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 63,\n\t\t\t\t\t\t\t\t\"item1\": 1,\n\t\t\t\t\t\t\t\t\"item2\":
+        11,\n\t\t\t\t\t\t\t\t\"item3\": 65,\n\t\t\t\t\t\t\t\t\"item4\": 182,\n\t\t\t\t\t\t\t\t\"item5\":
+        46,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -475.94003295898437,\n\t\t\t\t\t\t\t\t\"position_y\": -378.04464721679687,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        7122\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 99326103,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        7,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        1,\n\t\t\t\t\t\t\t\t\"last_hits\": 20,\n\t\t\t\t\t\t\t\t\"denies\": 2,\n\t\t\t\t\t\t\t\t\"gold\":
+        633,\n\t\t\t\t\t\t\t\t\"level\": 6,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 162,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        179,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 180,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1083.24267578125,\n\t\t\t\t\t\t\t\t\"position_y\": -2194.630859375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        2183\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5110,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5111,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5112,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5113,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5263,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5264,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5265,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5266,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5581,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5582,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5583,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5494,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5495,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5496,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5497,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5023,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5025,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5026,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 0,\n\t\t\t\t\t\t\"tower_state\": 1983,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"players\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        1,\n\t\t\t\t\t\t\t\t\"account_id\": 90423751,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        50,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 27,\n\t\t\t\t\t\t\t\t\"denies\": 5,\n\t\t\t\t\t\t\t\t\"gold\":
+        594,\n\t\t\t\t\t\t\t\t\"level\": 7,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 193,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        208,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 63,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        34,\n\t\t\t\t\t\t\t\t\"item3\": 46,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        6001.40380859375,\n\t\t\t\t\t\t\t\t\"position_y\": -2749.336181640625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        2294\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 86785083,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        104,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 1,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 76,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        276,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 311,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        377,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 46,\n\t\t\t\t\t\t\t\t\"item1\": 11,\n\t\t\t\t\t\t\t\t\"item2\":
+        1,\n\t\t\t\t\t\t\t\t\"item3\": 63,\n\t\t\t\t\t\t\t\t\"item4\": 182,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        1476.4776611328125,\n\t\t\t\t\t\t\t\t\"position_y\": -4033.720458984375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        4501\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 98134803,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 63,\n\t\t\t\t\t\t\t\t\"denies\": 9,\n\t\t\t\t\t\t\t\t\"gold\":
+        1351,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 316,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        349,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 41,\n\t\t\t\t\t\t\t\t\"item1\": 182,\n\t\t\t\t\t\t\t\t\"item2\":
+        34,\n\t\t\t\t\t\t\t\t\"item3\": 63,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        73,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        359.55560302734375,\n\t\t\t\t\t\t\t\t\"position_y\": 2707.0849609375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        4426\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 113372833,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        94,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 88,\n\t\t\t\t\t\t\t\t\"denies\": 36,\n\t\t\t\t\t\t\t\t\"gold\":
+        1479,\n\t\t\t\t\t\t\t\t\"level\": 11,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 454,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        489,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 65,\n\t\t\t\t\t\t\t\t\"item1\": 34,\n\t\t\t\t\t\t\t\t\"item2\":
+        63,\n\t\t\t\t\t\t\t\t\"item3\": 56,\n\t\t\t\t\t\t\t\t\"item4\": 75,\n\t\t\t\t\t\t\t\t\"item5\":
+        46,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -6003.69384765625,\n\t\t\t\t\t\t\t\t\"position_y\": 3448.4189453125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        6589\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 93736444,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        20,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 1,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 29,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        375,\n\t\t\t\t\t\t\t\t\"level\": 6,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 180,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        179,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 92,\n\t\t\t\t\t\t\t\t\"item1\": 29,\n\t\t\t\t\t\t\t\t\"item2\":
+        34,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 2,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -236.44754028320312,\n\t\t\t\t\t\t\t\t\"position_y\": -1262.0032958984375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        1900\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5233,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5234,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5235,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5236,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5595,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5596,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5597,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5598,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5400,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5402,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5403,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5504,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5505,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5506,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5507,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5122,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5124,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5125,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 87043147,\n\t\t\t\t\t\t\"name\":
+        \"Korsar\",\n\t\t\t\t\t\t\"hero_id\": 67,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        56498766,\n\t\t\t\t\t\t\"name\": \"Mantas\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 139695319,\n\t\t\t\t\t\t\"name\":
+        \"PaulVonPaks\",\n\t\t\t\t\t\t\"hero_id\": 96,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        41426806,\n\t\t\t\t\t\t\"name\": \"Meekie\",\n\t\t\t\t\t\t\"hero_id\": 101,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 121267126,\n\t\t\t\t\t\t\"name\":
+        \"AbiTH\",\n\t\t\t\t\t\t\"hero_id\": 75,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        156427664,\n\t\t\t\t\t\t\"name\": \"escalate|Inv1s\",\n\t\t\t\t\t\t\"hero_id\":
+        103,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        84582204,\n\t\t\t\t\t\t\"name\": \"TõnuOss\",\n\t\t\t\t\t\t\"hero_id\": 20,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 81493859,\n\t\t\t\t\t\t\"name\":
+        \"228<322\",\n\t\t\t\t\t\t\"hero_id\": 74,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        116879656,\n\t\t\t\t\t\t\"name\": \"possumi\",\n\t\t\t\t\t\t\"hero_id\": 1,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 38127249,\n\t\t\t\t\t\t\"name\":
+        \"Jim Carry\",\n\t\t\t\t\t\t\"hero_id\": 29,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        91427895,\n\t\t\t\t\t\t\"name\": \"anub\",\n\t\t\t\t\t\t\"hero_id\": 64,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\": {\n\t\t\t\t\t\"team_name\":
+        \"New Wave-_-\",\n\t\t\t\t\t\"team_id\": 2040541,\n\t\t\t\t\t\"team_logo\":
+        0,\n\t\t\t\t\t\"complete\": false\n\t\t\t\t},\n\t\t\t\t\"dire_team\": {\n\t\t\t\t\t\"team_name\":
+        \"EestiNoobid\",\n\t\t\t\t\t\"team_id\": 1857459,\n\t\t\t\t\t\"team_logo\":
+        35223487397660305,\n\t\t\t\t\t\"complete\": false\n\t\t\t\t},\n\t\t\t\t\"lobby_id\":
+        23791470879603611,\n\t\t\t\t\"match_id\": 1080329878,\n\t\t\t\t\"spectators\":
+        27,\n\t\t\t\t\"league_id\": 2187,\n\t\t\t\t\"stream_delay_s\": 120,\n\t\t\t\t\"radiant_series_wins\":
+        0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\": 0,\n\t\t\t\t\"league_tier\":
+        1,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\": 2871.718505859375,\n\t\t\t\t\t\"roshan_respawn_timer\":
+        0,\n\t\t\t\t\t\"radiant\": {\n\t\t\t\t\t\t\"score\": 41,\n\t\t\t\t\t\t\"tower_state\":
+        1956,\n\t\t\t\t\t\t\"barracks_state\": 63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        29\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 64\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        103\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 67\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        74\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        15\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 41\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        84\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 44\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        17\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        87043147,\n\t\t\t\t\t\t\t\t\"hero_id\": 67,\n\t\t\t\t\t\t\t\t\"kills\": 13,\n\t\t\t\t\t\t\t\t\"death\":
+        4,\n\t\t\t\t\t\t\t\t\"assists\": 22,\n\t\t\t\t\t\t\t\t\"last_hits\": 342,\n\t\t\t\t\t\t\t\t\"denies\":
+        19,\n\t\t\t\t\t\t\t\t\"gold\": 1620,\n\t\t\t\t\t\t\t\t\"level\": 25,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        613,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 695,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 105,\n\t\t\t\t\t\t\t\t\"item0\":
+        50,\n\t\t\t\t\t\t\t\t\"item1\": 110,\n\t\t\t\t\t\t\t\t\"item2\": 46,\n\t\t\t\t\t\t\t\t\"item3\":
+        137,\n\t\t\t\t\t\t\t\t\"item4\": 114,\n\t\t\t\t\t\t\t\t\"item5\": 196,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 1219.318603515625,\n\t\t\t\t\t\t\t\t\"position_y\":
+        815.54595947265625,\n\t\t\t\t\t\t\t\t\"net_worth\": 22795\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 81493859,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        74,\n\t\t\t\t\t\t\t\t\"kills\": 12,\n\t\t\t\t\t\t\t\t\"death\": 8,\n\t\t\t\t\t\t\t\t\"assists\":
+        12,\n\t\t\t\t\t\t\t\t\"last_hits\": 180,\n\t\t\t\t\t\t\t\t\"denies\": 7,\n\t\t\t\t\t\t\t\t\"gold\":
+        2362,\n\t\t\t\t\t\t\t\t\"level\": 21,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 467,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        516,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 194,\n\t\t\t\t\t\t\t\t\"item1\": 102,\n\t\t\t\t\t\t\t\t\"item2\":
+        48,\n\t\t\t\t\t\t\t\t\"item3\": 65,\n\t\t\t\t\t\t\t\t\"item4\": 116,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        2469,\n\t\t\t\t\t\t\t\t\"position_y\": 999.8907470703125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        18287\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 38127249,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        29,\n\t\t\t\t\t\t\t\t\"kills\": 7,\n\t\t\t\t\t\t\t\t\"death\": 5,\n\t\t\t\t\t\t\t\t\"assists\":
+        24,\n\t\t\t\t\t\t\t\t\"last_hits\": 108,\n\t\t\t\t\t\t\t\t\"denies\": 1,\n\t\t\t\t\t\t\t\t\"gold\":
+        4102,\n\t\t\t\t\t\t\t\t\"level\": 23,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 376,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        575,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        75,\n\t\t\t\t\t\t\t\t\"item0\": 1,\n\t\t\t\t\t\t\t\t\"item1\": 79,\n\t\t\t\t\t\t\t\t\"item2\":
+        116,\n\t\t\t\t\t\t\t\t\"item3\": 9,\n\t\t\t\t\t\t\t\t\"item4\": 46,\n\t\t\t\t\t\t\t\t\"item5\":
+        180,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        955.17413330078125,\n\t\t\t\t\t\t\t\t\"position_y\": 2167.134033203125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        15577\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 156427664,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        103,\n\t\t\t\t\t\t\t\t\"kills\": 5,\n\t\t\t\t\t\t\t\t\"death\": 5,\n\t\t\t\t\t\t\t\t\"assists\":
+        18,\n\t\t\t\t\t\t\t\t\"last_hits\": 54,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        111,\n\t\t\t\t\t\t\t\t\"level\": 15,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 245,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        277,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        28,\n\t\t\t\t\t\t\t\t\"item0\": 214,\n\t\t\t\t\t\t\t\t\"item1\": 116,\n\t\t\t\t\t\t\t\t\"item2\":
+        178,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 100,\n\t\t\t\t\t\t\t\t\"item5\":
+        30,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        1705.390380859375,\n\t\t\t\t\t\t\t\t\"position_y\": 666.996337890625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        9486\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 91427895,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        64,\n\t\t\t\t\t\t\t\t\"kills\": 3,\n\t\t\t\t\t\t\t\t\"death\": 14,\n\t\t\t\t\t\t\t\t\"assists\":
+        11,\n\t\t\t\t\t\t\t\t\"last_hits\": 38,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        596,\n\t\t\t\t\t\t\t\t\"level\": 13,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 226,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        215,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 180,\n\t\t\t\t\t\t\t\t\"item1\": 100,\n\t\t\t\t\t\t\t\t\"item2\":
+        92,\n\t\t\t\t\t\t\t\t\"item3\": 36,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        46,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 37,\n\t\t\t\t\t\t\t\t\"position_x\":
+        1370.7491455078125,\n\t\t\t\t\t\t\t\t\"position_y\": 2170.0107421875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        6221\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5334,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5335,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5336,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5338,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5337,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        10\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5370,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5371,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        6\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5372,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        7\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5376,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5387,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5375,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5390,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5386,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5383,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5384,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5385,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5381,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5389,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5382,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5118,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5119,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5120,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5121,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        8\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5589,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5591,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5593,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5592,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5594,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5297,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5298,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5299,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5300,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 36,\n\t\t\t\t\t\t\"tower_state\": 1536,\n\t\t\t\t\t\t\"barracks_state\":
+        51,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 96\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        20\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        75\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        43\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 109\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 93\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        13\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        139695319,\n\t\t\t\t\t\t\t\t\"hero_id\": 96,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\":
+        9,\n\t\t\t\t\t\t\t\t\"assists\": 9,\n\t\t\t\t\t\t\t\t\"last_hits\": 147,\n\t\t\t\t\t\t\t\t\"denies\":
+        5,\n\t\t\t\t\t\t\t\t\"gold\": 323,\n\t\t\t\t\t\t\t\t\"level\": 17,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        286,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 325,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 44,\n\t\t\t\t\t\t\t\t\"item0\":
+        214,\n\t\t\t\t\t\t\t\t\"item1\": 1,\n\t\t\t\t\t\t\t\t\"item2\": 90,\n\t\t\t\t\t\t\t\t\"item3\":
+        46,\n\t\t\t\t\t\t\t\t\"item4\": 36,\n\t\t\t\t\t\t\t\t\"item5\": 61,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 4453.73046875,\n\t\t\t\t\t\t\t\t\"position_y\":
+        1115.055419921875,\n\t\t\t\t\t\t\t\t\"net_worth\": 8898\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 41426806,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101,\n\t\t\t\t\t\t\t\t\"kills\": 3,\n\t\t\t\t\t\t\t\t\"death\": 12,\n\t\t\t\t\t\t\t\t\"assists\":
+        16,\n\t\t\t\t\t\t\t\t\"last_hits\": 31,\n\t\t\t\t\t\t\t\t\"denies\": 4,\n\t\t\t\t\t\t\t\t\"gold\":
+        691,\n\t\t\t\t\t\t\t\t\"level\": 14,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 182,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        245,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 180,\n\t\t\t\t\t\t\t\t\"item1\": 36,\n\t\t\t\t\t\t\t\t\"item2\":
+        102,\n\t\t\t\t\t\t\t\t\"item3\": 73,\n\t\t\t\t\t\t\t\t\"item4\": 43,\n\t\t\t\t\t\t\t\t\"item5\":
+        46,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        5144.94287109375,\n\t\t\t\t\t\t\t\t\"position_y\": 3848.417236328125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        5716\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 116879656,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        1,\n\t\t\t\t\t\t\t\t\"kills\": 13,\n\t\t\t\t\t\t\t\t\"death\": 3,\n\t\t\t\t\t\t\t\t\"assists\":
+        7,\n\t\t\t\t\t\t\t\t\"last_hits\": 426,\n\t\t\t\t\t\t\t\t\"denies\": 63,\n\t\t\t\t\t\t\t\t\"gold\":
+        3025,\n\t\t\t\t\t\t\t\t\"level\": 25,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 686,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        681,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        6,\n\t\t\t\t\t\t\t\t\"item0\": 147,\n\t\t\t\t\t\t\t\t\"item1\": 114,\n\t\t\t\t\t\t\t\t\"item2\":
+        63,\n\t\t\t\t\t\t\t\t\"item3\": 143,\n\t\t\t\t\t\t\t\t\"item4\": 139,\n\t\t\t\t\t\t\t\t\"item5\":
+        145,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        3890.597412109375,\n\t\t\t\t\t\t\t\t\"position_y\": 2843.461181640625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        28175\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 84582204,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        20,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 10,\n\t\t\t\t\t\t\t\t\"assists\":
+        5,\n\t\t\t\t\t\t\t\t\"last_hits\": 39,\n\t\t\t\t\t\t\t\t\"denies\": 5,\n\t\t\t\t\t\t\t\t\"gold\":
+        710,\n\t\t\t\t\t\t\t\t\"level\": 11,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 157,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        171,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 34,\n\t\t\t\t\t\t\t\t\"item1\": 40,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 63,\n\t\t\t\t\t\t\t\t\"item4\": 42,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        4149.5234375,\n\t\t\t\t\t\t\t\t\"position_y\": 3442.28125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        2640\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 121267126,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        75,\n\t\t\t\t\t\t\t\t\"kills\": 16,\n\t\t\t\t\t\t\t\t\"death\": 7,\n\t\t\t\t\t\t\t\t\"assists\":
+        8,\n\t\t\t\t\t\t\t\t\"last_hits\": 251,\n\t\t\t\t\t\t\t\t\"denies\": 19,\n\t\t\t\t\t\t\t\t\"gold\":
+        2002,\n\t\t\t\t\t\t\t\t\"level\": 25,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 499,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        678,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        54,\n\t\t\t\t\t\t\t\t\"item0\": 102,\n\t\t\t\t\t\t\t\t\"item1\": 110,\n\t\t\t\t\t\t\t\t\"item2\":
+        206,\n\t\t\t\t\t\t\t\t\"item3\": 108,\n\t\t\t\t\t\t\t\t\"item4\": 63,\n\t\t\t\t\t\t\t\t\"item5\":
+        46,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 50,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -2179.39990234375,\n\t\t\t\t\t\t\t\t\"position_y\": -2121.404541015625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        18277\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5514,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5515,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5516,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5517,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5581,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5582,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5583,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5584,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5003,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5004,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5005,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5006,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        10\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5122,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5124,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5123,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5125,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5377,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5378,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5379,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5380,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        10\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 192288569,\n\t\t\t\t\t\t\"name\":
+        \"Eternal7FATA2000pieliedi9\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 127276095,\n\t\t\t\t\t\t\"name\":
+        \"Rezhik\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        70540189,\n\t\t\t\t\t\t\"name\": \"lcause\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 201542056,\n\t\t\t\t\t\t\"name\":
+        \"os/390!\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        102616824,\n\t\t\t\t\t\t\"name\": \"Grey Faec\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        204959079,\n\t\t\t\t\t\t\"name\": \"*_*\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 204644908,\n\t\t\t\t\t\t\"name\":
+        \"legkie\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        131389547,\n\t\t\t\t\t\t\"name\": \"Yah00\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 109012422,\n\t\t\t\t\t\t\"name\":
+        \"KReeKeeR\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        179750689,\n\t\t\t\t\t\t\"name\": \"SALAM\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 100060131,\n\t\t\t\t\t\t\"name\":
+        \"M1kefly\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        157862869,\n\t\t\t\t\t\t\"name\": \"с нами аллах\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\":
+        {\n\t\t\t\t\t\"team_name\": \"Monkey.Freedom.Fighters.\",\n\t\t\t\t\t\"team_id\":
+        2032390,\n\t\t\t\t\t\"team_logo\": 534004758969509272,\n\t\t\t\t\t\"complete\":
+        false\n\t\t\t\t},\n\t\t\t\t\"dire_team\": {\n\t\t\t\t\t\"team_name\": \"BLIN4IKI\",\n\t\t\t\t\t\"team_id\":
+        2032399,\n\t\t\t\t\t\"team_logo\": 541886058324869427,\n\t\t\t\t\t\"complete\":
+        false\n\t\t\t\t},\n\t\t\t\t\"lobby_id\": 23791470943207010,\n\t\t\t\t\"match_id\":
+        1080449253,\n\t\t\t\t\"spectators\": 4,\n\t\t\t\t\"league_id\": 2085,\n\t\t\t\t\"stream_delay_s\":
+        120,\n\t\t\t\t\"radiant_series_wins\": 0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\":
+        2,\n\t\t\t\t\"league_tier\": 1,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\":
+        0,\n\t\t\t\t\t\"roshan_respawn_timer\": 0,\n\t\t\t\t\t\"radiant\": {\n\t\t\t\t\t\t\"score\":
+        0,\n\t\t\t\t\t\t\"tower_state\": 2047,\n\t\t\t\t\t\t\"barracks_state\": 63,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        192288569,\n\t\t\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\":
+        0,\n\t\t\t\t\t\t\t\t\"gold\": 625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 0,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 2,\n\t\t\t\t\t\t\t\t\"account_id\":
+        127276095,\n\t\t\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\":
+        0,\n\t\t\t\t\t\t\t\t\"gold\": 625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 0,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 3,\n\t\t\t\t\t\t\t\t\"account_id\":
+        204959079,\n\t\t\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\":
+        0,\n\t\t\t\t\t\t\t\t\"gold\": 625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 0,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 4,\n\t\t\t\t\t\t\t\t\"account_id\":
+        179750689,\n\t\t\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\":
+        0,\n\t\t\t\t\t\t\t\t\"gold\": 625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 0,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 5,\n\t\t\t\t\t\t\t\t\"account_id\":
+        102616824,\n\t\t\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\":
+        0,\n\t\t\t\t\t\t\t\t\"gold\": 625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 0,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        625\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 0,\n\t\t\t\t\t\t\"tower_state\": 2047,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"players\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        1,\n\t\t\t\t\t\t\t\t\"account_id\": 70540189,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 0,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\": 625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 201542056,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 0,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\": 625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 100060131,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 0,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\": 625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 131389547,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 0,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\": 625\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 204644908,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 0,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        625,\n\t\t\t\t\t\t\t\t\"level\": 0,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 0,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        0,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 0,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        0,\n\t\t\t\t\t\t\t\t\"position_y\": 0,\n\t\t\t\t\t\t\t\t\"net_worth\": 625\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 103826908,\n\t\t\t\t\t\t\"name\":
+        \"Bullet\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        106809101,\n\t\t\t\t\t\t\"name\": \"VP.Polar.Lil HaRDy\",\n\t\t\t\t\t\t\"hero_id\":
+        20,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        94338967,\n\t\t\t\t\t\t\"name\": \"КОГОТЬ И КЛЫК\",\n\t\t\t\t\t\t\"hero_id\":
+        13,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        94049589,\n\t\t\t\t\t\t\"name\": \"Fng\",\n\t\t\t\t\t\t\"hero_id\": 7,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 26316691,\n\t\t\t\t\t\t\"name\":
+        \"Illidan Stormrage SF\",\n\t\t\t\t\t\t\"hero_id\": 93,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 86802844,\n\t\t\t\t\t\t\"name\":
+        \"Mag\",\n\t\t\t\t\t\t\"hero_id\": 78,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        176184718,\n\t\t\t\t\t\t\"name\": \"))))\",\n\t\t\t\t\t\t\"hero_id\": 41,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 89208003,\n\t\t\t\t\t\t\"name\":
+        \"VLADDDDDDDDDDDDD\",\n\t\t\t\t\t\t\"hero_id\": 91,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 168043164,\n\t\t\t\t\t\t\"name\":
+        \"Happy\",\n\t\t\t\t\t\t\"hero_id\": 101,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        98018029,\n\t\t\t\t\t\t\"name\": \"Moon\",\n\t\t\t\t\t\t\"hero_id\": 81,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 91287278,\n\t\t\t\t\t\t\"name\":
+        \"SLTV|GodHunt\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        184849933,\n\t\t\t\t\t\t\"name\": \"VG.天喔.哆啦A货\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        663235,\n\t\t\t\t\t\t\"name\": \"@heliumbrella\",\n\t\t\t\t\t\t\"hero_id\":
+        0,\n\t\t\t\t\t\t\"team\": 2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        168120974,\n\t\t\t\t\t\t\"name\": \"lllllllllllllllllllllll\",\n\t\t\t\t\t\t\"hero_id\":
+        57,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        170165578,\n\t\t\t\t\t\t\"name\": \"Musashi\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        2\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 101700411,\n\t\t\t\t\t\t\"name\":
+        \"Mon | kutecool1102\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\":
+        2\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\": {\n\t\t\t\t\t\"team_name\":
+        \"Virtus.Pro Polar\",\n\t\t\t\t\t\"team_id\": 1883502,\n\t\t\t\t\t\"team_logo\":
+        544130879093053760,\n\t\t\t\t\t\"complete\": true\n\t\t\t\t},\n\t\t\t\t\"dire_team\":
+        {\n\t\t\t\t\t\"team_name\": \"NatashaIshetParnya\",\n\t\t\t\t\t\"team_id\":
+        1994238,\n\t\t\t\t\t\"team_logo\": 25097277540954839,\n\t\t\t\t\t\"complete\":
+        true\n\t\t\t\t},\n\t\t\t\t\"lobby_id\": 23791470899514772,\n\t\t\t\t\"match_id\":
+        1080390118,\n\t\t\t\t\"spectators\": 1835,\n\t\t\t\t\"league_id\": 2158,\n\t\t\t\t\"stream_delay_s\":
+        120,\n\t\t\t\t\"radiant_series_wins\": 0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\":
+        0,\n\t\t\t\t\"league_tier\": 3,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\":
+        1079.6363525390625,\n\t\t\t\t\t\"roshan_respawn_timer\": 0,\n\t\t\t\t\t\"radiant\":
+        {\n\t\t\t\t\t\t\"score\": 23,\n\t\t\t\t\t\t\"tower_state\": 1983,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 20\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        93\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 13\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        7\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        64\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 84\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        44\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 99\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        22\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        94049589,\n\t\t\t\t\t\t\t\t\"hero_id\": 7,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        0,\n\t\t\t\t\t\t\t\t\"assists\": 15,\n\t\t\t\t\t\t\t\t\"last_hits\": 18,\n\t\t\t\t\t\t\t\t\"denies\":
+        1,\n\t\t\t\t\t\t\t\t\"gold\": 1120,\n\t\t\t\t\t\t\t\t\"level\": 10,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        206,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 329,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        180,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 46,\n\t\t\t\t\t\t\t\t\"item3\":
+        0,\n\t\t\t\t\t\t\t\t\"item4\": 43,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 2848.42236328125,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -4009.592041015625,\n\t\t\t\t\t\t\t\t\"net_worth\": 2870\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 26316691,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        93,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\": 2,\n\t\t\t\t\t\t\t\t\"assists\":
+        6,\n\t\t\t\t\t\t\t\t\"last_hits\": 57,\n\t\t\t\t\t\t\t\t\"denies\": 7,\n\t\t\t\t\t\t\t\t\"gold\":
+        69,\n\t\t\t\t\t\t\t\t\"level\": 11,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 349,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        395,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 34,\n\t\t\t\t\t\t\t\t\"item1\": 63,\n\t\t\t\t\t\t\t\t\"item2\":
+        215,\n\t\t\t\t\t\t\t\t\"item3\": 182,\n\t\t\t\t\t\t\t\t\"item4\": 212,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        3389.835205078125,\n\t\t\t\t\t\t\t\t\"position_y\": -3794.32373046875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        5929\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 86802844,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78,\n\t\t\t\t\t\t\t\t\"kills\": 7,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        6,\n\t\t\t\t\t\t\t\t\"last_hits\": 79,\n\t\t\t\t\t\t\t\t\"denies\": 12,\n\t\t\t\t\t\t\t\t\"gold\":
+        1330,\n\t\t\t\t\t\t\t\t\"level\": 12,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 483,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        495,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 41,\n\t\t\t\t\t\t\t\t\"item1\": 63,\n\t\t\t\t\t\t\t\t\"item2\":
+        81,\n\t\t\t\t\t\t\t\t\"item3\": 1,\n\t\t\t\t\t\t\t\t\"item4\": 46,\n\t\t\t\t\t\t\t\t\"item5\":
+        21,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        3350.212890625,\n\t\t\t\t\t\t\t\t\"position_y\": -3609.37890625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        8855\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 94338967,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        13,\n\t\t\t\t\t\t\t\t\"kills\": 7,\n\t\t\t\t\t\t\t\t\"death\": 1,\n\t\t\t\t\t\t\t\t\"assists\":
+        4,\n\t\t\t\t\t\t\t\t\"last_hits\": 86,\n\t\t\t\t\t\t\t\t\"denies\": 16,\n\t\t\t\t\t\t\t\t\"gold\":
+        100,\n\t\t\t\t\t\t\t\t\"level\": 13,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 493,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        508,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 1,\n\t\t\t\t\t\t\t\t\"item1\": 65,\n\t\t\t\t\t\t\t\t\"item2\":
+        57,\n\t\t\t\t\t\t\t\t\"item3\": 41,\n\t\t\t\t\t\t\t\t\"item4\": 50,\n\t\t\t\t\t\t\t\t\"item5\":
+        36,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        1971.647705078125,\n\t\t\t\t\t\t\t\t\"position_y\": -2431.917236328125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        8650\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 106809101,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        20,\n\t\t\t\t\t\t\t\t\"kills\": 2,\n\t\t\t\t\t\t\t\t\"death\": 2,\n\t\t\t\t\t\t\t\t\"assists\":
+        12,\n\t\t\t\t\t\t\t\t\"last_hits\": 13,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        434,\n\t\t\t\t\t\t\t\t\"level\": 8,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 212,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        227,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 43,\n\t\t\t\t\t\t\t\t\"item1\": 92,\n\t\t\t\t\t\t\t\t\"item2\":
+        63,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        36,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        2715,\n\t\t\t\t\t\t\t\t\"position_y\": -3570.36181640625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        3409\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5023,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5024,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5025,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5026,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5494,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5495,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5496,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5497,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5400,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5401,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5402,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5403,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5069,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5071,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5072,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5070,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5073,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5122,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5124,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5123,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5125,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 5,\n\t\t\t\t\t\t\"tower_state\": 2038,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        91\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 101\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        81\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 41\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        57\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        43\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 77\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        94\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        68\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        176184718,\n\t\t\t\t\t\t\t\t\"hero_id\": 41,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\":
+        4,\n\t\t\t\t\t\t\t\t\"assists\": 2,\n\t\t\t\t\t\t\t\t\"last_hits\": 89,\n\t\t\t\t\t\t\t\t\"denies\":
+        14,\n\t\t\t\t\t\t\t\t\"gold\": 640,\n\t\t\t\t\t\t\t\t\"level\": 11,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        343,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 360,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        71,\n\t\t\t\t\t\t\t\t\"item1\": 172,\n\t\t\t\t\t\t\t\t\"item2\": 63,\n\t\t\t\t\t\t\t\t\"item3\":
+        46,\n\t\t\t\t\t\t\t\t\"item4\": 25,\n\t\t\t\t\t\t\t\t\"item5\": 0,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 2722.3681640625,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -6081.21435546875,\n\t\t\t\t\t\t\t\t\"net_worth\": 4990\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 89208003,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        91,\n\t\t\t\t\t\t\t\t\"kills\": 1,\n\t\t\t\t\t\t\t\t\"death\": 6,\n\t\t\t\t\t\t\t\t\"assists\":
+        1,\n\t\t\t\t\t\t\t\t\"last_hits\": 15,\n\t\t\t\t\t\t\t\t\"denies\": 3,\n\t\t\t\t\t\t\t\t\"gold\":
+        136,\n\t\t\t\t\t\t\t\t\"level\": 7,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 169,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        167,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 92,\n\t\t\t\t\t\t\t\t\"item1\": 16,\n\t\t\t\t\t\t\t\t\"item2\":
+        36,\n\t\t\t\t\t\t\t\t\"item3\": 41,\n\t\t\t\t\t\t\t\t\"item4\": 46,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        668.14752197265625,\n\t\t\t\t\t\t\t\t\"position_y\": 6681,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        2361\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 98018029,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        81,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 2,\n\t\t\t\t\t\t\t\t\"assists\":
+        1,\n\t\t\t\t\t\t\t\t\"last_hits\": 86,\n\t\t\t\t\t\t\t\t\"denies\": 7,\n\t\t\t\t\t\t\t\t\"gold\":
+        249,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 322,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        274,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 46,\n\t\t\t\t\t\t\t\t\"item1\": 182,\n\t\t\t\t\t\t\t\t\"item2\":
+        185,\n\t\t\t\t\t\t\t\t\"item3\": 2,\n\t\t\t\t\t\t\t\t\"item4\": 36,\n\t\t\t\t\t\t\t\t\"item5\":
+        63,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -741.102294921875,\n\t\t\t\t\t\t\t\t\"position_y\": 6352.8544921875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        5749\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 168120974,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        57,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 6,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 49,\n\t\t\t\t\t\t\t\t\"denies\": 2,\n\t\t\t\t\t\t\t\t\"gold\":
+        347,\n\t\t\t\t\t\t\t\t\"level\": 8,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 228,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        233,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 41,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\":
+        16,\n\t\t\t\t\t\t\t\t\"item3\": 27,\n\t\t\t\t\t\t\t\t\"item4\": 16,\n\t\t\t\t\t\t\t\t\"item5\":
+        180,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 30,\n\t\t\t\t\t\t\t\t\"position_x\":
+        3471.471435546875,\n\t\t\t\t\t\t\t\t\"position_y\": -3735.46484375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        3047\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 168043164,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\": 5,\n\t\t\t\t\t\t\t\t\"assists\":
+        0,\n\t\t\t\t\t\t\t\t\"last_hits\": 12,\n\t\t\t\t\t\t\t\t\"denies\": 1,\n\t\t\t\t\t\t\t\t\"gold\":
+        1120,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 227,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        259,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 77,\n\t\t\t\t\t\t\t\t\"item1\": 77,\n\t\t\t\t\t\t\t\t\"item2\":
+        77,\n\t\t\t\t\t\t\t\t\"item3\": 29,\n\t\t\t\t\t\t\t\t\"item4\": 46,\n\t\t\t\t\t\t\t\t\"item5\":
+        16,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        4251,\n\t\t\t\t\t\t\t\t\"position_y\": -5753.00634765625,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        3130\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5182,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5183,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5184,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5185,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5489,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5485,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5486,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5487,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5488,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5490,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5493,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5426,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5427,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5428,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5263,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5264,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5265,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5266,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5581,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5582,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5583,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5584,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"players\":
+        [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 87112074,\n\t\t\t\t\t\t\"name\":
+        \"joinDOTA|Helga\",\n\t\t\t\t\t\t\"hero_id\": 0,\n\t\t\t\t\t\t\"team\": 4\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        91162296,\n\t\t\t\t\t\t\"name\": \"Cast\",\n\t\t\t\t\t\t\"hero_id\": 30,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 91443418,\n\t\t\t\t\t\t\"name\":
+        \"nb\",\n\t\t\t\t\t\t\"hero_id\": 64,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        102099826,\n\t\t\t\t\t\t\"name\": \".\",\n\t\t\t\t\t\t\"hero_id\": 41,\n\t\t\t\t\t\t\"team\":
+        0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 87360406,\n\t\t\t\t\t\t\"name\":
+        \"Jeyo\",\n\t\t\t\t\t\t\"hero_id\": 9,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        115102590,\n\t\t\t\t\t\t\"name\": \"RyoRyoRyoRyo\",\n\t\t\t\t\t\t\"hero_id\":
+        103,\n\t\t\t\t\t\t\"team\": 0\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        81481903,\n\t\t\t\t\t\t\"name\": \"tnt\",\n\t\t\t\t\t\t\"hero_id\": 57,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 102085684,\n\t\t\t\t\t\t\"name\":
+        \"so many scrub in my team\",\n\t\t\t\t\t\t\"hero_id\": 29,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 101325470,\n\t\t\t\t\t\t\"name\":
+        \"Toy\",\n\t\t\t\t\t\t\"hero_id\": 15,\n\t\t\t\t\t\t\"team\": 1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\":
+        86727049,\n\t\t\t\t\t\t\"name\": \"nOcsm\",\n\t\t\t\t\t\t\"hero_id\": 87,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"account_id\": 100829013,\n\t\t\t\t\t\t\"name\":
+        \"TEE BANMAI INTER\",\n\t\t\t\t\t\t\"hero_id\": 44,\n\t\t\t\t\t\t\"team\":
+        1\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"radiant_team\": {\n\t\t\t\t\t\"team_name\":
+        \"R a v e\",\n\t\t\t\t\t\"team_id\": 1366458,\n\t\t\t\t\t\"team_logo\": 577902803120116757,\n\t\t\t\t\t\"complete\":
+        true\n\t\t\t\t},\n\t\t\t\t\"dire_team\": {\n\t\t\t\t\t\"team_name\": \"Awake
+        Ft. LHH\",\n\t\t\t\t\t\"team_id\": 151368,\n\t\t\t\t\t\"team_logo\": 3332968356087915230,\n\t\t\t\t\t\"complete\":
+        false\n\t\t\t\t},\n\t\t\t\t\"lobby_id\": 23791470924823861,\n\t\t\t\t\"match_id\":
+        1080378919,\n\t\t\t\t\"spectators\": 26,\n\t\t\t\t\"league_id\": 1980,\n\t\t\t\t\"stream_delay_s\":
+        120,\n\t\t\t\t\"radiant_series_wins\": 0,\n\t\t\t\t\"dire_series_wins\": 0,\n\t\t\t\t\"series_type\":
+        0,\n\t\t\t\t\"league_tier\": 2,\n\t\t\t\t\"scoreboard\": {\n\t\t\t\t\t\"duration\":
+        1194.50830078125,\n\t\t\t\t\t\"roshan_respawn_timer\": 0,\n\t\t\t\t\t\"radiant\":
+        {\n\t\t\t\t\t\t\"score\": 10,\n\t\t\t\t\t\t\"tower_state\": 2047,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        103\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 64\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        41\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 9\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        30\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        78\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 89\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        101\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 84\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        22\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        87360406,\n\t\t\t\t\t\t\t\t\"hero_id\": 9,\n\t\t\t\t\t\t\t\t\"kills\": 2,\n\t\t\t\t\t\t\t\t\"death\":
+        1,\n\t\t\t\t\t\t\t\t\"assists\": 4,\n\t\t\t\t\t\t\t\t\"last_hits\": 71,\n\t\t\t\t\t\t\t\t\"denies\":
+        7,\n\t\t\t\t\t\t\t\t\"gold\": 1851,\n\t\t\t\t\t\t\t\t\"level\": 12,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        363,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 420,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 70,\n\t\t\t\t\t\t\t\t\"item0\":
+        212,\n\t\t\t\t\t\t\t\t\"item1\": 185,\n\t\t\t\t\t\t\t\t\"item2\": 36,\n\t\t\t\t\t\t\t\t\"item3\":
+        41,\n\t\t\t\t\t\t\t\t\"item4\": 50,\n\t\t\t\t\t\t\t\t\"item5\": 46,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": -3523.691162109375,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -3779.65283203125,\n\t\t\t\t\t\t\t\t\"net_worth\": 7361\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 102099826,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        41,\n\t\t\t\t\t\t\t\t\"kills\": 6,\n\t\t\t\t\t\t\t\t\"death\": 0,\n\t\t\t\t\t\t\t\t\"assists\":
+        3,\n\t\t\t\t\t\t\t\t\"last_hits\": 159,\n\t\t\t\t\t\t\t\t\"denies\": 40,\n\t\t\t\t\t\t\t\t\"gold\":
+        2173,\n\t\t\t\t\t\t\t\t\"level\": 14,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 624,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        577,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 2,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 63,\n\t\t\t\t\t\t\t\t\"item1\": 11,\n\t\t\t\t\t\t\t\t\"item2\":
+        172,\n\t\t\t\t\t\t\t\t\"item3\": 116,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        166,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -6710.74609375,\n\t\t\t\t\t\t\t\t\"position_y\": -5316.96630859375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        12473\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 91443418,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        64,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 4,\n\t\t\t\t\t\t\t\t\"assists\":
+        6,\n\t\t\t\t\t\t\t\t\"last_hits\": 13,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        434,\n\t\t\t\t\t\t\t\t\"level\": 7,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 181,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        154,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 0,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 34,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\":
+        28,\n\t\t\t\t\t\t\t\t\"item3\": 188,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        214,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        -1927.7459716796875,\n\t\t\t\t\t\t\t\t\"position_y\": -3544.892333984375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        2159\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        4,\n\t\t\t\t\t\t\t\t\"account_id\": 115102590,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        103,\n\t\t\t\t\t\t\t\t\"kills\": 1,\n\t\t\t\t\t\t\t\t\"death\": 2,\n\t\t\t\t\t\t\t\t\"assists\":
+        3,\n\t\t\t\t\t\t\t\t\"last_hits\": 54,\n\t\t\t\t\t\t\t\t\"denies\": 1,\n\t\t\t\t\t\t\t\t\"gold\":
+        207,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 291,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        268,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 65,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\":
+        178,\n\t\t\t\t\t\t\t\t\"item3\": 28,\n\t\t\t\t\t\t\t\t\"item4\": 23,\n\t\t\t\t\t\t\t\t\"item5\":
+        214,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        2524.21875,\n\t\t\t\t\t\t\t\t\"position_y\": -3987.427490234375,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        5482\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 91162296,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        30,\n\t\t\t\t\t\t\t\t\"kills\": 1,\n\t\t\t\t\t\t\t\t\"death\": 2,\n\t\t\t\t\t\t\t\t\"assists\":
+        6,\n\t\t\t\t\t\t\t\t\"last_hits\": 28,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        358,\n\t\t\t\t\t\t\t\t\"level\": 8,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 222,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        218,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 178,\n\t\t\t\t\t\t\t\t\"item1\": 42,\n\t\t\t\t\t\t\t\t\"item2\":
+        214,\n\t\t\t\t\t\t\t\t\"item3\": 21,\n\t\t\t\t\t\t\t\t\"item4\": 46,\n\t\t\t\t\t\t\t\t\"item5\":
+        43,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        1048.1654052734375,\n\t\t\t\t\t\t\t\t\"position_y\": -3858.38720703125,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        3658\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5051,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5048,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5050,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5049,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5182,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5183,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5184,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5185,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5297,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5298,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5299,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5589,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5591,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5593,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5592,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5594,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5138,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5139,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5140,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5141,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5002,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t},\n\t\t\t\t\t\"dire\":
+        {\n\t\t\t\t\t\t\"score\": 9,\n\t\t\t\t\t\t\"tower_state\": 1830,\n\t\t\t\t\t\t\"barracks_state\":
+        63,\n\t\t\t\t\t\t\"picks\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        29\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 15\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        87\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 57\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        44\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"bans\": [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        61\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 65\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        96\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\": 94\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"hero_id\":
+        43\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"players\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 1,\n\t\t\t\t\t\t\t\t\"account_id\":
+        81481903,\n\t\t\t\t\t\t\t\t\"hero_id\": 57,\n\t\t\t\t\t\t\t\t\"kills\": 1,\n\t\t\t\t\t\t\t\t\"death\":
+        2,\n\t\t\t\t\t\t\t\t\"assists\": 1,\n\t\t\t\t\t\t\t\t\"last_hits\": 22,\n\t\t\t\t\t\t\t\t\"denies\":
+        6,\n\t\t\t\t\t\t\t\t\"gold\": 281,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        181,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 230,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        1,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 52,\n\t\t\t\t\t\t\t\t\"item0\":
+        36,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\": 40,\n\t\t\t\t\t\t\t\t\"item3\":
+        178,\n\t\t\t\t\t\t\t\t\"item4\": 42,\n\t\t\t\t\t\t\t\t\"item5\": 214,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": 1817.9609375,\n\t\t\t\t\t\t\t\t\"position_y\":
+        -798.34173583984375,\n\t\t\t\t\t\t\t\t\"net_worth\": 3011\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        2,\n\t\t\t\t\t\t\t\t\"account_id\": 102085684,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        29,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 3,\n\t\t\t\t\t\t\t\t\"assists\":
+        1,\n\t\t\t\t\t\t\t\t\"last_hits\": 42,\n\t\t\t\t\t\t\t\t\"denies\": 0,\n\t\t\t\t\t\t\t\t\"gold\":
+        464,\n\t\t\t\t\t\t\t\t\"level\": 9,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 205,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        258,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 214,\n\t\t\t\t\t\t\t\t\"item1\": 46,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 0,\n\t\t\t\t\t\t\t\t\"item4\": 1,\n\t\t\t\t\t\t\t\t\"item5\":
+        0,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        6414.90771484375,\n\t\t\t\t\t\t\t\t\"position_y\": -156.73097229003906,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        3814\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        3,\n\t\t\t\t\t\t\t\t\"account_id\": 86727049,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        87,\n\t\t\t\t\t\t\t\t\"kills\": 0,\n\t\t\t\t\t\t\t\t\"death\": 3,\n\t\t\t\t\t\t\t\t\"assists\":
+        3,\n\t\t\t\t\t\t\t\t\"last_hits\": 6,\n\t\t\t\t\t\t\t\t\"denies\": 4,\n\t\t\t\t\t\t\t\t\"gold\":
+        65,\n\t\t\t\t\t\t\t\t\"level\": 6,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 118,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        113,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 34,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\":
+        0,\n\t\t\t\t\t\t\t\t\"item3\": 40,\n\t\t\t\t\t\t\t\t\"item4\": 0,\n\t\t\t\t\t\t\t\t\"item5\":
+        29,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        4230.31494140625,\n\t\t\t\t\t\t\t\t\"position_y\": -32,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        895\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\": 4,\n\t\t\t\t\t\t\t\t\"account_id\":
+        100829013,\n\t\t\t\t\t\t\t\t\"hero_id\": 44,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\":
+        1,\n\t\t\t\t\t\t\t\t\"assists\": 5,\n\t\t\t\t\t\t\t\t\"last_hits\": 128,\n\t\t\t\t\t\t\t\t\"denies\":
+        28,\n\t\t\t\t\t\t\t\t\"gold\": 2505,\n\t\t\t\t\t\t\t\t\"level\": 13,\n\t\t\t\t\t\t\t\t\"gold_per_min\":
+        490,\n\t\t\t\t\t\t\t\t\"xp_per_min\": 482,\n\t\t\t\t\t\t\t\t\"ultimate_state\":
+        3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\": 0,\n\t\t\t\t\t\t\t\t\"item0\":
+        12,\n\t\t\t\t\t\t\t\t\"item1\": 0,\n\t\t\t\t\t\t\t\t\"item2\": 26,\n\t\t\t\t\t\t\t\t\"item3\":
+        63,\n\t\t\t\t\t\t\t\t\"item4\": 145,\n\t\t\t\t\t\t\t\t\"item5\": 11,\n\t\t\t\t\t\t\t\t\"respawn_timer\":
+        0,\n\t\t\t\t\t\t\t\t\"position_x\": -1963.446044921875,\n\t\t\t\t\t\t\t\t\"position_y\":
+        5467.732421875,\n\t\t\t\t\t\t\t\t\"net_worth\": 9580\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"player_slot\":
+        5,\n\t\t\t\t\t\t\t\t\"account_id\": 101325470,\n\t\t\t\t\t\t\t\t\"hero_id\":
+        15,\n\t\t\t\t\t\t\t\t\"kills\": 4,\n\t\t\t\t\t\t\t\t\"death\": 1,\n\t\t\t\t\t\t\t\t\"assists\":
+        4,\n\t\t\t\t\t\t\t\t\"last_hits\": 94,\n\t\t\t\t\t\t\t\t\"denies\": 26,\n\t\t\t\t\t\t\t\t\"gold\":
+        347,\n\t\t\t\t\t\t\t\t\"level\": 13,\n\t\t\t\t\t\t\t\t\"gold_per_min\": 396,\n\t\t\t\t\t\t\t\t\"xp_per_min\":
+        453,\n\t\t\t\t\t\t\t\t\"ultimate_state\": 3,\n\t\t\t\t\t\t\t\t\"ultimate_cooldown\":
+        0,\n\t\t\t\t\t\t\t\t\"item0\": 41,\n\t\t\t\t\t\t\t\t\"item1\": 21,\n\t\t\t\t\t\t\t\t\"item2\":
+        185,\n\t\t\t\t\t\t\t\t\"item3\": 75,\n\t\t\t\t\t\t\t\t\"item4\": 36,\n\t\t\t\t\t\t\t\t\"item5\":
+        63,\n\t\t\t\t\t\t\t\t\"respawn_timer\": 0,\n\t\t\t\t\t\t\t\t\"position_x\":
+        7144.80224609375,\n\t\t\t\t\t\t\t\t\"position_y\": 6250.34326171875,\n\t\t\t\t\t\t\t\t\"net_worth\":
+        7982\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5263,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5264,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5266,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5118,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5119,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5120,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5121,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5458,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5459,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5460,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5461,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5190,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5191,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5192,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        3\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5193,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t,\n\t\t\t\t\t\t\"abilities\":
+        [\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5082,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5083,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        4\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5084,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        1\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\"ability_id\": 5085,\n\t\t\t\t\t\t\t\t\"ability_level\":
+        2\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t]\n\t\t\t\t\t\t\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t]\n\t\t,\n\t\t\"status\":
+        200\n\t}\n}"
+    http_version: 
+  recorded_at: Tue, 09 Dec 2014 16:05:57 GMT
+recorded_with: VCR 2.9.3

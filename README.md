@@ -12,6 +12,7 @@ Currently supported endpoints:
 - GetGameItems
 - [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 - [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
+- [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames) # scoreboard not fully functional
 
 Unsupported endpoints can still be queried via [custom requests](#custom-requests).
 
@@ -20,7 +21,6 @@ This gem is in alpha, keep that in mind when upgrading.
 ## TODO
 
 - Support for more endpoints
-  - [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
   - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
   - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
   - [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
@@ -238,6 +238,23 @@ rarity.color # String, The hexadecimal RGB tuple
 friend.id           # Integer, Friend's 64-bit Steam ID
 friend.relationship # String, Relation to the player
 friend.made_at      # Time, When the friend was added to the player's friend list
+```
+
+#### Live Matches
+```ruby
+live_matches.id                   # Integer, Id of match
+live_matches.lobby_id             # Integer, Id of lobby
+live_matches.spectators_count     # Integer, Number of spectators watching on DotaTV
+live_matches.league_id            # Integer, Id of league 
+live_matches.stream_delay_count   # Integer, Number of seconds that the stream is behind actual game time
+live_matches.radiant_series_wins  # Integer, Number of wins the radiant team has in the series
+live_matches.dire_series_wins     # Integer, Number of wins the dire team has in the series
+live_matches.radiant              # Dota::API::LiveMatch::Side, Info about the team on the radiant side 
+live_matches.dire                 # Dota::API::LiveMatch::Side, Info about the team on the dire side
+live_matches.series_type          # Integer, Best of X series
+live_matches.league_tier          # String, What tier the match is 
+live_matches.players              # Array[Dota::API::LiveMatch::Players], High level info about the players in the match (some info is redudant in scoreboard)
+live_matches.scoreboard           # Hash, A hash of the scoreboard (to be converted soon to a object / integrated with our players class)
 ```
 
 ## Contributing
