@@ -1,14 +1,6 @@
 module Dota
   module API
-    class Team
-      include Utilities::Inspectable
-
-      attr_reader :raw
-
-      def initialize(raw)
-        @raw = raw
-      end
-
+    class Team < Entity
       def id
         raw["team_id"]
       end

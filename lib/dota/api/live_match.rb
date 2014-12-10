@@ -1,18 +1,6 @@
 module Dota
   module API
-    class LiveMatch
-      include Utilities::Inspectable
-
-      attr_reader :raw
-
-      def initialize(raw)
-        @raw = raw
-      end
-
-      def id
-        raw["match_id"]
-      end
-
+    class LiveMatch < BasicMatch
       def lobby_id
         raw["lobby_id"]
       end

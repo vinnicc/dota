@@ -1,19 +1,11 @@
 module Dota
   module API
-    class League
+    class League < Entity
       TIERS = {
         1 => "Amateur",
         2 => "Professional",
         3 => "Premier"
       }
-
-      include Utilities::Inspectable
-
-      attr_reader :raw
-
-      def initialize(raw)
-        @raw = raw
-      end
 
       def id
         raw["leagueid"]

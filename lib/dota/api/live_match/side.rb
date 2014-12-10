@@ -1,15 +1,7 @@
 module Dota
   module API
     class LiveMatch
-      class Side
-        include Utilities::Inspectable
-
-        attr_reader :raw
-
-        def initialize(raw)
-          @raw = raw
-        end
-
+      class Side < Entity
         def name
           raw["team_name"]
         end

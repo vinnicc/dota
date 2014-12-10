@@ -1,15 +1,7 @@
 module Dota
   module API
     class Cosmetic
-      class Rarity
-        include Utilities::Inspectable
-
-        attr_reader :raw 
-
-        def initialize(raw)
-          @raw = raw
-        end
-
+      class Rarity < Entity
         def id
           raw["id"]
         end
