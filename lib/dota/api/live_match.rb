@@ -29,11 +29,11 @@ module Dota
         raw["stream_delay_s"]
       end
 
-      def radiant_wins
+      def radiant_series_wins
         raw["radiant_series_wins"]
       end
 
-      def dire_wins
+      def dire_series_wins
         raw["dire_series_wins"]
       end
 
