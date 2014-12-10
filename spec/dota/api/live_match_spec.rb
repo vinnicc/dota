@@ -50,13 +50,11 @@ describe Dota::API::LiveMatch do
     expect(live_match.league_tier).to eq "Amateur"
   end
 
-  specify "#players" do
-    players = live_match.players
-    expect(players.count).to eq 11
-    expect(players.first).to be_a Dota::API::LiveMatch::Player
+  specify "#duration" do
+    expect(live_match.duration).to eq 2840.2998046875
   end
 
-  specify "#scoreboard" do
-    expect(live_match.scoreboard).to be_a Dota::API::LiveMatch::Scoreboard
+  specify "#roshan_timer" do
+    expect(live_match.roshan_timer).to eq 278
   end
 end

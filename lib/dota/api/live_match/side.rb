@@ -25,6 +25,24 @@ module Dota
         def complete?
           raw["complete"]
         end
+
+        def score
+          raw["score"]
+        end
+
+        def tower_status
+          raw["tower_state"]
+        end
+
+        def barracks_status
+          raw["barracks_state"]
+        end
+
+        def players
+          raw["players"].map do |raw_player|
+            Player.new(raw_player)
+          end
+        end
       end
     end
   end

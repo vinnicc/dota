@@ -22,4 +22,22 @@ describe Dota::API::LiveMatch::Side do
   specify "#complete?" do
     expect(side.complete?).to eq false
   end
+
+  specify "#score" do
+    expect(side.score).to eq 54
+  end
+
+  specify "#tower_status" do
+    expect(side.tower_status).to eq 1958
+  end
+
+  specify "#barracks_status" do
+    expect(side.barracks_status).to eq 63
+  end
+
+  specify "#players" do
+    players = side.players
+    expect(players.count).to eq 5
+    expect(players.first).to be_a Dota::API::LiveMatch::Player
+  end
 end

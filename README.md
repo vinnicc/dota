@@ -113,7 +113,7 @@ api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621)
 
 ### API Objects
 
-#### Heroes
+#### Hero
 
 ```ruby
 hero.id        # Integer, ID of the hero
@@ -170,63 +170,101 @@ match.mode_id                 # Integer, See Dota::API::Match::MODES
 match.sequence                # Integer, A 'sequence number', representing the order in which matches were recorded
 match.season                  # Integer, Season the match was played in
 match.cluster                 # Integer, Server cluster the match was played on
-match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
-match.players                 # Array[Dota::API::Match::Player], Players in the match
-match.players_count           # Integer, Number of players in the match
 match.starts_at               # Time, When the match started
 match.first_blood             # Integer, Seconds since the match started when first blood occured
-match.duration                # Integer, Length of the match, in seconds since the match began.
+match.duration                # Integer, Length of the match, in seconds since the match began
 match.winner                  # Symbol, :radiant or :dire
 match.positive_votes          # Integer, Number of thumbs-up the game has received
 match.negative_votes          # Integer, Number of thumbs-down the game has received
+match.players_count           # Integer, Number of players in the match
+match.players                 # Array[Dota::API::Match::Player], Players in the match
 
 match.radiant_id              # Integer, Radiant team's ID
 match.radiant_captain_id      # Integer, Radiant captain's 32-bit Steam ID
 match.radiant_logo_id         # Integer, Radiant logo's UGC ID
 match.radiant_name            # String, Radiant team's name
 match.radiant_complete?       # Boolean, true if the Radiant team's roster is complete
-match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Tower_Status
-match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Barracks_Status
+match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
+match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
 
 match.dire_id                 # Integer, Dire team's ID
 match.dire_captain_id         # Integer, Dire captain's 32-bit Steam ID
 match.dire_logo_id            # Integer, Dire logo's UGC ID
 match.dire_name               # String, Dire team's name
 match.dire_complete?          # Boolean, true if the Dire team's roster is complete
-match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Tower_Status
-match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails # Barracks_Status
+match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
+match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
+
+match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
+
+# Dota::API::Match::Draft
+draft.order                   # Integer, 1-20
+draft.pick?                   # Boolean, true if the draft is a pick, and not a ban
+draft.team                    # Symbol, :radiant or :dire
+draft.hero                    # Dota::API::Hero, Picked or banned hero
+```
+
+#### Live Matches
+
+```ruby
+live_match.id                  # Integer, ID of the match
+live_match.lobby_id            # Integer, ID of the lobby
+live_match.spectators_count    # Integer, Number of spectators watching on DotaTV
+live_match.league_id           # Integer, ID of the league
+live_match.stream_delay        # Integer, Number of seconds the stream is behind actual game time
+live_match.radiant_series_wins # Integer, Number of wins the Radiant team has in the series
+live_match.dire_series_wins    # Integer, Number of wins the Dire team has in the series
+live_match.series_type         # Integer, Best of X series
+live_match.league_tier         # String, What tier the match's league is
+live_match.duration            # Integer, Length of the match, in seconds since the match began
+live_match.roshan_timer        # Integer, Seconds until Roshan respawns
+
+live_match.radiant             # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
+live_match.dire                # Dota::API::LiveMatch::Side, Info about the team on the Dire side
+
+# Dota::API::LiveMatch::Side
+radiant.id                     # Integer
+radiant.score                  # Integer
+radiant.name                   # String
+radiant.logo_id                # Integer
+radiant.complete?              # Boolean, true if the team's roster is complete
+radiant.tower_status           # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
+radiant.barracks_status        # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
+radiant.players                # Array[Dota::API::LiveMatch::Player], Players in the live match
 ```
 
 #### Players
 
 ```ruby
-player.id           # Integer, 32-bit Steam ID
-player.hero         # Dota::API::Hero, Player's hero
-player.items        # Array[Dota::API::Item], Player's inventory (6 items)
-player.slot         # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Player_Slot
-player.status       # Symbol, :played, :left_safe, :abandoned, or :bot
-player.level        # Integer, The player's level at match end
-player.kills        # Integer, Number of kills attributed to this player
-player.deaths       # Integer, Times this player died during the match
-player.assists      # Integer, Number of assists the player got
-player.last_hits    # Integer, Number of last-hits the player got
-player.denies       # Integer, Number of denies the player got
-player.gold         # Integer, Amount of gold the player had remaining at the end of the match
-player.gold_spent   # Integer, Amount of gold the player spent
-player.gpm          # Integer, Player's overall gold/minute
-player.xpm          # Integer, Player's overall experience/minute
-player.hero_damage  # Integer, Amount of damage the player dealt to heroes
-player.tower_damage # Integer, Amount of damage the player dealt to towers
-player.hero_healing # Integer, Amount of health the player had healed on heroes
-```
+player.id                # Integer, 32-bit Steam ID
+player.hero              # Dota::API::Hero, Player's hero
+player.items             # Array[Dota::API::Item], Player's inventory (6 items)
+player.slot              # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Player_Slot
+player.level             # Integer, The player's level at match end
+player.kills             # Integer, Number of kills attributed to this player
+player.deaths            # Integer, Times this player died during the match
+player.assists           # Integer, Number of assists the player got
+player.last_hits         # Integer, Number of last-hits the player got
+player.denies            # Integer, Number of denies the player got
+player.gold              # Integer, Amount of gold the player had remaining at the end of the match
+player.gpm               # Integer, Player's overall gold/minute
+player.xpm               # Integer, Player's overall experience/minute
 
-#### Drafts
+# Additional methods in Match::Player
+player.status            # Symbol, :played, :left_safe, :abandoned, or :bot
+player.gold_spent        # Integer, Amount of gold the player spent
+player.hero_damage       # Integer, Amount of damage the player dealt to heroes
+player.tower_damage      # Integer, Amount of damage the player dealt to towers
+player.hero_healing      # Integer, Amount of health the player had healed on heroes
 
-```ruby
-draft.order # Integer, 1-20
-draft.pick? # Boolean, true if the draft is a pick, and not a ban
-draft.team  # Symbol, :radiant or :dire
-draft.hero  # Dota::API::Hero, Picked or banned hero
+# Additional methods in LiveMatch::Player
+player.name              # String, Name of the player
+player.net_worth         # Integer
+player.ultimate_state    # Integer
+player.ultimate_cooldown # Integer
+player.respawn_timer     # Integer
+player.position_x        # Float
+player.position_y        # Float
 ```
 
 #### Cosmetic Rarities
@@ -244,23 +282,6 @@ rarity.color # String, The hexadecimal RGB tuple
 friend.id           # Integer, Friend's 64-bit Steam ID
 friend.relationship # String, Relation to the player
 friend.made_at      # Time, When the friend was added to the player's friend list
-```
-
-#### Live Matches
-```ruby
-live_matches.id                   # Integer, ID of the match
-live_matches.lobby_id             # Integer, ID of the lobby
-live_matches.spectators_count     # Integer, Number of spectators watching on DotaTV
-live_matches.league_id            # Integer, ID of the league
-live_matches.stream_delay         # Integer, Number of seconds the stream is behind actual game time
-live_matches.radiant_series_wins  # Integer, Number of wins the Radiant team has in the series
-live_matches.dire_series_wins     # Integer, Number of wins the Dire team has in the series
-live_matches.radiant              # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
-live_matches.dire                 # Dota::API::LiveMatch::Side, Info about the team on the Dire side
-live_matches.series_type          # Integer, Best of X series
-live_matches.league_tier          # String, What tier the match's league is
-live_matches.players              # Array[Dota::API::LiveMatch::Players], High level info about the players in the match (some redundant info in scoreboard)
-live_matches.scoreboard           # Hash, Details of the scoreboard (to be converted soon to an object and/or integrated with our players class)
 ```
 
 ## Contributing
