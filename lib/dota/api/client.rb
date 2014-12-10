@@ -65,8 +65,8 @@ module Dota
         end
       end
 
-      def live_matches
-        response = get("IDOTA2Match_570", "GetLiveLeagueGames")["result"]
+      def live_matches(options = {})
+        response = get("IDOTA2Match_570", "GetLiveLeagueGames", options)["result"]
         if response && (live_matches = response["games"])
           live_matches.map { |game| LiveMatch.new(game) }
         end

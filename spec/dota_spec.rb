@@ -86,10 +86,31 @@ describe Dota do
       end
     end
 
-    specify "#live_matches" do
-      VCR.use_cassette("GetLiveLeagueGames") do
-        matches = api.live_matches
-        expect(matches.first).to be_a Dota::API::LiveMatch
+    describe "#live_matches" do
+      context "without args" do
+        it "returns all live league matches" do
+          VCR.use_cassette("GetLiveLeagueGames") do
+            matches = api.live_matches
+            expect(matches.first).to be_a Dota::API::LiveMatch
+          end
+        end
+      end
+
+      context "given a hash" do
+        accepted_params = {
+          league_id: :league_id,
+          match_id:  :match_id
+        }
+        accepted_params.each do |local, remote|
+
+          specify ":#{local} should translate to :#{remote}" do
+            random_value = SecureRandom.hex
+            VCR.use_cassette("GetLiveLeagueGames") do
+              expect(api).to receive(:get).with("IDOTA2Match_570", "GetLiveLeagueGames", remote => random_value) { double.as_null_object }
+              matches = api.live_matches(local => random_value)
+            end
+          end
+        end
       end
     end
 
