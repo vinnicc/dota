@@ -1,3 +1,5 @@
+require 'yaml'
+
 require 'dota/configuration'
 require 'dota/version'
 

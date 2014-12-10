@@ -64,7 +64,7 @@ describe Dota do
       context "given a hash" do
         accepted_params = {
           after: :start_at_team_id,
-          limit: :teams_requested,
+          limit: :teams_requested
         }
         accepted_params.each do |local, remote|
 
@@ -72,7 +72,7 @@ describe Dota do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetTeamInfoByTeamID") do
               expect(api).to receive(:get).with("IDOTA2Match_570", "GetTeamInfoByTeamID", remote => random_value) { double.as_null_object }
-              teams = api.teams(local => random_value)
+              api.teams(local => random_value)
             end
           end
         end
@@ -107,7 +107,7 @@ describe Dota do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetLiveLeagueGames") do
               expect(api).to receive(:get).with("IDOTA2Match_570", "GetLiveLeagueGames", remote => random_value) { double.as_null_object }
-              matches = api.live_matches(local => random_value)
+              api.live_matches(local => random_value)
             end
           end
         end
@@ -169,7 +169,7 @@ describe Dota do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetMatchHistory") do
               expect(api).to receive(:get).with("IDOTA2Match_570", "GetMatchHistory", remote => random_value) { double.as_null_object }
-              matches = api.matches(local => random_value)
+              api.matches(local => random_value)
             end
           end
         end

@@ -65,7 +65,7 @@ module Dota
       end
 
       def player_name_from_id(id)
-        player = raw["players"].detect { |player| id == player["account_id"] }
+        player = raw["players"].detect { |p| id == p["account_id"] }
         player["name"]
       end
     end
