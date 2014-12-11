@@ -161,6 +161,9 @@ Caveat: Getting a list of matches via `api.matches` will call [GetMatchHistory](
 When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't provide it yet.
 
 ```ruby
+match.radiant                 # Dota::API::Match::Side, Info about the team on the Radiant side
+match.dire                    # Dota::API::Match::Side, Info about the team on the Dire side
+
 match.id                      # Integer, ID of the match
 match.league_id               # Integer, ID of the league this match was a part of
 match.type                    # String, See Dota::API::Match::TYPES
@@ -177,10 +180,8 @@ match.winner                  # Symbol, :radiant or :dire
 match.positive_votes          # Integer, Number of thumbs-up the game has received
 match.negative_votes          # Integer, Number of thumbs-down the game has received
 match.players_count           # Integer, Number of players in the match
-match.radiant                 # Dota::API::Match::Side, Info about the team on the Radiant side
-match.dire                    # Dota::API::Match::Side, Info about the team on the Dire side
-match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
 
+match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
 # Dota::API::Match::Draft
 draft.order                   # Integer, 1-20
 draft.pick?                   # Boolean, true if the draft is a pick, and not a ban
@@ -191,6 +192,9 @@ draft.hero                    # Dota::API::Hero, Picked or banned hero
 #### Live Matches
 
 ```ruby
+live_match.radiant             # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
+live_match.dire                # Dota::API::LiveMatch::Side, Info about the team on the Dire side
+
 live_match.id                  # Integer, ID of the match
 live_match.lobby_id            # Integer, ID of the lobby
 live_match.spectators_count    # Integer, Number of spectators watching on DotaTV
@@ -202,8 +206,6 @@ live_match.series_type         # Integer, Best of X series
 live_match.league_tier         # String, What tier the match's league is
 live_match.duration            # Integer, Length of the match, in seconds since the match began
 live_match.roshan_timer        # Integer, Seconds until Roshan respawns
-live_match.radiant             # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
-live_match.dire                # Dota::API::LiveMatch::Side, Info about the team on the Dire side
 ```
 
 #### Sides - Radiant/Dire
@@ -213,7 +215,7 @@ radiant.id         # Integer, Team's ID
 radiant.logo_id    # Integer, Team logo's UGC ID
 radiant.name       # String, Team's name
 radiant.complete?  # Boolean, true if the team's roster is complete
-radiant.players    # Array[Dota::API::LiveMatch::Player], Players in the live match
+radiant.players    # Array[Dota::API::Match::Player|Dota::API::LiveMatch::Player], Players in the match
 
 # Additional methods in Match::Side
 radiant.captain_id # Integer, Team captain's 32-bit Steam ID

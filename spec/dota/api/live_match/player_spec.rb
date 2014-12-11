@@ -1,13 +1,11 @@
 describe Dota::API::LiveMatch::Player do
-  let(:player) do
+  let(:live_match) do
     VCR.use_cassette("GetLiveLeagueGames") do
-      test_client
-        .live_matches
-        .first
-        .radiant
-        .players
-        .at(3)
+      test_client.live_matches.first
     end
+  end
+  let(:player) do
+    live_match.radiant.players.at(3)
   end
 
   specify "#id" do
@@ -36,6 +34,9 @@ describe Dota::API::LiveMatch::Player do
 
   specify "#slot" do
     expect(player.slot).to eq 4
+
+    expect(live_match.radiant.players.map(&:slot)).to eq [1, 2, 3, 4, 5]
+    expect(live_match.dire.players.map(&:slot)).to eq [1, 2, 3, 4, 5]
   end
 
   specify "#last_hits" do

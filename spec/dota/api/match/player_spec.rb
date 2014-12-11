@@ -1,13 +1,10 @@
 describe Dota::API::Match::Player do
-  let(:player) do
+  let(:match) do
     VCR.use_cassette("GetMatchDetails") do
-      test_client
-        .matches(sample_match_id)
-        .radiant
-        .players
-        .first
+      test_client.matches(sample_match_id)
     end
   end
+  let(:player) { match.radiant.players.first }
 
   specify "#id" do
     expect(player.id).to eq 98887913
@@ -19,6 +16,9 @@ describe Dota::API::Match::Player do
 
   specify "#slot" do
     expect(player.slot).to eq 1
+
+    expect(match.radiant.players.map(&:slot)).to eq [1, 2, 3, 4, 5]
+    expect(match.dire.players.map(&:slot)).to eq [1, 2, 3, 4, 5]
   end
 
   specify "#status" do

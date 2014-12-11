@@ -46,11 +46,9 @@ describe Dota::API::Match::Side do
     players = radiant.players
     expect(players.count).to eq 5
     expect(players.first).to be_a Dota::API::Match::Player
-    expect(players.map(&:slot)).to eq [1, 2, 3, 4, 5]
 
     players = dire.players
     expect(players.count).to eq 5
     expect(players.first).to be_a Dota::API::Match::Player
-    expect(players.map(&:slot)).to eq [1, 2, 3, 4, 5]
   end
 end

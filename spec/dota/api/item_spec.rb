@@ -1,14 +1,5 @@
 describe Dota::API::Item do
-  let(:item) do
-    VCR.use_cassette("GetMatchDetails") do
-      test_client.matches(sample_match_id)
-        .radiant
-        .players
-        .first
-        .items
-        .first
-    end
-  end
+  let(:item) { described_class.new(1) }
 
   specify ".all" do
     items = described_class.all

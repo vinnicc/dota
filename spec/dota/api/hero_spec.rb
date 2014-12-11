@@ -1,14 +1,5 @@
 describe Dota::API::Hero do
-  let(:hero) do
-    VCR.use_cassette("GetMatchDetails") do
-      test_client
-        .matches(sample_match_id)
-        .radiant
-        .players
-        .first
-        .hero
-    end
-  end
+  let(:hero) { described_class.new(69) }
 
   specify ".all" do
     heroes = described_class.all
