@@ -113,7 +113,7 @@ api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621)
 
 ### API Objects
 
-#### Hero
+#### Heroes
 
 ```ruby
 hero.id        # Integer, ID of the hero
