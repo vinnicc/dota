@@ -1,7 +1,12 @@
 describe Dota::API::Item do
   let(:item) do
     VCR.use_cassette("GetMatchDetails") do
-      test_client.matches(sample_match_id).players.first.items.first
+      test_client.matches(sample_match_id)
+        .radiant
+        .players
+        .first
+        .items
+        .first
     end
   end
 

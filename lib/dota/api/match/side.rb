@@ -1,29 +1,29 @@
 module Dota
   module API
-    class LiveMatch
+    class Match
       class Side < Entity
         def id
           raw["team_id"]
         end
 
         def name
-          raw["team_name"]
+          raw["name"]
         end
 
         def logo_id
-          raw["team_logo"]
+          raw["logo"]
         end
 
         def complete?
-          raw["complete"]
+          raw["team_complete"] == 1
         end
 
         def tower_status
-          raw["tower_state"]
+          raw["tower_status"]
         end
 
         def barracks_status
-          raw["barracks_state"]
+          raw["barracks_status"]
         end
 
         def players
@@ -32,8 +32,8 @@ module Dota
           end
         end
 
-        def score
-          raw["score"]
+        def captain_id
+          raw["captain"]
         end
       end
     end

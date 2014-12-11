@@ -21,6 +21,7 @@ require 'dota/api/live_match/side'
 require 'dota/api/match'
 require 'dota/api/match/draft'
 require 'dota/api/match/player'
+require 'dota/api/match/side'
 require 'dota/api/team'
 
 module Dota

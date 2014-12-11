@@ -1,7 +1,11 @@
 describe Dota::API::Match::Player do
   let(:player) do
     VCR.use_cassette("GetMatchDetails") do
-      test_client.matches(sample_match_id).players.first
+      test_client
+        .matches(sample_match_id)
+        .radiant
+        .players
+        .first
     end
   end
 
@@ -14,7 +18,7 @@ describe Dota::API::Match::Player do
   end
 
   specify "#slot" do
-    expect(player.slot).to eq 0
+    expect(player.slot).to eq 1
   end
 
   specify "#status" do

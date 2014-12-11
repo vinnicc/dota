@@ -177,24 +177,8 @@ match.winner                  # Symbol, :radiant or :dire
 match.positive_votes          # Integer, Number of thumbs-up the game has received
 match.negative_votes          # Integer, Number of thumbs-down the game has received
 match.players_count           # Integer, Number of players in the match
-match.players                 # Array[Dota::API::Match::Player], Players in the match
-
-match.radiant_id              # Integer, Radiant team's ID
-match.radiant_captain_id      # Integer, Radiant captain's 32-bit Steam ID
-match.radiant_logo_id         # Integer, Radiant logo's UGC ID
-match.radiant_name            # String, Radiant team's name
-match.radiant_complete?       # Boolean, true if the Radiant team's roster is complete
-match.radiant_tower_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
-match.radiant_barracks_status # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
-
-match.dire_id                 # Integer, Dire team's ID
-match.dire_captain_id         # Integer, Dire captain's 32-bit Steam ID
-match.dire_logo_id            # Integer, Dire logo's UGC ID
-match.dire_name               # String, Dire team's name
-match.dire_complete?          # Boolean, true if the Dire team's roster is complete
-match.dire_tower_status       # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
-match.dire_barracks_status    # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
-
+match.radiant                 # Dota::API::Match::Side, Info about the team on the Radiant side
+match.dire                    # Dota::API::Match::Side, Info about the team on the Dire side
 match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
 
 # Dota::API::Match::Draft
@@ -218,19 +202,24 @@ live_match.series_type         # Integer, Best of X series
 live_match.league_tier         # String, What tier the match's league is
 live_match.duration            # Integer, Length of the match, in seconds since the match began
 live_match.roshan_timer        # Integer, Seconds until Roshan respawns
-
 live_match.radiant             # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
 live_match.dire                # Dota::API::LiveMatch::Side, Info about the team on the Dire side
+```
 
-# Dota::API::LiveMatch::Side
-radiant.id                     # Integer
-radiant.score                  # Integer
-radiant.name                   # String
-radiant.logo_id                # Integer
-radiant.complete?              # Boolean, true if the team's roster is complete
-radiant.tower_status           # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Tower_Status
-radiant.barracks_status        # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Barracks_Status
-radiant.players                # Array[Dota::API::LiveMatch::Player], Players in the live match
+#### Sides - Radiant/Dire
+
+```ruby
+radiant.id         # Integer, Team's ID
+radiant.logo_id    # Integer, Team logo's UGC ID
+radiant.name       # String, Team's name
+radiant.complete?  # Boolean, true if the team's roster is complete
+radiant.players    # Array[Dota::API::LiveMatch::Player], Players in the live match
+
+# Additional methods in Match::Side
+radiant.captain_id # Integer, Team captain's 32-bit Steam ID
+
+# Additional methods in LiveMatch::Side
+radiant.score      # Integer, The team's current score
 ```
 
 #### Players

@@ -1,7 +1,10 @@
 describe Dota::API::Match::Draft do
   let(:draft) do
     VCR.use_cassette("GetMatchDetails") do
-      test_client.matches(sample_match_id).drafts.last
+      test_client
+        .matches(sample_match_id)
+        .drafts
+        .last
     end
   end
 

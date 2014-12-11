@@ -2,6 +2,10 @@ module Dota
   module API
     class LiveMatch
       class Player < BasicPlayer
+        def slot
+          raw["player_slot"]
+        end
+
         def name
           raw["name"]
         end

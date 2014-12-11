@@ -1,10 +1,12 @@
 describe Dota::API::LiveMatch::Player do
   let(:player) do
     VCR.use_cassette("GetLiveLeagueGames") do
-      matches = test_client.live_matches
-      first_match = matches.first
-      players = first_match.radiant.players
-      players.at(3)
+      test_client
+        .live_matches
+        .first
+        .radiant
+        .players
+        .at(3)
     end
   end
 

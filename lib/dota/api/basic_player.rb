@@ -29,10 +29,6 @@ module Dota
         raw["level"]
       end
 
-      def slot
-        raw["player_slot"]
-      end
-
       def assists
         raw["assists"]
       end

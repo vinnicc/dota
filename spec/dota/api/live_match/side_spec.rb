@@ -1,43 +1,56 @@
 describe Dota::API::LiveMatch::Side do
-  let(:side) do
+  let(:live_match) do
     VCR.use_cassette("GetLiveLeagueGames") do
-      matches = test_client.live_matches
-      first_match = matches.first
-      first_match.dire
+      test_client.live_matches.first
     end
   end
+  let(:radiant) { live_match.radiant }
+  let(:dire) { live_match.dire }
 
   specify "#id" do
-    expect(side.id).to eq 1846074
+    expect(radiant.id).to eq 1677303
+    expect(dire.id).to eq 1846074
   end
 
   specify "#name" do
-    expect(side.name).to eq "Haunti Gaming"
+    expect(radiant.name).to eq "ReallyCoolGuys"
+    expect(dire.name).to eq "Haunti Gaming"
   end
 
   specify "#logo_id" do
-    expect(side.logo_id).to eq 547513665869798854
+    expect(radiant.logo_id).to eq 29595255080842763
+    expect(dire.logo_id).to eq 547513665869798854
   end
 
   specify "#complete?" do
-    expect(side.complete?).to eq false
+    expect(radiant.complete?).to eq false
+    expect(dire.complete?).to eq false
   end
 
   specify "#score" do
-    expect(side.score).to eq 54
+    expect(radiant.score).to eq 42
+    expect(dire.score).to eq 54
   end
 
   specify "#tower_status" do
-    expect(side.tower_status).to eq 1958
+    expect(radiant.tower_status).to eq 1540
+    expect(dire.tower_status).to eq 1958
   end
 
   specify "#barracks_status" do
-    expect(side.barracks_status).to eq 63
+    expect(radiant.barracks_status).to eq 3
+    expect(dire.barracks_status).to eq 63
   end
 
   specify "#players" do
-    players = side.players
+    players = radiant.players
     expect(players.count).to eq 5
     expect(players.first).to be_a Dota::API::LiveMatch::Player
+    expect(players.map(&:slot)).to eq [1, 2, 3, 4, 5]
+
+    players = dire.players
+    expect(players.count).to eq 5
+    expect(players.first).to be_a Dota::API::LiveMatch::Player
+    expect(players.map(&:slot)).to eq [1, 2, 3, 4, 5]
   end
 end

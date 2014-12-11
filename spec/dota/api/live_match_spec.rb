@@ -1,8 +1,7 @@
 describe Dota::API::LiveMatch do
   let(:live_match) do
     VCR.use_cassette("GetLiveLeagueGames") do
-      matches = test_client.live_matches
-      matches.first
+      test_client.live_matches.first
     end
   end
 

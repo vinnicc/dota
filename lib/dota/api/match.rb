@@ -23,12 +23,6 @@ module Dota
         end
       end
 
-      def players
-        raw["players"].map do |raw_player|
-          Player.new(raw_player)
-        end
-      end
-
       def sequence
         raw["match_seq_num"]
       end
@@ -73,60 +67,32 @@ module Dota
         raw["cluster"]
       end
 
-      def radiant_tower_status
-        raw["tower_status_radiant"]
+      def radiant
+        Side.new(raw_for_side(:radiant))
       end
 
-      def dire_tower_status
-        raw["tower_status_dire"]
+      def dire
+        Side.new(raw_for_side(:dire))
       end
 
-      def radiant_barracks_status
-        raw["barracks_status_radiant"]
+      private
+
+      def raw_for_side(type)
+        pattern = /^#{type}_|_#{type}$/
+        raw_side = raw.select { |k, v| k.to_s.match(pattern) }
+        raw_side = Hash[raw_side.map { |k, v| [k.sub(pattern, ""), v] }]
+        raw_side.merge("players" => players_for_side(type))
       end
 
-      def dire_barracks_status
-        raw["barracks_status_dire"]
-      end
-
-      def radiant_id
-        raw["radiant_team_id"]
-      end
-
-      def radiant_name
-        raw["radiant_name"]
-      end
-
-      def radiant_logo_id
-        raw["radiant_logo"]
-      end
-
-      def radiant_complete?
-        raw["radiant_team_complete"] == 1
-      end
-
-      def radiant_captain_id
-        raw["radiant_captain"]
-      end
-
-      def dire_id
-        raw["dire_team_id"]
-      end
-
-      def dire_name
-        raw["dire_name"]
-      end
-
-      def dire_logo_id
-        raw["dire_logo"]
-      end
-
-      def dire_complete?
-        raw["dire_team_complete"] == 1
-      end
-
-      def dire_captain_id
-        raw["dire_captain"]
+      def players_for_side(type)
+        raw["players"].select do |player|
+          case type
+          when :radiant
+            player["player_slot"] < 100
+          when :dire
+            player["player_slot"] > 100
+          end
+        end
       end
     end
   end
