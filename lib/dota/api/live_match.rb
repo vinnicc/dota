@@ -25,14 +25,6 @@ module Dota
         raw["stream_delay_s"]
       end
 
-      def radiant_series_wins
-        raw["radiant_series_wins"]
-      end
-
-      def dire_series_wins
-        raw["dire_series_wins"]
-      end
-
       def series_type
         raw["series_type"]
       end
@@ -52,16 +44,18 @@ module Dota
       private
 
       def raw_side(type)
-        raw_side = raw["#{type}_team"].merge(raw["scoreboard"]["#{type}"])
-        merge_player_names!(raw_side["players"])
-        raw_side
+        raw_side = raw["#{type}_team"]
+          .merge(raw["scoreboard"]["#{type}"])
+          .merge("series_wins" => raw["#{type}_series_wins"])
+        merge_player_names(raw_side)
       end
 
-      def merge_player_names!(raw_side_players)
-        raw_side_players.map! do |player|
+      def merge_player_names(raw_side)
+        raw_side["players"].map! do |player|
           id = player["account_id"]
           player.merge("name" => player_name_from_id(id))
         end
+        raw_side
       end
 
       def player_name_from_id(id)

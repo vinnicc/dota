@@ -32,6 +32,11 @@ describe Dota::API::LiveMatch::Side do
     expect(dire.score).to eq 54
   end
 
+  specify "#series_wins" do
+    expect(radiant.series_wins).to eq 0
+    expect(dire.series_wins).to eq 0
+  end
+
   specify "#tower_status" do
     expect(radiant.tower_status).to eq 1540
     expect(dire.tower_status).to eq 1958

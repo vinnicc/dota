@@ -25,14 +25,6 @@ describe Dota::API::LiveMatch do
     expect(live_match.stream_delay).to eq 120
   end
 
-  specify "#radiant_series_wins" do
-    expect(live_match.radiant_series_wins).to eq 0
-  end
-
-  specify "#dire_series_wins" do
-    expect(live_match.dire_series_wins).to eq 0
-  end
-
   specify "#radiant" do
     expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
   end

@@ -26,6 +26,10 @@ module Dota
           raw["barracks_state"]
         end
 
+        def series_wins
+          raw["series_wins"]
+        end
+
         def players
           raw["players"].map do |raw_player|
             Player.new(raw_player)

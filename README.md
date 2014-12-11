@@ -200,8 +200,6 @@ live_match.lobby_id            # Integer, ID of the lobby
 live_match.spectators_count    # Integer, Number of spectators watching on DotaTV
 live_match.league_id           # Integer, ID of the league
 live_match.stream_delay        # Integer, Number of seconds the stream is behind actual game time
-live_match.radiant_series_wins # Integer, Number of wins the Radiant team has in the series
-live_match.dire_series_wins    # Integer, Number of wins the Dire team has in the series
 live_match.series_type         # Integer, Best of X series
 live_match.league_tier         # String, What tier the match's league is
 live_match.duration            # Integer, Length of the match, in seconds since the match began
@@ -211,17 +209,18 @@ live_match.roshan_timer        # Integer, Seconds until Roshan respawns
 #### Sides - Radiant/Dire
 
 ```ruby
-radiant.id         # Integer, Team's ID
-radiant.logo_id    # Integer, Team logo's UGC ID
-radiant.name       # String, Team's name
-radiant.complete?  # Boolean, true if the team's roster is complete
-radiant.players    # Array[Dota::API::Match::Player|Dota::API::LiveMatch::Player], Players in the match
+radiant.id          # Integer, Team's ID
+radiant.logo_id     # Integer, Team logo's UGC ID
+radiant.name        # String, Team's name
+radiant.complete?   # Boolean, true if the team's roster is complete
+radiant.players     # Array[Dota::API::Match::Player|Dota::API::LiveMatch::Player], Players in the match
 
 # Additional methods in Match::Side
-radiant.captain_id # Integer, Team captain's 32-bit Steam ID
+radiant.captain_id  # Integer, Team captain's 32-bit Steam ID
 
 # Additional methods in LiveMatch::Side
-radiant.score      # Integer, The team's current score
+radiant.score       # Integer, The team's current score
+radiant.series_wins # Integer, Number of wins in the series so far
 ```
 
 #### Players
