@@ -206,7 +206,7 @@ live_match.duration            # Integer, Length of the match, in seconds since 
 live_match.roshan_timer        # Integer, Seconds until Roshan respawns
 ```
 
-### Scheduled Matches
+#### Scheduled Matches
 
 ```ruby
 schedule_match.league_id      # Integer, ID of the league 
