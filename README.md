@@ -206,6 +206,18 @@ live_match.duration            # Integer, Length of the match, in seconds since 
 live_match.roshan_timer        # Integer, Seconds until Roshan respawns
 ```
 
+### Scheduled Matches
+
+```ruby
+schedule_match.league_id      # Integer, ID of the league 
+schedule_match.game_id        # Integer, ID of the game
+schedule_match.teams          # Array[Dota::API::Team], List of the teams who are playing each other
+schedule_match.start_time     # Integer, Unix timestamp
+schedule_match.comment        # String, Description of the match
+schedule_match.final?         # Boolean, true if the game is the final
+
+```
+
 #### Sides - Radiant/Dire
 
 ```ruby

@@ -9,14 +9,6 @@ module Dota
         raw["game_id"]
       end
 
-      def league_id
-        raw["league_id"]
-      end
-
-      def league_id
-        raw["league_id"]
-      end
-
       def teams
         raw["teams"].map do |raw_team|
           Team.new(raw_team)
