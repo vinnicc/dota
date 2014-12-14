@@ -13,6 +13,7 @@ Currently supported endpoints:
 - [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 - [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
 - [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
+- [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
 
 Unsupported endpoints can still be queried via [custom requests](#custom-requests).
 
@@ -23,7 +24,6 @@ This gem is in alpha, keep that in mind when upgrading.
 - Support for more endpoints
   - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
   - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
-  - [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
   - [GetTournamentPlayerStats](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPlayerStats)
   - [GetTournamentPrizePool](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPrizePool)
 - Validations and error classes
