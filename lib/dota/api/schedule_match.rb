@@ -18,7 +18,9 @@ module Dota
       end
 
       def teams
-        raw["teams"]
+        raw["teams"].map do |raw_team|
+          Team.new(raw_team)
+        end
       end
 
       def start_time

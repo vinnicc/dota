@@ -89,9 +89,9 @@ describe Dota do
     describe "#schedule_matches" do
       context "without args" do
         it "returns all of the scheduled matches" do
-          VCR.use_cassette("GetScheduledLeagueGames")
-            match = api.schedule_matches
-            expect(match.first).to be_a Dota::API::ScheduleMatch
+          VCR.use_cassette("GetScheduledLeagueGames") do
+            matches = api.schedule_matches
+            expect(matches.first).to be_a Dota::API::ScheduleMatch
           end
         end
       end
@@ -104,10 +104,11 @@ describe Dota do
         accepted_params.each do |local, remote|
 
           specify ":#{local} should translate to :#{remote}" do
-          random_value = SecureRandom.hex
-          VCR.use_cassette("GetScheduledLeagueGames") do
-            expect(api).to receive(:get).with("IDOTA2Match_570", "GetScheduledLeagueGames", remote => random_value) { double.as_null_object }
-            api.schedule_matches(local => random_value)
+            random_value = SecureRandom.hex
+            VCR.use_cassette("GetScheduledLeagueGames") do
+              expect(api).to receive(:get).with("IDOTA2Match_570", "GetScheduledLeagueGames", remote => random_value) { double.as_null_object }
+              api.schedule_matches(local => random_value)
+            end
           end
         end
       end

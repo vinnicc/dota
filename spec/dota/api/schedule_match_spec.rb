@@ -14,7 +14,8 @@ describe Dota::API::ScheduleMatch do
   end
 
   specify "#teams" do
-    expect(schedule_match.teams).to eq []
+    team = schedule_match.teams
+    expect(team.first).to be_a Dota::API::Team
   end
 
   specify "#starttime" do
