@@ -188,7 +188,8 @@ match.negative_votes # Integer, Number of thumbs-down the game has received
 match.players_count  # Integer, Number of players in the match
 
 match.drafts         # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
-# Dota::API::Match::D
+
+# Dota::API::Match::Draft
 draft.order          # Integer, 1-20
 draft.pick?          # Boolean, true if the draft is a pick, and not a ban
 draft.team           # Symbol, :radiant or :dire
