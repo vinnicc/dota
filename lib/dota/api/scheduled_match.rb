@@ -1,6 +1,6 @@
 module Dota
   module API
-    class ScheduleMatch < Entity
+    class ScheduledMatch < Entity
       def league_id
         raw["league_id"]
       end
@@ -11,15 +11,16 @@ module Dota
 
       def teams
         raw["teams"].map do |raw_team|
+          raw_team["name"] = raw_team.delete("team_name")
           Team.new(raw_team)
         end
       end
 
-      def start_time
-        raw["starttime"]
+      def starts_at
+        Time.at(raw["starttime"])
       end
 
-      def comment
+      def description
         raw["comment"]
       end
 

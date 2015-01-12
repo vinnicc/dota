@@ -72,13 +72,16 @@ module Dota
         end
       end
 
-      def schedule_matches(options = {})
+      def scheduled_matches(options = {})
+        options[:date_min] = options.delete(:from) if options[:from]
+        options[:date_max] = options.delete(:to) if options[:to]
+
         response = get("IDOTA2Match_570", "GetScheduledLeagueGames", options)["result"]
-        if response && (schedule_matches = response["games"])
-          schedule_matches.map { |game| ScheduleMatch.new(game) }
+        if response && (scheduled_matches = response["games"])
+          scheduled_matches.map { |game| ScheduledMatch.new(game) }
         end
-      end 
-      
+      end
+
       def cosmetic_rarities
         response = get("IEconDOTA2_570", "GetRarities", language: "en")["result"]
         if response && (rarities = response["rarities"])

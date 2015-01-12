@@ -100,6 +100,12 @@ api.live_matches(league_id: 600) #    Allowed options:
                                  #    :league_id - Integer, In this league. Use Dota.leagues to get a list of leagues
                                  #    :match_id  - Integer, With this match
 
+api.scheduled_matches            # => All scheduled league matches
+api.scheduled_matches(from: 123) #    Allowed options:
+                                 #
+                                 #    :from - Integer, Minimum timestamp
+                                 #    :to   - Integer, Maximum timestamp
+
 api.friends(76561198052976237)   # => All friends of user
 ```
 
@@ -161,61 +167,60 @@ Caveat: Getting a list of matches via `api.matches` will call [GetMatchHistory](
 When an instance method in a `Dota::API::Match` class returns `nil`, it most likely means the endpoint called doesn't provide it yet.
 
 ```ruby
-match.radiant                 # Dota::API::Match::Side, Info about the team on the Radiant side
-match.dire                    # Dota::API::Match::Side, Info about the team on the Dire side
+match.radiant        # Dota::API::Match::Side, Info about the team on the Radiant side
+match.dire           # Dota::API::Match::Side, Info about the team on the Dire side
 
-match.id                      # Integer, ID of the match
-match.league_id               # Integer, ID of the league this match was a part of
-match.type                    # String, See Dota::API::Match::TYPES
-match.type_id                 # Integer, See Dota::API::Match::TYPES
-match.mode                    # String, See Dota::API::Match::MODES
-match.mode_id                 # Integer, See Dota::API::Match::MODES
-match.sequence                # Integer, A 'sequence number', representing the order in which matches were recorded
-match.season                  # Integer, Season the match was played in
-match.cluster                 # Integer, Server cluster the match was played on
-match.starts_at               # Time, When the match started
-match.first_blood             # Integer, Seconds since the match started when first blood occured
-match.duration                # Integer, Length of the match, in seconds since the match began
-match.winner                  # Symbol, :radiant or :dire
-match.positive_votes          # Integer, Number of thumbs-up the game has received
-match.negative_votes          # Integer, Number of thumbs-down the game has received
-match.players_count           # Integer, Number of players in the match
+match.id             # Integer, ID of the match
+match.league_id      # Integer, ID of the league this match was a part of
+match.type           # String, See Dota::API::Match::TYPES
+match.type_id        # Integer, See Dota::API::Match::TYPES
+match.mode           # String, See Dota::API::Match::MODES
+match.mode_id        # Integer, See Dota::API::Match::MODES
+match.sequence       # Integer, A 'sequence number', representing the order in which matches were recorded
+match.season         # Integer, Season the match was played in
+match.cluster        # Integer, Server cluster the match was played on
+match.starts_at      # Time, When the match started
+match.first_blood    # Integer, Seconds since the match started when first blood occured
+match.duration       # Integer, Length of the match, in seconds since the match began
+match.winner         # Symbol, :radiant or :dire
+match.positive_votes # Integer, Number of thumbs-up the game has received
+match.negative_votes # Integer, Number of thumbs-down the game has received
+match.players_count  # Integer, Number of players in the match
 
-match.drafts                  # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
-# Dota::API::Match::Draft
-draft.order                   # Integer, 1-20
-draft.pick?                   # Boolean, true if the draft is a pick, and not a ban
-draft.team                    # Symbol, :radiant or :dire
-draft.hero                    # Dota::API::Hero, Picked or banned hero
+match.drafts         # Array[Dota::API::Match::Draft], Picks and bans in the match, if the game mode is "Captains Mode"
+# Dota::API::Match::D
+draft.order          # Integer, 1-20
+draft.pick?          # Boolean, true if the draft is a pick, and not a ban
+draft.team           # Symbol, :radiant or :dire
+draft.hero           # Dota::API::Hero, Picked or banned hero
 ```
 
 #### Live Matches
 
 ```ruby
-live_match.radiant             # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
-live_match.dire                # Dota::API::LiveMatch::Side, Info about the team on the Dire side
+live_match.radiant          # Dota::API::LiveMatch::Side, Info about the team on the Radiant side
+live_match.dire             # Dota::API::LiveMatch::Side, Info about the team on the Dire side
 
-live_match.id                  # Integer, ID of the match
-live_match.lobby_id            # Integer, ID of the lobby
-live_match.spectators_count    # Integer, Number of spectators watching on DotaTV
-live_match.league_id           # Integer, ID of the league
-live_match.stream_delay        # Integer, Number of seconds the stream is behind actual game time
-live_match.series_type         # Integer, Best of X series
-live_match.league_tier         # String, What tier the match's league is
-live_match.duration            # Integer, Length of the match, in seconds since the match began
-live_match.roshan_timer        # Integer, Seconds until Roshan respawns
+live_match.id               # Integer, ID of the match
+live_match.lobby_id         # Integer, ID of the lobby
+live_match.spectators_count # Integer, Number of spectators watching on DotaTV
+live_match.league_id        # Integer, ID of the league
+live_match.stream_delay     # Integer, Number of seconds the stream is behind actual game time
+live_match.series_type      # Integer, Best of X series
+live_match.league_tier      # String, What tier the match's league is
+live_match.duration         # Integer, Length of the match, in seconds since the match began
+live_match.roshan_timer     # Integer, Seconds until Roshan respawns
 ```
 
 #### Scheduled Matches
 
 ```ruby
-schedule_match.league_id      # Integer, ID of the league 
-schedule_match.game_id        # Integer, ID of the game
-schedule_match.teams          # Array[Dota::API::Team], List of the teams who are playing each other
-schedule_match.start_time     # Integer, Unix timestamp
-schedule_match.comment        # String, Description of the match
-schedule_match.final?         # Boolean, true if the game is the final
-
+scheduled_match.league_id   # Integer, ID of the league 
+scheduled_match.game_id     # Integer, ID of the game
+scheduled_match.teams       # Array[Dota::API::Team], List of teams who are playing each other
+scheduled_match.starts_at   # Time, When the match is scheduled to start
+scheduled_match.description # String, Description of the match
+scheduled_match.final?      # Boolean, true if the game is the last of the series
 ```
 
 #### Sides - Radiant/Dire

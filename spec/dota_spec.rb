@@ -86,20 +86,20 @@ describe Dota do
       end
     end
 
-    describe "#schedule_matches" do
+    describe "#scheduled_matches" do
       context "without args" do
         it "returns all of the scheduled matches" do
           VCR.use_cassette("GetScheduledLeagueGames") do
-            matches = api.schedule_matches
-            expect(matches.first).to be_a Dota::API::ScheduleMatch
+            matches = api.scheduled_matches
+            expect(matches.first).to be_a Dota::API::ScheduledMatch
           end
         end
       end
 
-      context "give a hash" do
+      context "given a hash" do
         accepted_params = {
-          date_min: :date_min,
-          date_max: :date_max
+          from: :date_min,
+          to:   :date_max
         }
         accepted_params.each do |local, remote|
 
@@ -107,7 +107,7 @@ describe Dota do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetScheduledLeagueGames") do
               expect(api).to receive(:get).with("IDOTA2Match_570", "GetScheduledLeagueGames", remote => random_value) { double.as_null_object }
-              api.schedule_matches(local => random_value)
+              api.scheduled_matches(local => random_value)
             end
           end
         end

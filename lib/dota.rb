@@ -18,11 +18,11 @@ require 'dota/api/league'
 require 'dota/api/live_match'
 require 'dota/api/live_match/player'
 require 'dota/api/live_match/side'
-require 'dota/api/schedule_match'
 require 'dota/api/match'
 require 'dota/api/match/draft'
 require 'dota/api/match/player'
 require 'dota/api/match/side'
+require 'dota/api/scheduled_match'
 require 'dota/api/team'
 
 module Dota
