@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetScheduledLeagueGames/V001/?key=<STEAM_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Last-Modified:
+      - Sat, 13 Dec 2014 23:41:24 GMT
+      Date:
+      - Sat, 13 Dec 2014 23:41:24 GMT
+      Content-Length:
+      - '4864'
+      Expires:
+      - Mon, 26 Jul 1997 05:00:00 GMT
+      Cache-Control:
+      - no-cache,must-revalidate
+    body:
+      encoding: UTF-8
+      string: "{\n\t\"result\": {\n\t\t\"games\": [\n\t\t\t{\n\t\t\t\t\"league_id\":
+        2057,\n\t\t\t\t\"game_id\": 27,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        1518118,\n\t\t\t\t\t\t\"team_name\": \"Team Poker Face\",\n\t\t\t\t\t\t\"logo\":
+        3296943472277256390\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418531400,\n\t\t\t\t\"comment\": \"\",\n\t\t\t\t\"final\": false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\":
+        2044,\n\t\t\t\t\"game_id\": 3,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        1718551,\n\t\t\t\t\t\t\"team_name\": \"ROOT-gaming.com\",\n\t\t\t\t\t\t\"logo\":
+        581278600501828765\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 1937628,\n\t\t\t\t\t\t\"team_name\":
+        \"Boreal eSports\",\n\t\t\t\t\t\t\"logo\": 23967657847159241\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418536800,\n\t\t\t\t\"comment\": \"BO2 - US East - Regional Stage\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2314,\n\t\t\t\t\"game_id\":
+        1,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\": 1418544000,\n\t\t\t\t\"comment\":
+        \"\",\n\t\t\t\t\"final\": false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\":
+        2178,\n\t\t\t\t\"game_id\": 11,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418554800,\n\t\t\t\t\"comment\": \"The SouthEast Asia Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2216,\n\t\t\t\t\"game_id\":
+        0,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 2044507,\n\t\t\t\t\t\t\"team_name\":
+        \"top ebolo\",\n\t\t\t\t\t\t\"logo\": 541886257937092003\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        1184310,\n\t\t\t\t\t\t\"team_name\": \"Pythons Gaming\",\n\t\t\t\t\t\t\"logo\":
+        469808806237563062\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418562000,\n\t\t\t\t\"comment\": \"Отборочные игры. Группа А\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2216,\n\t\t\t\t\"game_id\":
+        1,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 2032330,\n\t\t\t\t\t\t\"team_name\":
+        \"SkyLights\",\n\t\t\t\t\t\t\"logo\": 539634458023589501\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        2040768,\n\t\t\t\t\t\t\"team_name\": \"BadWolf.\",\n\t\t\t\t\t\t\"logo\":
+        26224100555700915\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418565600,\n\t\t\t\t\"comment\": \"Отборочные игры. Группа А\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2216,\n\t\t\t\t\"game_id\":
+        1,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 2032330,\n\t\t\t\t\t\t\"team_name\":
+        \"SkyLights\",\n\t\t\t\t\t\t\"logo\": 539634458023589501\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        2044507,\n\t\t\t\t\t\t\"team_name\": \"top ebolo\",\n\t\t\t\t\t\t\"logo\":
+        541886257937092003\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418569200,\n\t\t\t\t\"comment\": \"Отборочные игры. Группа А\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2216,\n\t\t\t\t\"game_id\":
+        3681606,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 2044507,\n\t\t\t\t\t\t\"team_name\":
+        \"top ebolo\",\n\t\t\t\t\t\t\"logo\": 541886257937092003\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        2040768,\n\t\t\t\t\t\t\"team_name\": \"BadWolf.\",\n\t\t\t\t\t\t\"logo\":
+        26224100555700915\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418572800,\n\t\t\t\t\"comment\": \"Отборочные игры. Группа А\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2216,\n\t\t\t\t\"game_id\":
+        13,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 2032330,\n\t\t\t\t\t\t\"team_name\":
+        \"SkyLights\",\n\t\t\t\t\t\t\"logo\": 539634458023589501\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        1184310,\n\t\t\t\t\t\t\"team_name\": \"Pythons Gaming\",\n\t\t\t\t\t\t\"logo\":
+        469808806237563062\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418576400,\n\t\t\t\t\"comment\": \"Отборочные игры. Группа А\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2216,\n\t\t\t\t\"game_id\":
+        3681606,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 1184310,\n\t\t\t\t\t\t\"team_name\":
+        \"Pythons Gaming\",\n\t\t\t\t\t\t\"logo\": 469808806237563062\n\t\t\t\t\t},\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\":
+        2040768,\n\t\t\t\t\t\t\"team_name\": \"BadWolf.\",\n\t\t\t\t\t\t\"logo\":
+        26224100555700915\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418580000,\n\t\t\t\t\"comment\": \"Отборочные игры. Группа А\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2178,\n\t\t\t\t\"game_id\":
+        12,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418641200,\n\t\t\t\t\"comment\": \"The China Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2178,\n\t\t\t\t\"game_id\":
+        13,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418727600,\n\t\t\t\t\"comment\": \"The China Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2178,\n\t\t\t\t\"game_id\":
+        14,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418814000,\n\t\t\t\t\"comment\": \"The China Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2178,\n\t\t\t\t\"game_id\":
+        15,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418900400,\n\t\t\t\t\"comment\": \"The China Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2057,\n\t\t\t\t\"game_id\":
+        28,\n\t\t\t\t\"teams\": [\n\t\t\t\t\t{\n\t\t\t\t\t\t\"team_id\": 1366458,\n\t\t\t\t\t\t\"team_name\":
+        \"R a v e\",\n\t\t\t\t\t\t\"logo\": 577902803120116757\n\t\t\t\t\t}\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418981400,\n\t\t\t\t\"comment\": \"\",\n\t\t\t\t\"final\": false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\":
+        2178,\n\t\t\t\t\"game_id\": 16,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1418986800,\n\t\t\t\t\"comment\": \"The China Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\": 2057,\n\t\t\t\t\"game_id\":
+        29,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1419049800,\n\t\t\t\t\"comment\": \"\",\n\t\t\t\t\"final\": false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"league_id\":
+        2178,\n\t\t\t\t\"game_id\": 17,\n\t\t\t\t\"teams\": [\n\n\t\t\t\t]\n\t\t\t\t,\n\t\t\t\t\"starttime\":
+        1419073200,\n\t\t\t\t\"comment\": \"The China Qualifying\",\n\t\t\t\t\"final\":
+        false\n\t\t\t}\n\t\t]\n\t\t\n\t}\n}"
+    http_version: 
+  recorded_at: Sat, 13 Dec 2014 23:41:23 GMT
+recorded_with: VCR 2.9.3

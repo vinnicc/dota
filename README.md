@@ -13,6 +13,7 @@ Currently supported endpoints:
 - [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
 - [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
 - [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
+- [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
 
 Unsupported endpoints can still be queried via [custom requests](#custom-requests).
 
@@ -23,7 +24,6 @@ This gem is in alpha, keep that in mind when upgrading.
 - Support for more endpoints
   - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
   - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
-  - [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
   - [GetTournamentPlayerStats](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPlayerStats)
   - [GetTournamentPrizePool](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPrizePool)
 - Validations and error classes
@@ -204,6 +204,18 @@ live_match.series_type         # Integer, Best of X series
 live_match.league_tier         # String, What tier the match's league is
 live_match.duration            # Integer, Length of the match, in seconds since the match began
 live_match.roshan_timer        # Integer, Seconds until Roshan respawns
+```
+
+#### Scheduled Matches
+
+```ruby
+schedule_match.league_id      # Integer, ID of the league 
+schedule_match.game_id        # Integer, ID of the game
+schedule_match.teams          # Array[Dota::API::Team], List of the teams who are playing each other
+schedule_match.start_time     # Integer, Unix timestamp
+schedule_match.comment        # String, Description of the match
+schedule_match.final?         # Boolean, true if the game is the final
+
 ```
 
 #### Sides - Radiant/Dire

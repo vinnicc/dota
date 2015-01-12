@@ -86,6 +86,34 @@ describe Dota do
       end
     end
 
+    describe "#schedule_matches" do
+      context "without args" do
+        it "returns all of the scheduled matches" do
+          VCR.use_cassette("GetScheduledLeagueGames") do
+            matches = api.schedule_matches
+            expect(matches.first).to be_a Dota::API::ScheduleMatch
+          end
+        end
+      end
+
+      context "give a hash" do
+        accepted_params = {
+          date_min: :date_min,
+          date_max: :date_max
+        }
+        accepted_params.each do |local, remote|
+
+          specify ":#{local} should translate to :#{remote}" do
+            random_value = SecureRandom.hex
+            VCR.use_cassette("GetScheduledLeagueGames") do
+              expect(api).to receive(:get).with("IDOTA2Match_570", "GetScheduledLeagueGames", remote => random_value) { double.as_null_object }
+              api.schedule_matches(local => random_value)
+            end
+          end
+        end
+      end
+    end
+
     describe "#live_matches" do
       context "without args" do
         it "returns all live league matches" do
