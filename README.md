@@ -1,36 +1,23 @@
 # Dota [![Gem Version](https://badge.fury.io/rb/dota.svg)](http://badge.fury.io/rb/dota) [![Build Status](https://travis-ci.org/vinnicc/dota.svg?branch=master)](https://travis-ci.org/vinnicc/dota)
 
-`dota` is a Ruby client for the [Dota 2 WebAPI](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2). It provides an easy way to access matches, players, heroes, items, and other public Dota 2 objects in an opinionated manner.
+`dota` is a Ruby client for the [Dota 2 WebAPI](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2).
 
-Currently supported endpoints:
+## Requests
 
-- [GetLeagueListing](https://wiki.teamfortress.com/wiki/WebAPI/GetLeagueListing)
-- [GetMatchDetails](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails)
-- [GetMatchHistory](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory)
-- [GetFriendList](https://wiki.teamfortress.com/wiki/WebAPI/GetFriendList)
-- [GetHeroes](https://wiki.teamfortress.com/wiki/WebAPI/GetHeroes)
+Valve has provided a `GetSupportedAPIList` endpoint that returns all available endpoints in their API that you can query against, along with the parameters they accept. The following are supported:
+
+- GetLeagueListing
+- GetMatchDetails
+- GetMatchHistory
+- GetFriendList
+- GetHeroes
 - GetGameItems
-- [GetRarities](https://wiki.teamfortress.com/wiki/WebAPI/GetRarities)
-- [GetTeamInfoByTeamID](https://wiki.teamfortress.com/wiki/WebAPI/GetTeamInfoByTeamID)
-- [GetLiveLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetLiveLeagueGames)
-- [GetScheduledLeagueGames](https://wiki.teamfortress.com/wiki/WebAPI/GetScheduledLeagueGames)
+- GetRarities
+- GetTeamInfoByTeamID
+- GetLiveLeagueGames
+- GetScheduledLeagueGames
 
-Unsupported endpoints can still be queried via [custom requests](#custom-requests).
-
-This gem is in alpha, keep that in mind when upgrading.
-
-## TODO
-
-- Support for more endpoints
-  - [GetMatchHistoryBySequenceNum](https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistoryBySequenceNum)
-  - [GetPlayerSummaries](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerSummaries)
-  - [GetTournamentPlayerStats](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPlayerStats)
-  - [GetTournamentPrizePool](https://wiki.teamfortress.com/wiki/WebAPI/GetTournamentPrizePool)
-- Validations and error classes
-- More configuration options
-- Move API documentation to [readthedocs.org](https://readthedocs.org/) or somewhere else
-- Better search filters
-- Computed attributes such as win rates, hero usage, etc.
+Unsupported endpoints (including `GetSupportedAPIList`) can still be queried via [custom requests](#custom-requests) using `Dota.api.get`.
 
 ## Installation
 
@@ -50,13 +37,15 @@ Or install it yourself as:
 
 ## Usage
 
+Get your Steam API key [here](http://steamcommunity.com/dev/apikey) and make sure the gem is configured to use it. If you're using Rails, this might go in an initializer like `config/initializers/dota.rb`.
+
 ```ruby
 Dota.configure do |config|
   config.api_key = ENV.fetch("STEAM_API_KEY")
 end
 ```
 
-Get your Steam API key [here](http://steamcommunity.com/dev/apikey).
+Then use the client:
 
 ```ruby
 api = Dota.api
@@ -216,7 +205,7 @@ live_match.roshan_timer     # Integer, Seconds until Roshan respawns
 #### Scheduled Matches
 
 ```ruby
-scheduled_match.league_id   # Integer, ID of the league 
+scheduled_match.league_id   # Integer, ID of the league
 scheduled_match.game_id     # Integer, ID of the game
 scheduled_match.teams       # Array[Dota::API::Team], List of teams who are playing each other
 scheduled_match.starts_at   # Time, When the match is scheduled to start
@@ -292,10 +281,14 @@ friend.relationship # String, Relation to the player
 friend.made_at      # Time, When the friend was added to the player's friend list
 ```
 
-## Contributing
+## Resources
 
-1. [Fork it!](https://github.com/vinnicc/dota/fork)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+- [Dota 2 WebAPI Wiki](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2) (wiki.teamfortress.com)
+- [Dota 2 WebAPI Forums](http://dev.dota2.com/forumdisplay.php?f=411) (dev.dota2.com)
+- [MuppetMaster42's "Things You Should Know Before Starting API Development"](http://dev.dota2.com/showthread.php?t=58317) (dev.dota2.com)
+
+## License
+
+Copyright © Vinni Carlo Caños
+
+Distributed released under the [MIT License](http://www.opensource.org/licenses/MIT).
