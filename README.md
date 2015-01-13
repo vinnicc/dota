@@ -4,7 +4,7 @@
 
 ## Requests
 
-Valve has provided a `GetSupportedAPIList` endpoint that returns all available endpoints in their API that you can query against, along with the parameters they accept. The following are supported:
+Valve provides a `GetSupportedAPIList` endpoint that returns all the available endpoints in their API you can use, along with the parameters they accept. The following are supported by `dota`:
 
 - GetLeagueListing
 - GetMatchDetails
