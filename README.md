@@ -291,4 +291,4 @@ friend.made_at      # Time, When the friend was added to the player's friend lis
 
 Copyright © Vinni Carlo Caños
 
-Distributed released under the [MIT License](http://www.opensource.org/licenses/MIT).
+Distributed under the [MIT License](http://www.opensource.org/licenses/MIT).
