@@ -3,7 +3,8 @@ require 'yaml'
 require 'dota/configuration'
 require 'dota/version'
 
-require 'dota/utils/inspect'
+require 'dota/utils/mapped'
+require 'dota/utils/inspectable'
 
 require 'dota/api/entity'
 
@@ -39,6 +40,10 @@ module Dota
 
     def configuration
       api.configuration
+    end
+
+    def root
+      Gem::Specification.find_by_name("dota").gem_dir
     end
   end
 end

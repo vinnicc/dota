@@ -1,18 +1,14 @@
 module Dota
   module API
     class Hero
-      MAPPING = YAML.load_file("data/heroes.yml").freeze
+      include Utilities::Mapped
 
       attr_reader :id, :name
 
-      def self.all
-        @all ||= MAPPING.keys.map { |id| new(id) }
-      end
-
       def initialize(id)
         @id = id
-        @internal_name = MAPPING[id][0]
-        @name = MAPPING[id][1]
+        @internal_name = mapping[id][0]
+        @name = mapping[id][1]
       end
 
       def image_url(type = :full)
