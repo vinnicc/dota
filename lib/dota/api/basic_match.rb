@@ -29,12 +29,16 @@ module Dota
         10 => "Tutorial",
         11 => "Mid Only",
         12 => "Least Played",
-        13 => "New Player Pool",
+        13 => "Limited Hero Pool",
         14 => "Compendium Matchmaking",
         15 => "Custom",
         16 => "Captain's Draft",
         17 => "Balanced Draft",
-        18 => "Ability Draft"
+        18 => "Ability Draft",
+        19 => "Event",
+        20 => "All Random Death Match",
+        21 => "1v1 Solo Mid",
+        22 => "Ranked All Pick"
       }.freeze
 
       SKILL_LEVELS = {
