@@ -4,17 +4,20 @@ module Dota
       include Utilities::Inspectable
 
       TYPES = {
-        0 => :radiant,
-        1 => :dire,
-        2 => :broadcaster,
-        4 => :unassigned
+          0 => :radiant,
+          1 => :dire,
+          2 => :broadcaster,
+          4 => :unassigned
       }
 
       STATUS = {
-        0 => :played,
-        1 => :left_safe,
-        2 => :abandoned,
-        4 => :bot
+          0 => "Played",
+          1 => "Left Safely",
+          2 => "Abandoned (DC)",
+          3 => "Abandoned",
+          4 => "Abandoned (AFK)",
+          5 => "Never Connected",
+          6 => "Never Connected (Timeout)"
       }
 
       def id
