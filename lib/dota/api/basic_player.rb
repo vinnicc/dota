@@ -11,13 +11,13 @@ module Dota
       }
 
       STATUS = {
-          0 => "Played",
-          1 => "Left Safely",
-          2 => "Abandoned (DC)",
-          3 => "Abandoned",
-          4 => "Abandoned (AFK)",
-          5 => "Never Connected",
-          6 => "Never Connected (Timeout)"
+          0 => :played,
+          1 => :left_safe,
+          2 => :disconnected,
+          3 => :abandoned,
+          4 => :afk,
+          5 => :never_connected,
+          6 => :timed_out
       }
 
       def id
