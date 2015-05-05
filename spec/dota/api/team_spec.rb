@@ -1,4 +1,4 @@
-describe Dota::API::Team do
+RSpec.describe Dota::API::Team do
   let(:team) do
     VCR.use_cassette("GetTeamInfoByTeamID") do
       test_client.teams(sample_team_id)

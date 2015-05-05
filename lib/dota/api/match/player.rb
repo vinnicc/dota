@@ -35,6 +35,10 @@ module Dota
           raw["hero_healing"]
         end
 
+        def ability_upgrades
+          raw["ability_upgrades"].map { |ability_upgrade| AbilityUpgrade.new(ability_upgrade) }
+        end
+
         def items
           (0..5).map { |i| Item.new(raw["item_#{i}"]) }
         end

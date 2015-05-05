@@ -236,7 +236,7 @@ radiant.series_wins # Integer, Number of wins in the series so far
 player.id                # Integer, 32-bit Steam ID
 player.hero              # Dota::API::Hero, Player's hero
 player.items             # Array[Dota::API::Item], Player's inventory (6 items)
-player.slot              # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Player_Slot
+player.slot              # Integer (1-5)
 player.level             # Integer, The player's level at match end
 player.kills             # Integer, Number of kills attributed to this player
 player.deaths            # Integer, Times this player died during the match

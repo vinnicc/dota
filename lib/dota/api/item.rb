@@ -12,6 +12,10 @@ module Dota
       end
 
       def image_url(type = :lg)
+        # Possible values for type:
+        # :lg - 85x64 PNG image
+        # :eg - 27x20 PNG image
+
         "http://cdn.dota2.com/apps/dota2/images/items/#{internal_name}_#{type}.png"
       end
 

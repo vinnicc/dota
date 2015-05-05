@@ -1,4 +1,4 @@
-describe Dota::API::Match::Player do
+RSpec.describe Dota::API::Match::Player do
   let(:match) do
     VCR.use_cassette("GetMatchDetails") do
       test_client.matches(sample_match_id)
@@ -80,5 +80,10 @@ describe Dota::API::Match::Player do
   specify "#items" do
     expect(player.items.count).to eq 6
     expect(player.items.first).to be_a Dota::API::Item
+  end
+
+  specify "#ability_upgrades" do
+    expect(player.ability_upgrades.count).to eq 11
+    expect(player.ability_upgrades.first).to be_a Dota::API::Match::AbilityUpgrade
   end
 end
