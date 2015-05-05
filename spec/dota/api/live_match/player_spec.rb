@@ -1,4 +1,4 @@
-describe Dota::API::LiveMatch::Player do
+RSpec.describe Dota::API::LiveMatch::Player do
   let(:live_match) do
     VCR.use_cassette("GetLiveLeagueGames") do
       test_client.live_matches.first

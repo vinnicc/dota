@@ -1,4 +1,4 @@
-describe Dota do
+RSpec.describe Dota do
   describe "configuration" do
     it "accepts an api key" do
       random_string = SecureRandom.hex

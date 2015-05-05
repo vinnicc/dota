@@ -1,4 +1,4 @@
-describe Dota::API::Item do
+RSpec.describe Dota::API::Item do
   let(:item) { described_class.new(1) }
 
   specify ".all" do

@@ -1,4 +1,4 @@
-describe Dota::API::Match do
+RSpec.describe Dota::API::Match do
   let(:match) do
     VCR.use_cassette("GetMatchDetails") do
       test_client.matches(sample_match_id)

@@ -20,6 +20,10 @@ module SpecHelper
     789645621
   end
 
+  def sample_match_id_with_units
+    1443560328
+  end
+
   def sample_user_id
     76561198052976237
   end

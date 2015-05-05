@@ -1,4 +1,5 @@
 require 'yaml'
+require 'facets/string/titlecase'
 
 require 'dota/configuration'
 require 'dota/version'
@@ -23,8 +24,11 @@ require 'dota/api/match'
 require 'dota/api/match/draft'
 require 'dota/api/match/player'
 require 'dota/api/match/side'
+require 'dota/api/match/unit'
+require 'dota/api/match/ability_upgrade'
 require 'dota/api/scheduled_match'
 require 'dota/api/team'
+require 'dota/api/ability'
 
 module Dota
   class << self
