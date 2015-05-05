@@ -283,9 +283,10 @@ friend.made_at      # Time, When the friend was added to the player's friend lis
 
 ## Resources
 
+- [Steam-Powered DOTA on Rails](http://www.sitepoint.com/steam-powered-dota-on-rails/) by Ilya Bodrov-Krukowski - A tutorial for getting personal match statistics that makes use of this library for Steam integration. (www.sitepoint.com)
+- [Things You Should Know Before Starting API Development](http://dev.dota2.com/showthread.php?t=58317) by MuppetMaster42 (dev.dota2.com)
 - [Dota 2 WebAPI Wiki](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2) (wiki.teamfortress.com)
 - [Dota 2 WebAPI Forums](http://dev.dota2.com/forumdisplay.php?f=411) (dev.dota2.com)
-- [MuppetMaster42's "Things You Should Know Before Starting API Development"](http://dev.dota2.com/showthread.php?t=58317) (dev.dota2.com)
 
 ## License
 
