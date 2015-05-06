@@ -253,6 +253,7 @@ player.gold_spent        # Integer, Amount of gold the player spent
 player.hero_damage       # Integer, Amount of damage the player dealt to heroes
 player.tower_damage      # Integer, Amount of damage the player dealt to towers
 player.hero_healing      # Integer, Amount of health the player had healed on heroes
+player.additional_units  # Array[Dota::API::Unit], Units under player's control (for example, summoned ones)
 
 # Additional methods in LiveMatch::Player
 player.name              # String, Name of the player
@@ -262,6 +263,13 @@ player.ultimate_cooldown # Integer
 player.respawn_timer     # Integer
 player.position_x        # Float
 player.position_y        # Float
+```
+
+#### Units
+
+```ruby
+unit.name  # String, Unit's name
+unit.items # Array[Dota::API:Item], Unit's inventory (6 slots)
 ```
 
 #### Cosmetic Rarities
