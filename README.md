@@ -56,6 +56,9 @@ api.heroes                       # => (Cached) All heroes
 api.items(114)                   # => (Cached) A single item - "Heart of Tarrasque"
 api.items                        # => (Cached) All items
 
+api.abilities(5003)              # => (Cached) A single ability - "Mana Break"
+api.abilities                    # => (Cached) All abilities
+
 api.cosmetic_rarities            # => All cosmetic rarities
 
 api.teams(1375614)               # => A single team - "Newbee"
