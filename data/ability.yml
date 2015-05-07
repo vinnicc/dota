@@ -1,0 +1,2240 @@
+5001:
+  - default_attack
+  - Default Attack
+  - Default Attack
+5002:
+  - stats
+  - Stats
+  - Stats
+5003:
+  - antimage_mana_break
+  - Mana Break
+  - Antimage Mana Break
+5004:
+  - antimage_blink
+  - Blink
+  - Antimage Blink
+5005:
+  - antimage_spell_shield
+  - Spell Shield
+  - Antimage Spell Shield
+5006:
+  - antimage_mana_void
+  - Mana Void
+  - Antimage Mana Void
+5007:
+  - axe_berserkers_call
+  - Berserkers Call
+  - Axe Berserkers Call
+5008:
+  - axe_battle_hunger
+  - Battle Hunger
+  - Axe Battle Hunger
+5009:
+  - axe_counter_helix
+  - Counter Helix
+  - Axe Counter Helix
+5010:
+  - axe_culling_blade
+  - Culling Blade
+  - Axe Culling Blade
+5011:
+  - bane_brain_sap
+  - Brain Sap
+  - Bane Brain Sap
+5012:
+  - bane_enfeeble
+  - Enfeeble
+  - Bane Enfeeble
+5013:
+  - bane_fiends_grip
+  - Fiends Grip
+  - Bane Fiends Grip
+5014:
+  - bane_nightmare
+  - Nightmare
+  - Bane Nightmare
+5015:
+  - bloodseeker_bloodrage
+  - Bloodrage
+  - Bloodseeker Bloodrage
+5016:
+  - bloodseeker_blood_bath
+  - Blood Bath
+  - Bloodseeker Blood Bath
+5017:
+  - bloodseeker_thirst
+  - Thirst
+  - Bloodseeker Thirst
+5018:
+  - bloodseeker_rupture
+  - Rupture
+  - Bloodseeker Rupture
+5019:
+  - drow_ranger_frost_arrows
+  - Frost Arrows
+  - Drow Ranger Frost Arrows
+5020:
+  - drow_ranger_silence
+  - Silence
+  - Drow Ranger Silence
+5021:
+  - drow_ranger_trueshot
+  - Trueshot
+  - Drow Ranger Trueshot
+5022:
+  - drow_ranger_marksmanship
+  - Marksmanship
+  - Drow Ranger Marksmanship
+5023:
+  - earthshaker_fissure
+  - Fissure
+  - Earthshaker Fissure
+5024:
+  - earthshaker_enchant_totem
+  - Enchant Totem
+  - Earthshaker Enchant Totem
+5025:
+  - earthshaker_aftershock
+  - Aftershock
+  - Earthshaker Aftershock
+5026:
+  - earthshaker_echo_slam
+  - Echo Slam
+  - Earthshaker Echo Slam
+5027:
+  - juggernaut_blade_dance
+  - Blade Dance
+  - Juggernaut Blade Dance
+5028:
+  - juggernaut_blade_fury
+  - Blade Fury
+  - Juggernaut Blade Fury
+5029:
+  - juggernaut_healing_ward
+  - Healing Ward
+  - Juggernaut Healing Ward
+5030:
+  - juggernaut_omni_slash
+  - Omnislash
+  - Juggernaut Omnislash
+5031:
+  - kunkka_torrent
+  - Torrent
+  - Kunkka Torrent
+5032:
+  - kunkka_tidebringer
+  - Tidebringer
+  - Kunkka Tidebringer
+5033:
+  - kunkka_x_marks_the_spot
+  - X Marks The Spot
+  - Kunkka X Marks The Spot
+5034:
+  - kunkka_return
+  - Return
+  - Kunkka Return
+5035:
+  - kunkka_ghostship
+  - Ghostship
+  - Kunkka Ghostship
+5040:
+  - lina_dragon_slave
+  - Dragon Slave
+  - Lina Dragon Slave
+5041:
+  - lina_light_strike_array
+  - Light Strike Array
+  - Lina Light Strike Array
+5042:
+  - lina_fiery_soul
+  - Fiery Soul
+  - Lina Fiery Soul
+5043:
+  - lina_laguna_blade
+  - Laguna Blade
+  - Lina Laguna Blade
+5044:
+  - lion_impale
+  - Impale
+  - Lion Impale
+5045:
+  - lion_voodoo
+  - Voodoo
+  - Lion Voodoo
+5046:
+  - lion_mana_drain
+  - Mana Drain
+  - Lion Mana Drain
+5047:
+  - lion_finger_of_death
+  - Finger Of Death
+  - Lion Finger Of Death
+5048:
+  - mirana_arrow
+  - Sacred Arrow
+  - Mirana Sacred Arrow
+5049:
+  - mirana_invis
+  - Moonlight Shadow
+  - Mirana Moonlight Shadow
+5050:
+  - mirana_leap
+  - Leap
+  - Mirana Leap
+5051:
+  - mirana_starfall
+  - Starfall
+  - Mirana Starfall
+5052:
+  - morphling_waveform
+  - Waveform
+  - Morphling Waveform
+5053:
+  - morphling_adaptive_strike
+  - Adaptive Strike
+  - Morphling Adaptive Strike
+5054:
+  - morphling_morph
+  - Morph
+  - Morphling Morph
+5055:
+  - morphling_morph_agi
+  - Morph Agi
+  - Morphling Morph Agi
+5056:
+  - morphling_morph_str
+  - Morph Str
+  - Morphling Morph Str
+5057:
+  - morphling_replicate
+  - Replicate
+  - Morphling Replicate
+5058:
+  - morphling_morph_replicate
+  - Morph Replicate
+  - Morphling Morph Replicate
+5059:
+  - nevermore_shadowraze1
+  - Shadowraze1
+  - Nevermore Shadowraze1
+5060:
+  - nevermore_shadowraze1
+  - Shadowraze2
+  - Nevermore Shadowraze2
+5061:
+  - nevermore_shadowraze1
+  - Shadowraze3
+  - Nevermore Shadowraze3
+5062:
+  - nevermore_necromastery
+  - Necromastery
+  - Nevermore Necromastery
+5063:
+  - nevermore_dark_lord
+  - Presence of the Dark Lord
+  - Nevermore Presence of the Dark Lord
+5064:
+  - nevermore_requiem
+  - Requiem of Souls
+  - Nevermore Requiem of Souls
+5065:
+  - phantom_lancer_spirit_lance
+  - Spirit Lance
+  - Phantom Lancer Spirit Lance
+5066:
+  - phantom_lancer_doppelganger
+  - Phantom Doppelganger
+  - Phantom Lancer Doppelganger
+5067:
+  - phantom_lancer_phantom_edge
+  - Phantom Rush
+  - Phantom Lancer Phantom Rush
+5068:
+  - phantom_lancer_juxtapose
+  - Juxtapose
+  - Phantom Lancer Juxtapose
+5069:
+  - puck_illusory_orb
+  - Illusory Orb
+  - Puck Illusory Orb
+5070:
+  - puck_ethereal_jaunt
+  - Ethereal Jaunt
+  - Puck Ethereal Jaunt
+5071:
+  - puck_waning_rift
+  - Waning Rift
+  - Puck Waning Rift
+5072:
+  - puck_phase_shift
+  - Phase Shift
+  - Puck Phase Shift
+5073:
+  - puck_dream_coil
+  - Dream Coil
+  - Puck Dream Coil
+5074:
+  - pudge_flesh_heap
+  - Flesh Heap
+  - Pudge Flesh Heap
+5075:
+  - pudge_meat_hook
+  - Meat Hook
+  - Pudge Meat Hook
+5076:
+  - pudge_rot
+  - Rot
+  - Pudge Rot
+5077:
+  - pudge_dismember
+  - Dismember
+  - Pudge Dismember
+5078:
+  - shadow_shaman_ether_shock
+  - Ether Shock
+  - Shadow Shaman Ether Shock
+5079:
+  - shadow_shaman_voodoo
+  - Voodoo
+  - Shadow Shaman Voodoo
+5080:
+  - shadow_shaman_shackles
+  - Shackles
+  - Shadow Shaman Shackles
+5081:
+  - shadow_shaman_mass_serpent_ward
+  - Mass Serpent Ward
+  - Shadow Shaman Mass Serpent Ward
+5082:
+  - razor_plasma_field
+  - Plasma Field
+  - Razor Plasma Field
+5083:
+  - razor_static_link
+  - Static Link
+  - Razor Static Link
+5084:
+  - razor_unstable_current
+  - Unstable Current
+  - Razor Unstable Current
+5085:
+  - razor_eye_of_the_storm
+  - Eye Of The Storm
+  - Razor Eye Of The Storm
+5086:
+  - wraith_king_hellfire_blast
+  - Hellfire Blast
+  - Wraith King Hellfire Blast
+5087:
+  - wraith_king_vampiric_aura
+  - Vampiric Aura
+  - Wraith King Vampiric Aura
+5088:
+  - wraith_king_mortal_strike
+  - Mortal Strike
+  - Wraith King Mortal Strike
+5089:
+  - wraith_king_reincarnation
+  - Reincarnation
+  - Wraith King Reincarnation
+5090:
+  - death_prophet_carrion_swarm
+  - Carrion Swarm
+  - Death Prophet Carrion Swarm
+5091:
+  - death_prophet_silence
+  - Silence
+  - Death Prophet Silence
+5092:
+  - death_prophet_witchcraft
+  - Witchcraft
+  - Death Prophet Witchcraft
+5093:
+  - death_prophet_exorcism
+  - Exorcism
+  - Death Prophet Exorcism
+5094:
+  - sven_storm_bolt
+  - Storm Bolt
+  - Sven Storm Bolt
+5095:
+  - sven_great_cleave
+  - Great Cleave
+  - Sven Great Cleave
+5096:
+  - sven_warcry
+  - Warcry
+  - Sven Warcry
+5097:
+  - sven_gods_strength
+  - Gods Strength
+  - Sven Gods Strength
+5098:
+  - storm_spirit_static_remnant
+  - Static Remnant
+  - Storm Spirit Static Remnant
+5099:
+  - storm_spirit_electric_vortex
+  - Electric Vortex
+  - Storm Spirit Electric Vortex
+5100:
+  - storm_spirit_overload
+  - Overload
+  - Storm Spirit Overload
+5101:
+  - storm_spirit_ball_lightning
+  - Ball Lightning
+  - Storm Spirit Ball Lightning
+5102:
+  - sandking_burrowstrike
+  - Burrowstrike
+  - Sandking Burrowstrike
+5103:
+  - sandking_sand_storm
+  - Sand Storm
+  - Sandking Sand Storm
+5104:
+  - sandking_caustic_finale
+  - Caustic Finale
+  - Sandking Caustic Finale
+5105:
+  - sandking_epicenter
+  - Epicenter
+  - Sandking Epicenter
+5106:
+  - tiny_avalanche
+  - Avalanche
+  - Tiny Avalanche
+5107:
+  - tiny_toss
+  - Toss
+  - Tiny Toss
+5108:
+  - tiny_craggy_exterior
+  - Craggy Exterior
+  - Tiny Craggy Exterior
+5109:
+  - tiny_grow
+  - Grow
+  - Tiny Grow
+5110:
+  - zeus_arc_lightning
+  - Arc Lightning
+  - Zeus Arc Lightning
+5111:
+  - zeus_lightning_bolt
+  - Lightning Bolt
+  - Zeus Lightning Bolt
+5112:
+  - zeus_static_field
+  - Static Field
+  - Zeus Static Field
+5113:
+  - zeus_thundergods_wrath
+  - Thundergods Wrath
+  - Zeus Thundergods Wrath
+5114:
+  - slardar_sprint
+  - Sprint
+  - Slardar Sprint
+5115:
+  - slardar_slithereen_crush
+  - Slithereen Crush
+  - Slardar Slithereen Crush
+5116:
+  - slardar_bash
+  - Bash
+  - Slardar Bash
+5117:
+  - slardar_amplify_damage
+  - Amplify Damage
+  - Slardar Amplify Damage
+5118:
+  - tidehunter_gush
+  - Gush
+  - Tidehunter Gush
+5119:
+  - tidehunter_kraken_shell
+  - Kraken Shell
+  - Tidehunter Kraken Shell
+5120:
+  - tidehunter_anchor_smash
+  - Anchor Smash
+  - Tidehunter Anchor Smash
+5121:
+  - tidehunter_ravage
+  - Ravage
+  - Tidehunter Ravage
+5122:
+  - vengefulspirit_magic_missile
+  - Magic Missile
+  - Vengeful Spirit Magic Missile
+5123:
+  - vengefulspirit_command_aura
+  - Command Aura
+  - Vengeful Spirit Command Aura
+5124:
+  - vengefulspirit_wave_of_terror
+  - Wave Of Terror
+  - Vengeful Spirit Wave Of Terror
+5125:
+  - vengefulspirit_nether_swap
+  - Nether Swap
+  - Vengeful Spirit Nether Swap
+5126:
+  - crystal_maiden_crystal_nova
+  - Crystal Nova
+  - Crystal Maiden Crystal Nova
+5127:
+  - crystal_maiden_frostbite
+  - Frostbite
+  - Crystal Maiden Frostbite
+5128:
+  - crystal_maiden_brilliance_aura
+  - Brilliance Aura
+  - Crystal Maiden Brilliance Aura
+5129:
+  - crystal_maiden_freezing_field
+  - Freezing Field
+  - Crystal Maiden Freezing Field
+5130:
+  - windrunner_shackleshot
+  - Shackleshot
+  - Windrunner Shackleshot
+5131:
+  - windrunner_powershot
+  - Powershot
+  - Windrunner Powershot
+5132:
+  - windrunner_windrun
+  - Windrun
+  - Windrunner Windrun
+5133:
+  - windrunner_focusfire
+  - Focusfire
+  - Windrunner Focusfire
+5134:
+  - lich_frost_nova
+  - Frost Nova
+  - Lich Frost Nova
+5135:
+  - lich_frost_armor
+  - Frost Armor
+  - Lich Frost Armor
+5136:
+  - lich_dark_ritual
+  - Dark Ritual
+  - Lich Dark Ritual
+5137:
+  - lich_chain_frost
+  - Chain Frost
+  - Lich Chain Frost
+5138:
+  - witch_doctor_paralyzing_cask
+  - Paralyzing Cask
+  - Witch Doctor Paralyzing Cask
+5139:
+  - witch_doctor_voodoo_restoration
+  - Voodoo Restoration
+  - Witch Doctor Voodoo Restoration
+5140:
+  - witch_doctor_maledict
+  - Maledict
+  - Witch Doctor Maledict
+5141:
+  - witch_doctor_death_ward
+  - Death Ward
+  - Witch Doctor Death Ward
+5142:
+  - riki_smoke_screen
+  - Smoke Screen
+  - Riki Smoke Screen
+5143:
+  - riki_blink_strike
+  - Blink Strike
+  - Riki Blink Strike
+5144:
+  - riki_backstab
+  - Backstab
+  - Riki Backstab
+5145:
+  - riki_permanent_invisibility
+  - Permanent Invisibility
+  - Riki Permanent Invisibility
+5146:
+  - enigma_malefice
+  - Malefice
+  - Enigma Malefice
+5147:
+  - enigma_demonic_conversion
+  - Demonic Conversion
+  - Enigma Demonic Conversion
+5148:
+  - enigma_midnight_pulse
+  - Midnight Pulse
+  - Enigma Midnight Pulse
+5149:
+  - enigma_black_hole
+  - Black Hole
+  - Enigma Black Hole
+5150:
+  - tinker_laser
+  - Laser
+  - Tinker Laser
+5151:
+  - tinker_heat_seeking_missile
+  - Heat Seeking Missile
+  - Tinker Heat Seeking Missile
+5152:
+  - tinker_march_of_the_machines
+  - March Of The Machines
+  - Tinker March Of The Machines
+5153:
+  - tinker_rearm
+  - Rearm
+  - Tinker Rearm
+5154:
+  - sniper_shrapnel
+  - Shrapnel
+  - Sniper Shrapnel
+5155:
+  - sniper_headshot
+  - Headshot
+  - Sniper Headshot
+5156:
+  - sniper_take_aim
+  - Take Aim
+  - Sniper Take Aim
+5157:
+  - sniper_assassinate
+  - Assassinate
+  - Sniper Assassinate
+5158:
+  - necrolyte_death_pulse
+  - Death Pulse
+  - Necrolyte Death Pulse
+5159:
+  - necrolyte_heartstopper_aura
+  - Heartstopper Aura
+  - Necrolyte Heartstopper Aura
+5160:
+  - necrolyte_sadist
+  - Sadist
+  - Necrolyte Sadist
+5161:
+  - necrolyte_reapers_scythe
+  - Reapers Scythe
+  - Necrolyte Reapers Scythe
+5162:
+  - warlock_fatal_bonds
+  - Fatal Bonds
+  - Warlock Fatal Bonds
+5163:
+  - warlock_shadow_word
+  - Shadow Word
+  - Warlock Shadow Word
+5164:
+  - warlock_upheaval
+  - Upheaval
+  - Warlock Upheaval
+5165:
+  - warlock_rain_of_chaos
+  - Rain Of Chaos
+  - Warlock Rain Of Chaos
+5166:
+  - warlock_golem_flaming_fists
+  - Flaming Fists
+  - Warlock Golem Flaming Fists
+5167:
+  - warlock_golem_permanent_immolation
+  - Permanent Immolation
+  - Warlock Golem Permanent Immolation
+5168:
+  - beastmaster_wild_axes
+  - Wild Axes
+  - Beastmaster Wild Axes
+5169:
+  - beastmaster_call_of_the_wild
+  - Call Of The Wild
+  - Beastmaster Call Of The Wild
+5170:
+  - beastmaster_hawk_invisibility
+  - Invisibility
+  - Beastmaster Hawk Invisibility
+5171:
+  - beastmaster_boar_poison
+  - Boar Poison
+  - Beastmaster Boar Poison
+5172:
+  - beastmaster_inner_beast
+  - Inner Beast
+  - Beastmaster Inner Beast
+5173:
+  - queenofpain_shadow_strike
+  - Shadow Strike
+  - Queen of Pain Shadow Strike
+5174:
+  - queenofpain_blink
+  - Blink
+  - Queen of Pain Blink
+5175:
+  - queenofpain_scream_of_pain
+  - Scream Of Pain
+  - Queen of Pain Scream Of Pain
+5176:
+  - queenofpain_sonic_wave
+  - Sonic Wave
+  - Queen of Pain Sonic Wave
+5177:
+  - beastmaster_primal_roar
+  - Primal Roar
+  - Beastmaster Primal Roar
+5178:
+  - venomancer_venomous_gale
+  - Venomous Gale
+  - Venomancer Venomous Gale
+5179:
+  - venomancer_poison_sting
+  - Poison Sting
+  - Venomancer Poison Sting
+5180:
+  - venomancer_plague_ward
+  - Plague Ward
+  - Venomancer Plague Ward
+5181:
+  - venomancer_poison_nova
+  - Poison Nova
+  - Venomancer Poison Nova
+5182:
+  - faceless_void_time_walk
+  - Time Walk
+  - Faceless Void Time Walk
+5183:
+  - faceless_void_backtrack
+  - Backtrack
+  - Faceless Void Backtrack
+5184:
+  - faceless_void_time_lock
+  - Time Lock
+  - Faceless Void Time Lock
+5185:
+  - faceless_void_chronosphere
+  - Chronosphere
+  - Faceless Void Chronosphere
+5186:
+  - pugna_nether_blast
+  - Nether Blast
+  - Pugna Nether Blast
+5187:
+  - pugna_decrepify
+  - Decrepify
+  - Pugna Decrepify
+5188:
+  - pugna_nether_ward
+  - Nether Ward
+  - Pugna Nether Ward
+5189:
+  - pugna_life_drain
+  - Life Drain
+  - Pugna Life Drain
+5190:
+  - phantom_assassin_stifling_dagger
+  - Stifling Dagger
+  - Phantom Assassin Stifling Dagger
+5191:
+  - phantom_assassin_phantom_strike
+  - Phantom Strike
+  - Phantom Assassin Phantom Strike
+5192:
+  - phantom_assassin_blur
+  - Blur
+  - Phantom Assassin Blur
+5193:
+  - phantom_assassin_coup_de_grace
+  - Coup De Grace
+  - Phantom Assassin Coup De Grace
+5194:
+  - templar_assassin_refraction
+  - Refraction
+  - Templar Assassin Refraction
+5195:
+  - templar_assassin_meld
+  - Meld
+  - Templar Assassin Meld
+5196:
+  - templar_assassin_psi_blades
+  - Psi Blades
+  - Templar Assassin Psi Blades
+5197:
+  - templar_assassin_psionic_trap
+  - Psionic Trap
+  - Templar Assassin Psionic Trap
+5198:
+  - templar_assassin_trap
+  - Trap
+  - Templar Assassin Trap
+5199:
+  - templar_assassin_self_trap
+  - Self Trap
+  - Templar Assassin Self Trap
+5200:
+  - necronomicon_warrior_last_will
+  - Last Will
+  - Necronomicon Warrior Last Will
+5201:
+  - necronomicon_warrior_sight
+  - Sight
+  - Necronomicon Warrior Sight
+5202:
+  - necronomicon_warrior_mana_burn
+  - Mana Burn
+  - Necronomicon Warrior Mana Burn
+5203:
+  - necronomicon_archer_mana_burn
+  - Mana Burn
+  - Necronomicon Archer Mana Burn
+5204:
+  - necronomicon_archer_aoe
+  - AoE
+  - Necronomicon Archer Aoe
+5205:
+  - courier_return_to_base
+  - Return To Base
+  - Courier Return To Base
+5206:
+  - courier_transfer_items
+  - Transfer Items
+  - Courier Transfer Items
+5207:
+  - courier_return_stash_items
+  - Return Stash Items
+  - Courier Return Stash Items
+5208:
+  - courier_take_stash_items
+  - Take Stash Items
+  - Courier Take Stash Items
+5209:
+  - courier_shield
+  - Shield
+  - Courier Shield
+5210:
+  - courier_burst
+  - Burst
+  - Courier Burst
+5213:
+  - roshan_spell_block
+  - Spell Block
+  - Roshan Spell Block
+5214:
+  - roshan_bash
+  - Bash
+  - Roshan Bash
+5215:
+  - roshan_slam
+  - Slam
+  - Roshan Slam
+5216:
+  - roshan_illusion_protection
+  - Illusion Protection
+  - Roshan Illusion Protection
+5217:
+  - roshan_devotion
+  - Devotion
+  - Roshan Devotion
+5218:
+  - viper_poison_attack
+  - Poison Attack
+  - Viper Poison Attack
+5219:
+  - viper_nethertoxin
+  - Nethertoxin
+  - Viper Nethertoxin
+5220:
+  - viper_corrosive_skin
+  - Corrosive Skin
+  - Viper Corrosive Skin
+5221:
+  - viper_viper_strike
+  - Viper Strike
+  - Viper Viper Strike
+5222:
+  - luna_lucent_beam
+  - Lucent Beam
+  - Luna Lucent Beam
+5223:
+  - luna_moon_glaive
+  - Moon Glaive
+  - Luna Moon Glaive
+5224:
+  - luna_lunar_blessing
+  - Lunar Blessing
+  - Luna Lunar Blessing
+5225:
+  - luna_eclipse
+  - Eclipse
+  - Luna Eclipse
+5226:
+  - dragon_knight_breathe_fire
+  - Breathe Fire
+  - Dragon Knight Breathe Fire
+5227:
+  - dragon_knight_dragon_tail
+  - Dragon Tail
+  - Dragon Knight Dragon Tail
+5228:
+  - dragon_knight_dragon_blood
+  - Dragon Blood
+  - Dragon Knight Dragon Blood
+5229:
+  - dragon_knight_elder_dragon_form
+  - Elder Dragon Form
+  - Dragon Knight Elder Dragon Form
+5232:
+  - dragon_knight_frost_breath
+  - Frost Breath
+  - Dragon Knight Frost Breath
+5233:
+  - dazzle_poison_touch
+  - Poison Touch
+  - Dazzle Poison Touch
+5234:
+  - dazzle_shallow_grave
+  - Shallow Grave
+  - Dazzle Shallow Grave
+5235:
+  - dazzle_shadow_wave
+  - Shadow Wave
+  - Dazzle Shadow Wave
+5236:
+  - dazzle_weave
+  - Weave
+  - Dazzle Weave
+5237:
+  - rattletrap_battery_assault
+  - Battery Assault
+  - Rattletrap Battery Assault
+5238:
+  - rattletrap_power_cogs
+  - Power Cogs
+  - Rattletrap Power Cogs
+5239:
+  - rattletrap_rocket_flare
+  - Rocket Flare
+  - Rattletrap Rocket Flare
+5240:
+  - rattletrap_hookshot
+  - Hookshot
+  - Rattletrap Hookshot
+5241:
+  - leshrac_split_earth
+  - Split Earth
+  - Leshrac Split Earth
+5242:
+  - leshrac_diabolic_edict
+  - Diabolic Edict
+  - Leshrac Diabolic Edict
+5243:
+  - leshrac_lightning_storm
+  - Lightning Storm
+  - Leshrac Lightning Storm
+5244:
+  - leshrac_pulse_nova
+  - Pulse Nova
+  - Leshrac Pulse Nova
+5245:
+  - furion_sprout
+  - Sprout
+  - Furion Sprout
+5246:
+  - furion_teleportation
+  - Teleportation
+  - Furion Teleportation
+5247:
+  - furion_force_of_nature
+  - Force Of Nature
+  - Furion Force Of Nature
+5248:
+  - furion_wrath_of_nature
+  - Wrath Of Nature
+  - Furion Wrath Of Nature
+5249:
+  - life_stealer_rage
+  - Rage
+  - Life Stealer Rage
+5250:
+  - life_stealer_feast
+  - Feast
+  - Life Stealer Feast
+5251:
+  - life_stealer_open_wounds
+  - Open Wounds
+  - Life Stealer Open Wounds
+5252:
+  - life_stealer_infest
+  - Infest
+  - Life Stealer Infest
+5253:
+  - life_stealer_consume
+  - Consume
+  - Life Stealer Consume
+5255:
+  - dark_seer_vacuum
+  - Vacuum
+  - Dark Seer Vacuum
+5256:
+  - dark_seer_ion_shell
+  - Ion Shell
+  - Dark Seer Ion Shell
+5257:
+  - dark_seer_surge
+  - Surge
+  - Dark Seer Surge
+5258:
+  - dark_seer_wall_of_replica
+  - Wall Of Replica
+  - Dark Seer Wall Of Replica
+5259:
+  - clinkz_strafe
+  - Strafe
+  - Clinkz Strafe
+5260:
+  - clinkz_searing_arrows
+  - Searing Arrows
+  - Clinkz Searing Arrows
+5261:
+  - clinkz_wind_walk
+  - Wind Walk
+  - Clinkz Wind Walk
+5262:
+  - clinkz_death_pact
+  - Death Pact
+  - Clinkz Death Pact
+5263:
+  - omniknight_purification
+  - Purification
+  - Omniknight Purification
+5264:
+  - omniknight_repel
+  - Repel
+  - Omniknight Repel
+5265:
+  - omniknight_degen_aura
+  - Degen Aura
+  - Omniknight Degen Aura
+5266:
+  - omniknight_guardian_angel
+  - Guardian Angel
+  - Omniknight Guardian Angel
+5267:
+  - enchantress_untouchable
+  - Untouchable
+  - Enchantress Untouchable
+5268:
+  - enchantress_enchant
+  - Enchant
+  - Enchantress Enchant
+5269:
+  - enchantress_natures_attendants
+  - Natures Attendants
+  - Enchantress Natures Attendants
+5270:
+  - enchantress_impetus
+  - Impetus
+  - Enchantress Impetus
+5271:
+  - huskar_inner_vitality
+  - Inner Vitality
+  - Huskar Inner Vitality
+5272:
+  - huskar_burning_spear
+  - Burning Spear
+  - Huskar Burning Spear
+5273:
+  - huskar_berserkers_blood
+  - Berserkers Blood
+  - Huskar Berserkers Blood
+5274:
+  - huskar_life_break
+  - Life Break
+  - Huskar Life Break
+5275:
+  - night_stalker_void
+  - Void
+  - Night Stalker Void
+5276:
+  - night_stalker_crippling_fear
+  - Crippling Fear
+  - Night Stalker Crippling Fear
+5277:
+  - night_stalker_hunter_in_the_night
+  - Hunter In The Night
+  - Night Stalker Hunter In The Night
+5278:
+  - night_stalker_darkness
+  - Darkness
+  - Night Stalker Darkness
+5279:
+  - broodmother_spawn_spiderlings
+  - Spawn Spiderlings
+  - Broodmother Spawn Spiderlings
+5280:
+  - broodmother_spin_web
+  - Spin Web
+  - Broodmother Spin Web
+5281:
+  - broodmother_incapacitating_bite
+  - Incapacitating Bite
+  - Broodmother Incapacitating Bite
+5282:
+  - broodmother_insatiable_hunger
+  - Insatiable Hunger
+  - Broodmother Insatiable Hunger
+5283:
+  - broodmother_spawn_spiderite
+  - Spawn Spiderite
+  - Broodmother Spawn Spiderite
+5284:
+  - broodmother_poison_sting
+  - Poison Sting
+  - Broodmother Poison Sting
+5285:
+  - bounty_hunter_shuriken_toss
+  - Shuriken Toss
+  - Bounty Hunter Shuriken Toss
+5286:
+  - bounty_hunter_jinada
+  - Jinada
+  - Bounty Hunter Jinada
+5287:
+  - bounty_hunter_wind_walk
+  - Wind Walk
+  - Bounty Hunter Wind Walk
+5288:
+  - bounty_hunter_track
+  - Track
+  - Bounty Hunter Track
+5289:
+  - weaver_the_swarm
+  - The Swarm
+  - Weaver The Swarm
+5290:
+  - weaver_shukuchi
+  - Shukuchi
+  - Weaver Shukuchi
+5291:
+  - weaver_geminate_attack
+  - Geminate Attack
+  - Weaver Geminate Attack
+5292:
+  - weaver_time_lapse
+  - Time Lapse
+  - Weaver Time Lapse
+5293:
+  - kobold_taskmaster_speed_aura
+  - Speed Aura
+  - Kobold Taskmaster Speed Aura
+5294:
+  - centaur_khan_endurance_aura
+  - Endurance Aura
+  - Centaur Khan Endurance Aura
+5295:
+  - centaur_khan_war_stomp
+  - War Stomp
+  - Centaur Khan War Stomp
+5296:
+  - gnoll_assassin_envenomed_weapon
+  - Envenomed Weapon
+  - Gnoll Assassin Envenomed Weapon
+5297:
+  - jakiro_dual_breath
+  - Dual Breath
+  - Jakiro Dual Breath
+5298:
+  - jakiro_ice_path
+  - Ice Path
+  - Jakiro Ice Path
+5299:
+  - jakiro_liquid_fire
+  - Liquid Fire
+  - Jakiro Liquid Fire
+5300:
+  - jakiro_macropyre
+  - Macropyre
+  - Jakiro Macropyre
+5301:
+  - ghost_frost_attack
+  - Frost Attack
+  - Ghost Frost Attack
+5302:
+  - polar_furbolg_ursa_warrior_thunder_clap
+  - Thunder Clap
+  - Polar Furbolg Ursa Warrior Thunder Clap
+5303:
+  - neutral_spell_immunity
+  - Spell Immunity
+  - Neutral Spell Immunity
+5304:
+  - ogre_magi_frost_armor
+  - Frost Armor
+  - Ogre Magi Frost Armor
+5305:
+  - dark_troll_warlord_ensnare
+  - Ensnare
+  - Dark Troll Warlord Ensnare
+5306:
+  - dark_troll_warlord_raise_dead
+  - Raise Dead
+  - Dark Troll Warlord Raise Dead
+5307:
+  - giant_wolf_critical_strike
+  - Critical Strike
+  - Giant Wolf Critical Strike
+5308:
+  - alpha_wolf_critical_strike
+  - Critical Strike
+  - Alpha Wolf Critical Strike
+5309:
+  - alpha_wolf_command_aura
+  - Command Aura
+  - Alpha Wolf Command Aura
+5310:
+  - tornado_tempest
+  - Tornado Tempest
+  - Tornado Tempest
+5312:
+  - enraged_wildkin_tornado
+  - Tornado
+  - Enraged Wildkin Tornado
+5313:
+  - enraged_wildkin_toughness_aura
+  - Toughness Aura
+  - Enraged Wildkin Toughness Aura
+5314:
+  - satyr_trickster_purge
+  - Purge
+  - Satyr Trickster Purge
+5315:
+  - satyr_soulstealer_mana_burn
+  - Mana Burn
+  - Satyr Soulstealer Mana Burn
+5316:
+  - satyr_hellcaller_shockwave
+  - Shockwave
+  - Satyr Hellcaller Shockwave
+5317:
+  - satyr_hellcaller_unholy_aura
+  - Unholy Aura
+  - Satyr Hellcaller Unholy Aura
+5318:
+  - forest_troll_high_priest_heal
+  - Heal
+  - Forest Troll High Priest Heal
+5319:
+  - harpy_storm_chain_lightning
+  - Chain Lightning
+  - Harpy Storm Chain Lightning
+5320:
+  - batrider_sticky_napalm
+  - Sticky Napalm
+  - Batrider Sticky Napalm
+5321:
+  - batrider_flamebreak
+  - Flamebreak
+  - Batrider Flamebreak
+5322:
+  - batrider_firefly
+  - Firefly
+  - Batrider Firefly
+5323:
+  - batrider_flaming_lasso
+  - Flaming Lasso
+  - Batrider Flaming Lasso
+5324:
+  - black_dragon_splash_attack
+  - Splash Attack
+  - Black Dragon Splash Attack
+5325:
+  - blue_dragonspawn_sorcerer_evasion
+  - Evasion
+  - Blue Dragonspawn Sorcerer Evasion
+5326:
+  - blue_dragonspawn_overseer_evasion
+  - Evasion
+  - Blue Dragonspawn Overseer Evasion
+5327:
+  - blue_dragonspawn_overseer_devotion_aura
+  - Devotion Aura
+  - Blue Dragonspawn Overseer Devotion Aura
+5328:
+  - chen_penitence
+  - Penitence
+  - Chen Penitence
+5329:
+  - chen_test_of_faith
+  - Test Of Faith
+  - Chen Test Of Faith
+5330:
+  - chen_holy_persuasion
+  - Holy Persuasion
+  - Chen Holy Persuasion
+5331:
+  - chen_hand_of_god
+  - Hand Of God
+  - Chen Hand Of God
+5332:
+  - big_thunder_lizard_slam
+  - Slam
+  - Big Thunder Lizard Slam
+5333:
+  - big_thunder_lizard_frenzy
+  - Frenzy
+  - Big Thunder Lizard Frenzy
+5334:
+  - spectre_spectral_dagger
+  - Spectral Dagger
+  - Spectre Spectral Dagger
+5335:
+  - spectre_desolate
+  - Desolate
+  - Spectre Desolate
+5336:
+  - spectre_dispersion
+  - Dispersion
+  - Spectre Dispersion
+5337:
+  - spectre_haunt
+  - Haunt
+  - Spectre Haunt
+5338:
+  - spectre_reality
+  - Reality
+  - Spectre Reality
+5339:
+  - doom_bringer_devour
+  - Devour
+  - Doom Bringer Devour
+5340:
+  - doom_bringer_scorched_earth
+  - Scorched Earth
+  - Doom Bringer Scorched Earth
+5341:
+  - doom_bringer_lvl_death
+  - Lvl Death
+  - Doom Bringer Lvl Death
+5342:
+  - doom_bringer_doom
+  - Doom
+  - Doom Bringer Doom
+5343:
+  - doom_bringer_empty
+  - Empty
+  - Doom Bringer Empty
+5344:
+  - doom_bringer_empty
+  - Empty
+  - Doom Bringer Empty
+5345:
+  - ancient_apparition_cold_feet
+  - Cold Feet
+  - Ancient Apparition Cold Feet
+5346:
+  - ancient_apparition_ice_vortex
+  - Ice Vortex
+  - Ancient Apparition Ice Vortex
+5347:
+  - ancient_apparition_chilling_touch
+  - Chilling Touch
+  - Ancient Apparition Chilling Touch
+5348:
+  - ancient_apparition_ice_blast
+  - Ice Blast
+  - Ancient Apparition Ice Blast
+5349:
+  - ancient_apparition_ice_blast_release
+  - Ice Blast Release
+  - Ancient Apparition Ice Blast Release
+5350:
+  - backdoor_protection
+  - Backdoor Protection
+  - Backdoor Protection
+5351:
+  - backdoor_protection_in_base
+  - Backdoor Protection In Base
+  - Backdoor Protection In Base
+5352:
+  - beastmaster_greater_boar_poison
+  - Poison
+  - Beastmaster Greater Boar Poison
+5353:
+  - spirit_breaker_charge_of_darkness
+  - Charge Of Darkness
+  - Spirit Breaker Charge Of Darkness
+5354:
+  - spirit_breaker_empowering_haste
+  - Empowering Haste
+  - Spirit Breaker Empowering Haste
+5355:
+  - spirit_breaker_greater_bash
+  - Greater Bash
+  - Spirit Breaker Greater Bash
+5356:
+  - spirit_breaker_nether_strike
+  - Nether Strike
+  - Spirit Breaker Nether Strike
+5357:
+  - ursa_earthshock
+  - Earthshock
+  - Ursa Earthshock
+5358:
+  - ursa_overpower
+  - Overpower
+  - Ursa Overpower
+5359:
+  - ursa_fury_swipes
+  - Fury Swipes
+  - Ursa Fury Swipes
+5360:
+  - ursa_enrage
+  - Enrage
+  - Ursa Enrage
+5361:
+  - gyrocopter_rocket_barrage
+  - Rocket Barrage
+  - Gyrocopter Rocket Barrage
+5362:
+  - gyrocopter_homing_missile
+  - Homing Missile
+  - Gyrocopter Homing Missile
+5363:
+  - gyrocopter_flak_cannon
+  - Flak Cannon
+  - Gyrocopter Flak Cannon
+5364:
+  - gyrocopter_call_down
+  - Call Down
+  - Gyrocopter Call Down
+5365:
+  - alchemist_acid_spray
+  - Acid Spray
+  - Alchemist Acid Spray
+5366:
+  - alchemist_unstable_concoction
+  - Unstable Concoction
+  - Alchemist Unstable Concoction
+5367:
+  - alchemist_unstable_concoction_throw
+  - Unstable Concoction Throw
+  - Alchemist Unstable Concoction Throw
+5368:
+  - alchemist_goblins_greed
+  - Goblins Greed
+  - Alchemist Goblins Greed
+5369:
+  - alchemist_chemical_rage
+  - Chemical Rage
+  - Alchemist Chemical Rage
+5370:
+  - invoker_quas
+  - Quas
+  - Invoker Quas
+5371:
+  - invoker_wex
+  - Wex
+  - Invoker Wex
+5372:
+  - invoker_exort
+  - Exort
+  - Invoker Exort
+5373:
+  - invoker_empty1
+  - Empty1
+  - Invoker Empty1
+5374:
+  - invoker_empty2
+  - Empty2
+  - Invoker Empty2
+5375:
+  - invoker_invoke
+  - Invoke
+  - Invoker Invoke
+5376:
+  - invoker_cold_snap
+  - Cold Snap
+  - Invoker Cold Snap
+5377:
+  - silencer_curse_of_the_silent
+  - Curse Of The Silent
+  - Silencer Curse Of The Silent
+5378:
+  - silencer_glaives_of_wisdom
+  - Glaives Of Wisdom
+  - Silencer Glaives Of Wisdom
+5379:
+  - silencer_last_word
+  - Last Word
+  - Silencer Last Word
+5380:
+  - silencer_global_silence
+  - Global Silence
+  - Silencer Global Silence
+5381:
+  - invoker_ghost_walk
+  - Ghost Walk
+  - Invoker Ghost Walk
+5382:
+  - invoker_tornado
+  - Tornado
+  - Invoker Tornado
+5383:
+  - invoker_emp
+  - Emp
+  - Invoker Emp
+5384:
+  - invoker_alacrity
+  - Alacrity
+  - Invoker Alacrity
+5385:
+  - invoker_chaos_meteor
+  - Chaos Meteor
+  - Invoker Chaos Meteor
+5386:
+  - invoker_sun_strike
+  - Sun Strike
+  - Invoker Sun Strike
+5387:
+  - invoker_forge_spirit
+  - Forge Spirit
+  - Invoker Forge Spirit
+5388:
+  - forged_spirit_melting_strike
+  - Melting Strike
+  - Forged Spirit Melting Strike
+5389:
+  - invoker_ice_wall
+  - Ice Wall
+  - Invoker Ice Wall
+5390:
+  - invoker_deafening_blast
+  - Deafening Blast
+  - Invoker Deafening Blast
+5391:
+  - obsidian_destroyer_arcane_orb
+  - Arcane Orb
+  - Obsidian Destroyer Arcane Orb
+5392:
+  - obsidian_destroyer_astral_imprisonment
+  - Astral Imprisonment
+  - Obsidian Destroyer Astral Imprisonment
+5393:
+  - obsidian_destroyer_essence_aura
+  - Essence Aura
+  - Obsidian Destroyer Essence Aura
+5394:
+  - obsidian_destroyer_sanity_eclipse
+  - Sanity Eclipse
+  - Obsidian Destroyer Sanity Eclipse
+5395:
+  - lycan_summon_wolves
+  - Summon Wolves
+  - Lycan Summon Wolves
+5396:
+  - lycan_howl
+  - Howl
+  - Lycan Howl
+5397:
+  - lycan_feral_impulse
+  - Feral Impulse
+  - Lycan Feral Impulse
+5398:
+  - lycan_shapeshift
+  - Shapeshift
+  - Lycan Shapeshift
+5399:
+  - lycan_summon_wolves_critical_strike
+  - Summon Wolves Critical Strike
+  - Lycan Summon Wolves Critical Strike
+5400:
+  - brewmaster_thunder_clap
+  - Thunder Clap
+  - Brewmaster Thunder Clap
+5401:
+  - brewmaster_drunken_haze
+  - Drunken Haze
+  - Brewmaster Drunken Haze
+5402:
+  - brewmaster_drunken_brawler
+  - Drunken Brawler
+  - Brewmaster Drunken Brawler
+5403:
+  - brewmaster_primal_split
+  - Primal Split
+  - Brewmaster Primal Split
+5404:
+  - brewmaster_earth_hurl_boulder
+  - Hurl Boulder
+  - Brewmaster Earth Hurl Boulder
+5405:
+  - brewmaster_earth_spell_immunity
+  - Spell Immunity
+  - Brewmaster Earth Spell Immunity
+5406:
+  - brewmaster_earth_pulverize
+  - Pulverize
+  - Brewmaster Earth Pulverize
+5408:
+  - brewmaster_storm_dispel_magic
+  - Dispel Magic
+  - Brewmaster Storm Dispel Magic
+5409:
+  - brewmaster_storm_cyclone
+  - Cyclone
+  - Brewmaster Storm Cyclone
+5410:
+  - brewmaster_storm_wind_walk
+  - Wind Walk
+  - Brewmaster Storm Wind Walk
+5411:
+  - brewmaster_fire_permanent_immolation
+  - Permanent Immolation
+  - Brewmaster Fire Permanent Immolation
+5412:
+  - lone_druid_spirit_bear
+  - Spirit Bear
+  - Lone Druid Spirit Bear
+5413:
+  - lone_druid_rabid
+  - Rabid
+  - Lone Druid Rabid
+5414:
+  - lone_druid_synergy
+  - Synergy
+  - Lone Druid Synergy
+5415:
+  - lone_druid_true_form
+  - True Form
+  - Lone Druid True Form
+5416:
+  - lone_druid_true_form
+  - True Form
+  - Lone Druid True Form
+5417:
+  - lone_druid_true_form_battle_cry
+  - True Form Battle Cry
+  - Lone Druid True Form Battle Cry
+5418:
+  - lone_druid_spirit_bear_return
+  - Spirit Bear Return
+  - Lone Druid Spirit Bear Return
+5419:
+  - lone_druid_spirit_bear_entangle
+  - Spirit Bear Entangle
+  - Lone Druid Spirit Bear Entangle
+5420:
+  - lone_druid_spirit_bear_demolish
+  - Spirit Bear Demolish
+  - Lone Druid Spirit Bear Demolish
+5421:
+  - shadow_demon_disruption
+  - Disruption
+  - Shadow Demon Disruption
+5422:
+  - shadow_demon_soul_catcher
+  - Soul Catcher
+  - Shadow Demon Soul Catcher
+5423:
+  - shadow_demon_shadow_poison
+  - Shadow Poison
+  - Shadow Demon Shadow Poison
+5424:
+  - shadow_demon_shadow_poison_release
+  - Shadow Poison Release
+  - Shadow Demon Shadow Poison Release
+5425:
+  - shadow_demon_demonic_purge
+  - Demonic Purge
+  - Shadow Demon Demonic Purge
+5426:
+  - chaos_knight_chaos_bolt
+  - Chaos Bolt
+  - Chaos Knight Chaos Bolt
+5427:
+  - chaos_knight_reality_rift
+  - Reality Rift
+  - Chaos Knight Reality Rift
+5428:
+  - chaos_knight_chaos_strike
+  - Chaos Strike
+  - Chaos Knight Chaos Strike
+5429:
+  - chaos_knight_phantasm
+  - Phantasm
+  - Chaos Knight Phantasm
+5430:
+  - meepo_earthbind
+  - Earthbind
+  - Meepo Earthbind
+5431:
+  - meepo_poof
+  - Poof
+  - Meepo Poof
+5432:
+  - meepo_geostrike
+  - Geostrike
+  - Meepo Geostrike
+5433:
+  - meepo_divided_we_stand
+  - Divided We Stand
+  - Meepo Divided We Stand
+5434:
+  - treant_natures_guise
+  - Natures Guise
+  - Treant Natures Guise
+5435:
+  - treant_leech_seed
+  - Leech Seed
+  - Treant Leech Seed
+5436:
+  - treant_living_armor
+  - Living Armor
+  - Treant Living Armor
+5437:
+  - treant_overgrowth
+  - Overgrowth
+  - Treant Overgrowth
+5438:
+  - ogre_magi_fireblast
+  - Fireblast
+  - Ogre Magi Fireblast
+5439:
+  - ogre_magi_ignite
+  - Ignite
+  - Ogre Magi Ignite
+5440:
+  - ogre_magi_bloodlust
+  - Bloodlust
+  - Ogre Magi Bloodlust
+5441:
+  - ogre_magi_multicast
+  - Multicast
+  - Ogre Magi Multicast
+5442:
+  - undying_decay
+  - Decay
+  - Undying Decay
+5443:
+  - undying_soul_rip
+  - Soul Rip
+  - Undying Soul Rip
+5444:
+  - undying_tombstone
+  - Tombstone
+  - Undying Tombstone
+5445:
+  - undying_tombstone_zombie_aura
+  - Tombstone Zombie Aura
+  - Undying Tombstone Zombie Aura
+5446:
+  - undying_tombstone_zombie_deathstrike
+  - Tombstone Zombie Deathstrike
+  - Undying Tombstone Zombie Deathstrike
+5447:
+  - undying_flesh_golem
+  - Flesh Golem
+  - Undying Flesh Golem
+5448:
+  - rubick_telekinesis
+  - Telekinesis
+  - Rubick Telekinesis
+5450:
+  - rubick_fade_bolt
+  - Fade Bolt
+  - Rubick Fade Bolt
+5451:
+  - rubick_null_field
+  - Null Field
+  - Rubick Null Field
+5452:
+  - rubick_spell_steal
+  - Spell Steal
+  - Rubick Spell Steal
+5458:
+  - disruptor_thunder_strike
+  - Thunder Strike
+  - Disruptor Thunder Strike
+5459:
+  - disruptor_glimpse
+  - Glimpse
+  - Disruptor Glimpse
+5460:
+  - disruptor_kinetic_field
+  - Kinetic Field
+  - Disruptor Kinetic Field
+5461:
+  - disruptor_static_storm
+  - Static Storm
+  - Disruptor Static Storm
+5462:
+  - nyx_assassin_impale
+  - Impale
+  - Nyx Assassin Impale
+5463:
+  - nyx_assassin_mana_burn
+  - Mana Burn
+  - Nyx Assassin Mana Burn
+5464:
+  - nyx_assassin_spiked_carapace
+  - Spiked Carapace
+  - Nyx Assassin Spiked Carapace
+5465:
+  - nyx_assassin_vendetta
+  - Vendetta
+  - Nyx Assassin Vendetta
+5467:
+  - naga_siren_mirror_image
+  - Mirror Image
+  - Naga Siren Mirror Image
+5468:
+  - naga_siren_ensnare
+  - Ensnare
+  - Naga Siren Ensnare
+5469:
+  - naga_siren_rip_tide
+  - Rip Tide
+  - Naga Siren Rip Tide
+5470:
+  - naga_siren_song_of_the_siren
+  - Song Of The Siren
+  - Naga Siren Song Of The Siren
+5471:
+  - keeper_of_the_light_illuminate
+  - Illuminate
+  - Keeper Of The Light Illuminate
+5472:
+  - keeper_of_the_light_mana_leak
+  - Mana Leak
+  - Keeper Of The Light Mana Leak
+5473:
+  - keeper_of_the_light_chakra_magic
+  - Chakra Magic
+  - Keeper Of The Light Chakra Magic
+5474:
+  - keeper_of_the_light_spirit_form
+  - Spirit Form
+  - Keeper Of The Light Spirit Form
+5475:
+  - keeper_of_the_light_recall
+  - Recall
+  - Keeper Of The Light Recall
+5476:
+  - keeper_of_the_light_blinding_light
+  - Blinding Light
+  - Keeper Of The Light Blinding Light
+5477:
+  - keeper_of_the_light_illuminate_end
+  - Illuminate End
+  - Keeper Of The Light Illuminate End
+5479:
+  - keeper_of_the_light_spirit_form_illuminate
+  - Spirit Form Illuminate
+  - Keeper Of The Light Spirit Form Illuminate
+5480:
+  - visage_grave_chill
+  - Grave Chill
+  - Visage Grave Chill
+5481:
+  - visage_soul_assumption
+  - Soul Assumption
+  - Visage Soul Assumption
+5482:
+  - visage_gravekeepers_cloak
+  - Gravekeepers Cloak
+  - Visage Gravekeepers Cloak
+5483:
+  - visage_summon_familiars
+  - Summon Familiars
+  - Visage Summon Familiars
+5485:
+  - wisp_tether
+  - Tether
+  - Wisp Tether
+5486:
+  - wisp_spirits
+  - Spirits
+  - Wisp Spirits
+5487:
+  - wisp_overcharge
+  - Overcharge
+  - Wisp Overcharge
+5488:
+  - wisp_relocate
+  - Relocate
+  - Wisp Relocate
+5489:
+  - wisp_tether_break
+  - Tether Break
+  - Wisp Tether Break
+5491:
+  - forest_troll_high_priest_mana_aura
+  - Troll High Priest Mana Aura
+  - Forest Troll High Priest Mana Aura
+5492:
+  - courier_go_to_secretshop
+  - Go To Secret Shop
+  - Courier Go To Secret Shop
+5494:
+  - slark_dark_pact
+  - Dark Pact
+  - Slark Dark Pact
+5495:
+  - slark_pounce
+  - Pounce
+  - Slark Pounce
+5496:
+  - slark_essence_shift
+  - Essence Shift
+  - Slark Essence Shift
+5497:
+  - slark_shadow_dance
+  - Shadow Dance
+  - Slark Shadow Dance
+5500:
+  - lycan_summon_wolves_invisibility
+  - Summon Wolves Invisibility
+  - Lycan Summon Wolves Invisibility
+5504:
+  - medusa_split_shot
+  - Split Shot
+  - Medusa Split Shot
+5505:
+  - medusa_mystic_snake
+  - Mystic Snake
+  - Medusa Mystic Snake
+5506:
+  - medusa_mana_shield
+  - Mana Shield
+  - Medusa Mana Shield
+5507:
+  - medusa_stone_gaze
+  - Stone Gaze
+  - Medusa Stone Gaze
+5508:
+  - troll_warlord_berserkers_rage
+  - Berserkers Rage
+  - Troll Warlord Berserkers Rage
+5509:
+  - troll_warlord_whirling_axes_ranged
+  - Whirling Axes Ranged
+  - Troll Warlord Whirling Axes Ranged
+5510:
+  - troll_warlord_whirling_axes_melee
+  - Whirling Axes Melee
+  - Troll Warlord Whirling Axes Melee
+5511:
+  - troll_warlord_fervor
+  - Fervor
+  - Troll Warlord Fervor
+5512:
+  - troll_warlord_battle_trance
+  - Battle Trance
+  - Troll Warlord Battle Trance
+5514:
+  - centaur_hoof_stomp
+  - Hoof Stomp
+  - Centaur Hoof Stomp
+5515:
+  - centaur_double_edge
+  - Double Edge
+  - Centaur Double Edge
+5516:
+  - centaur_return
+  - Return
+  - Centaur Return
+5517:
+  - centaur_stampede
+  - Stampede
+  - Centaur Stampede
+5518:
+  - magnataur_shockwave
+  - Shockwave
+  - Magnataur Shockwave
+5519:
+  - magnataur_empower
+  - Empower
+  - Magnataur Empower
+5520:
+  - magnataur_skewer
+  - Skewer
+  - Magnataur Skewer
+5521:
+  - magnataur_reverse_polarity
+  - Reverse Polarity
+  - Magnataur Reverse Polarity
+5522:
+  - chen_test_of_faith_teleport
+  - Test Of Faith Teleport
+  - Chen Test Of Faith Teleport
+5524:
+  - shredder_whirling_death
+  - Whirling Death
+  - Shredder Whirling Death
+5525:
+  - shredder_timber_chain
+  - Timber Chain
+  - Shredder Timber Chain
+5526:
+  - shredder_reactive_armor
+  - Reactive Armor
+  - Shredder Reactive Armor
+5527:
+  - shredder_chakram
+  - Chakram
+  - Shredder Chakram
+5528:
+  - shredder_return_chakram
+  - Return Chakram
+  - Shredder Return Chakram
+5548:
+  - bristleback_viscous_nasal_goo
+  - Viscous Nasal Goo
+  - Bristleback Viscous Nasal Goo
+5549:
+  - bristleback_quill_spray
+  - Quill Spray
+  - Bristleback Quill Spray
+5550:
+  - bristleback_bristleback
+  - Bristleback
+  - Bristleback Bristleback
+5551:
+  - bristleback_warpath
+  - Warpath
+  - Bristleback Warpath
+5565:
+  - tusk_ice_shards
+  - Ice Shards
+  - Tusk Ice Shards
+5566:
+  - tusk_snowball
+  - Snowball
+  - Tusk Snowball
+5567:
+  - tusk_frozen_sigil
+  - Frozen Sigil
+  - Tusk Frozen Sigil
+5568:
+  - tusk_walrus_punch
+  - Walrus Punch
+  - Tusk Walrus Punch
+5580:
+  - beastmaster_call_of_the_wild
+  - Call Of The Wild
+  - Beastmaster Call Of The Wild
+5581:
+  - skywrath_mage_arcane_bolt
+  - Arcane Bolt
+  - Skywrath Mage Arcane Bolt
+5582:
+  - skywrath_mage_concussive_shot
+  - Concussive Shot
+  - Skywrath Mage Concussive Shot
+5583:
+  - skywrath_mage_ancient_seal
+  - Ancient Seal
+  - Skywrath Mage Ancient Seal
+5584:
+  - skywrath_mage_mystic_flare
+  - Mystic Flare
+  - Skywrath Mage Mystic Flare
+5585:
+  - abaddon_death_coil
+  - Death Coil
+  - Abaddon Death Coil
+5586:
+  - abaddon_aphotic_shield
+  - Aphotic Shield
+  - Abaddon Aphotic Shield
+5587:
+  - abaddon_frostmourne
+  - Curse of Avernus
+  - Abaddon Curse of Avernus
+5588:
+  - abaddon_borrowed_time
+  - Borrowed Time
+  - Abaddon Borrowed Time
+5589:
+  - elder_titan_echo_stomp
+  - Echo Stomp
+  - Elder Titan Echo Stomp
+5591:
+  - elder_titan_ancestral_spirit
+  - Ancestral Spirit
+  - Elder Titan Ancestral Spirit
+5593:
+  - elder_titan_natural_order
+  - Natural Order
+  - Elder Titan Natural Order
+5594:
+  - elder_titan_earth_splitter
+  - Earth Splitter
+  - Elder Titan Earth Splitter
+5595:
+  - legion_commander_overwhelming_odds
+  - Overwhelming Odds
+  - Legion Commander Overwhelming Odds
+5596:
+  - legion_commander_press_the_attack
+  - Press The Attack
+  - Legion Commander Press The Attack
+5597:
+  - legion_commander_moment_of_courage
+  - Moment Of Courage
+  - Legion Commander Moment Of Courage
+5598:
+  - legion_commander_duel
+  - Duel
+  - Legion Commander Duel
+5599:
+  - techies_land_mines
+  - Land Mines
+  - Techies Land Mines
+5600:
+  - techies_stasis_trap
+  - Stasis Trap
+  - Techies Stasis Trap
+5601:
+  - techies_suicide
+  - Suicide Squad, Attack!
+  - Techies Suicide Squad, Attack!
+5602:
+  - techies_remote_mines
+  - Remote Mines
+  - Techies Remote Mines
+5603:
+  - ember_spirit_searing_chains
+  - Searing Chains
+  - Ember Spirit Searing Chains
+5604:
+  - ember_spirit_sleight_of_fist
+  - Sleight Of Fist
+  - Ember Spirit Sleight Of Fist
+5605:
+  - ember_spirit_flame_guard
+  - Flame Guard
+  - Ember Spirit Flame Guard
+5606:
+  - ember_spirit_fire_remnant
+  - Fire Remnant
+  - Ember Spirit Fire Remnant
+5607:
+  - ember_spirit_activate_fire_remnant
+  - Activate Fire Remnant
+  - Ember Spirit Activate Fire Remnant
+5608:
+  - earth_spirit_boulder_smash
+  - Boulder Smash
+  - Earth Spirit Boulder Smash
+5609:
+  - earth_spirit_rolling_boulder
+  - Rolling Boulder
+  - Earth Spirit Rolling Boulder
+5610:
+  - earth_spirit_geomagnetic_grip
+  - Geomagnetic Grip
+  - Earth Spirit Geomagnetic Grip
+5611:
+  - earth_spirit_stone_caller
+  - Stone Caller
+  - Earth Spirit Stone Caller
+5612:
+  - earth_spirit_magnetize
+  - Magnetize
+  - Earth Spirit Magnetize
+5613:
+  - abyssal_underlord_firestorm
+  - Firestorm
+  - Abyssal Underlord Firestorm
+5614:
+  - abyssal_underlord_pit_of_malice
+  - Pit Of Malice
+  - Abyssal Underlord Pit Of Malice
+5615:
+  - abyssal_underlord_atrophy_aura
+  - Atrophy Aura
+  - Abyssal Underlord Atrophy Aura
+5616:
+  - abyssal_underlord_dark_rift
+  - Dark Rift
+  - Abyssal Underlord Dark Rift
+5619:
+  - terrorblade_reflection
+  - Reflection
+  - Terrorblade Reflection
+5620:
+  - terrorblade_conjure_image
+  - Conjure Image
+  - Terrorblade Conjure Image
+5621:
+  - terrorblade_metamorphosis
+  - Metamorphosis
+  - Terrorblade Metamorphosis
+5622:
+  - terrorblade_sunder
+  - Sunder
+  - Terrorblade Sunder
+5623:
+  - phoenix_icarus_dive
+  - Icarus Dive
+  - Phoenix Icarus Dive
+5625:
+  - phoenix_fire_spirits
+  - Fire Spirits
+  - Phoenix Fire Spirits
+5626:
+  - phoenix_sun_ray
+  - Sun Ray
+  - Phoenix Sun Ray
+5630:
+  - phoenix_supernova
+  - Supernova
+  - Phoenix Supernova
+5631:
+  - phoenix_fire_spirits
+  - Fire Spirits
+  - Phoenix Fire Spirits
+5632:
+  - drow_ranger_wave_of_silence
+  - Wave Of Silence
+  - Drow Ranger Wave Of Silence
+5637:
+  - oracle_fortunes_end
+  - Fortunes End
+  - Oracle Fortunes End
+5638:
+  - oracle_fates_edict
+  - Fates Edict
+  - Oracle Fates Edict
+5639:
+  - oracle_purifying_flames
+  - Purifying Flames
+  - Oracle Purifying Flames
+5640:
+  - oracle_false_promise
+  - False Promise
+  - Oracle False Promise
+5651:
+  - winter_wyvern_arctic_burn
+  - Arctic Burn
+  - Winter Wyvern Arctic Burn
+5652:
+  - winter_wyvern_splinter_blast
+  - Splinter Blast
+  - Winter Wyvern Splinter Blast
+5653:
+  - winter_wyvern_cold_embrace
+  - Cold Embrace
+  - Winter Wyvern Cold Embrace
+5654:
+  - winter_wyvern_winters_curse
+  - Winters Curse
+  - Winter Wyvern Winters Curse

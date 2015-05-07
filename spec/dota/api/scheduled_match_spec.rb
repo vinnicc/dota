@@ -1,4 +1,4 @@
-describe Dota::API::ScheduledMatch do
+RSpec.describe Dota::API::ScheduledMatch do
   let(:scheduled_match) do
     VCR.use_cassette("GetScheduledLeagueGames") do
       test_client.scheduled_matches.first

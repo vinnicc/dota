@@ -20,6 +20,10 @@ module Dota
         id ? Item.new(id) : Item.all
       end
 
+      def abilities(id = nil)
+        id ? Ability.new(id) : Ability.all
+      end
+
       def teams(options = {})
         if options.is_a?(Integer)
           id = options
