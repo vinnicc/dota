@@ -35,8 +35,18 @@ module Dota
           raw["hero_healing"]
         end
 
+        def additional_units
+          raw["additional_units"].map { |unit| Unit.new(unit["unitname"], extract_items_from(unit)) }
+        end
+
         def items
-          (0..5).map { |i| Item.new(raw["item_#{i}"]) }
+          extract_items_from raw
+        end
+
+        private
+
+        def extract_items_from(obj)
+          (0..5).map { |i| Item.new(obj["item_#{i}"]) }
         end
       end
     end
