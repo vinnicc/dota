@@ -1,4 +1,4 @@
-describe Dota::API::Match::Draft do
+RSpec.describe Dota::API::Match::Draft do
   let(:draft) do
     VCR.use_cassette("GetMatchDetails") do
       test_client

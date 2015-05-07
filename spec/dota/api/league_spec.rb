@@ -1,4 +1,4 @@
-describe Dota::API::League do
+RSpec.describe Dota::API::League do
   let(:league) do
     VCR.use_cassette("GetLeagueListing") do
       test_client.leagues.first

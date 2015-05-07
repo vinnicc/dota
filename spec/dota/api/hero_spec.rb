@@ -1,4 +1,4 @@
-describe Dota::API::Hero do
+RSpec.describe Dota::API::Hero do
   let(:hero) { described_class.new(69) }
 
   specify ".all" do
