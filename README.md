@@ -56,6 +56,9 @@ api.heroes                       # => (Cached) All heroes
 api.items(114)                   # => (Cached) A single item - "Heart of Tarrasque"
 api.items                        # => (Cached) All items
 
+api.abilities(5003)              # => (Cached) A single ability - "Mana Break"
+api.abilities                    # => (Cached) All abilities
+
 api.cosmetic_rarities            # => All cosmetic rarities
 
 api.teams(1375614)               # => A single team - "Newbee"
@@ -169,7 +172,7 @@ match.sequence       # Integer, A 'sequence number', representing the order in w
 match.season         # Integer, Season the match was played in
 match.cluster        # Integer, Server cluster the match was played on
 match.starts_at      # Time, When the match started
-match.first_blood    # Integer, Seconds since the match started when first blood occured
+match.first_blood    # Integer, Seconds since the match started when first blood occurred
 match.duration       # Integer, Length of the match, in seconds since the match began
 match.winner         # Symbol, :radiant or :dire
 match.positive_votes # Integer, Number of thumbs-up the game has received
@@ -236,7 +239,7 @@ radiant.series_wins # Integer, Number of wins in the series so far
 player.id                # Integer, 32-bit Steam ID
 player.hero              # Dota::API::Hero, Player's hero
 player.items             # Array[Dota::API::Item], Player's inventory (6 items)
-player.slot              # Integer, See https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails#Player_Slot
+player.slot              # Integer, (1-5)
 player.level             # Integer, The player's level at match end
 player.kills             # Integer, Number of kills attributed to this player
 player.deaths            # Integer, Times this player died during the match
@@ -254,6 +257,7 @@ player.hero_damage       # Integer, Amount of damage the player dealt to heroes
 player.tower_damage      # Integer, Amount of damage the player dealt to towers
 player.hero_healing      # Integer, Amount of health the player had healed on heroes
 player.additional_units  # Array[Dota::API::Unit], Units under player's control (for example, summoned ones)
+player.ability_upgrades  # Array[Dota::API:AbilityUpgrade], Player's learned abilities (up to 25)
 
 # Additional methods in LiveMatch::Player
 player.name              # String, Name of the player
@@ -270,6 +274,27 @@ player.position_y        # Float
 ```ruby
 unit.name  # String, Unit's name
 unit.items # Array[Dota::API:Item], Unit's inventory (6 slots)
+```
+
+#### Ability Upgrades
+
+```ruby
+ability_upgrade.time    # Integer, Seconds since the match started when the player learned an ability
+ability_upgrade.level   # Integer, Player's level when the ability was learned
+ability_upgrade.ability # Dota::API:Ability
+```
+
+#### Abilities
+
+```ruby
+ability.id        # Integer, ID of the ability
+ability.name      # String, Name of the ability (for example, "Mana Break")
+ability.full_name # String, Full name of the ability (for example, "Antimage Mana Break")
+ability.image_url # String, URL of the ability image
+                  # Allowed arguments:
+                  # :lg  - default, 128x128 PNG image
+                  # :hp1 - 90x90 PNG image
+                  # :hp2 - 105x105 PNG image
 ```
 
 #### Cosmetic Rarities

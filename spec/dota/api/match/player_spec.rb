@@ -1,4 +1,4 @@
-describe Dota::API::Match::Player do
+RSpec.describe Dota::API::Match::Player do
   let(:match) do
     VCR.use_cassette("GetMatchDetailsUnits") do
       test_client.matches(sample_match_id_with_units)

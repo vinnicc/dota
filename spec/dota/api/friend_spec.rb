@@ -1,4 +1,4 @@
-describe Dota::API::Friend do
+RSpec.describe Dota::API::Friend do
   let(:friend) do
     VCR.use_cassette("GetFriendList") do
       test_client.friends(sample_user_id).first

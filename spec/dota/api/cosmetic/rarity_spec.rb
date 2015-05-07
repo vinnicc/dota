@@ -1,4 +1,4 @@
-describe Dota::API::Cosmetic::Rarity do
+RSpec.describe Dota::API::Cosmetic::Rarity do
   let(:rarity) do
     VCR.use_cassette("GetRarities") do
       test_client.cosmetic_rarities.last
