@@ -30,7 +30,7 @@ module Dota
           options[:teams_requested]  = options.delete(:limit) if options[:limit]
 
           response = get("IDOTA2Match_570", "GetTeamInfoByTeamID", options)["result"]
-          if response && (teams = response["teams"])
+          if response && (teams = response["teams"] || [])
             teams.map { |team| Team.new(team) }
           end
         end
@@ -52,7 +52,7 @@ module Dota
           options[:tournament_games_only] = options.delete(:league_only) if options[:league_only]
 
           response = get("IDOTA2Match_570", "GetMatchHistory", options)["result"]
-          if response && (matches = response["matches"])
+          if response && (matches = response["matches"] || [])
             matches.map { |match| Match.new(match) }
           end
         end
@@ -60,14 +60,14 @@ module Dota
 
       def leagues
         response = get("IDOTA2Match_570", "GetLeagueListing", language: "en")["result"]
-        if response && (leagues = response["leagues"])
+        if response && (leagues = response["leagues"] || [])
           leagues.map { |league| League.new(league) }
         end
       end
 
       def live_matches(options = {})
         response = get("IDOTA2Match_570", "GetLiveLeagueGames", options)["result"]
-        if response && (live_matches = response["games"])
+        if response && (live_matches = response["games"] || [])
           live_matches.map { |game| LiveMatch.new(game) }
         end
       end
@@ -77,21 +77,21 @@ module Dota
         options[:date_max] = options.delete(:to) if options[:to]
 
         response = get("IDOTA2Match_570", "GetScheduledLeagueGames", options)["result"]
-        if response && (scheduled_matches = response["games"])
+        if response && (scheduled_matches = response["games"] || [])
           scheduled_matches.map { |game| ScheduledMatch.new(game) }
         end
       end
 
       def cosmetic_rarities
         response = get("IEconDOTA2_570", "GetRarities", language: "en")["result"]
-        if response && (rarities = response["rarities"])
+        if response && (rarities = response["rarities"] || [])
           rarities.map { |rarity| Cosmetic::Rarity.new(rarity) }
         end
       end
 
       def friends(user_id)
         response = get("ISteamUser", "GetFriendList", steamid: user_id)["friendslist"]
-        if response && (friends = response["friends"])
+        if response && (friends = response["friends"] || [])
           friends.map { |friend| Friend.new(friend) }
         end
       end
