@@ -13,7 +13,7 @@ RSpec.describe Dota::API::Match::Draft do
   end
 
   specify "#team" do
-    expect(draft.team).to eq :radiant
+    expect(draft.team).to eq :dire
   end
 
   specify "#order" do

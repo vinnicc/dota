@@ -2,6 +2,29 @@ module Dota
   module API
     class Match
       class Side < Entity
+        TOWERS = [
+          :ancient_top,
+          :ancient_bottom,
+          :bottom_tier_3,
+          :bottom_tier_2,
+          :bottom_tier_1,
+          :middle_tier_3,
+          :middle_tier_2,
+          :middle_tier_1,
+          :top_tier_3,
+          :top_tier_2,
+          :top_tier_1
+        ]
+
+        BARRACKS = [
+          :bottom_ranged,
+          :bottom_melee,
+          :middle_ranged,
+          :middle_melee,
+          :top_ranged,
+          :top_melee
+        ]
+
         def id
           raw["team_id"]
         end
@@ -18,12 +41,12 @@ module Dota
           raw["team_complete"] == 1
         end
 
-        def tower_status
-          raw["tower_status"]
+        def towers_status
+          format_status raw["tower_status"], :towers
         end
 
         def barracks_status
-          raw["barracks_status"]
+          format_status raw["barracks_status"], :barracks
         end
 
         def players
@@ -34,6 +57,24 @@ module Dota
 
         def captain_id
           raw["captain"]
+        end
+
+        alias_method :tower_status, :towers_status
+
+        private
+
+        def format_status(obj, type)
+          target = (type == :barracks ? BARRACKS : TOWERS)
+          # Convert to binary
+          # Leading zeros are stripped, so add them manually
+          obj = obj.to_s(2)
+          obj.prepend('0' * (target.length - obj.length)) if obj.length < target.length
+
+          status = {}
+          target.each_with_index do |position, i|
+            status[position] = (obj[i] == '1')
+          end
+          status
         end
       end
     end

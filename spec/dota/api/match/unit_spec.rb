@@ -1,10 +1,10 @@
 RSpec.describe Dota::API::Match::Unit do
   let(:additional_unit) do
-    VCR.use_cassette("GetMatchDetailsUnits") do
+    VCR.use_cassette("GetMatchDetails") do
       test_client
-        .matches(sample_match_id_with_units)
-        .dire
-        .players[1]
+        .matches(sample_match_id)
+        .radiant
+        .players.last
         .additional_units.first
     end
   end

@@ -1,10 +1,10 @@
 RSpec.describe Dota::API::Match::Player do
   let(:match) do
-    VCR.use_cassette("GetMatchDetailsUnits") do
-      test_client.matches(sample_match_id_with_units)
+    VCR.use_cassette("GetMatchDetails") do
+      test_client.matches(sample_match_id)
     end
   end
-  let(:player) { match.dire.players[1] }
+  let(:player) { match.radiant.players.last }
 
   specify "#id" do
     expect(player.id).to eq 76482434
@@ -15,7 +15,7 @@ RSpec.describe Dota::API::Match::Player do
   end
 
   specify "#slot" do
-    expect(player.slot).to eq 2
+    expect(player.slot).to eq 5
 
     expect(match.radiant.players.map(&:slot)).to eq [1, 2, 3, 4, 5]
     expect(match.dire.players.map(&:slot)).to eq [1, 2, 3, 4, 5]
@@ -26,55 +26,55 @@ RSpec.describe Dota::API::Match::Player do
   end
 
   specify "#level" do
-    expect(player.level).to eq 17
+    expect(player.level).to eq 21
   end
 
   specify "#kills" do
-    expect(player.kills).to eq 7
+    expect(player.kills).to eq 1
   end
 
   specify "#deaths" do
-    expect(player.deaths).to eq 0
+    expect(player.deaths).to eq 3
   end
 
   specify "#assists" do
-    expect(player.assists).to eq 10
+    expect(player.assists).to eq 2
   end
 
   specify "#last_hits" do
-    expect(player.last_hits).to eq 240
+    expect(player.last_hits).to eq 395
   end
 
   specify "#denies" do
-    expect(player.denies).to eq 6
+    expect(player.denies).to eq 19
   end
 
   specify "#gold" do
-    expect(player.gold).to eq 1938
+    expect(player.gold).to eq 2349
   end
 
   specify "#gold_spent" do
-    expect(player.gold_spent).to eq 19120
+    expect(player.gold_spent).to eq 24770
   end
 
   specify "#gpm" do
-    expect(player.gpm).to eq 660
+    expect(player.gpm).to eq 536
   end
 
   specify "#xpm" do
-    expect(player.xpm).to eq 502
+    expect(player.xpm).to eq 472
   end
 
   specify "#hero_damage" do
-    expect(player.hero_damage).to eq 12601
+    expect(player.hero_damage).to eq 7012
   end
 
   specify "#tower_damage" do
-    expect(player.tower_damage).to eq 10972
+    expect(player.tower_damage).to eq 1114
   end
 
   specify "#hero_healing" do
-    expect(player.hero_healing).to eq 0
+    expect(player.hero_healing).to eq 15
   end
 
   specify "#additional_units" do
