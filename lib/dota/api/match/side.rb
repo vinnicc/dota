@@ -14,7 +14,7 @@ module Dota
           :top_tier_3,
           :top_tier_2,
           :top_tier_1
-        ]
+        ].freeze
 
         BARRACKS = [
           :bottom_ranged,
@@ -23,7 +23,7 @@ module Dota
           :middle_melee,
           :top_ranged,
           :top_melee
-        ]
+        ].freeze
 
         def id
           raw["team_id"]
