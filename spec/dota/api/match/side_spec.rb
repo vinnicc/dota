@@ -28,11 +28,6 @@ RSpec.describe Dota::API::Match::Side do
   end
 
   specify "#tower_status" do
-    expect(radiant).to respond_to(:tower_status)
-    expect(dire).to respond_to(:tower_status)
-  end
-
-  specify "#towers_status" do
     expect(radiant.tower_status).to eq({
                                          ancient_top: false,
                                          ancient_bottom: false,

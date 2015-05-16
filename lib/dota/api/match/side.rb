@@ -41,7 +41,7 @@ module Dota
           raw["team_complete"] == 1
         end
 
-        def towers_status
+        def tower_status
           format_status raw["tower_status"], :towers
         end
 
@@ -59,16 +59,13 @@ module Dota
           raw["captain"]
         end
 
-        alias_method :tower_status, :towers_status
-
         private
 
         def format_status(obj, type)
           target = (type == :barracks ? BARRACKS : TOWERS)
           # Convert to binary
           # Leading zeros are stripped, so add them manually
-          obj = obj.to_s(2)
-          obj.prepend('0' * (target.length - obj.length)) if obj.length < target.length
+          obj = obj.to_s(2).rjust(target.length, '0')
 
           status = {}
           target.each_with_index do |position, i|

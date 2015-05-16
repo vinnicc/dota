@@ -226,7 +226,9 @@ radiant.complete?   # Boolean, true if the team's roster is complete
 radiant.players     # Array[Dota::API::Match::Player|Dota::API::LiveMatch::Player], Players in the match
 
 # Additional methods in Match::Side
-radiant.captain_id  # Integer, Team captain's 32-bit Steam ID
+radiant.captain_id      # Integer, Team captain's 32-bit Steam ID
+radiant.tower_status    # Hash, Status of team's towers (`true` - tower is standing, `false` - tower is destroyed)
+radiant.barracks_status # Hash, Status of team's barracks (`true` - barrack is standing, `false` - barrack is destroyed)
 
 # Additional methods in LiveMatch::Side
 radiant.score       # Integer, The team's current score
