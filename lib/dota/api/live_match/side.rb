@@ -1,11 +1,7 @@
 module Dota
   module API
     class LiveMatch
-      class Side < Entity
-        def id
-          raw["team_id"]
-        end
-
+      class Side < BasicSide
         def name
           raw["team_name"]
         end
@@ -19,25 +15,25 @@ module Dota
         end
 
         def tower_status
-          raw["tower_state"]
+          format_status raw["tower_state"], :towers
         end
 
         def barracks_status
-          raw["barracks_state"]
+          format_status raw["barracks_state"], :barracks
         end
 
         def series_wins
           raw["series_wins"]
         end
 
+        def score
+          raw["score"]
+        end
+
         def players
           raw["players"].map do |raw_player|
             Player.new(raw_player)
           end
-        end
-
-        def score
-          raw["score"]
         end
       end
     end

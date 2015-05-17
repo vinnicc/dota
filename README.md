@@ -219,16 +219,16 @@ scheduled_match.final?      # Boolean, true if the game is the last of the serie
 #### Sides - Radiant/Dire
 
 ```ruby
-radiant.id          # Integer, Team's ID
-radiant.logo_id     # Integer, Team logo's UGC ID
-radiant.name        # String, Team's name
-radiant.complete?   # Boolean, true if the team's roster is complete
-radiant.players     # Array[Dota::API::Match::Player|Dota::API::LiveMatch::Player], Players in the match
+radiant.id              # Integer, Team's ID
+radiant.logo_id         # Integer, Team logo's UGC ID
+radiant.name            # String, Team's name
+radiant.complete?       # Boolean, true if the team's roster is complete
+radiant.players         # Array[Dota::API::Match::Player|Dota::API::LiveMatch::Player], Players in the match
+radiant.tower_status    # Hash, Status of team's towers (`true` - tower is standing, `false` - tower is destroyed)
+radiant.barracks_status # Hash, Status of team's barracks (`true` - barrack is standing, `false` - barrack is destroyed)
 
 # Additional methods in Match::Side
 radiant.captain_id      # Integer, Team captain's 32-bit Steam ID
-radiant.tower_status    # Hash, Status of team's towers (`true` - tower is standing, `false` - tower is destroyed)
-radiant.barracks_status # Hash, Status of team's barracks (`true` - barrack is standing, `false` - barrack is destroyed)
 
 # Additional methods in LiveMatch::Side
 radiant.score       # Integer, The team's current score
