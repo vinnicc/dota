@@ -641,68 +641,20 @@
   - shadow_amulet
   - Shadow Amulet
 216:
-  - halloween_candy_corn
-  - Greevil Taffy
-217:
-  - mystery_hook
-  - DOTA_Tooltip_Ability_item_mystery_hook
-218:
-  - mystery_arrow
-  - DOTA_Tooltip_Ability_item_mystery_arrow
-219:
-  - mystery_missile
-  - DOTA_Tooltip_Ability_item_mystery_missile
-220:
-  - mystery_toss
-  - DOTA_Tooltip_Ability_item_mystery_toss
-221:
-  - mystery_vacuum
-  - DOTA_Tooltip_Ability_item_mystery_vacuum
+  - enchanted_mango
+  - Enchanted Mango
 226:
-  - halloween_rapier
-  - DOTA_Tooltip_Ability_item_halloween_rapier
-227:
-  - present
-  - A Gift!
-228:
-  - greevil_whistle
-  - Greevil Whistle
+  - lotus_orb
+  - Lotus Orb
 229:
-  - winter_stocking
-  - Xmas Stocking
-230:
-  - winter_skates
-  - Speed Skates
+  - solar_crest
+  - Solar Crest
 231:
-  - winter_cake
-  - Fruit-bit Cake
-232:
-  - winter_cookie
-  - Wizard Cookie
-233:
-  - winter_coco
-  - Cocoa with Marshmallows
-234:
-  - winter_ham
-  - Clove Studded Ham
+  - guardian_greaves
+  - Guardian Greaves
 235:
-  - greevil_whistle_toggle
-  - Greevil Whistle
-236:
-  - winter_kringle
-  - Kringle
-237:
-  - winter_mushroom
-  - Snow Mushroom
-238:
-  - winter_greevil_treat
-  - Greevil Treat
-239:
-  - winter_greevil_garbage
-  - Greevil Chow
-240:
-  - winter_greevil_chewy
-  - Greevil Blink Bone
+  - octarine_core
+  - Octarine Core
 241:
   - tango_single
   - Tango (Shared)
@@ -712,3 +664,75 @@
 243:
   - recipe_crimson_guard
   - Recipe: Crimson Guard
+247:
+  - moon_shard
+  - Moon Shard
+249:
+  - silver_edge
+  - Silver Edge
+254:
+  - glimmer_cape
+  - Glimmer Cape
+1000:
+  - halloween_candy_corn
+  - Greevil Taffy
+1001:
+  - mystery_hook
+  - DOTA_Tooltip_Ability_item_mystery_hook
+1002:
+  - mystery_arrow
+  - DOTA_Tooltip_Ability_item_mystery_arrow
+1003:
+  - mystery_missile
+  - DOTA_Tooltip_Ability_item_mystery_missile
+1004:
+  - mystery_toss
+  - DOTA_Tooltip_Ability_item_mystery_toss
+1005:
+  - mystery_vacuum
+  - DOTA_Tooltip_Ability_item_mystery_vacuum
+1006:
+  - halloween_rapier
+  - DOTA_Tooltip_Ability_item_halloween_rapier
+1007:
+  - greevil_whistle
+  - Greevil Whistle
+1008:
+  - greevil_whistle_toggle
+  - Greevil Whistle
+1009:
+  - present
+  - A Gift!
+1010:
+  - winter_stocking
+  - Xmas Stocking
+1011:
+  - winter_skates
+  - Speed Skates
+1012:
+  - winter_cake
+  - Fruit-bit Cake
+1013:
+  - winter_cookie
+  - Wizard Cookie
+1014:
+  - winter_coco
+  - Cocoa with Marshmallows
+1015:
+  - winter_ham
+  - Clove Studded Ham
+1016:
+  - winter_kringle
+  - Kringle
+1017:
+  - winter_mushroom
+  - Snow Mushroom
+1018:
+  - winter_greevil_treat
+  - Greevil Treat
+1019:
+  - winter_greevil_garbage
+  - Greevil Chow
+1020:
+  - winter_greevil_chewy
+  - Greevil Blink Bone

@@ -1874,6 +1874,10 @@
   - wisp_tether_break
   - Tether Break
   - Wisp Tether Break
+5490:
+  - wisp_spirits_in
+  - Spirits In
+  - Wisp Spirits In
 5491:
   - forest_troll_high_priest_mana_aura
   - Troll High Priest Mana Aura
@@ -1882,6 +1886,10 @@
   - courier_go_to_secretshop
   - Go To Secret Shop
   - Courier Go To Secret Shop
+5493:
+  - wisp_spirits_out
+  - Spirits Out
+  - Wisp Spirits Out
 5494:
   - slark_dark_pact
   - Dark Pact
