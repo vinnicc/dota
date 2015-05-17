@@ -1874,6 +1874,10 @@
   - wisp_tether_break
   - Tether Break
   - Wisp Tether Break
+5490:
+  - wisp_spirits_in
+  - Spirits In
+  - Wisp Spirits In
 5491:
   - forest_troll_high_priest_mana_aura
   - Troll High Priest Mana Aura
@@ -1882,6 +1886,10 @@
   - courier_go_to_secretshop
   - Go To Secret Shop
   - Courier Go To Secret Shop
+5493:
+  - wisp_spirits_out
+  - Spirits Out
+  - Wisp Spirits Out
 5494:
   - slark_dark_pact
   - Dark Pact
@@ -2222,6 +2230,10 @@
   - oracle_false_promise
   - False Promise
   - Oracle False Promise
+5641:
+  - tusk_launch_snowball
+  - Launch Showball
+  - Tusk Launch Showball
 5651:
   - winter_wyvern_arctic_burn
   - Arctic Burn
@@ -2238,3 +2250,31 @@
   - winter_wyvern_winters_curse
   - Winters Curse
   - Winter Wyvern Winters Curse
+5655:
+  - life_stealer_control
+  - Control
+  - Life Stealer Control
+5666:
+  - nyx_assassin_burrow
+  - Burrow
+  - Nyx Assassin Burrow
+5671:
+  - life_stealer_assimilate
+  - Assimilate
+  - Life Stealer Assimilate
+5672:
+  - tusk_walrus_kick
+  - Walrus Kick
+  - Tusk Walrus Kick
+5673:
+  - nyx_assassin_unburrow
+  - Unburrow
+  - Nyx Assassin Unburrow
+5674:
+  - morphling_hybrid
+  - Hybrid
+  - Morphling Hybrid
+5675:
+  - life_stealer_assimilate_eject
+  - Eject
+  - Life Stealer Eject
