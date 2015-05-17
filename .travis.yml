@@ -8,3 +8,7 @@ rvm:
   - rbx
 
 install: bundle install --retry=3
+
+addons:
+  code_climate:
+    repo_token: 5e3e0f72f98a8345473dac4f2a2e2c980509d57ed1fa87725f3dcc299da0f795
