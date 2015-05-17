@@ -2230,6 +2230,10 @@
   - oracle_false_promise
   - False Promise
   - Oracle False Promise
+5641:
+  - tusk_launch_snowball
+  - Launch Showball
+  - Tusk Launch Showball
 5651:
   - winter_wyvern_arctic_burn
   - Arctic Burn
@@ -2246,3 +2250,31 @@
   - winter_wyvern_winters_curse
   - Winters Curse
   - Winter Wyvern Winters Curse
+5655:
+  - life_stealer_control
+  - Control
+  - Life Stealer Control
+5666:
+  - nyx_assassin_burrow
+  - Burrow
+  - Nyx Assassin Burrow
+5671:
+  - life_stealer_assimilate
+  - Assimilate
+  - Life Stealer Assimilate
+5672:
+  - tusk_walrus_kick
+  - Walrus Kick
+  - Tusk Walrus Kick
+5673:
+  - nyx_assassin_unburrow
+  - Unburrow
+  - Nyx Assassin Unburrow
+5674:
+  - morphling_hybrid
+  - Hybrid
+  - Morphling Hybrid
+5675:
+  - life_stealer_assimilate_eject
+  - Eject
+  - Life Stealer Eject

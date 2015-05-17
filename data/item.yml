@@ -643,12 +643,36 @@
 216:
   - enchanted_mango
   - Enchanted Mango
+217:
+  - recipe_ward_dispenser
+  - Recipe: Ward Dispenser
+218:
+  - ward_dispenser
+  - Ward Dispenser
+219:
+  - recipe_travel_boots_2
+  - Recipe: Upgraded Boots of Travel
+220:
+  - travel_boots_2
+  - Upgraded Boots of Travel
+221:
+  - recipe_lotus_orb
+  - Recipe: Lotus Orb
 226:
   - lotus_orb
   - Lotus Orb
+227:
+  - recipe_solar_crest
+  - Recipe: Solar Crest
+228:
+  - recipe_octarine_core
+  - Recipe: Octarine Core
 229:
   - solar_crest
   - Solar Crest
+230:
+  - recipe_guardian_greaves
+  - Recipe: Guardian Greaves
 231:
   - guardian_greaves
   - Guardian Greaves
@@ -664,12 +688,21 @@
 243:
   - recipe_crimson_guard
   - Recipe: Crimson Guard
+246:
+  - recipe_moon_shard
+  - Recipe: Moon Shard
 247:
   - moon_shard
   - Moon Shard
+248:
+  - recipe_silver_edge
+  - Recipe: Silver Edge
 249:
   - silver_edge
   - Silver Edge
+253:
+  - recipe_glimmer_cape
+  - Recipe: Glimmer Cape
 254:
   - glimmer_cape
   - Glimmer Cape
