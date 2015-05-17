@@ -11,6 +11,7 @@ require 'dota/api/entity'
 
 require 'dota/api/basic_match'
 require 'dota/api/basic_player'
+require 'dota/api/basic_side'
 require 'dota/api/client'
 require 'dota/api/cosmetic/rarity'
 require 'dota/api/friend'

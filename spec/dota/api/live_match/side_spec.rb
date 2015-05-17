@@ -38,13 +38,52 @@ RSpec.describe Dota::API::LiveMatch::Side do
   end
 
   specify "#tower_status" do
-    expect(radiant.tower_status).to eq 1540
-    expect(dire.tower_status).to eq 1958
+    expect(radiant.tower_status).to eq({
+                                         ancient_top: true,
+                                         ancient_bottom: true,
+                                         bottom_tier_3: false,
+                                         bottom_tier_2: false,
+                                         bottom_tier_1: false,
+                                         middle_tier_3: false,
+                                         middle_tier_2: false,
+                                         middle_tier_1: false,
+                                         top_tier_3: true,
+                                         top_tier_2: false,
+                                         top_tier_1: false
+                                       })
+    expect(dire.tower_status).to eq({
+                                      ancient_top: true,
+                                      ancient_bottom: true,
+                                      bottom_tier_3: true,
+                                      bottom_tier_2: true,
+                                      bottom_tier_1: false,
+                                      middle_tier_3: true,
+                                      middle_tier_2: false,
+                                      middle_tier_1: false,
+                                      top_tier_3: true,
+                                      top_tier_2: true,
+                                      top_tier_1: false
+                                    })
   end
 
   specify "#barracks_status" do
-    expect(radiant.barracks_status).to eq 3
-    expect(dire.barracks_status).to eq 63
+    expect(radiant.barracks_status).to eq({
+                                            bottom_ranged: false,
+                                            bottom_melee: false,
+                                            middle_ranged: false,
+                                            middle_melee: false,
+                                            top_ranged: true,
+                                            top_melee: true
+                                          })
+    expect(dire.barracks_status).to eq({
+
+                                         bottom_ranged: true,
+                                         bottom_melee: true,
+                                         middle_ranged: true,
+                                         middle_melee: true,
+                                         top_ranged: true,
+                                         top_melee: true
+                                       })
   end
 
   specify "#players" do

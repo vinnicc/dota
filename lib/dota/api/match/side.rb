@@ -1,11 +1,7 @@
 module Dota
   module API
     class Match
-      class Side < Entity
-        def id
-          raw["team_id"]
-        end
-
+      class Side < BasicSide
         def name
           raw["name"]
         end
@@ -19,21 +15,21 @@ module Dota
         end
 
         def tower_status
-          raw["tower_status"]
+          format_status raw["tower_status"], :towers
         end
 
         def barracks_status
-          raw["barracks_status"]
+          format_status raw["barracks_status"], :barracks
+        end
+
+        def captain_id
+          raw["captain"]
         end
 
         def players
           raw["players"].map do |raw_player|
             Player.new(raw_player)
           end
-        end
-
-        def captain_id
-          raw["captain"]
         end
       end
     end

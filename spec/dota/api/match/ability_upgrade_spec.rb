@@ -16,10 +16,10 @@ RSpec.describe Dota::API::Match::AbilityUpgrade do
   end
 
   specify "#level" do
-    expect(ability_upgrade.level).to eq 11
+    expect(ability_upgrade.level).to eq 17
   end
 
   specify "#time" do
-    expect(ability_upgrade.time).to eq 1506
+    expect(ability_upgrade.time).to eq 3823
   end
 end

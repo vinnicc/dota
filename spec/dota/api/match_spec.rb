@@ -10,15 +10,15 @@ RSpec.describe Dota::API::Match do
   end
 
   specify "#league_id" do
-    expect(match.league_id).to eq 600
+    expect(match.league_id).to eq 2129
   end
 
   specify "#type" do
-    expect(match.type).to eq "Tournament"
+    expect(match.type).to eq "Practice"
   end
 
   specify "#type_id" do
-    expect(match.type_id).to eq 2
+    expect(match.type_id).to eq 1
   end
 
   specify "#mode" do
@@ -36,31 +36,31 @@ RSpec.describe Dota::API::Match do
   end
 
   specify "#sequence" do
-    expect(match.sequence).to eq 709365483
+    expect(match.sequence).to eq 1283900397
   end
 
   specify "#starts_at" do
-    expect(match.starts_at).to eq Time.at(1405973570)
+    expect(match.starts_at).to eq Time.at(1430252064)
   end
 
   specify "#duration" do
-    expect(match.duration).to eq 908
+    expect(match.duration).to eq 3198
   end
 
   specify "#winner" do
-    expect(match.winner).to eq :radiant
+    expect(match.winner).to eq :dire
   end
 
   specify "#first_blood" do
-    expect(match.first_blood).to eq 33
+    expect(match.first_blood).to eq 448
   end
 
   specify "#positive_votes" do
-    expect(match.positive_votes).to eq 34701
+    expect(match.positive_votes).to eq 71
   end
 
   specify "#negative_votes" do
-    expect(match.negative_votes).to eq 13291
+    expect(match.negative_votes).to eq 18
   end
 
   specify "#season" do
@@ -72,6 +72,6 @@ RSpec.describe Dota::API::Match do
   end
 
   specify "#cluster" do
-    expect(match.cluster).to eq 111
+    expect(match.cluster).to eq 135
   end
 end
