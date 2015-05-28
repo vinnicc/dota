@@ -36,11 +36,15 @@ module Dota
         end
 
         def additional_units
-          raw["additional_units"].map { |unit| Unit.new(unit["unitname"], extract_items_from(unit)) }
+          raw["additional_units"] ?
+            raw["additional_units"].map { |unit| Unit.new(unit["unitname"], extract_items_from(unit)) } :
+            []
         end
 
         def ability_upgrades
-          raw["ability_upgrades"].map { |ability_upgrade| AbilityUpgrade.new(ability_upgrade) }
+          raw["ability_upgrades"] ?
+            raw["ability_upgrades"].map { |ability_upgrade| AbilityUpgrade.new(ability_upgrade) } :
+            []
         end
 
         def items
