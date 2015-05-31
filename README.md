@@ -43,7 +43,7 @@ Get your Steam API key [here](http://steamcommunity.com/dev/apikey) and make sur
 Dota.configure do |config|
   config.api_key = ENV.fetch("STEAM_API_KEY")
 
-  # Set different API version (defaults to "v1")
+  # Set a different API version (defaults to "v1")
   # config.api_version = "v2"
 end
 ```

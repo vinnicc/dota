@@ -217,9 +217,8 @@ RSpec.describe Dota do
     describe "#get" do
       it "allows custom API requests" do
         VCR.use_cassette("GetRarities") do
-          api.configuration.api_version = "v99999"
-
           # Expect api_version override to work
+          api.configuration.api_version = "v99999"
           expect(Faraday).to receive(:new).with(/v1/).and_call_original
 
           response = api.get("IEconDOTA2_570", "GetRarities", { api_version: "v1", language: "en" })

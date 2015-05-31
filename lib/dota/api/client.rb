@@ -100,13 +100,13 @@ module Dota
         end
       end
 
-      def get(interface, method, params = {}, *args)
-        do_request(method, params, interface, *args)
+      def get(interface, method, params = {})
+        do_request(method, params, interface)
       end
 
       private
 
-      def do_request(method, params, interface = "IDOTA2Match_570", method_version = nil)
+      def do_request(method, params, interface = "IDOTA2Match_570")
         method_version = params.delete(:api_version) || configuration.api_version
         url = "https://api.steampowered.com/#{interface}/#{method}/#{method_version}/"
 
