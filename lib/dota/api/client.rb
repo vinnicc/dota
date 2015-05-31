@@ -106,7 +106,8 @@ module Dota
 
       private
 
-      def do_request(method, params, interface = "IDOTA2Match_570", method_version = "V001")
+      def do_request(method, params, interface = "IDOTA2Match_570", method_version = nil)
+        method_version = params.delete(:api_version) || configuration.api_version
         url = "https://api.steampowered.com/#{interface}/#{method}/#{method_version}/"
 
         @faraday = Faraday.new(url) do |faraday|

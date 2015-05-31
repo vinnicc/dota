@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/V001/?key=<STEAM_API_KEY>&match_id=1430857330
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/v1/?key=<STEAM_API_KEY>&match_id=1430857330
     body:
       encoding: US-ASCII
       string: ''

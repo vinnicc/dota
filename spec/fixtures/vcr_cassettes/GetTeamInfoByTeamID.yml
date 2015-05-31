@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.steampowered.com/IDOTA2Match_570/GetTeamInfoByTeamID/V001/?key=<STEAM_API_KEY>&start_at_team_id=1375614&teams_requested=1
+    uri: https://api.steampowered.com/IDOTA2Match_570/GetTeamInfoByTeamID/v1/?key=<STEAM_API_KEY>&start_at_team_id=1375614&teams_requested=1
     body:
       encoding: US-ASCII
       string: ''

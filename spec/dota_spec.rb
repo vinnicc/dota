@@ -1,12 +1,22 @@
 RSpec.describe Dota do
   describe "configuration" do
     it "accepts an api key" do
-      random_string = SecureRandom.hex
+      api_key = SecureRandom.hex
       Dota.configure do |config|
-        config.api_key = random_string
+        config.api_key = api_key
       end
 
-      expect(Dota.configuration.api_key).to eq random_string
+      expect(Dota.configuration.api_key).to eq api_key
+    end
+
+    it "accepts an api version" do
+      expect(Dota.configuration.api_version).to eq "v1"
+
+      Dota.configure do |config|
+        config.api_version = "v2"
+      end
+
+      expect(Dota.configuration.api_version).to eq "v2"
     end
   end
 
@@ -207,7 +217,12 @@ RSpec.describe Dota do
     describe "#get" do
       it "allows custom API requests" do
         VCR.use_cassette("GetRarities") do
-          response = api.get("IEconDOTA2_570", "GetRarities", language: "en")
+          api.configuration.api_version = "v99999"
+
+          # Expect api_version override to work
+          expect(Faraday).to receive(:new).with(/v1/).and_call_original
+
+          response = api.get("IEconDOTA2_570", "GetRarities", { api_version: "v1", language: "en" })
           expect(response["result"]["count"]).to eq 8
         end
       end

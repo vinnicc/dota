@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.steampowered.com/ISteamUser/GetFriendList/V001/?key=<STEAM_API_KEY>&steamid=76561198052976237
+    uri: https://api.steampowered.com/ISteamUser/GetFriendList/v1/?key=<STEAM_API_KEY>&steamid=76561198052976237
     body:
       encoding: US-ASCII
       string: ''

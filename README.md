@@ -42,6 +42,9 @@ Get your Steam API key [here](http://steamcommunity.com/dev/apikey) and make sur
 ```ruby
 Dota.configure do |config|
   config.api_key = ENV.fetch("STEAM_API_KEY")
+
+  # Set different API version (defaults to "v1")
+  # config.api_version = "v2"
 end
 ```
 
@@ -107,6 +110,12 @@ For the unsupported endpoints, you can use `api.get`. For example, the following
 
 ```ruby
 api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621)
+```
+
+Passing `api_version` here also overrides the current configuration:
+
+```ruby
+api.get("IDOTA2Match_570", "GetMatchDetails", match_id: 789645621, api_version: "v1")
 ```
 
 ### API Objects
