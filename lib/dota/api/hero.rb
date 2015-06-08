@@ -5,6 +5,11 @@ module Dota
 
       attr_reader :id, :name
 
+      def self.find(id)
+        hero = mapping[id]
+        hero ? new(id) : Dota::API::MissingHero.new(id)
+      end
+
       def initialize(id)
         @id = id
         @internal_name = mapping[id][0]

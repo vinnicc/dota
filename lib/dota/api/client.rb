@@ -13,7 +13,7 @@ module Dota
       end
 
       def heroes(id = nil)
-        id ? Hero.new(id) : Hero.all
+        id ? Hero.find(id) : Hero.all
       end
 
       def items(id = nil)

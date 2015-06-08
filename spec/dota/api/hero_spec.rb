@@ -7,6 +7,12 @@ RSpec.describe Dota::API::Hero do
     expect(heroes.count).to eq 110
   end
 
+  specify ".find" do
+    expect(described_class.find(69)).to be_a Dota::API::Hero
+    expect(described_class.find(nil)).to be_a Dota::API::MissingHero
+    expect(described_class.find("abc")).to be_a Dota::API::MissingHero
+  end
+
   specify "#id" do
     expect(hero.id).to eq 69
   end

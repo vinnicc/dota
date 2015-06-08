@@ -17,6 +17,7 @@ RSpec.describe Dota::API::LiveMatch::Player do
   end
 
   specify "#hero" do
+    expect(Dota::API::Hero).to receive(:find).and_call_original
     expect(player.hero).to be_a Dota::API::Hero
   end
 

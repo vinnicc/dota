@@ -25,7 +25,7 @@ module Dota
       end
 
       def hero
-        Hero.new(raw["hero_id"])
+        Hero.find(raw["hero_id"])
       end
 
       def level

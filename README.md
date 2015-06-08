@@ -77,7 +77,7 @@ api.matches(789645621)           # => A single match - "Newbee vs Vici Gaming"
 api.matches                      # => A list of matches
 api.matches(hero_id: 43)         #    Allowed options:
                                  #
-                                 #    :hero_id     - Integer, With this hero. See Dota::API::Hero::MAPPING
+                                 #    :hero_id     - Integer, With this hero. See Dota::API::Hero.mapping
                                  #    :after       - Integer, With match IDs equal or greater than this
                                  #    :player_id   - Integer, With this player (32-bit Steam ID)
                                  #    :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
@@ -194,7 +194,7 @@ match.drafts         # Array[Dota::API::Match::Draft], Picks and bans in the mat
 draft.order          # Integer, 1-20
 draft.pick?          # Boolean, true if the draft is a pick, and not a ban
 draft.team           # Symbol, :radiant or :dire
-draft.hero           # Dota::API::Hero, Picked or banned hero
+draft.hero           # Dota::API::Hero || Dota::API::MissingHero, Picked or banned hero
 ```
 
 #### Live Matches
@@ -248,7 +248,7 @@ radiant.series_wins # Integer, Number of wins in the series so far
 
 ```ruby
 player.id                # Integer, 32-bit Steam ID
-player.hero              # Dota::API::Hero, Player's hero
+player.hero              # Dota::API::Hero || Dota::API::MissingHero, Player's hero
 player.items             # Array[Dota::API::Item], Player's inventory (6 items)
 player.slot              # Integer, (1-5)
 player.level             # Integer, The player's level at match end
