@@ -62,7 +62,7 @@ module Dota
       end
 
       def drafts
-        @drafts ||= raw["picks_bans"].map do |raw_draft|
+        @drafts ||= (raw["picks_bans"] || []).map do |raw_draft|
           Draft.new(raw_draft)
         end
       end
