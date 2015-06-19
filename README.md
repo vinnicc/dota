@@ -292,7 +292,7 @@ unit.items # Array[Dota::API:Item], Unit's inventory (6 slots)
 ```ruby
 ability_upgrade.time    # Integer, Seconds since the match started when the player learned an ability
 ability_upgrade.level   # Integer, Player's level when the ability was learned
-ability_upgrade.ability # Dota::API:Ability
+ability_upgrade.ability # Dota::API::Ability
 ```
 
 #### Abilities
@@ -327,7 +327,7 @@ friend.made_at      # Time, When the friend was added to the player's friend lis
 
 ## Resources
 
-- [Steam-Powered DOTA on Rails](http://www.sitepoint.com/steam-powered-dota-on-rails/) by Ilya Bodrov-Krukowski - A tutorial for getting personal match statistics that makes use of this library for Steam integration. (www.sitepoint.com)
+- [Steam-Powered DOTA on Rails](http://www.sitepoint.com/steam-powered-dota-on-rails/) and [DOTA 2 on Rails: Digging Deeper](http://www.sitepoint.com/dota-2-rails-digging-deeper/) by Ilya Bodrov-Krukowski - A tutorial for getting personal match statistics that makes use of this library for Steam integration. (www.sitepoint.com)
 - [Things You Should Know Before Starting API Development](http://dev.dota2.com/showthread.php?t=58317) by MuppetMaster42 (dev.dota2.com)
 - [Dota 2 WebAPI Wiki](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2) (wiki.teamfortress.com)
 - [Dota 2 WebAPI Forums](http://dev.dota2.com/forumdisplay.php?f=411) (dev.dota2.com)
