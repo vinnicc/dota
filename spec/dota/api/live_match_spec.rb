@@ -30,7 +30,7 @@ RSpec.describe Dota::API::LiveMatch do
       expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
     end
 
-    specify do
+    specify "team without a profile" do
       expect(live_match).to receive(:raw_team) { nil }
       expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
     end
@@ -41,12 +41,11 @@ RSpec.describe Dota::API::LiveMatch do
       expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
     end
 
-    specify do
+    specify "team without a profile" do
       expect(live_match).to receive(:raw_team) { nil }
       expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
     end
   end
-
 
   specify "#series_type" do
     expect(live_match.series_type).to eq 0
