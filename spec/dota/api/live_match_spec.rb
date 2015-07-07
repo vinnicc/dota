@@ -25,13 +25,28 @@ RSpec.describe Dota::API::LiveMatch do
     expect(live_match.stream_delay).to eq 120
   end
 
-  specify "#radiant" do
-    expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
+  describe "#radiant" do
+    specify do
+      expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
+    end
+
+    specify do
+      expect(live_match).to receive(:raw_team) { nil }
+      expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
+    end
   end
 
-  specify "#dire" do
-    expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
+  describe "#dire" do
+    specify do
+      expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
+    end
+
+    specify do
+      expect(live_match).to receive(:raw_team) { nil }
+      expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
+    end
   end
+
 
   specify "#series_type" do
     expect(live_match.series_type).to eq 0

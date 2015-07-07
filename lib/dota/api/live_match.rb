@@ -44,10 +44,14 @@ module Dota
       private
 
       def raw_side(type)
-        raw_side = raw["#{type}_team"]
+        raw_side = (raw_team(type) || {})
           .merge(raw["scoreboard"]["#{type}"])
           .merge("series_wins" => raw["#{type}_series_wins"])
         merge_player_names(raw_side)
+      end
+
+      def raw_team(type)
+        raw["#{type}_team"]
       end
 
       def merge_player_names(raw_side)
