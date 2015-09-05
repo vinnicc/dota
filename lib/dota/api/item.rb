@@ -15,8 +15,8 @@ module Dota
         # Possible values for type:
         # :lg - 85x64 PNG image
         # :eg - 27x20 PNG image
-        if internal_name =~ /\Arecipe/ and type != :eg
-          "http://cdn.dota2.com/apps/dota2/images/items/recipe_#{type}.png"
+        if internal_name =~ /\Arecipe/
+          "http://cdn.dota2.com/apps/dota2/images/items/#{internal_name.sub('recipe_', '')}_#{type}.png"
         else
           "http://cdn.dota2.com/apps/dota2/images/items/#{internal_name}_#{type}.png"
         end
