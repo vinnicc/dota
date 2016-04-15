@@ -706,6 +706,9 @@
 254:
   - glimmer_cape
   - Glimmer Cape
+273:
+  - iron_talon
+  - Iron Talon
 1000:
   - halloween_candy_corn
   - Greevil Taffy
@@ -769,3 +772,12 @@
 1020:
   - winter_greevil_chewy
   - Greevil Blink Bone
+1023:
+  - faerie_fire
+  - Faerie Fire
+1025:
+  - dragon_lance
+  - Dragon Lance
+1028:
+  - aether_lens
+  - Aether Lens
