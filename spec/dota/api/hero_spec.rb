@@ -4,7 +4,7 @@ RSpec.describe Dota::API::Hero do
   specify ".all" do
     heroes = described_class.all
     expect(heroes.first).to be_a described_class
-    expect(heroes.count).to eq 110
+    expect(heroes.count).to eq 111
   end
 
   specify ".find" do
