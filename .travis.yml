@@ -3,9 +3,11 @@ rvm:
   - 2.0
   - 2.1
   - 2.2
-  - 2.3
+  - 2.3.0
   - jruby
   - rbx
+before_install:
+  - gem update bundler
 install: bundle install --retry=3
 sudo: false
 addons:
