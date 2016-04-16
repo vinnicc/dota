@@ -15,7 +15,14 @@ RSpec.describe Dota::API::Item do
     expect(item.name).to eq "Blink Dagger"
   end
 
-  specify "#image_url" do
-    expect(item.image_url).to eq "http://cdn.dota2.com/apps/dota2/images/items/blink_lg.png"
+  describe "#image_url" do
+    specify "normal" do
+      expect(item.image_url).to eq "http://cdn.dota2.com/apps/dota2/images/items/blink_lg.png"
+    end
+
+    specify "recipe-like" do
+      expect(item).to receive(:internal_name) { "recipe_some_other_item" }
+      expect(item.image_url).to eq "http://cdn.dota2.com/apps/dota2/images/items/some_other_item_lg.png"
+    end
   end
 end
