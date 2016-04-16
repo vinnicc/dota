@@ -20,4 +20,8 @@ RSpec.describe Dota::API::League do
   specify "#url" do
     expect(league.url).to eq "https://binarybeast.com/xDOTA21404228/"
   end
+
+  specify "#itemdef" do
+    expect(league.itemdef).to eq 10541
+  end
 end
