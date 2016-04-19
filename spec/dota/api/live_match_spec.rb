@@ -31,7 +31,12 @@ RSpec.describe Dota::API::LiveMatch do
     end
 
     specify "team without a profile" do
-      expect(live_match).to receive(:raw_team) { nil }
+      live_match.raw["radiant_team"] = nil
+      expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
+    end
+
+    specify "no scoreboard" do
+      live_match.raw["scoreboard"] = nil
       expect(live_match.radiant).to be_a Dota::API::LiveMatch::Side
     end
   end
@@ -42,7 +47,12 @@ RSpec.describe Dota::API::LiveMatch do
     end
 
     specify "team without a profile" do
-      expect(live_match).to receive(:raw_team) { nil }
+      live_match.raw["dire_team"] = nil
+      expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
+    end
+
+    specify "no scoreboard" do
+      live_match.raw["scoreboard"] = nil
       expect(live_match.dire).to be_a Dota::API::LiveMatch::Side
     end
   end

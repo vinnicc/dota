@@ -2,7 +2,7 @@ module Dota
   module API
     class LiveMatch < BasicMatch
       def duration
-        raw["scoreboard"]["duration"]
+        raw_scoreboard["duration"]
       end
 
       def league_id
@@ -30,41 +30,40 @@ module Dota
       end
 
       def roshan_timer
-        raw["scoreboard"]["roshan_respawn_timer"]
+        raw_scoreboard["roshan_respawn_timer"]
       end
 
       def radiant
-        @radiant ||= Side.new(raw_side(:radiant))
+        @radiant ||= Side.new(raw_side("radiant"))
       end
 
       def dire
-        @dire ||= Side.new(raw_side(:dire))
+        @dire ||= Side.new(raw_side("dire"))
       end
 
       private
 
+      def raw_scoreboard
+        raw["scoreboard"] || {
+          "radiant" => { "players" => [] },
+          "dire" => { "players" => [] },
+        }
+      end
+
       def raw_side(type)
-        raw_side = (raw_team(type) || {})
-          .merge(raw["scoreboard"]["#{type}"])
-          .merge("series_wins" => raw["#{type}_series_wins"])
-        merge_player_names(raw_side)
-      end
-
-      def raw_team(type)
-        raw["#{type}_team"]
-      end
-
-      def merge_player_names(raw_side)
-        raw_side["players"].map! do |player|
-          id = player["account_id"]
-          player.merge("name" => player_name_from_id(id))
+        side_scoreboard = raw_scoreboard[type]
+        side_players = side_scoreboard["players"].map do |player|
+          player.merge("name" => player_name_from_id(player["account_id"]))
         end
-        raw_side
+
+        (raw["#{type}_team"] || {})
+          .merge(side_scoreboard)
+          .merge("players" => side_players)
+          .merge("series_wins" => raw["#{type}_series_wins"])
       end
 
       def player_name_from_id(id)
-        player = raw["players"].detect { |p| id == p["account_id"] }
-        player["name"]
+        raw["players"].detect { |p| id == p["account_id"] }["name"]
       end
     end
   end
