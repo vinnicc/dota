@@ -676,9 +676,33 @@
 231:
   - guardian_greaves
   - Guardian Greaves
+232:
+  - aether_lens
+  - Aether Lens
+233:
+  - recipe_aether_lens
+  - "Recipe: Aether Lens"
+234:
+  - recipe_dragon_lance
+  - "Recipe: Dragon Lance"
 235:
   - octarine_core
   - Octarine Core
+236:
+  - dragon_lance
+  - Dragon Lance
+237:
+  - faerie_fire
+  - Faerie Fire
+238:
+  - recipe_iron_talon
+  - "Recipe: Iron Talon"
+239:
+  - iron_talon
+  - Iron Talon
+240:
+  - blight_stone
+  - Blight Stone
 241:
   - tango_single
   - Tango (Shared)
@@ -688,6 +712,12 @@
 243:
   - recipe_crimson_guard
   - "Recipe: Crimson Guard"
+244:
+  - wind_lace
+  - Wind Lace
+245:
+  - recipe_bloodthorn
+  - "Recipe: Bloodthorn"
 246:
   - recipe_moon_shard
   - "Recipe: Moon Shard"
@@ -700,15 +730,36 @@
 249:
   - silver_edge
   - Silver Edge
+250:
+  - bloodthorn
+  - Bloodthorn
+251:
+  - recipe_echo_sabre
+  - "Recipe: Echo Sabre"
+252:
+  - echo_sabre
+  - Echo Sabre
 253:
   - recipe_glimmer_cape
   - "Recipe: Glimmer Cape"
 254:
   - glimmer_cape
   - Glimmer Cape
-273:
-  - iron_talon
-  - Iron Talon
+257:
+  - tome_of_knowledge
+  - Tome of Knowledge
+262:
+  - recipe_hurricane_pike
+  - "Recipe: Hurricane Pike"
+263:
+  - hurricane_pike
+  - Hurricane Pike
+264:
+  - banana
+  - Banana
+265:
+  - infused_raindrop
+  - Infused Raindrop
 1000:
   - halloween_candy_corn
   - Greevil Taffy
@@ -772,12 +823,3 @@
 1020:
   - winter_greevil_chewy
   - Greevil Blink Bone
-1023:
-  - faerie_fire
-  - Faerie Fire
-1025:
-  - dragon_lance
-  - Dragon Lance
-1028:
-  - aether_lens
-  - Aether Lens
