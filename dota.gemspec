@@ -18,17 +18,16 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "facets", "~> 3.0.0"
+  spec.add_dependency "facets", "~> 3.0"
   spec.add_dependency "faraday", "~> 0.9.1"
   spec.add_dependency "faraday_middleware", "~> 0.9.1"
 
-  spec.add_development_dependency "codeclimate-test-reporter"
-  spec.add_development_dependency "dotenv"
-  spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "codeclimate-test-reporter",  "~> 0.5.0"
+  spec.add_development_dependency "dotenv",  "~> 2.1"
+  spec.add_development_dependency "guard-rspec",  "~> 4.6"
   spec.add_development_dependency "listen", "~> 2.10"
-  spec.add_development_dependency "pry"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec"
-  spec.add_development_dependency "vcr"
-  spec.add_development_dependency "webmock"
+  spec.add_development_dependency "pry",  "~> 0.10"
+  spec.add_development_dependency "rake",  "~> 11.1"
+  spec.add_development_dependency "rspec",  "~> 3.4"
+  spec.add_development_dependency "vcr",  "~> 3.0"
 end

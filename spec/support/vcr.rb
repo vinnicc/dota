@@ -3,7 +3,7 @@ require 'vcr'
 VCR.configure do |c|
   c.ignore_hosts "codeclimate.com"
   c.allow_http_connections_when_no_cassette = false
-  c.hook_into :webmock
+  c.hook_into :faraday
   c.cassette_library_dir = File.join(File.dirname(__FILE__), "..", "fixtures", "vcr_cassettes")
   c.configure_rspec_metadata!
   c.filter_sensitive_data("<STEAM_API_KEY>") { ENV.fetch("STEAM_API_KEY") }
