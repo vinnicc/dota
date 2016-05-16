@@ -51,7 +51,7 @@ RSpec.describe Dota do
       end
     end
 
-    describe "#matches" do
+    describe "#teams" do
       context "given an id" do
         it "returns a single team" do
           VCR.use_cassette("GetTeamInfoByTeamID") do
@@ -76,8 +76,8 @@ RSpec.describe Dota do
           after: :start_at_team_id,
           limit: :teams_requested
         }
-        accepted_params.each do |local, remote|
 
+        accepted_params.each do |local, remote|
           specify ":#{local} should translate to :#{remote}" do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetTeamInfoByTeamID") do
@@ -85,6 +85,27 @@ RSpec.describe Dota do
               api.teams(local => random_value)
             end
           end
+        end
+      end
+
+      context "when team cannot be found" do
+        around do |example|
+          VCR.use_cassette("GetMatchDetails") do
+            example.run
+          end
+        end
+
+        it "returns nil when api returns a different team" do
+          different_team_id = sample_team_id + 1
+          response = {
+            "result" => {
+              "status" => 1,
+              "teams" => [{ "team_id": different_team_id }],
+            },
+          }
+          expect(api).to receive(:get).with("IDOTA2Match_570", "GetTeamInfoByTeamID", start_at_team_id: sample_team_id, teams_requested: 1) { response }
+          team = api.teams(sample_team_id)
+          expect(team).to eq nil
         end
       end
     end
@@ -111,8 +132,8 @@ RSpec.describe Dota do
           from: :date_min,
           to:   :date_max
         }
-        accepted_params.each do |local, remote|
 
+        accepted_params.each do |local, remote|
           specify ":#{local} should translate to :#{remote}" do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetScheduledLeagueGames") do
@@ -139,8 +160,8 @@ RSpec.describe Dota do
           league_id: :league_id,
           match_id:  :match_id
         }
-        accepted_params.each do |local, remote|
 
+        accepted_params.each do |local, remote|
           specify ":#{local} should translate to :#{remote}" do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetLiveLeagueGames") do
@@ -168,9 +189,9 @@ RSpec.describe Dota do
       end
     end
 
-    describe "#teams" do
+    describe "#matches" do
       context "given an id" do
-        it "returns a single team" do
+        it "returns a single match" do
           VCR.use_cassette("GetMatchDetails") do
             match = api.matches(sample_match_id)
             expect(match).to be_a Dota::API::Match
@@ -201,8 +222,8 @@ RSpec.describe Dota do
           limit:       :matches_requested,
           league_only: :tournament_games_only
         }
-        accepted_params.each do |local, remote|
 
+        accepted_params.each do |local, remote|
           specify ":#{local} should translate to :#{remote}" do
             random_value = SecureRandom.hex
             VCR.use_cassette("GetMatchHistory") do

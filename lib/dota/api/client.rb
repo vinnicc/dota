@@ -28,7 +28,7 @@ module Dota
         if options.is_a?(Integer)
           id = options
           response = get("IDOTA2Match_570", "GetTeamInfoByTeamID", start_at_team_id: id, teams_requested: 1)["result"]["teams"][0]
-          Team.new(response) if response
+          Team.new(response) if response && id == response["team_id"]
         else
           options[:start_at_team_id] = options.delete(:after) if options[:after]
           options[:teams_requested]  = options.delete(:limit) if options[:limit]
