@@ -100,7 +100,7 @@ RSpec.describe Dota do
           response = {
             "result" => {
               "status" => 1,
-              "teams" => [{ "team_id": different_team_id }],
+              "teams" => [{ "team_id" => different_team_id }],
             },
           }
           expect(api).to receive(:get).with("IDOTA2Match_570", "GetTeamInfoByTeamID", start_at_team_id: sample_team_id, teams_requested: 1) { response }
