@@ -1,2280 +1,3067 @@
+0:
+  - ability_base
+  - "Ability Base"
 5001:
   - default_attack
-  - Default Attack
-  - Default Attack
+  - "Default Attack"
 5002:
-  - stats
-  - Stats
-  - Stats
+  - attribute_bonus
+  - "Attribute Bonus"
 5003:
   - antimage_mana_break
-  - Mana Break
-  - Antimage Mana Break
+  - "Mana Break"
 5004:
   - antimage_blink
-  - Blink
-  - Antimage Blink
+  - "Blink"
 5005:
   - antimage_spell_shield
-  - Spell Shield
-  - Antimage Spell Shield
+  - "Spell Shield"
 5006:
   - antimage_mana_void
-  - Mana Void
-  - Antimage Mana Void
+  - "Mana Void"
 5007:
   - axe_berserkers_call
-  - Berserkers Call
-  - Axe Berserkers Call
+  - "Berserker's Call"
 5008:
   - axe_battle_hunger
-  - Battle Hunger
-  - Axe Battle Hunger
+  - "Battle Hunger"
 5009:
   - axe_counter_helix
-  - Counter Helix
-  - Axe Counter Helix
+  - "Counter Helix"
 5010:
   - axe_culling_blade
-  - Culling Blade
-  - Axe Culling Blade
+  - "Culling Blade"
 5011:
   - bane_brain_sap
-  - Brain Sap
-  - Bane Brain Sap
+  - "Brain Sap"
 5012:
   - bane_enfeeble
-  - Enfeeble
-  - Bane Enfeeble
+  - "Enfeeble"
 5013:
   - bane_fiends_grip
-  - Fiends Grip
-  - Bane Fiends Grip
+  - "Fiend's Grip"
 5014:
   - bane_nightmare
-  - Nightmare
-  - Bane Nightmare
+  - "Nightmare"
 5015:
   - bloodseeker_bloodrage
-  - Bloodrage
-  - Bloodseeker Bloodrage
+  - "Bloodrage"
 5016:
   - bloodseeker_blood_bath
-  - Blood Bath
-  - Bloodseeker Blood Bath
+  - "Blood Rite"
 5017:
   - bloodseeker_thirst
-  - Thirst
-  - Bloodseeker Thirst
+  - "Thirst"
 5018:
   - bloodseeker_rupture
-  - Rupture
-  - Bloodseeker Rupture
+  - "Rupture"
 5019:
   - drow_ranger_frost_arrows
-  - Frost Arrows
-  - Drow Ranger Frost Arrows
+  - "Frost Arrows"
 5020:
   - drow_ranger_silence
-  - Silence
-  - Drow Ranger Silence
 5021:
   - drow_ranger_trueshot
-  - Trueshot
-  - Drow Ranger Trueshot
+  - "Precision Aura"
 5022:
   - drow_ranger_marksmanship
-  - Marksmanship
-  - Drow Ranger Marksmanship
+  - "Marksmanship"
 5023:
   - earthshaker_fissure
-  - Fissure
-  - Earthshaker Fissure
+  - "Fissure"
 5024:
   - earthshaker_enchant_totem
-  - Enchant Totem
-  - Earthshaker Enchant Totem
+  - "Enchant Totem"
 5025:
   - earthshaker_aftershock
-  - Aftershock
-  - Earthshaker Aftershock
+  - "Aftershock"
 5026:
   - earthshaker_echo_slam
-  - Echo Slam
-  - Earthshaker Echo Slam
+  - "Echo Slam"
 5027:
   - juggernaut_blade_dance
-  - Blade Dance
-  - Juggernaut Blade Dance
+  - "Blade Dance"
 5028:
   - juggernaut_blade_fury
-  - Blade Fury
-  - Juggernaut Blade Fury
+  - "Blade Fury"
 5029:
   - juggernaut_healing_ward
-  - Healing Ward
-  - Juggernaut Healing Ward
+  - "Healing Ward"
 5030:
   - juggernaut_omni_slash
-  - Omnislash
-  - Juggernaut Omnislash
+  - "Omnislash"
 5031:
   - kunkka_torrent
-  - Torrent
-  - Kunkka Torrent
+  - "Torrent"
 5032:
   - kunkka_tidebringer
-  - Tidebringer
-  - Kunkka Tidebringer
+  - "Tidebringer"
 5033:
   - kunkka_x_marks_the_spot
-  - X Marks The Spot
-  - Kunkka X Marks The Spot
+  - "X Marks the Spot"
 5034:
   - kunkka_return
-  - Return
-  - Kunkka Return
+  - "Return"
 5035:
   - kunkka_ghostship
-  - Ghostship
-  - Kunkka Ghostship
+  - "Ghostship"
 5040:
   - lina_dragon_slave
-  - Dragon Slave
-  - Lina Dragon Slave
+  - "Dragon Slave"
 5041:
   - lina_light_strike_array
-  - Light Strike Array
-  - Lina Light Strike Array
+  - "Light Strike Array"
 5042:
   - lina_fiery_soul
-  - Fiery Soul
-  - Lina Fiery Soul
+  - "Fiery Soul"
 5043:
   - lina_laguna_blade
-  - Laguna Blade
-  - Lina Laguna Blade
+  - "Laguna Blade"
 5044:
   - lion_impale
-  - Impale
-  - Lion Impale
+  - "Earth Spike"
 5045:
   - lion_voodoo
-  - Voodoo
-  - Lion Voodoo
+  - "Hex"
 5046:
   - lion_mana_drain
-  - Mana Drain
-  - Lion Mana Drain
+  - "Mana Drain"
 5047:
   - lion_finger_of_death
-  - Finger Of Death
-  - Lion Finger Of Death
+  - "Finger of Death"
 5048:
   - mirana_arrow
-  - Sacred Arrow
-  - Mirana Sacred Arrow
+  - "Sacred Arrow"
 5049:
   - mirana_invis
-  - Moonlight Shadow
-  - Mirana Moonlight Shadow
+  - "Moonlight Shadow"
 5050:
   - mirana_leap
-  - Leap
-  - Mirana Leap
+  - "Leap"
 5051:
   - mirana_starfall
-  - Starfall
-  - Mirana Starfall
+  - "Starstorm"
 5052:
   - morphling_waveform
-  - Waveform
-  - Morphling Waveform
+  - "Waveform"
 5053:
   - morphling_adaptive_strike
-  - Adaptive Strike
-  - Morphling Adaptive Strike
+  - "Adaptive Strike"
 5054:
   - morphling_morph
-  - Morph
-  - Morphling Morph
 5055:
   - morphling_morph_agi
-  - Morph Agi
-  - Morphling Morph Agi
+  - "Morph (Agility Gain)"
 5056:
   - morphling_morph_str
-  - Morph Str
-  - Morphling Morph Str
+  - "Morph (Strength Gain)"
 5057:
   - morphling_replicate
-  - Replicate
-  - Morphling Replicate
+  - "Replicate"
 5058:
   - morphling_morph_replicate
-  - Morph Replicate
-  - Morphling Morph Replicate
+  - "Morph Replicate"
 5059:
   - nevermore_shadowraze1
-  - Shadowraze1
-  - Nevermore Shadowraze1
+  - "Shadowraze"
 5060:
-  - nevermore_shadowraze1
-  - Shadowraze2
-  - Nevermore Shadowraze2
+  - nevermore_shadowraze2
+  - "Shadowraze"
 5061:
-  - nevermore_shadowraze1
-  - Shadowraze3
-  - Nevermore Shadowraze3
+  - nevermore_shadowraze3
+  - "Shadowraze"
 5062:
   - nevermore_necromastery
-  - Necromastery
-  - Nevermore Necromastery
+  - "Necromastery"
 5063:
   - nevermore_dark_lord
-  - Presence of the Dark Lord
-  - Nevermore Presence of the Dark Lord
+  - "Presence of the Dark Lord"
 5064:
   - nevermore_requiem
-  - Requiem of Souls
-  - Nevermore Requiem of Souls
+  - "Requiem of Souls"
 5065:
   - phantom_lancer_spirit_lance
-  - Spirit Lance
-  - Phantom Lancer Spirit Lance
+  - "Spirit Lance"
 5066:
-  - phantom_lancer_doppelganger
-  - Phantom Doppelganger
-  - Phantom Lancer Doppelganger
+  - phantom_lancer_doppelwalk
+  - "Doppelganger"
 5067:
-  - phantom_lancer_phantom_edge
-  - Phantom Rush
-  - Phantom Lancer Phantom Rush
-5068:
   - phantom_lancer_juxtapose
-  - Juxtapose
-  - Phantom Lancer Juxtapose
+  - "Juxtapose"
+5068:
+  - phantom_lancer_phantom_edge
+  - "Phantom Rush"
 5069:
   - puck_illusory_orb
-  - Illusory Orb
-  - Puck Illusory Orb
+  - "Illusory Orb"
 5070:
   - puck_ethereal_jaunt
-  - Ethereal Jaunt
-  - Puck Ethereal Jaunt
+  - "Ethereal Jaunt"
 5071:
   - puck_waning_rift
-  - Waning Rift
-  - Puck Waning Rift
+  - "Waning Rift"
 5072:
   - puck_phase_shift
-  - Phase Shift
-  - Puck Phase Shift
+  - "Phase Shift"
 5073:
   - puck_dream_coil
-  - Dream Coil
-  - Puck Dream Coil
+  - "Dream Coil"
 5074:
   - pudge_flesh_heap
-  - Flesh Heap
-  - Pudge Flesh Heap
+  - "Flesh Heap"
 5075:
   - pudge_meat_hook
-  - Meat Hook
-  - Pudge Meat Hook
+  - "Meat Hook"
 5076:
   - pudge_rot
-  - Rot
-  - Pudge Rot
+  - "Rot"
 5077:
   - pudge_dismember
-  - Dismember
-  - Pudge Dismember
+  - "Dismember"
 5078:
   - shadow_shaman_ether_shock
-  - Ether Shock
-  - Shadow Shaman Ether Shock
+  - "Ether Shock"
 5079:
   - shadow_shaman_voodoo
-  - Voodoo
-  - Shadow Shaman Voodoo
+  - "Hex"
 5080:
   - shadow_shaman_shackles
-  - Shackles
-  - Shadow Shaman Shackles
+  - "Shackles"
 5081:
   - shadow_shaman_mass_serpent_ward
-  - Mass Serpent Ward
-  - Shadow Shaman Mass Serpent Ward
+  - "Mass Serpent Ward"
 5082:
   - razor_plasma_field
-  - Plasma Field
-  - Razor Plasma Field
+  - "Plasma Field"
 5083:
   - razor_static_link
-  - Static Link
-  - Razor Static Link
+  - "Static Link"
 5084:
   - razor_unstable_current
-  - Unstable Current
-  - Razor Unstable Current
+  - "Unstable Current"
 5085:
   - razor_eye_of_the_storm
-  - Eye Of The Storm
-  - Razor Eye Of The Storm
+  - "Eye of the Storm"
 5086:
-  - wraith_king_hellfire_blast
-  - Hellfire Blast
-  - Wraith King Hellfire Blast
+  - skeleton_king_hellfire_blast
+  - "Wraithfire Blast"
 5087:
-  - wraith_king_vampiric_aura
-  - Vampiric Aura
-  - Wraith King Vampiric Aura
+  - skeleton_king_vampiric_aura
+  - "Vampiric Aura"
 5088:
-  - wraith_king_mortal_strike
-  - Mortal Strike
-  - Wraith King Mortal Strike
+  - skeleton_king_mortal_strike
+  - "Mortal Strike"
 5089:
-  - wraith_king_reincarnation
-  - Reincarnation
-  - Wraith King Reincarnation
+  - skeleton_king_reincarnation
+  - "Reincarnation"
 5090:
   - death_prophet_carrion_swarm
-  - Carrion Swarm
-  - Death Prophet Carrion Swarm
+  - "Crypt Swarm"
 5091:
   - death_prophet_silence
-  - Silence
-  - Death Prophet Silence
+  - "Silence"
 5092:
   - death_prophet_witchcraft
-  - Witchcraft
-  - Death Prophet Witchcraft
 5093:
   - death_prophet_exorcism
-  - Exorcism
-  - Death Prophet Exorcism
+  - "Exorcism"
 5094:
   - sven_storm_bolt
-  - Storm Bolt
-  - Sven Storm Bolt
+  - "Storm Hammer"
 5095:
   - sven_great_cleave
-  - Great Cleave
-  - Sven Great Cleave
+  - "Great Cleave"
 5096:
   - sven_warcry
-  - Warcry
-  - Sven Warcry
+  - "Warcry"
 5097:
   - sven_gods_strength
-  - Gods Strength
-  - Sven Gods Strength
+  - "God's Strength"
 5098:
   - storm_spirit_static_remnant
-  - Static Remnant
-  - Storm Spirit Static Remnant
+  - "Static Remnant"
 5099:
   - storm_spirit_electric_vortex
-  - Electric Vortex
-  - Storm Spirit Electric Vortex
+  - "Electric Vortex"
 5100:
   - storm_spirit_overload
-  - Overload
-  - Storm Spirit Overload
+  - "Overload"
 5101:
   - storm_spirit_ball_lightning
-  - Ball Lightning
-  - Storm Spirit Ball Lightning
+  - "Ball Lightning"
 5102:
   - sandking_burrowstrike
-  - Burrowstrike
-  - Sandking Burrowstrike
+  - "Burrowstrike"
 5103:
   - sandking_sand_storm
-  - Sand Storm
-  - Sandking Sand Storm
+  - "Sand Storm"
 5104:
   - sandking_caustic_finale
-  - Caustic Finale
-  - Sandking Caustic Finale
+  - "Caustic Finale"
 5105:
   - sandking_epicenter
-  - Epicenter
-  - Sandking Epicenter
+  - "Epicenter"
 5106:
   - tiny_avalanche
-  - Avalanche
-  - Tiny Avalanche
+  - "Avalanche"
 5107:
   - tiny_toss
-  - Toss
-  - Tiny Toss
+  - "Toss"
 5108:
   - tiny_craggy_exterior
-  - Craggy Exterior
-  - Tiny Craggy Exterior
+  - "Craggy Exterior"
 5109:
   - tiny_grow
-  - Grow
-  - Tiny Grow
+  - "Grow"
 5110:
-  - zeus_arc_lightning
-  - Arc Lightning
-  - Zeus Arc Lightning
+  - zuus_arc_lightning
+  - "Arc Lightning"
 5111:
-  - zeus_lightning_bolt
-  - Lightning Bolt
-  - Zeus Lightning Bolt
+  - zuus_lightning_bolt
+  - "Lightning Bolt"
 5112:
-  - zeus_static_field
-  - Static Field
-  - Zeus Static Field
+  - zuus_static_field
+  - "Static Field"
 5113:
-  - zeus_thundergods_wrath
-  - Thundergods Wrath
-  - Zeus Thundergods Wrath
+  - zuus_thundergods_wrath
+  - "Thundergod's Wrath"
 5114:
   - slardar_sprint
-  - Sprint
-  - Slardar Sprint
+  - "Guardian Sprint"
 5115:
   - slardar_slithereen_crush
-  - Slithereen Crush
-  - Slardar Slithereen Crush
+  - "Slithereen Crush"
 5116:
   - slardar_bash
-  - Bash
-  - Slardar Bash
+  - "Bash of the Deep"
 5117:
   - slardar_amplify_damage
-  - Amplify Damage
-  - Slardar Amplify Damage
+  - "Corrosive Haze"
 5118:
   - tidehunter_gush
-  - Gush
-  - Tidehunter Gush
+  - "Gush"
 5119:
   - tidehunter_kraken_shell
-  - Kraken Shell
-  - Tidehunter Kraken Shell
+  - "Kraken Shell"
 5120:
   - tidehunter_anchor_smash
-  - Anchor Smash
-  - Tidehunter Anchor Smash
+  - "Anchor Smash"
 5121:
   - tidehunter_ravage
-  - Ravage
-  - Tidehunter Ravage
+  - "Ravage"
 5122:
   - vengefulspirit_magic_missile
-  - Magic Missile
-  - Vengeful Spirit Magic Missile
+  - "Magic Missile"
 5123:
   - vengefulspirit_command_aura
-  - Command Aura
-  - Vengeful Spirit Command Aura
+  - "Vengeance Aura"
 5124:
   - vengefulspirit_wave_of_terror
-  - Wave Of Terror
-  - Vengeful Spirit Wave Of Terror
+  - "Wave of Terror"
 5125:
   - vengefulspirit_nether_swap
-  - Nether Swap
-  - Vengeful Spirit Nether Swap
+  - "Nether Swap"
 5126:
   - crystal_maiden_crystal_nova
-  - Crystal Nova
-  - Crystal Maiden Crystal Nova
+  - "Crystal Nova"
 5127:
   - crystal_maiden_frostbite
-  - Frostbite
-  - Crystal Maiden Frostbite
+  - "Frostbite"
 5128:
   - crystal_maiden_brilliance_aura
-  - Brilliance Aura
-  - Crystal Maiden Brilliance Aura
+  - "Arcane Aura"
 5129:
   - crystal_maiden_freezing_field
-  - Freezing Field
-  - Crystal Maiden Freezing Field
+  - "Freezing Field"
 5130:
   - windrunner_shackleshot
-  - Shackleshot
-  - Windrunner Shackleshot
+  - "Shackleshot"
 5131:
   - windrunner_powershot
-  - Powershot
-  - Windrunner Powershot
+  - "Powershot"
 5132:
   - windrunner_windrun
-  - Windrun
-  - Windrunner Windrun
+  - "Windrun"
 5133:
   - windrunner_focusfire
-  - Focusfire
-  - Windrunner Focusfire
+  - "Focus Fire"
 5134:
   - lich_frost_nova
-  - Frost Nova
-  - Lich Frost Nova
+  - "Frost Blast"
 5135:
   - lich_frost_armor
-  - Frost Armor
-  - Lich Frost Armor
+  - "Ice Armor"
 5136:
   - lich_dark_ritual
-  - Dark Ritual
-  - Lich Dark Ritual
+  - "Sacrifice"
 5137:
   - lich_chain_frost
-  - Chain Frost
-  - Lich Chain Frost
+  - "Chain Frost"
 5138:
   - witch_doctor_paralyzing_cask
-  - Paralyzing Cask
-  - Witch Doctor Paralyzing Cask
+  - "Paralyzing Cask"
 5139:
   - witch_doctor_voodoo_restoration
-  - Voodoo Restoration
-  - Witch Doctor Voodoo Restoration
+  - "Voodoo Restoration"
 5140:
   - witch_doctor_maledict
-  - Maledict
-  - Witch Doctor Maledict
+  - "Maledict"
 5141:
   - witch_doctor_death_ward
-  - Death Ward
-  - Witch Doctor Death Ward
+  - "Death Ward"
 5142:
   - riki_smoke_screen
-  - Smoke Screen
-  - Riki Smoke Screen
+  - "Smoke Screen"
 5143:
   - riki_blink_strike
-  - Blink Strike
-  - Riki Blink Strike
+  - "Blink Strike"
 5144:
-  - riki_backstab
-  - Backstab
-  - Riki Backstab
-5145:
   - riki_permanent_invisibility
-  - Permanent Invisibility
-  - Riki Permanent Invisibility
+  - "Cloak and Dagger"
+5145:
+  - riki_tricks_of_the_trade
+  - "Tricks of the Trade"
 5146:
   - enigma_malefice
-  - Malefice
-  - Enigma Malefice
+  - "Malefice"
 5147:
   - enigma_demonic_conversion
-  - Demonic Conversion
-  - Enigma Demonic Conversion
+  - "Demonic Conversion"
 5148:
   - enigma_midnight_pulse
-  - Midnight Pulse
-  - Enigma Midnight Pulse
+  - "Midnight Pulse"
 5149:
   - enigma_black_hole
-  - Black Hole
-  - Enigma Black Hole
+  - "Black Hole"
 5150:
   - tinker_laser
-  - Laser
-  - Tinker Laser
+  - "Laser"
 5151:
   - tinker_heat_seeking_missile
-  - Heat Seeking Missile
-  - Tinker Heat Seeking Missile
+  - "Heat-Seeking Missile"
 5152:
   - tinker_march_of_the_machines
-  - March Of The Machines
-  - Tinker March Of The Machines
+  - "March of the Machines"
 5153:
   - tinker_rearm
-  - Rearm
-  - Tinker Rearm
+  - "Rearm"
 5154:
   - sniper_shrapnel
-  - Shrapnel
-  - Sniper Shrapnel
+  - "Shrapnel"
 5155:
   - sniper_headshot
-  - Headshot
-  - Sniper Headshot
+  - "Headshot"
 5156:
   - sniper_take_aim
-  - Take Aim
-  - Sniper Take Aim
+  - "Take Aim"
 5157:
   - sniper_assassinate
-  - Assassinate
-  - Sniper Assassinate
+  - "Assassinate"
 5158:
   - necrolyte_death_pulse
-  - Death Pulse
-  - Necrolyte Death Pulse
+  - "Death Pulse"
 5159:
   - necrolyte_heartstopper_aura
-  - Heartstopper Aura
-  - Necrolyte Heartstopper Aura
+  - "Heartstopper Aura"
 5160:
   - necrolyte_sadist
-  - Sadist
-  - Necrolyte Sadist
+  - "Ghost Shroud"
 5161:
   - necrolyte_reapers_scythe
-  - Reapers Scythe
-  - Necrolyte Reapers Scythe
+  - "Reaper's Scythe"
 5162:
   - warlock_fatal_bonds
-  - Fatal Bonds
-  - Warlock Fatal Bonds
+  - "Fatal Bonds"
 5163:
   - warlock_shadow_word
-  - Shadow Word
-  - Warlock Shadow Word
+  - "Shadow Word"
 5164:
   - warlock_upheaval
-  - Upheaval
-  - Warlock Upheaval
+  - "Upheaval"
 5165:
   - warlock_rain_of_chaos
-  - Rain Of Chaos
-  - Warlock Rain Of Chaos
+  - "Chaotic Offering"
 5166:
   - warlock_golem_flaming_fists
-  - Flaming Fists
-  - Warlock Golem Flaming Fists
 5167:
   - warlock_golem_permanent_immolation
-  - Permanent Immolation
-  - Warlock Golem Permanent Immolation
 5168:
   - beastmaster_wild_axes
-  - Wild Axes
-  - Beastmaster Wild Axes
+  - "Wild Axes"
 5169:
   - beastmaster_call_of_the_wild
-  - Call Of The Wild
-  - Beastmaster Call Of The Wild
+  - "Call of the Wild: Hawk"
 5170:
   - beastmaster_hawk_invisibility
-  - Invisibility
-  - Beastmaster Hawk Invisibility
 5171:
   - beastmaster_boar_poison
-  - Boar Poison
-  - Beastmaster Boar Poison
 5172:
   - beastmaster_inner_beast
-  - Inner Beast
-  - Beastmaster Inner Beast
+  - "Inner Beast"
 5173:
   - queenofpain_shadow_strike
-  - Shadow Strike
-  - Queen of Pain Shadow Strike
+  - "Shadow Strike"
 5174:
   - queenofpain_blink
-  - Blink
-  - Queen of Pain Blink
+  - "Blink"
 5175:
   - queenofpain_scream_of_pain
-  - Scream Of Pain
-  - Queen of Pain Scream Of Pain
+  - "Scream Of Pain"
 5176:
   - queenofpain_sonic_wave
-  - Sonic Wave
-  - Queen of Pain Sonic Wave
+  - "Sonic Wave"
 5177:
   - beastmaster_primal_roar
-  - Primal Roar
-  - Beastmaster Primal Roar
+  - "Primal Roar"
 5178:
   - venomancer_venomous_gale
-  - Venomous Gale
-  - Venomancer Venomous Gale
+  - "Venomous Gale"
 5179:
   - venomancer_poison_sting
-  - Poison Sting
-  - Venomancer Poison Sting
+  - "Poison Sting"
 5180:
   - venomancer_plague_ward
-  - Plague Ward
-  - Venomancer Plague Ward
+  - "Plague Ward"
 5181:
   - venomancer_poison_nova
-  - Poison Nova
-  - Venomancer Poison Nova
+  - "Poison Nova"
 5182:
   - faceless_void_time_walk
-  - Time Walk
-  - Faceless Void Time Walk
+  - "Time Walk"
 5183:
-  - faceless_void_time_dilation
-  - Time Dilation
-  - Faceless Void Time Dilation
+  - faceless_void_backtrack
 5184:
   - faceless_void_time_lock
-  - Time Lock
-  - Faceless Void Time Lock
+  - "Time Lock"
 5185:
   - faceless_void_chronosphere
-  - Chronosphere
-  - Faceless Void Chronosphere
+  - "Chronosphere"
 5186:
   - pugna_nether_blast
-  - Nether Blast
-  - Pugna Nether Blast
+  - "Nether Blast"
 5187:
   - pugna_decrepify
-  - Decrepify
-  - Pugna Decrepify
+  - "Decrepify"
 5188:
   - pugna_nether_ward
-  - Nether Ward
-  - Pugna Nether Ward
+  - "Nether Ward"
 5189:
   - pugna_life_drain
-  - Life Drain
-  - Pugna Life Drain
+  - "Life Drain"
 5190:
   - phantom_assassin_stifling_dagger
-  - Stifling Dagger
-  - Phantom Assassin Stifling Dagger
+  - "Stifling Dagger"
 5191:
   - phantom_assassin_phantom_strike
-  - Phantom Strike
-  - Phantom Assassin Phantom Strike
+  - "Phantom Strike"
 5192:
   - phantom_assassin_blur
-  - Blur
-  - Phantom Assassin Blur
+  - "Blur"
 5193:
   - phantom_assassin_coup_de_grace
-  - Coup De Grace
-  - Phantom Assassin Coup De Grace
+  - "Coup de Grace"
 5194:
   - templar_assassin_refraction
-  - Refraction
-  - Templar Assassin Refraction
+  - "Refraction"
 5195:
   - templar_assassin_meld
-  - Meld
-  - Templar Assassin Meld
+  - "Meld"
 5196:
   - templar_assassin_psi_blades
-  - Psi Blades
-  - Templar Assassin Psi Blades
+  - "Psi Blades"
 5197:
   - templar_assassin_psionic_trap
-  - Psionic Trap
-  - Templar Assassin Psionic Trap
+  - "Psionic Trap"
 5198:
   - templar_assassin_trap
-  - Trap
-  - Templar Assassin Trap
+  - "Trap"
 5199:
   - templar_assassin_self_trap
-  - Self Trap
-  - Templar Assassin Self Trap
 5200:
   - necronomicon_warrior_last_will
-  - Last Will
-  - Necronomicon Warrior Last Will
 5201:
   - necronomicon_warrior_sight
-  - Sight
-  - Necronomicon Warrior Sight
 5202:
   - necronomicon_warrior_mana_burn
-  - Mana Burn
-  - Necronomicon Warrior Mana Burn
 5203:
   - necronomicon_archer_mana_burn
-  - Mana Burn
-  - Necronomicon Archer Mana Burn
 5204:
   - necronomicon_archer_aoe
-  - AoE
-  - Necronomicon Archer Aoe
 5205:
   - courier_return_to_base
-  - Return To Base
-  - Courier Return To Base
 5206:
   - courier_transfer_items
-  - Transfer Items
-  - Courier Transfer Items
 5207:
   - courier_return_stash_items
-  - Return Stash Items
-  - Courier Return Stash Items
 5208:
   - courier_take_stash_items
-  - Take Stash Items
-  - Courier Take Stash Items
 5209:
   - courier_shield
-  - Shield
-  - Courier Shield
 5210:
   - courier_burst
-  - Burst
-  - Courier Burst
 5213:
   - roshan_spell_block
-  - Spell Block
-  - Roshan Spell Block
 5214:
   - roshan_bash
-  - Bash
-  - Roshan Bash
 5215:
   - roshan_slam
-  - Slam
-  - Roshan Slam
 5216:
-  - roshan_illusion_protection
-  - Illusion Protection
-  - Roshan Illusion Protection
+  - roshan_inherent_buffs
 5217:
   - roshan_devotion
-  - Devotion
-  - Roshan Devotion
 5218:
   - viper_poison_attack
-  - Poison Attack
-  - Viper Poison Attack
+  - "Poison Attack"
 5219:
   - viper_nethertoxin
-  - Nethertoxin
-  - Viper Nethertoxin
+  - "Nethertoxin"
 5220:
   - viper_corrosive_skin
-  - Corrosive Skin
-  - Viper Corrosive Skin
+  - "Corrosive Skin"
 5221:
   - viper_viper_strike
-  - Viper Strike
-  - Viper Viper Strike
+  - "Viper Strike"
 5222:
   - luna_lucent_beam
-  - Lucent Beam
-  - Luna Lucent Beam
+  - "Lucent Beam"
 5223:
   - luna_moon_glaive
-  - Moon Glaive
-  - Luna Moon Glaive
+  - "Moon Glaive"
 5224:
   - luna_lunar_blessing
-  - Lunar Blessing
-  - Luna Lunar Blessing
+  - "Lunar Blessing"
 5225:
   - luna_eclipse
-  - Eclipse
-  - Luna Eclipse
+  - "Eclipse"
 5226:
   - dragon_knight_breathe_fire
-  - Breathe Fire
-  - Dragon Knight Breathe Fire
+  - "Breathe Fire"
 5227:
   - dragon_knight_dragon_tail
-  - Dragon Tail
-  - Dragon Knight Dragon Tail
+  - "Dragon Tail"
 5228:
   - dragon_knight_dragon_blood
-  - Dragon Blood
-  - Dragon Knight Dragon Blood
+  - "Dragon Blood"
 5229:
   - dragon_knight_elder_dragon_form
-  - Elder Dragon Form
-  - Dragon Knight Elder Dragon Form
+  - "Elder Dragon Form"
 5232:
   - dragon_knight_frost_breath
-  - Frost Breath
-  - Dragon Knight Frost Breath
 5233:
   - dazzle_poison_touch
-  - Poison Touch
-  - Dazzle Poison Touch
+  - "Poison Touch"
 5234:
   - dazzle_shallow_grave
-  - Shallow Grave
-  - Dazzle Shallow Grave
+  - "Shallow Grave"
 5235:
   - dazzle_shadow_wave
-  - Shadow Wave
-  - Dazzle Shadow Wave
+  - "Shadow Wave"
 5236:
   - dazzle_weave
-  - Weave
-  - Dazzle Weave
+  - "Weave"
 5237:
   - rattletrap_battery_assault
-  - Battery Assault
-  - Rattletrap Battery Assault
+  - "Battery Assault"
 5238:
   - rattletrap_power_cogs
-  - Power Cogs
-  - Rattletrap Power Cogs
+  - "Power Cogs"
 5239:
   - rattletrap_rocket_flare
-  - Rocket Flare
-  - Rattletrap Rocket Flare
+  - "Rocket Flare"
 5240:
   - rattletrap_hookshot
-  - Hookshot
-  - Rattletrap Hookshot
+  - "Hookshot"
 5241:
   - leshrac_split_earth
-  - Split Earth
-  - Leshrac Split Earth
+  - "Split Earth"
 5242:
   - leshrac_diabolic_edict
-  - Diabolic Edict
-  - Leshrac Diabolic Edict
+  - "Diabolic Edict"
 5243:
   - leshrac_lightning_storm
-  - Lightning Storm
-  - Leshrac Lightning Storm
+  - "Lightning Storm"
 5244:
   - leshrac_pulse_nova
-  - Pulse Nova
-  - Leshrac Pulse Nova
+  - "Pulse Nova"
 5245:
   - furion_sprout
-  - Sprout
-  - Furion Sprout
+  - "Sprout"
 5246:
   - furion_teleportation
-  - Teleportation
-  - Furion Teleportation
+  - "Teleportation"
 5247:
   - furion_force_of_nature
-  - Force Of Nature
-  - Furion Force Of Nature
+  - "Nature's Call"
 5248:
   - furion_wrath_of_nature
-  - Wrath Of Nature
-  - Furion Wrath Of Nature
+  - "Wrath of Nature"
 5249:
   - life_stealer_rage
-  - Rage
-  - Life Stealer Rage
+  - "Rage"
 5250:
   - life_stealer_feast
-  - Feast
-  - Life Stealer Feast
+  - "Feast"
 5251:
   - life_stealer_open_wounds
-  - Open Wounds
-  - Life Stealer Open Wounds
+  - "Open Wounds"
 5252:
   - life_stealer_infest
-  - Infest
-  - Life Stealer Infest
+  - "Infest"
 5253:
   - life_stealer_consume
-  - Consume
-  - Life Stealer Consume
+  - "Consume"
 5255:
   - dark_seer_vacuum
-  - Vacuum
-  - Dark Seer Vacuum
+  - "Vacuum"
 5256:
   - dark_seer_ion_shell
-  - Ion Shell
-  - Dark Seer Ion Shell
+  - "Ion Shell"
 5257:
   - dark_seer_surge
-  - Surge
-  - Dark Seer Surge
+  - "Surge"
 5258:
   - dark_seer_wall_of_replica
-  - Wall Of Replica
-  - Dark Seer Wall Of Replica
+  - "Wall of Replica"
 5259:
   - clinkz_strafe
-  - Strafe
-  - Clinkz Strafe
+  - "Strafe"
 5260:
   - clinkz_searing_arrows
-  - Searing Arrows
-  - Clinkz Searing Arrows
+  - "Searing Arrows"
 5261:
   - clinkz_wind_walk
-  - Wind Walk
-  - Clinkz Wind Walk
+  - "Skeleton Walk"
 5262:
   - clinkz_death_pact
-  - Death Pact
-  - Clinkz Death Pact
+  - "Death Pact"
 5263:
   - omniknight_purification
-  - Purification
-  - Omniknight Purification
+  - "Purification"
 5264:
   - omniknight_repel
-  - Repel
-  - Omniknight Repel
+  - "Repel"
 5265:
   - omniknight_degen_aura
-  - Degen Aura
-  - Omniknight Degen Aura
+  - "Degen Aura"
 5266:
   - omniknight_guardian_angel
-  - Guardian Angel
-  - Omniknight Guardian Angel
+  - "Guardian Angel"
 5267:
   - enchantress_untouchable
-  - Untouchable
-  - Enchantress Untouchable
+  - "Untouchable"
 5268:
   - enchantress_enchant
-  - Enchant
-  - Enchantress Enchant
+  - "Enchant"
 5269:
   - enchantress_natures_attendants
-  - Natures Attendants
-  - Enchantress Natures Attendants
+  - "Nature's Attendants"
 5270:
   - enchantress_impetus
-  - Impetus
-  - Enchantress Impetus
+  - "Impetus"
 5271:
   - huskar_inner_vitality
-  - Inner Vitality
-  - Huskar Inner Vitality
+  - "Inner Vitality"
 5272:
   - huskar_burning_spear
-  - Burning Spear
-  - Huskar Burning Spear
+  - "Burning Spear"
 5273:
   - huskar_berserkers_blood
-  - Berserkers Blood
-  - Huskar Berserkers Blood
+  - "Berserker's Blood"
 5274:
   - huskar_life_break
-  - Life Break
-  - Huskar Life Break
+  - "Life Break"
 5275:
   - night_stalker_void
-  - Void
-  - Night Stalker Void
+  - "Void"
 5276:
   - night_stalker_crippling_fear
-  - Crippling Fear
-  - Night Stalker Crippling Fear
+  - "Crippling Fear"
 5277:
   - night_stalker_hunter_in_the_night
-  - Hunter In The Night
-  - Night Stalker Hunter In The Night
+  - "Hunter in the Night"
 5278:
   - night_stalker_darkness
-  - Darkness
-  - Night Stalker Darkness
+  - "Darkness"
 5279:
   - broodmother_spawn_spiderlings
-  - Spawn Spiderlings
-  - Broodmother Spawn Spiderlings
+  - "Spawn Spiderlings"
 5280:
   - broodmother_spin_web
-  - Spin Web
-  - Broodmother Spin Web
+  - "Spin Web"
 5281:
   - broodmother_incapacitating_bite
-  - Incapacitating Bite
-  - Broodmother Incapacitating Bite
+  - "Incapacitating Bite"
 5282:
   - broodmother_insatiable_hunger
-  - Insatiable Hunger
-  - Broodmother Insatiable Hunger
+  - "Insatiable Hunger"
 5283:
   - broodmother_spawn_spiderite
-  - Spawn Spiderite
-  - Broodmother Spawn Spiderite
 5284:
   - broodmother_poison_sting
-  - Poison Sting
-  - Broodmother Poison Sting
 5285:
   - bounty_hunter_shuriken_toss
-  - Shuriken Toss
-  - Bounty Hunter Shuriken Toss
+  - "Shuriken Toss"
 5286:
   - bounty_hunter_jinada
-  - Jinada
-  - Bounty Hunter Jinada
+  - "Jinada"
 5287:
   - bounty_hunter_wind_walk
-  - Wind Walk
-  - Bounty Hunter Wind Walk
+  - "Shadow Walk"
 5288:
   - bounty_hunter_track
-  - Track
-  - Bounty Hunter Track
+  - "Track"
 5289:
   - weaver_the_swarm
-  - The Swarm
-  - Weaver The Swarm
+  - "The Swarm"
 5290:
   - weaver_shukuchi
-  - Shukuchi
-  - Weaver Shukuchi
+  - "Shukuchi"
 5291:
   - weaver_geminate_attack
-  - Geminate Attack
-  - Weaver Geminate Attack
+  - "Geminate Attack"
 5292:
   - weaver_time_lapse
-  - Time Lapse
-  - Weaver Time Lapse
+  - "Time Lapse"
 5293:
   - kobold_taskmaster_speed_aura
-  - Speed Aura
-  - Kobold Taskmaster Speed Aura
 5294:
   - centaur_khan_endurance_aura
-  - Endurance Aura
-  - Centaur Khan Endurance Aura
 5295:
   - centaur_khan_war_stomp
-  - War Stomp
-  - Centaur Khan War Stomp
+  - "War Stomp"
 5296:
   - gnoll_assassin_envenomed_weapon
-  - Envenomed Weapon
-  - Gnoll Assassin Envenomed Weapon
 5297:
   - jakiro_dual_breath
-  - Dual Breath
-  - Jakiro Dual Breath
+  - "Dual Breath"
 5298:
   - jakiro_ice_path
-  - Ice Path
-  - Jakiro Ice Path
+  - "Ice Path"
 5299:
   - jakiro_liquid_fire
-  - Liquid Fire
-  - Jakiro Liquid Fire
+  - "Liquid Fire"
 5300:
   - jakiro_macropyre
-  - Macropyre
-  - Jakiro Macropyre
+  - "Macropyre"
 5301:
   - ghost_frost_attack
-  - Frost Attack
-  - Ghost Frost Attack
+  - "Frost Attack"
 5302:
   - polar_furbolg_ursa_warrior_thunder_clap
-  - Thunder Clap
-  - Polar Furbolg Ursa Warrior Thunder Clap
+  - "Thunder Clap"
 5303:
   - neutral_spell_immunity
-  - Spell Immunity
-  - Neutral Spell Immunity
+  - "Spell Immunity"
 5304:
   - ogre_magi_frost_armor
-  - Frost Armor
-  - Ogre Magi Frost Armor
+  - "Ice Armor"
 5305:
   - dark_troll_warlord_ensnare
-  - Ensnare
-  - Dark Troll Warlord Ensnare
+  - "Ensnare"
 5306:
   - dark_troll_warlord_raise_dead
-  - Raise Dead
-  - Dark Troll Warlord Raise Dead
+  - "Raise Dead"
 5307:
   - giant_wolf_critical_strike
-  - Critical Strike
-  - Giant Wolf Critical Strike
+  - "Critical Strike"
 5308:
   - alpha_wolf_critical_strike
-  - Critical Strike
-  - Alpha Wolf Critical Strike
+  - "Critical Strike"
 5309:
   - alpha_wolf_command_aura
-  - Command Aura
-  - Alpha Wolf Command Aura
+  - "Command Aura"
 5310:
   - tornado_tempest
-  - Tornado Tempest
-  - Tornado Tempest
+  - "Tempest"
 5312:
   - enraged_wildkin_tornado
-  - Tornado
-  - Enraged Wildkin Tornado
+  - "Tornado"
 5313:
   - enraged_wildkin_toughness_aura
-  - Toughness Aura
-  - Enraged Wildkin Toughness Aura
+  - "Toughness Aura"
 5314:
   - satyr_trickster_purge
-  - Purge
-  - Satyr Trickster Purge
+  - "Purge"
 5315:
   - satyr_soulstealer_mana_burn
-  - Mana Burn
-  - Satyr Soulstealer Mana Burn
+  - "Mana Burn"
 5316:
   - satyr_hellcaller_shockwave
-  - Shockwave
-  - Satyr Hellcaller Shockwave
+  - "Shockwave"
 5317:
   - satyr_hellcaller_unholy_aura
-  - Unholy Aura
-  - Satyr Hellcaller Unholy Aura
+  - "Unholy Aura"
 5318:
   - forest_troll_high_priest_heal
-  - Heal
-  - Forest Troll High Priest Heal
+  - "Heal"
 5319:
   - harpy_storm_chain_lightning
-  - Chain Lightning
-  - Harpy Storm Chain Lightning
+  - "Chain Lightning"
 5320:
   - batrider_sticky_napalm
-  - Sticky Napalm
-  - Batrider Sticky Napalm
+  - "Sticky Napalm"
 5321:
   - batrider_flamebreak
-  - Flamebreak
-  - Batrider Flamebreak
+  - "Flamebreak"
 5322:
   - batrider_firefly
-  - Firefly
-  - Batrider Firefly
+  - "Firefly"
 5323:
   - batrider_flaming_lasso
-  - Flaming Lasso
-  - Batrider Flaming Lasso
+  - "Flaming Lasso"
 5324:
   - black_dragon_splash_attack
-  - Splash Attack
-  - Black Dragon Splash Attack
 5325:
   - blue_dragonspawn_sorcerer_evasion
-  - Evasion
-  - Blue Dragonspawn Sorcerer Evasion
 5326:
   - blue_dragonspawn_overseer_evasion
-  - Evasion
-  - Blue Dragonspawn Overseer Evasion
 5327:
   - blue_dragonspawn_overseer_devotion_aura
-  - Devotion Aura
-  - Blue Dragonspawn Overseer Devotion Aura
 5328:
   - chen_penitence
-  - Penitence
-  - Chen Penitence
+  - "Penitence"
 5329:
   - chen_test_of_faith
-  - Test Of Faith
-  - Chen Test Of Faith
+  - "Test of Faith"
 5330:
   - chen_holy_persuasion
-  - Holy Persuasion
-  - Chen Holy Persuasion
+  - "Holy Persuasion"
 5331:
   - chen_hand_of_god
-  - Hand Of God
-  - Chen Hand Of God
+  - "Hand of God"
 5332:
   - big_thunder_lizard_slam
-  - Slam
-  - Big Thunder Lizard Slam
 5333:
   - big_thunder_lizard_frenzy
-  - Frenzy
-  - Big Thunder Lizard Frenzy
 5334:
   - spectre_spectral_dagger
-  - Spectral Dagger
-  - Spectre Spectral Dagger
+  - "Spectral Dagger"
 5335:
   - spectre_desolate
-  - Desolate
-  - Spectre Desolate
+  - "Desolate"
 5336:
   - spectre_dispersion
-  - Dispersion
-  - Spectre Dispersion
+  - "Dispersion"
 5337:
   - spectre_haunt
-  - Haunt
-  - Spectre Haunt
+  - "Haunt"
 5338:
   - spectre_reality
-  - Reality
-  - Spectre Reality
+  - "Reality"
 5339:
   - doom_bringer_devour
-  - Devour
-  - Doom Bringer Devour
+  - "Devour"
 5340:
   - doom_bringer_scorched_earth
-  - Scorched Earth
-  - Doom Bringer Scorched Earth
+  - "Scorched Earth"
 5341:
-  - doom_bringer_lvl_death
-  - Lvl Death
-  - Doom Bringer Lvl Death
+  - doom_bringer_infernal_blade
+  - "Infernal Blade"
 5342:
   - doom_bringer_doom
-  - Doom
-  - Doom Bringer Doom
+  - "Doom"
 5343:
-  - doom_bringer_empty
-  - Empty
-  - Doom Bringer Empty
+  - doom_bringer_empty1
 5344:
-  - doom_bringer_empty
-  - Empty
-  - Doom Bringer Empty
+  - doom_bringer_empty2
 5345:
   - ancient_apparition_cold_feet
-  - Cold Feet
-  - Ancient Apparition Cold Feet
+  - "Cold Feet"
 5346:
   - ancient_apparition_ice_vortex
-  - Ice Vortex
-  - Ancient Apparition Ice Vortex
+  - "Ice Vortex"
 5347:
   - ancient_apparition_chilling_touch
-  - Chilling Touch
-  - Ancient Apparition Chilling Touch
+  - "Chilling Touch"
 5348:
   - ancient_apparition_ice_blast
-  - Ice Blast
-  - Ancient Apparition Ice Blast
+  - "Ice Blast"
 5349:
   - ancient_apparition_ice_blast_release
-  - Ice Blast Release
-  - Ancient Apparition Ice Blast Release
+  - "Release"
 5350:
   - backdoor_protection
-  - Backdoor Protection
-  - Backdoor Protection
 5351:
   - backdoor_protection_in_base
-  - Backdoor Protection In Base
-  - Backdoor Protection In Base
 5352:
   - beastmaster_greater_boar_poison
-  - Poison
-  - Beastmaster Greater Boar Poison
 5353:
   - spirit_breaker_charge_of_darkness
-  - Charge Of Darkness
-  - Spirit Breaker Charge Of Darkness
+  - "Charge of Darkness"
 5354:
   - spirit_breaker_empowering_haste
-  - Empowering Haste
-  - Spirit Breaker Empowering Haste
+  - "Empowering Haste"
 5355:
   - spirit_breaker_greater_bash
-  - Greater Bash
-  - Spirit Breaker Greater Bash
+  - "Greater Bash"
 5356:
   - spirit_breaker_nether_strike
-  - Nether Strike
-  - Spirit Breaker Nether Strike
+  - "Nether Strike"
 5357:
   - ursa_earthshock
-  - Earthshock
-  - Ursa Earthshock
+  - "Earthshock"
 5358:
   - ursa_overpower
-  - Overpower
-  - Ursa Overpower
+  - "Overpower"
 5359:
   - ursa_fury_swipes
-  - Fury Swipes
-  - Ursa Fury Swipes
+  - "Fury Swipes"
 5360:
   - ursa_enrage
-  - Enrage
-  - Ursa Enrage
+  - "Enrage"
 5361:
   - gyrocopter_rocket_barrage
-  - Rocket Barrage
-  - Gyrocopter Rocket Barrage
+  - "Rocket Barrage"
 5362:
   - gyrocopter_homing_missile
-  - Homing Missile
-  - Gyrocopter Homing Missile
+  - "Homing Missile"
 5363:
   - gyrocopter_flak_cannon
-  - Flak Cannon
-  - Gyrocopter Flak Cannon
+  - "Flak Cannon"
 5364:
   - gyrocopter_call_down
-  - Call Down
-  - Gyrocopter Call Down
+  - "Call Down"
 5365:
   - alchemist_acid_spray
-  - Acid Spray
-  - Alchemist Acid Spray
+  - "Acid Spray"
 5366:
   - alchemist_unstable_concoction
-  - Unstable Concoction
-  - Alchemist Unstable Concoction
+  - "Unstable Concoction"
 5367:
   - alchemist_unstable_concoction_throw
-  - Unstable Concoction Throw
-  - Alchemist Unstable Concoction Throw
+  - "Unstable Concoction Throw"
 5368:
   - alchemist_goblins_greed
-  - Goblins Greed
-  - Alchemist Goblins Greed
+  - "Greevil's Greed"
 5369:
   - alchemist_chemical_rage
-  - Chemical Rage
-  - Alchemist Chemical Rage
+  - "Chemical Rage"
 5370:
   - invoker_quas
-  - Quas
-  - Invoker Quas
+  - "Quas"
 5371:
   - invoker_wex
-  - Wex
-  - Invoker Wex
+  - "Wex"
 5372:
   - invoker_exort
-  - Exort
-  - Invoker Exort
+  - "Exort"
 5373:
   - invoker_empty1
-  - Empty1
-  - Invoker Empty1
 5374:
   - invoker_empty2
-  - Empty2
-  - Invoker Empty2
 5375:
   - invoker_invoke
-  - Invoke
-  - Invoker Invoke
+  - "Invoke"
 5376:
   - invoker_cold_snap
-  - Cold Snap
-  - Invoker Cold Snap
+  - "Cold Snap"
 5377:
   - silencer_curse_of_the_silent
-  - Curse Of The Silent
-  - Silencer Curse Of The Silent
+  - "Arcane Curse"
 5378:
   - silencer_glaives_of_wisdom
-  - Glaives Of Wisdom
-  - Silencer Glaives Of Wisdom
+  - "Glaives of Wisdom"
 5379:
   - silencer_last_word
-  - Last Word
-  - Silencer Last Word
+  - "Last Word"
 5380:
   - silencer_global_silence
-  - Global Silence
-  - Silencer Global Silence
+  - "Global Silence"
 5381:
   - invoker_ghost_walk
-  - Ghost Walk
-  - Invoker Ghost Walk
+  - "Ghost Walk"
 5382:
   - invoker_tornado
-  - Tornado
-  - Invoker Tornado
+  - "Tornado"
 5383:
   - invoker_emp
-  - Emp
-  - Invoker Emp
+  - "E.M.P."
 5384:
   - invoker_alacrity
-  - Alacrity
-  - Invoker Alacrity
+  - "Alacrity"
 5385:
   - invoker_chaos_meteor
-  - Chaos Meteor
-  - Invoker Chaos Meteor
+  - "Chaos Meteor"
 5386:
   - invoker_sun_strike
-  - Sun Strike
-  - Invoker Sun Strike
+  - "Sun Strike"
 5387:
   - invoker_forge_spirit
-  - Forge Spirit
-  - Invoker Forge Spirit
+  - "Forge Spirit"
 5388:
   - forged_spirit_melting_strike
-  - Melting Strike
-  - Forged Spirit Melting Strike
 5389:
   - invoker_ice_wall
-  - Ice Wall
-  - Invoker Ice Wall
+  - "Ice Wall"
 5390:
   - invoker_deafening_blast
-  - Deafening Blast
-  - Invoker Deafening Blast
+  - "Deafening Blast"
 5391:
   - obsidian_destroyer_arcane_orb
-  - Arcane Orb
-  - Obsidian Destroyer Arcane Orb
+  - "Arcane Orb"
 5392:
   - obsidian_destroyer_astral_imprisonment
-  - Astral Imprisonment
-  - Obsidian Destroyer Astral Imprisonment
+  - "Astral Imprisonment"
 5393:
   - obsidian_destroyer_essence_aura
-  - Essence Aura
-  - Obsidian Destroyer Essence Aura
+  - "Essence Aura"
 5394:
   - obsidian_destroyer_sanity_eclipse
-  - Sanity Eclipse
-  - Obsidian Destroyer Sanity Eclipse
+  - "Sanity's Eclipse"
 5395:
   - lycan_summon_wolves
-  - Summon Wolves
-  - Lycan Summon Wolves
+  - "Summon Wolves"
 5396:
   - lycan_howl
-  - Howl
-  - Lycan Howl
+  - "Howl"
 5397:
   - lycan_feral_impulse
-  - Feral Impulse
-  - Lycan Feral Impulse
+  - "Feral Impulse"
 5398:
   - lycan_shapeshift
-  - Shapeshift
-  - Lycan Shapeshift
+  - "Shapeshift"
 5399:
   - lycan_summon_wolves_critical_strike
-  - Summon Wolves Critical Strike
-  - Lycan Summon Wolves Critical Strike
 5400:
   - brewmaster_thunder_clap
-  - Thunder Clap
-  - Brewmaster Thunder Clap
+  - "Thunder Clap"
 5401:
   - brewmaster_drunken_haze
-  - Drunken Haze
-  - Brewmaster Drunken Haze
+  - "Drunken Haze"
 5402:
   - brewmaster_drunken_brawler
-  - Drunken Brawler
-  - Brewmaster Drunken Brawler
+  - "Drunken Brawler"
 5403:
   - brewmaster_primal_split
-  - Primal Split
-  - Brewmaster Primal Split
+  - "Primal Split"
 5404:
   - brewmaster_earth_hurl_boulder
-  - Hurl Boulder
-  - Brewmaster Earth Hurl Boulder
 5405:
   - brewmaster_earth_spell_immunity
-  - Spell Immunity
-  - Brewmaster Earth Spell Immunity
 5406:
   - brewmaster_earth_pulverize
-  - Demolish
-  - Brewmaster Earth Demolish
 5408:
   - brewmaster_storm_dispel_magic
-  - Dispel Magic
-  - Brewmaster Storm Dispel Magic
 5409:
   - brewmaster_storm_cyclone
-  - Cyclone
-  - Brewmaster Storm Cyclone
 5410:
   - brewmaster_storm_wind_walk
-  - Wind Walk
-  - Brewmaster Storm Wind Walk
 5411:
   - brewmaster_fire_permanent_immolation
-  - Permanent Immolation
-  - Brewmaster Fire Permanent Immolation
 5412:
   - lone_druid_spirit_bear
-  - Spirit Bear
-  - Lone Druid Spirit Bear
+  - "Summon Spirit Bear"
 5413:
   - lone_druid_rabid
-  - Rabid
-  - Lone Druid Rabid
+  - "Rabid"
 5414:
-  - lone_druid_synergy
-  - Synergy
-  - Lone Druid Synergy
+  - lone_druid_savage_roar
+  - "Savage Roar"
 5415:
   - lone_druid_true_form
-  - True Form
-  - Lone Druid True Form
+  - "True Form"
 5416:
-  - lone_druid_true_form
-  - True Form
-  - Lone Druid True Form
+  - lone_druid_true_form_druid
+  - "Druid Form"
 5417:
   - lone_druid_true_form_battle_cry
-  - True Form Battle Cry
-  - Lone Druid True Form Battle Cry
+  - "Battle Cry"
 5418:
   - lone_druid_spirit_bear_return
-  - Spirit Bear Return
-  - Lone Druid Spirit Bear Return
 5419:
   - lone_druid_spirit_bear_entangle
-  - Spirit Bear Entangle
-  - Lone Druid Spirit Bear Entangle
 5420:
   - lone_druid_spirit_bear_demolish
-  - Spirit Bear Demolish
-  - Lone Druid Spirit Bear Demolish
 5421:
   - shadow_demon_disruption
-  - Disruption
-  - Shadow Demon Disruption
+  - "Disruption"
 5422:
   - shadow_demon_soul_catcher
-  - Soul Catcher
-  - Shadow Demon Soul Catcher
+  - "Soul Catcher"
 5423:
   - shadow_demon_shadow_poison
-  - Shadow Poison
-  - Shadow Demon Shadow Poison
+  - "Shadow Poison"
 5424:
   - shadow_demon_shadow_poison_release
-  - Shadow Poison Release
-  - Shadow Demon Shadow Poison Release
+  - "Shadow Poison Release"
 5425:
   - shadow_demon_demonic_purge
-  - Demonic Purge
-  - Shadow Demon Demonic Purge
+  - "Demonic Purge"
 5426:
   - chaos_knight_chaos_bolt
-  - Chaos Bolt
-  - Chaos Knight Chaos Bolt
+  - "Chaos Bolt"
 5427:
   - chaos_knight_reality_rift
-  - Reality Rift
-  - Chaos Knight Reality Rift
+  - "Reality Rift"
 5428:
   - chaos_knight_chaos_strike
-  - Chaos Strike
-  - Chaos Knight Chaos Strike
+  - "Chaos Strike"
 5429:
   - chaos_knight_phantasm
-  - Phantasm
-  - Chaos Knight Phantasm
+  - "Phantasm"
 5430:
   - meepo_earthbind
-  - Earthbind
-  - Meepo Earthbind
+  - "Earthbind"
 5431:
   - meepo_poof
-  - Poof
-  - Meepo Poof
+  - "Poof"
 5432:
   - meepo_geostrike
-  - Geostrike
-  - Meepo Geostrike
+  - "Geostrike"
 5433:
   - meepo_divided_we_stand
-  - Divided We Stand
-  - Meepo Divided We Stand
+  - "Divided We Stand"
 5434:
   - treant_natures_guise
-  - Natures Guise
-  - Treant Natures Guise
+  - "Nature's Guise"
 5435:
   - treant_leech_seed
-  - Leech Seed
-  - Treant Leech Seed
+  - "Leech Seed"
 5436:
   - treant_living_armor
-  - Living Armor
-  - Treant Living Armor
+  - "Living Armor"
 5437:
   - treant_overgrowth
-  - Overgrowth
-  - Treant Overgrowth
+  - "Overgrowth"
 5438:
   - ogre_magi_fireblast
-  - Fireblast
-  - Ogre Magi Fireblast
+  - "Fireblast"
 5439:
   - ogre_magi_ignite
-  - Ignite
-  - Ogre Magi Ignite
+  - "Ignite"
 5440:
   - ogre_magi_bloodlust
-  - Bloodlust
-  - Ogre Magi Bloodlust
+  - "Bloodlust"
 5441:
   - ogre_magi_multicast
-  - Multicast
-  - Ogre Magi Multicast
+  - "Multicast"
 5442:
   - undying_decay
-  - Decay
-  - Undying Decay
+  - "Decay"
 5443:
   - undying_soul_rip
-  - Soul Rip
-  - Undying Soul Rip
+  - "Soul Rip"
 5444:
   - undying_tombstone
-  - Tombstone
-  - Undying Tombstone
+  - "Tombstone"
 5445:
   - undying_tombstone_zombie_aura
-  - Tombstone Zombie Aura
-  - Undying Tombstone Zombie Aura
 5446:
   - undying_tombstone_zombie_deathstrike
-  - Tombstone Zombie Deathstrike
-  - Undying Tombstone Zombie Deathstrike
 5447:
   - undying_flesh_golem
-  - Flesh Golem
-  - Undying Flesh Golem
+  - "Flesh Golem"
 5448:
   - rubick_telekinesis
-  - Telekinesis
-  - Rubick Telekinesis
+  - "Telekinesis"
+5449:
+  - rubick_telekinesis_land
+  - "Telekinesis Land"
 5450:
   - rubick_fade_bolt
-  - Fade Bolt
-  - Rubick Fade Bolt
+  - "Fade Bolt"
 5451:
   - rubick_null_field
-  - Null Field
-  - Rubick Null Field
+  - "Null Field"
 5452:
   - rubick_spell_steal
-  - Spell Steal
-  - Rubick Spell Steal
+  - "Spell Steal"
+5453:
+  - rubick_empty1
+5454:
+  - rubick_empty2
+5455:
+  - rubick_hidden1
+5456:
+  - rubick_hidden2
+5457:
+  - rubick_hidden3
 5458:
   - disruptor_thunder_strike
-  - Thunder Strike
-  - Disruptor Thunder Strike
+  - "Thunder Strike"
 5459:
   - disruptor_glimpse
-  - Glimpse
-  - Disruptor Glimpse
+  - "Glimpse"
 5460:
   - disruptor_kinetic_field
-  - Kinetic Field
-  - Disruptor Kinetic Field
+  - "Kinetic Field"
 5461:
   - disruptor_static_storm
-  - Static Storm
-  - Disruptor Static Storm
+  - "Static Storm"
 5462:
   - nyx_assassin_impale
-  - Impale
-  - Nyx Assassin Impale
+  - "Impale"
 5463:
   - nyx_assassin_mana_burn
-  - Mana Burn
-  - Nyx Assassin Mana Burn
+  - "Mana Burn"
 5464:
   - nyx_assassin_spiked_carapace
-  - Spiked Carapace
-  - Nyx Assassin Spiked Carapace
+  - "Spiked Carapace"
 5465:
   - nyx_assassin_vendetta
-  - Vendetta
-  - Nyx Assassin Vendetta
+  - "Vendetta"
+5466:
+  - ogre_magi_unrefined_fireblast
+  - "Unrefined Fireblast"
 5467:
   - naga_siren_mirror_image
-  - Mirror Image
-  - Naga Siren Mirror Image
+  - "Mirror Image"
 5468:
   - naga_siren_ensnare
-  - Ensnare
-  - Naga Siren Ensnare
+  - "Ensnare"
 5469:
   - naga_siren_rip_tide
-  - Rip Tide
-  - Naga Siren Rip Tide
+  - "Rip Tide"
 5470:
   - naga_siren_song_of_the_siren
-  - Song Of The Siren
-  - Naga Siren Song Of The Siren
+  - "Song of the Siren"
 5471:
   - keeper_of_the_light_illuminate
-  - Illuminate
-  - Keeper Of The Light Illuminate
+  - "Illuminate"
 5472:
   - keeper_of_the_light_mana_leak
-  - Mana Leak
-  - Keeper Of The Light Mana Leak
+  - "Mana Leak"
 5473:
   - keeper_of_the_light_chakra_magic
-  - Chakra Magic
-  - Keeper Of The Light Chakra Magic
+  - "Chakra Magic"
 5474:
   - keeper_of_the_light_spirit_form
-  - Spirit Form
-  - Keeper Of The Light Spirit Form
+  - "Spirit Form"
 5475:
   - keeper_of_the_light_recall
-  - Recall
-  - Keeper Of The Light Recall
+  - "Recall"
 5476:
   - keeper_of_the_light_blinding_light
-  - Blinding Light
-  - Keeper Of The Light Blinding Light
+  - "Blinding Light"
 5477:
   - keeper_of_the_light_illuminate_end
-  - Illuminate End
-  - Keeper Of The Light Illuminate End
+  - "Release Illuminate"
+5478:
+  - naga_siren_song_of_the_siren_cancel
+  - "Song of the Siren End"
 5479:
   - keeper_of_the_light_spirit_form_illuminate
-  - Spirit Form Illuminate
-  - Keeper Of The Light Spirit Form Illuminate
+  - "Illuminate"
 5480:
   - visage_grave_chill
-  - Grave Chill
-  - Visage Grave Chill
+  - "Grave Chill"
 5481:
   - visage_soul_assumption
-  - Soul Assumption
-  - Visage Soul Assumption
+  - "Soul Assumption"
 5482:
   - visage_gravekeepers_cloak
-  - Gravekeepers Cloak
-  - Visage Gravekeepers Cloak
+  - "Gravekeeper's Cloak"
 5483:
   - visage_summon_familiars
-  - Summon Familiars
-  - Visage Summon Familiars
+  - "Summon Familiars"
+5484:
+  - visage_summon_familiars_stone_form
 5485:
   - wisp_tether
-  - Tether
-  - Wisp Tether
+  - "Tether"
 5486:
   - wisp_spirits
-  - Spirits
-  - Wisp Spirits
+  - "Spirits"
 5487:
   - wisp_overcharge
-  - Overcharge
-  - Wisp Overcharge
+  - "Overcharge"
 5488:
   - wisp_relocate
-  - Relocate
-  - Wisp Relocate
+  - "Relocate"
 5489:
   - wisp_tether_break
-  - Tether Break
-  - Wisp Tether Break
+  - "Break Tether"
 5490:
   - wisp_spirits_in
-  - Spirits In
-  - Wisp Spirits In
+  - "Spirits In"
 5491:
   - forest_troll_high_priest_mana_aura
-  - Troll High Priest Mana Aura
-  - Forest Troll High Priest Mana Aura
 5492:
   - courier_go_to_secretshop
-  - Go To Secret Shop
-  - Courier Go To Secret Shop
 5493:
   - wisp_spirits_out
-  - Spirits Out
-  - Wisp Spirits Out
+  - "Spirits Out"
 5494:
   - slark_dark_pact
-  - Dark Pact
-  - Slark Dark Pact
+  - "Dark Pact"
 5495:
   - slark_pounce
-  - Pounce
-  - Slark Pounce
+  - "Pounce"
 5496:
   - slark_essence_shift
-  - Essence Shift
-  - Slark Essence Shift
+  - "Essence Shift"
 5497:
   - slark_shadow_dance
-  - Shadow Dance
-  - Slark Shadow Dance
+  - "Shadow Dance"
+5498:
+  - wisp_empty1
+5499:
+  - wisp_empty2
 5500:
   - lycan_summon_wolves_invisibility
-  - Summon Wolves Invisibility
-  - Lycan Summon Wolves Invisibility
+5501:
+  - keeper_of_the_light_empty1
+5502:
+  - keeper_of_the_light_empty2
+5503:
+  - keeper_of_the_light_spirit_form_illuminate_end
+  - "Release Illuminate"
 5504:
   - medusa_split_shot
-  - Split Shot
-  - Medusa Split Shot
+  - "Split Shot"
 5505:
   - medusa_mystic_snake
-  - Mystic Snake
-  - Medusa Mystic Snake
+  - "Mystic Snake"
 5506:
   - medusa_mana_shield
-  - Mana Shield
-  - Medusa Mana Shield
+  - "Mana Shield"
 5507:
   - medusa_stone_gaze
-  - Stone Gaze
-  - Medusa Stone Gaze
+  - "Stone Gaze"
 5508:
   - troll_warlord_berserkers_rage
-  - Berserkers Rage
-  - Troll Warlord Berserkers Rage
+  - "Berserker's Rage"
 5509:
   - troll_warlord_whirling_axes_ranged
-  - Whirling Axes Ranged
-  - Troll Warlord Whirling Axes Ranged
+  - "Whirling Axes (Ranged)"
 5510:
   - troll_warlord_whirling_axes_melee
-  - Whirling Axes Melee
-  - Troll Warlord Whirling Axes Melee
+  - "Whirling Axes (Melee)"
 5511:
   - troll_warlord_fervor
-  - Fervor
-  - Troll Warlord Fervor
+  - "Fervor"
 5512:
   - troll_warlord_battle_trance
-  - Battle Trance
-  - Troll Warlord Battle Trance
+  - "Battle Trance"
 5514:
   - centaur_hoof_stomp
-  - Hoof Stomp
-  - Centaur Hoof Stomp
+  - "Hoof Stomp"
 5515:
   - centaur_double_edge
-  - Double Edge
-  - Centaur Double Edge
+  - "Double Edge"
 5516:
   - centaur_return
-  - Return
-  - Centaur Return
+  - "Return"
 5517:
   - centaur_stampede
-  - Stampede
-  - Centaur Stampede
+  - "Stampede"
 5518:
   - magnataur_shockwave
-  - Shockwave
-  - Magnataur Shockwave
+  - "Shockwave"
 5519:
   - magnataur_empower
-  - Empower
-  - Magnataur Empower
+  - "Empower"
 5520:
   - magnataur_skewer
-  - Skewer
-  - Magnataur Skewer
+  - "Skewer"
 5521:
   - magnataur_reverse_polarity
-  - Reverse Polarity
-  - Magnataur Reverse Polarity
+  - "Reverse Polarity"
 5522:
   - chen_test_of_faith_teleport
-  - Test Of Faith Teleport
-  - Chen Test Of Faith Teleport
+  - "Test of Faith"
+5523:
+  - bane_nightmare_end
+  - "Nightmare End"
 5524:
   - shredder_whirling_death
-  - Whirling Death
-  - Shredder Whirling Death
+  - "Whirling Death"
 5525:
   - shredder_timber_chain
-  - Timber Chain
-  - Shredder Timber Chain
+  - "Timber Chain"
 5526:
   - shredder_reactive_armor
-  - Reactive Armor
-  - Shredder Reactive Armor
+  - "Reactive Armor"
 5527:
   - shredder_chakram
-  - Chakram
-  - Shredder Chakram
+  - "Chakram"
 5528:
   - shredder_return_chakram
-  - Return Chakram
-  - Shredder Return Chakram
+  - "Return Chakram"
+5529:
+  - greevil_magic_missile
+5530:
+  - greevil_cold_snap
+5531:
+  - greevil_decrepify
+5532:
+  - greevil_diabolic_edict
+5533:
+  - greevil_maledict
+5534:
+  - greevil_shadow_strike
+5535:
+  - greevil_laguna_blade
+5536:
+  - greevil_miniboss_black_nightmare
+5537:
+  - greevil_miniboss_black_brain_sap
+5538:
+  - greevil_miniboss_blue_cold_feet
+5539:
+  - greevil_miniboss_blue_ice_vortex
+5540:
+  - greevil_miniboss_red_earthshock
+5541:
+  - greevil_miniboss_red_overpower
+5542:
+  - greevil_miniboss_yellow_ion_shell
+5543:
+  - greevil_miniboss_yellow_surge
+5544:
+  - greevil_miniboss_white_purification
+5545:
+  - greevil_miniboss_white_degen_aura
+5546:
+  - greevil_poison_nova
+5547:
+  - greevil_ice_wall
 5548:
   - bristleback_viscous_nasal_goo
-  - Viscous Nasal Goo
-  - Bristleback Viscous Nasal Goo
+  - "Viscous Nasal Goo"
 5549:
   - bristleback_quill_spray
-  - Quill Spray
-  - Bristleback Quill Spray
+  - "Quill Spray"
 5550:
   - bristleback_bristleback
-  - Bristleback
-  - Bristleback Bristleback
+  - "Bristleback"
 5551:
   - bristleback_warpath
-  - Warpath
-  - Bristleback Warpath
+  - "Warpath"
+5552:
+  - greevil_fatal_bonds
+5553:
+  - greevil_blade_fury
+5554:
+  - greevil_phantom_strike
+5555:
+  - greevil_time_lock
+5556:
+  - greevil_shadow_wave
+5557:
+  - greevil_leech_seed
+5558:
+  - greevil_echo_slam
+5559:
+  - greevil_natures_attendants
+5560:
+  - greevil_bloodlust
+5561:
+  - greevil_purification
+5562:
+  - greevil_flesh_golem
+5563:
+  - greevil_hook
+5564:
+  - greevil_rot
 5565:
   - tusk_ice_shards
-  - Ice Shards
-  - Tusk Ice Shards
+  - "Ice Shards"
 5566:
   - tusk_snowball
-  - Snowball
-  - Tusk Snowball
+  - "Snowball"
 5567:
   - tusk_frozen_sigil
-  - Frozen Sigil
-  - Tusk Frozen Sigil
+  - "Frozen Sigil"
 5568:
   - tusk_walrus_punch
-  - Walrus Punch
-  - Tusk Walrus Punch
+  - "Walrus PUNCH!"
+5569:
+  - greevil_black_hole
+5570:
+  - greevil_miniboss_green_living_armor
+5571:
+  - greevil_miniboss_green_overgrowth
+5572:
+  - greevil_miniboss_orange_dragon_slave
+5573:
+  - greevil_miniboss_orange_light_strike_array
+5574:
+  - greevil_miniboss_purple_venomous_gale
+5575:
+  - greevil_miniboss_purple_plague_ward
+5576:
+  - greevil_miniboss_sight
+5577:
+  - throw_snowball
+5578:
+  - throw_coal
+5579:
+  - healing_campfire
 5580:
-  - beastmaster_call_of_the_wild
-  - Call Of The Wild
-  - Beastmaster Call Of The Wild
+  - beastmaster_call_of_the_wild_boar
 5581:
   - skywrath_mage_arcane_bolt
-  - Arcane Bolt
-  - Skywrath Mage Arcane Bolt
+  - "Arcane Bolt"
 5582:
   - skywrath_mage_concussive_shot
-  - Concussive Shot
-  - Skywrath Mage Concussive Shot
+  - "Concussive Shot"
 5583:
   - skywrath_mage_ancient_seal
-  - Ancient Seal
-  - Skywrath Mage Ancient Seal
+  - "Ancient Seal"
 5584:
   - skywrath_mage_mystic_flare
-  - Mystic Flare
-  - Skywrath Mage Mystic Flare
+  - "Mystic Flare"
 5585:
   - abaddon_death_coil
-  - Death Coil
-  - Abaddon Death Coil
+  - "Mist Coil"
 5586:
   - abaddon_aphotic_shield
-  - Aphotic Shield
-  - Abaddon Aphotic Shield
+  - "Aphotic Shield"
 5587:
   - abaddon_frostmourne
-  - Curse of Avernus
-  - Abaddon Curse of Avernus
+  - "Curse of Avernus"
 5588:
   - abaddon_borrowed_time
-  - Borrowed Time
-  - Abaddon Borrowed Time
+  - "Borrowed Time"
 5589:
   - elder_titan_echo_stomp
-  - Echo Stomp
-  - Elder Titan Echo Stomp
+  - "Echo Stomp"
+5590:
+  - elder_titan_echo_stomp_spirit
 5591:
   - elder_titan_ancestral_spirit
-  - Ancestral Spirit
-  - Elder Titan Ancestral Spirit
+  - "Astral Spirit"
+5592:
+  - elder_titan_return_spirit
+  - "Return Astral Spirit"
 5593:
   - elder_titan_natural_order
-  - Natural Order
-  - Elder Titan Natural Order
+  - "Natural Order"
 5594:
   - elder_titan_earth_splitter
-  - Earth Splitter
-  - Elder Titan Earth Splitter
+  - "Earth Splitter"
 5595:
   - legion_commander_overwhelming_odds
-  - Overwhelming Odds
-  - Legion Commander Overwhelming Odds
+  - "Overwhelming Odds"
 5596:
   - legion_commander_press_the_attack
-  - Press The Attack
-  - Legion Commander Press The Attack
+  - "Press The Attack"
 5597:
   - legion_commander_moment_of_courage
-  - Moment Of Courage
-  - Legion Commander Moment Of Courage
+  - "Moment of Courage"
 5598:
   - legion_commander_duel
-  - Duel
-  - Legion Commander Duel
+  - "Duel"
 5599:
   - techies_land_mines
-  - Land Mines
-  - Techies Land Mines
+  - "Proximity Mines"
 5600:
   - techies_stasis_trap
-  - Stasis Trap
-  - Techies Stasis Trap
+  - "Stasis Trap"
 5601:
   - techies_suicide
-  - Suicide Squad, Attack!
-  - Techies Suicide Squad, Attack!
+  - "Blast Off!"
 5602:
   - techies_remote_mines
-  - Remote Mines
-  - Techies Remote Mines
+  - "Remote Mines"
 5603:
   - ember_spirit_searing_chains
-  - Searing Chains
-  - Ember Spirit Searing Chains
+  - "Searing Chains"
 5604:
   - ember_spirit_sleight_of_fist
-  - Sleight Of Fist
-  - Ember Spirit Sleight Of Fist
+  - "Sleight of Fist"
 5605:
   - ember_spirit_flame_guard
-  - Flame Guard
-  - Ember Spirit Flame Guard
+  - "Flame Guard"
 5606:
   - ember_spirit_fire_remnant
-  - Fire Remnant
-  - Ember Spirit Fire Remnant
+  - "Fire Remnant"
 5607:
   - ember_spirit_activate_fire_remnant
-  - Activate Fire Remnant
-  - Ember Spirit Activate Fire Remnant
+  - "Activate Fire Remnant"
 5608:
   - earth_spirit_boulder_smash
-  - Boulder Smash
-  - Earth Spirit Boulder Smash
+  - "Boulder Smash"
 5609:
   - earth_spirit_rolling_boulder
-  - Rolling Boulder
-  - Earth Spirit Rolling Boulder
+  - "Rolling Boulder"
 5610:
   - earth_spirit_geomagnetic_grip
-  - Geomagnetic Grip
-  - Earth Spirit Geomagnetic Grip
+  - "Geomagnetic Grip"
 5611:
   - earth_spirit_stone_caller
-  - Stone Caller
-  - Earth Spirit Stone Caller
+  - "Stone Remnant"
 5612:
   - earth_spirit_magnetize
-  - Magnetize
-  - Earth Spirit Magnetize
+  - "Magnetize"
 5613:
   - abyssal_underlord_firestorm
-  - Firestorm
-  - Abyssal Underlord Firestorm
+  - "Firestorm"
 5614:
   - abyssal_underlord_pit_of_malice
-  - Pit Of Malice
-  - Abyssal Underlord Pit Of Malice
+  - "Pit of Malice"
 5615:
   - abyssal_underlord_atrophy_aura
-  - Atrophy Aura
-  - Abyssal Underlord Atrophy Aura
+  - "Atrophy Aura"
 5616:
   - abyssal_underlord_dark_rift
-  - Dark Rift
-  - Abyssal Underlord Dark Rift
+  - "Dark Rift"
+5617:
+  - abyssal_underlord_cancel_dark_rift
+  - "Cancel Dark Rift"
+5618:
+  - roshan_halloween_spell_block
 5619:
   - terrorblade_reflection
-  - Reflection
-  - Terrorblade Reflection
+  - "Reflection"
 5620:
   - terrorblade_conjure_image
-  - Conjure Image
-  - Terrorblade Conjure Image
+  - "Conjure Image"
 5621:
   - terrorblade_metamorphosis
-  - Metamorphosis
-  - Terrorblade Metamorphosis
+  - "Metamorphosis"
 5622:
   - terrorblade_sunder
-  - Sunder
-  - Terrorblade Sunder
+  - "Sunder"
 5623:
   - phoenix_icarus_dive
-  - Icarus Dive
-  - Phoenix Icarus Dive
+  - "Icarus Dive"
+5624:
+  - phoenix_icarus_dive_stop
+  - "Stop Icarus Dive"
 5625:
   - phoenix_fire_spirits
-  - Fire Spirits
-  - Phoenix Fire Spirits
+  - "Fire Spirits"
 5626:
   - phoenix_sun_ray
-  - Sun Ray
-  - Phoenix Sun Ray
+  - "Sun Ray"
+5627:
+  - phoenix_sun_ray_stop
+  - "Stop Sun Ray"
+5628:
+  - phoenix_sun_ray_toggle_move
+  - "Toggle Movement"
+5629:
+  - phoenix_sun_ray_toggle_move_empty
 5630:
   - phoenix_supernova
-  - Supernova
-  - Phoenix Supernova
+  - "Supernova"
 5631:
-  - phoenix_fire_spirits
-  - Fire Spirits
-  - Phoenix Fire Spirits
+  - phoenix_launch_fire_spirit
+  - "Launch Fire Spirit"
 5632:
   - drow_ranger_wave_of_silence
-  - Wave Of Silence
-  - Drow Ranger Wave Of Silence
+  - "Gust"
+5635:
+  - techies_focused_detonate
+  - "Focused Detonate"
+5636:
+  - techies_remote_mines_self_detonate
 5637:
   - oracle_fortunes_end
-  - Fortunes End
-  - Oracle Fortunes End
+  - "Fortune's End"
 5638:
   - oracle_fates_edict
-  - Fates Edict
-  - Oracle Fates Edict
+  - "Fate's Edict"
 5639:
   - oracle_purifying_flames
-  - Purifying Flames
-  - Oracle Purifying Flames
+  - "Purifying Flames"
 5640:
   - oracle_false_promise
-  - False Promise
-  - Oracle False Promise
+  - "False Promise"
 5641:
   - tusk_launch_snowball
-  - Launch Showball
-  - Tusk Launch Showball
+  - "Launch Snowball"
+5642:
+  - courier_morph
+5643:
+  - broodmother_spin_web_destroy
+5644:
+  - techies_minefield_sign
+  - "Minefield Sign"
+5645:
+  - shredder_chakram_2
+  - "Chakram"
+5646:
+  - shredder_return_chakram_2
+  - "Return Chakram"
+5648:
+  - earth_spirit_petrify
+  - "Enchant Remnant"
+5649:
+  - treant_eyes_in_the_forest
+  - "Eyes In The Forest"
+5650:
+  - shoot_firework
 5651:
   - winter_wyvern_arctic_burn
-  - Arctic Burn
-  - Winter Wyvern Arctic Burn
+  - "Arctic Burn"
 5652:
   - winter_wyvern_splinter_blast
-  - Splinter Blast
-  - Winter Wyvern Splinter Blast
+  - "Splinter Blast"
 5653:
   - winter_wyvern_cold_embrace
-  - Cold Embrace
-  - Winter Wyvern Cold Embrace
+  - "Cold Embrace"
 5654:
   - winter_wyvern_winters_curse
-  - Winters Curse
-  - Winter Wyvern Winters Curse
+  - "Winter's Curse"
 5655:
   - life_stealer_control
-  - Control
-  - Life Stealer Control
+  - "Control"
+5656:
+  - granite_golem_hp_aura
+5657:
+  - life_stealer_empty_1
+5658:
+  - life_stealer_empty_2
+5659:
+  - life_stealer_empty_3
+5660:
+  - life_stealer_empty_4
+5661:
+  - cny_beast_force_attack
+5662:
+  - cny2015_sonic_wave
+5663:
+  - cny2015_black_hole
+5664:
+  - cny2015_chronosphere
+5665:
+  - cny_beast_teleport
 5666:
   - nyx_assassin_burrow
-  - Burrow
-  - Nyx Assassin Burrow
+  - "Burrow"
+5667:
+  - mud_golem_rock_destroy
+5668:
+  - tusk_ice_shards_stop
+5669:
+  - ability_deward
+5670:
+  - mud_golem_hurl_boulder
+  - "Hurl Boulder"
 5671:
   - life_stealer_assimilate
-  - Assimilate
-  - Life Stealer Assimilate
+  - "Assimilate"
 5672:
   - tusk_walrus_kick
-  - Walrus Kick
-  - Tusk Walrus Kick
+  - "Walrus Kick"
 5673:
   - nyx_assassin_unburrow
-  - Unburrow
-  - Nyx Assassin Unburrow
+  - "Unburrow"
 5674:
   - morphling_hybrid
-  - Hybrid
-  - Morphling Hybrid
+  - "Hybrid"
 5675:
   - life_stealer_assimilate_eject
-  - Eject
-  - Life Stealer Eject
+  - "Eject"
+5676:
+  - courier_take_stash_and_transfer_items
+5677:
+  - arc_warden_flux
+  - "Flux"
+5678:
+  - arc_warden_magnetic_field
+  - "Magnetic Field"
+5679:
+  - arc_warden_spark_wraith
+  - "Spark Wraith"
+5680:
+  - granite_golem_bash
+5681:
+  - black_dragon_dragonhide_aura
+5682:
+  - big_thunder_lizard_wardrums_aura
+5683:
+  - arc_warden_tempest_double
+  - "Tempest Double"
+5684:
+  - obsidian_destroyer_mind_over_matter
+5685:
+  - death_prophet_spirit_siphon
+  - "Spirit Siphon"
+5686:
+  - ancient_golem_rockslide
+5687:
+  - lone_druid_savage_roar_bear
+5688:
+  - mudgolem_cloak_aura
+5689:
+  - black_dragon_fireball
+5690:
+  - invoker_attribute_bonus
+5691:
+  - faceless_void_time_dilation
+  - "Time Dilation"
+5716:
+  - monkey_king_boundless_strike
+  - "Boundless Strike"
+5719:
+  - monkey_king_mischief
+  - "Mischief"
+5721:
+  - monkey_king_tree_dance
+  - "Tree Dance"
+5722:
+  - monkey_king_untransform
+  - "Revert Form"
+5723:
+  - monkey_king_jingu_mastery
+  - "Jingu Mastery"
+5724:
+  - monkey_king_primal_spring
+  - "Primal Spring"
+5725:
+  - monkey_king_wukongs_command
+  - "Wukong's Command"
+5726:
+  - monkey_king_primal_spring_early
+  - "Spring Early"
+5750:
+  - elder_titan_natural_order_spirit
+5900:
+  - special_bonus_hp_100
+  - "+100 Health"
+5901:
+  - special_bonus_hp_125
+  - "+125 Health"
+5902:
+  - special_bonus_hp_150
+  - "+150 Health"
+5903:
+  - special_bonus_hp_250
+  - "+250 Health"
+5904:
+  - special_bonus_mp_125
+  - "+125 Mana"
+5905:
+  - special_bonus_mp_150
+  - "+150 Mana"
+5906:
+  - special_bonus_attack_speed_20
+  - "+20 Attack Speed"
+5907:
+  - special_bonus_attack_speed_30
+  - "+30 Attack Speed"
+5908:
+  - special_bonus_attack_speed_60
+  - "+60 Attack Speed"
+5909:
+  - special_bonus_hp_regen_4
+  - "+4 Health Regen"
+5910:
+  - special_bonus_hp_regen_5
+  - "+5 Health Regen"
+5911:
+  - special_bonus_hp_regen_8
+  - "+8 Health Regen"
+5912:
+  - special_bonus_hp_regen_10
+  - "+10 Health Regen"
+5913:
+  - special_bonus_hp_regen_14
+  - "+14 Health Regen"
+5914:
+  - special_bonus_hp_regen_15
+  - "+15 Health Regen"
+5915:
+  - special_bonus_mp_regen_1
+  - "+1 Mana Regen"
+5916:
+  - special_bonus_mp_regen_4
+  - "+4 Mana Regen"
+5917:
+  - special_bonus_movement_speed_15
+  - "+15 Movement Speed"
+5918:
+  - special_bonus_movement_speed_20
+  - "+20 Movement Speed"
+5919:
+  - special_bonus_movement_speed_25
+  - "+25 Movement Speed"
+5920:
+  - special_bonus_all_stats_4
+  - "+4 All Stats"
+5921:
+  - special_bonus_all_stats_5
+  - "+5 All Stats"
+5922:
+  - special_bonus_all_stats_6
+  - "+6 All Stats"
+5923:
+  - special_bonus_all_stats_8
+  - "+8 All Stats"
+5924:
+  - special_bonus_intelligence_6
+  - "+6 Intelligence"
+5925:
+  - special_bonus_intelligence_8
+  - "+8 Intelligence"
+5926:
+  - special_bonus_intelligence_12
+  - "+12 Intelligence"
+5927:
+  - special_bonus_strength_5
+  - "+5 Strength"
+5928:
+  - special_bonus_strength_12
+  - "+12 Strength"
+5929:
+  - special_bonus_agility_15
+  - "+15 Agility"
+5930:
+  - special_bonus_armor_3
+  - "+3 Armor"
+5931:
+  - special_bonus_armor_4
+  - "+4 Armor"
+5932:
+  - special_bonus_armor_5
+  - "+5 Armor"
+5933:
+  - special_bonus_armor_6
+  - "+6 Armor"
+5934:
+  - special_bonus_armor_8
+  - "+8 Armor"
+5935:
+  - special_bonus_magic_resistance_5
+  - "+5% Magic Resistance"
+5936:
+  - special_bonus_magic_resistance_8
+  - "+8% Magic Resistance"
+5937:
+  - special_bonus_magic_resistance_10
+  - "+10% Magic Resistance"
+5938:
+  - special_bonus_attack_damage_15
+  - "+15 Damage"
+5939:
+  - special_bonus_attack_damage_30
+  - "+30 Damage"
+5940:
+  - special_bonus_attack_damage_40
+  - "+40 Damage"
+5941:
+  - special_bonus_attack_damage_50
+  - "+50 Damage"
+5942:
+  - special_bonus_attack_damage_75
+  - "+75 Damage"
+5943:
+  - special_bonus_attack_range_100
+  - "+100 Attack Range"
+5944:
+  - special_bonus_attack_range_125
+  - "+125 Attack Range"
+5945:
+  - special_bonus_attack_range_200
+  - "+200 Attack Range"
+5946:
+  - special_bonus_cast_range_50
+  - "+50 Cast Range"
+5947:
+  - special_bonus_cast_range_75
+  - "+75 Cast Range"
+5948:
+  - special_bonus_spell_amplify_5
+  - "+5% Spell Amplification"
+5949:
+  - special_bonus_spell_amplify_8
+  - "+8% Spell Amplification"
+5950:
+  - special_bonus_cooldown_reduction_8
+  - "8% Cooldown Reduction"
+5951:
+  - special_bonus_cooldown_reduction_15
+  - "15% Cooldown Reduction"
+5952:
+  - special_bonus_cooldown_reduction_20
+  - "20% Cooldown Reduction"
+5953:
+  - special_bonus_respawn_reduction_20
+  - "-20s Respawn Time"
+5954:
+  - special_bonus_respawn_reduction_25
+  - "-25s Respawn Time"
+5955:
+  - special_bonus_gold_income_5
+  - "+30 Gold/Min"
+5956:
+  - special_bonus_gold_income_10
+  - "+60 Gold/Min"
+5957:
+  - special_bonus_gold_income_25
+  - "+150 Gold/Min"
+5958:
+  - special_bonus_movement_speed_10
+  - "+10 Movement Speed"
+5959:
+  - special_bonus_hp_200
+  - "+200 Health"
+5960:
+  - special_bonus_attack_damage_20
+  - "+20 Damage"
+5961:
+  - special_bonus_mp_regen_2
+  - "+2 Mana Regen"
+5962:
+  - special_bonus_agility_20
+  - "+20 Agility"
+5963:
+  - special_bonus_attack_range_150
+  - "+150 Attack Range"
+5964:
+  - special_bonus_respawn_reduction_30
+  - "-30s Respawn Time"
+5965:
+  - special_bonus_intelligence_10
+  - "+10 Intelligence"
+5966:
+  - special_bonus_hp_regen_7
+  - "+7 Health Regen"
+5968:
+  - special_bonus_attack_damage_90
+  - "+90 Damage"
+5969:
+  - special_bonus_hp_regen_6
+  - "+6 Health Regen"
+5970:
+  - special_bonus_armor_7
+  - "+7 Armor"
+5971:
+  - special_bonus_evasion_10
+  - "10% Evasion"
+5972:
+  - special_bonus_evasion_15
+  - "15% Evasion"
+5973:
+  - special_bonus_evasion_20
+  - "20% Evasion"
+5974:
+  - special_bonus_evasion_25
+  - "25% Evasion"
+5975:
+  - special_bonus_respawn_reduction_15
+  - "-15s Respawn Time"
+5976:
+  - special_bonus_hp_400
+  - "+400 Health"
+5977:
+  - special_bonus_unique_clockwerk
+  - "+10s Battery Assault Duration"
+5979:
+  - special_bonus_attack_damage_100
+  - "+100 Damage"
+5980:
+  - special_bonus_mp_regen_6
+  - "+6 Mana Regen"
+5981:
+  - special_bonus_unique_omniknight_1
+  - "+200 Purification Damage/Heal"
+5982:
+  - special_bonus_strength_8
+  - "+8 Strength"
+5983:
+  - special_bonus_exp_boost_5
+  - "+5% XP Gain"
+5984:
+  - special_bonus_strength_25
+  - "+25 Strength"
+5985:
+  - special_bonus_exp_boost_10
+  - "+10% XP Gain"
+5986:
+  - special_bonus_exp_boost_15
+  - "+15% XP Gain"
+5987:
+  - special_bonus_exp_boost_25
+  - "+25% XP Gain"
+5988:
+  - special_bonus_unique_centaur_2
+  - "+1s Hoof Stomp Duration"
+5989:
+  - special_bonus_spell_amplify_10
+  - "+10% Spell Amplification"
+5990:
+  - special_bonus_mp_300
+  - "+300 Mana"
+5991:
+  - special_bonus_intelligence_15
+  - "+15 Intelligence"
+5992:
+  - special_bonus_attack_range_50
+  - "+50 Attack Range"
+5993:
+  - special_bonus_hp_300
+  - "+300 Health"
+5994:
+  - special_bonus_magic_resistance_6
+  - "+6% Magic Resistance"
+5995:
+  - special_bonus_intelligence_20
+  - "+20 Intelligence"
+5996:
+  - special_bonus_spell_amplify_6
+  - "+6% Spell Amplification"
+5998:
+  - special_bonus_unique_witch_doctor_1
+  - "+150 Death Ward Attack Range"
+6000:
+  - special_bonus_magic_resistance_20
+  - "+20% Magic Resistance"
+6002:
+  - special_bonus_strength_3
+  - "+3 Strength"
+6003:
+  - special_bonus_cast_range_100
+  - "+100 Cast Range"
+6004:
+  - special_bonus_armor_10
+  - "+10 Armor"
+6005:
+  - special_bonus_strength_4
+  - "+4 Strength"
+6006:
+  - special_bonus_mp_250
+  - "+250 Mana"
+6007:
+  - special_bonus_gold_income_15
+  - "+90 Gold/Min"
+6008:
+  - special_bonus_gold_income_20
+  - "+120 Gold/Min"
+6009:
+  - special_bonus_attack_damage_25
+  - "+25 Damage"
+6010:
+  - special_bonus_unique_necrophos
+  - "-1s Death Pulse Cooldown"
+6011:
+  - special_bonus_agility_13
+  - "+13 Agility"
+6012:
+  - special_bonus_unique_antimage
+  - "-2s Blink Cooldown"
+6013:
+  - special_bonus_unique_mirana_1
+  - "+100 Leap Attack Speed"
+6014:
+  - special_bonus_agility_8
+  - "+8 Agility"
+6015:
+  - special_bonus_spell_amplify_4
+  - "+4% Spell Amplification"
+6016:
+  - special_bonus_attack_speed_25
+  - "+25 Attack Speed"
+6017:
+  - special_bonus_exp_boost_20
+  - "+20% XP Gain"
+6018:
+  - special_bonus_unique_bounty_hunter
+  - "-5s Jinada Cooldown"
+6019:
+  - special_bonus_unique_underlord
+  - "+0.4s Pit of Malice Root"
+6020:
+  - special_bonus_attack_speed_50
+  - "+50 Attack Speed"
+6021:
+  - special_bonus_cooldown_reduction_10
+  - "10% Cooldown Reduction"
+6022:
+  - special_bonus_hp_regen_40
+  - "+40 Health Regen"
+6023:
+  - special_bonus_unique_pudge_1
+  - "+1.75 Flesh Heap Stack Str"
+6024:
+  - special_bonus_unique_treant
+  - "+5 Living Armor Block Instances"
+6025:
+  - special_bonus_20_bash_2
+  - "+20% 2s Bash"
+6026:
+  - special_bonus_gold_income_30
+  - "+180 Gold/Min"
+6027:
+  - special_bonus_attack_range_75
+  - "+75 Attack Range"
+6028:
+  - special_bonus_unique_razor
+  - "+14 Static Link Damage Steal "
+6029:
+  - special_bonus_agility_10
+  - "+10 Agility"
+6030:
+  - special_bonus_attack_speed_80
+  - "+80 Attack Speed"
+6031:
+  - special_bonus_unique_visage_1
+  - "+18 Familiar Attack Per Charge"
+6032:
+  - special_bonus_cast_range_60
+  - "+60 Cast Range"
+6034:
+  - special_bonus_hp_175
+  - "+175 Health"
+6035:
+  - special_bonus_unique_earthshaker
+  - "-2s Enchant Totem Cooldown"
+6037:
+  - special_bonus_attack_speed_100
+  - "+100 Attack Speed"
+6038:
+  - special_bonus_respawn_reduction_35
+  - "-35s Respawn Time"
+6039:
+  - special_bonus_unique_lich_1
+  - "+25 Frost Armor Structure Armor"
+6040:
+  - special_bonus_attack_range_250
+  - "+250 Attack Range"
+6041:
+  - special_bonus_unique_rubick
+  - "+400 Telekinesis Land Distance"
+6042:
+  - special_bonus_intelligence_13
+  - "+13 Intelligence"
+6045:
+  - special_bonus_unique_sven
+  - "-5s Storm Hammer Cooldown"
+6047:
+  - special_bonus_unique_dark_seer
+  - "+70 Ion Shell Damage"
+6048:
+  - special_bonus_strength_6
+  - "+6 Strength"
+6049:
+  - special_bonus_unique_dazzle_1
+  - "-6s Poison Touch Cooldown"
+6050:
+  - special_bonus_intelligence_25
+  - "+25 Intelligence"
+6051:
+  - special_bonus_attack_range_300
+  - "+300 Attack Range"
+6052:
+  - special_bonus_unique_shadow_shaman_1
+  - "+1 Serpent Wards Attacks HP"
+6053:
+  - special_bonus_unique_warlock_1
+  - "Magic Immunity for Chaotic Offering Golems"
+6054:
+  - special_bonus_unique_warlock_2
+  - "+15 Chaotic Offering Golems Armor"
+6055:
+  - special_bonus_spell_amplify_15
+  - "+15% Spell Amplification"
+6056:
+  - special_bonus_cast_range_150
+  - "+150 Cast Range"
+6057:
+  - special_bonus_unique_vengeful_spirit_3
+  - "Magic Missile Pierces Spell Immunity"
+6058:
+  - special_bonus_unique_venomancer
+  - "3x Plague Ward HP/Damage"
+6059:
+  - special_bonus_respawn_reduction_60
+  - "-60s Respawn Time"
+6060:
+  - special_bonus_intelligence_30
+  - "+30 Intelligence"
+6061:
+  - special_bonus_spell_lifesteal_70
+  - "70% Spell Lifesteal"
+6062:
+  - special_bonus_unique_morphling_1
+  - "+400 Waveform Range"
+6063:
+  - special_bonus_unique_leshrac_1
+  - "+50 Diabolic Edict Explosions"
+6064:
+  - special_bonus_unique_jakiro
+  - "+1.25s Ice Path Duration"
+6065:
+  - special_bonus_unique_enigma
+  - "+8 Demonic Conversion Eidolons"
+6066:
+  - special_bonus_respawn_reduction_40
+  - "-40s Respawn Time"
+6067:
+  - special_bonus_mp_175
+  - "+175 Mana"
+6068:
+  - special_bonus_unique_bane_1
+  - "+120 Enfeeble Damage Reduction"
+6069:
+  - special_bonus_unique_bane_2
+  - "+200 Brain Sap Damage/Heal"
+6070:
+  - special_bonus_unique_nevermore_2
+  - "-7s Shadow Raze Cooldown"
+6071:
+  - special_bonus_unique_templar_assassin
+  - "+3 Refraction Instances"
+6072:
+  - special_bonus_unique_crystal_maiden_1
+  - "+1.5s Frostbite Duration"
+6073:
+  - special_bonus_unique_doom_1
+  - "+2% Infernal Blade Damage"
+6074:
+  - special_bonus_all_stats_7
+  - "+7 All Stats"
+6077:
+  - special_bonus_movement_speed_35
+  - "+35 Movement Speed"
+6078:
+  - special_bonus_lifesteal_20
+  - "20% Lifesteal"
+6079:
+  - special_bonus_hp_regen_20
+  - "+20 Health Regen"
+6080:
+  - special_bonus_strength_20
+  - "+20 Strength"
+6082:
+  - special_bonus_unique_brewmaster
+  - "+14 Primal Split Unit Armor"
+6083:
+  - special_bonus_unique_bristleback
+  - "+4 Max Goo Stacks"
+6084:
+  - special_bonus_unique_furion
+  - "+6 Treants Summoned"
+6085:
+  - special_bonus_unique_phoenix_2
+  - "+1s Supernova Stun Duration"
+6086:
+  - special_bonus_unique_enchantress_2
+  - "+10 Nature's Attendants Wisps"
+6087:
+  - special_bonus_unique_batrider_1
+  - "+8s Firefly Duration"
+6088:
+  - special_bonus_unique_wraith_king_2
+  - "+20% Vampiric Aura Lifesteal"
+6089:
+  - special_bonus_unique_kunkka
+  - "+200 Torrent AoE"
+6090:
+  - special_bonus_unique_dragon_knight
+  - "2x Dragon Blood HP Regen/Armor"
+6091:
+  - special_bonus_magic_resistance_25
+  - "+25% Magic Resistance"
+6092:
+  - special_bonus_day_vision_400
+  - "+400 Day Vision"
+6093:
+  - special_bonus_movement_speed_40
+  - "+40 Movement Speed"
+6094:
+  - special_bonus_mp_200
+  - "+200 Mana"
+6095:
+  - special_bonus_attack_damage_10
+  - "+10 Damage"
+6096:
+  - special_bonus_mp_100
+  - "+100 Mana"
+6097:
+  - special_bonus_unique_invoker_1
+  - "+1 Forged Spirit Summoned"
+6098:
+  - special_bonus_unique_invoker_2
+  - "AoE Deafening Blast"
+6099:
+  - special_bonus_unique_invoker_3
+  - "-15s Tornado Cooldown"
+6100:
+  - special_bonus_unique_abaddon
+  - "+200 Aphotic Shield Health"
+6101:
+  - special_bonus_unique_alchemist
+  - "-4 Acid Spray Armor"
+6102:
+  - special_bonus_unique_axe
+  - "+100 Battle Hunger DPS"
+6103:
+  - special_bonus_unique_beastmaster
+  - "+175 Wild Axes Damage"
+6104:
+  - special_bonus_unique_clinkz_1
+  - "+30 Searing Arrows Damage"
+6105:
+  - special_bonus_unique_juggernaut
+  - "+175 Blade Fury DPS"
+6106:
+  - special_bonus_unique_winter_wyvern_1
+  - "+15% Arctic Burn Slow"
+6107:
+  - special_bonus_unique_terrorblade
+  - "-30s Sunder Cooldown"
+6110:
+  - special_bonus_armor_2
+  - "+2 Armor"
+6111:
+  - special_bonus_lifesteal_25
+  - "25% Lifesteal"
+6112:
+  - special_bonus_attack_damage_120
+  - "+120 Damage"
+6114:
+  - special_bonus_cast_range_200
+  - "+200 Cast Range"
+6115:
+  - special_bonus_strength_7
+  - "+7 Strength"
+6116:
+  - special_bonus_mp_regen_10
+  - "+10 Mana Regen"
+6117:
+  - special_bonus_intelligence_7
+  - "+7 Intelligence"
+6118:
+  - special_bonus_attack_speed_10
+  - "+10 Attack Speed"
+6119:
+  - special_bonus_attack_speed_15
+  - "+15 Attack Speed"
+6120:
+  - special_bonus_cast_range_175
+  - "+175 Cast Range"
+6121:
+  - special_bonus_lifesteal_30
+  - "30% Lifesteal"
+6125:
+  - spawnlord_aura
+6126:
+  - spawnlord_master_bash
+6127:
+  - special_bonus_unique_luna_2
+  - "-4s Lucent Beam Cooldown"
+6128:
+  - special_bonus_unique_faceless_void
+  - "+600 Timewalk Cast Range"
+6129:
+  - special_bonus_unique_night_stalker
+  - "-6s Crippling Fear Cooldown"
+6130:
+  - special_bonus_unique_nyx
+  - "200% Spiked Carapace Damage"
+6131:
+  - special_bonus_unique_weaver_2
+  - "+200 Shukuchi Movement Speed"
+6132:
+  - special_bonus_unique_ursa
+  - "+10 Fury Swipes Damage"
+6133:
+  - special_bonus_unique_chaos_knight
+  - "Reality Rift Pierces Spell Immune"
+6134:
+  - special_bonus_unique_lycan_1
+  - "+15s Shapeshift Duration"
+6135:
+  - special_bonus_all_stats_15
+  - "+15 All Stats"
+6136:
+  - special_bonus_armor_9
+  - "+9 Armor"
+6137:
+  - special_bonus_strength_10
+  - "+10 Strength"
+6138:
+  - special_bonus_magic_resistance_15
+  - "+15% Magic Resistance"
+6139:
+  - special_bonus_all_stats_12
+  - "+12 All Stats"
+6140:
+  - special_bonus_unique_lycan_2
+  - "+2 Wolves Summoned"
+6141:
+  - special_bonus_movement_speed_30
+  - "+30 Movement Speed"
+6142:
+  - special_bonus_attack_damage_65
+  - "+65 Damage"
+6144:
+  - special_bonus_unique_windranger
+  - "-5s Powershot Cooldown"
+6145:
+  - special_bonus_strength_15
+  - "+15 Strength"
+6146:
+  - special_bonus_unique_phantom_lancer
+  - "+600 Phantom Rush Range"
+6147:
+  - special_bonus_unique_slark
+  - "+3s Pounce Leash"
+6148:
+  - special_bonus_unique_spectre
+  - "-10s Spectral Dagger Cooldown"
+6149:
+  - special_bonus_unique_spirit_breaker_1
+  - "+17% Greater Bash Chance"
+6150:
+  - special_bonus_agility_25
+  - "+25 Agility"
+6151:
+  - special_bonus_unique_tidehunter
+  - "-5 Gush Armor"
+6152:
+  - special_bonus_unique_tinker
+  - "+100 Laser Damage"
+6153:
+  - special_bonus_unique_tiny
+  - "+200 Avalanche Damage"
+6154:
+  - special_bonus_unique_troll_warlord
+  - "-7s Whirling Axes Cooldown"
+6155:
+  - special_bonus_unique_undying
+  - "+40 Tombstone Zombie Damage"
+6156:
+  - special_bonus_unique_viper_1
+  - "Poison Attack Affects Buildings"
+6157:
+  - special_bonus_unique_zeus
+  - "+1.5% Static Field Damage"
+6158:
+  - special_bonus_lifesteal_10
+  - "10% Lifesteal"
+6159:
+  - special_bonus_attack_damage_12
+  - "+12 Damage"
+6160:
+  - special_bonus_mp_regen_3
+  - "+3 Mana Regen"
+6161:
+  - special_bonus_cast_range_250
+  - "+250 Cast Range"
+6162:
+  - special_bonus_spell_amplify_3
+  - "+3% Spell Amplification"
+6164:
+  - special_bonus_attack_damage_35
+  - "+35 Damage"
+6165:
+  - special_bonus_unique_viper_2
+  - "+80 Viper Strike DPS"
+6166:
+  - special_bonus_spell_lifesteal_20
+  - "20% Spell Lifesteal"
+6167:
+  - special_bonus_unique_storm_spirit
+  - "+0.75s Electric Vortex"
+6168:
+  - special_bonus_all_stats_10
+  - "+10 All Stats"
+6169:
+  - special_bonus_agility_16
+  - "+16 Agility"
+6170:
+  - special_bonus_agility_14
+  - "+14 Agility"
+6171:
+  - special_bonus_unique_elder_titan
+  - "+80 Astral Spirit Hero Attack"
+6172:
+  - special_bonus_unique_ember_spirit_1
+  - "+500 Flame Guard Absorption"
+6173:
+  - special_bonus_unique_lifestealer
+  - "+1s Rage Duration"
+6174:
+  - special_bonus_unique_lion
+  - "+3 Mana Drain Multi Target"
+6175:
+  - special_bonus_armor_15
+  - "+15 Armor"
+6176:
+  - special_bonus_unique_ember_spirit_2
+  - "+2s Searing Chains"
+6180:
+  - special_bonus_unique_luna_1
+  - "+40 Lucent Beam Damage"
+6181:
+  - special_bonus_unique_skywrath
+  - "-4s Ancient Seal Cooldown"
+6182:
+  - special_bonus_unique_medusa
+  - "+1s Stone Gaze Stun"
+6183:
+  - special_bonus_unique_ogre_magi
+  - "+40 Bloodlust AS"
+6184:
+  - special_bonus_unique_silencer
+  - "+20% Curse Slow"
+6185:
+  - special_bonus_mp_500
+  - "+500 Mana"
+6186:
+  - special_bonus_attack_range_175
+  - "+175 Attack Range"
+6190:
+  - special_bonus_cooldown_reduction_12
+  - "12% Cooldown Reduction"
+6191:
+  - special_bonus_unique_death_prophet
+  - "+6 Exorcism Spirits"
+6192:
+  - special_bonus_unique_phantom_assassin
+  - "Double Strike Stifling Dagger"
+6193:
+  - special_bonus_unique_riki_2
+  - "-4s Smokescreen Cooldown"
+6194:
+  - special_bonus_unique_tusk
+  - "+150% Walrus Punch Crit"
+6195:
+  - special_bonus_hp_350
+  - "+350 Health"
+6196:
+  - special_bonus_attack_speed_35
+  - "+35 Attack Speed"
+6197:
+  - special_bonus_cast_range_125
+  - "+125 Cast Range"
+6198:
+  - special_bonus_unique_sniper_2
+  - "+4 Shrapnel Charges"
+6199:
+  - special_bonus_unique_magnus
+  - "-4s Shockwave Cooldown"
+6200:
+  - special_bonus_unique_weaver_1
+  - "+30 Shukuchi Damage"
+6201:
+  - special_bonus_unique_wraith_king_1
+  - "No Reincarnation Manacost"
+6202:
+  - special_bonus_unique_drow_ranger_1
+  - "+6% Precision Aura Damage"
+6203:
+  - special_bonus_unique_earth_spirit
+  - "+300 Rolling Boulder Damage"
+6204:
+  - special_bonus_unique_huskar
+  - "+400 Life Break Cast Range"
+6205:
+  - special_bonus_unique_naga_siren
+  - "+1 Mirror Image Illusion"
+6206:
+  - special_bonus_unique_oracle
+  - "+2 False Promise Duration"
+6207:
+  - special_bonus_unique_sand_king
+  - "+4 Epicenter Pulses"
+6208:
+  - special_bonus_unique_shadow_demon_1
+  - "+400 Demonic Purge Damage"
+6209:
+  - special_bonus_unique_drow_ranger_2
+  - "+350 Gust Distance/Knockback"
+6210:
+  - special_bonus_attack_speed_40
+  - "+40 Attack Speed"
+6211:
+  - special_bonus_unique_slardar
+  - "+10% Bash Chance"
+6212:
+  - special_bonus_unique_lina_1
+  - "-4s Dragon Slave Cooldown"
+6213:
+  - special_bonus_cast_range_300
+  - "+300 Cast Range"
+6214:
+  - special_bonus_unique_ancient_apparition_1
+  - "3 Charges of Cold Feet"
+6215:
+  - special_bonus_unique_disruptor
+  - "+4 Thunder Strike Hits"
+6216:
+  - special_bonus_unique_gyrocopter_1
+  - "+3 Homing Missile Charges"
+6217:
+  - special_bonus_unique_keeper_of_the_light
+  - "+200 Illuminate Damage/Heal"
+6218:
+  - special_bonus_unique_legion_commander
+  - "+40 Duel Damage Bonus"
+6219:
+  - special_bonus_unique_puck
+  - "+75% Illusory Orb Distance/Speed "
+6220:
+  - special_bonus_unique_pugna_1
+  - "+50% Life Drain Heal"
+6221:
+  - special_bonus_magic_resistance_30
+  - "+30% Magic Resistance"
+6222:
+  - special_bonus_cooldown_reduction_25
+  - "25% Cooldown Reduction"
+6223:
+  - special_bonus_unique_timbersaw
+  - "+6% Whirling Death Attribute Reduction"
+6224:
+  - special_bonus_attack_speed_45
+  - "+45 Attack Speed"
+6225:
+  - special_bonus_unique_morphling_2
+  - "+30% Replicate Damage"
+6226:
+  - filler_ability
+6227:
+  - special_bonus_unique_phoenix_1
+  - "+2 Supernova Hit Count"
+6228:
+  - special_bonus_vision_200
+  - "+200 Vision"
+6229:
+  - special_bonus_unique_batrider_2
+  - "+200 Flamebreak AoE/Knockback"
+6230:
+  - special_bonus_unique_bloodseeker
+  - "-7s Bloodrite Cooldown"
+6231:
+  - special_bonus_unique_clinkz_2
+  - "+70 Strafe Attack Speed"
+6232:
+  - special_bonus_unique_dazzle_2
+  - "+60 Shadow Wave Heal"
+6234:
+  - special_bonus_unique_crystal_maiden_2
+  - "+200 Crystal Nova Damage"
+6235:
+  - special_bonus_hp_500
+  - "+500 Health"
+6236:
+  - special_bonus_spell_amplify_20
+  - "+20% Spell Amplification"
+6237:
+  - special_bonus_unique_vengeful_spirit_2
+  - "+20% Vengeance Aura Damage"
+6238:
+  - special_bonus_unique_pugna_2
+  - "+100 Nether Blast Damage"
+6239:
+  - special_bonus_evasion_12
+  - "12% Evasion"
+6240:
+  - special_bonus_unique_leshrac_2
+  - "+2s Lightning Storm Slow Duration"
+6241:
+  - special_bonus_unique_outworld_devourer
+  - "+60s Arcane Orb Int Steal"
+6242:
+  - special_bonus_unique_mirana_2
+  - "+2 Multishot Sacred Arrows"
+6243:
+  - special_bonus_mp_regen_8
+  - "+8 Mana Regen"
+6245:
+  - special_bonus_unique_pudge_2
+  - "+120 Rot Damage"
+6247:
+  - special_bonus_attack_damage_150
+  - "+150 Damage"
+6248:
+  - special_bonus_intelligence_35
+  - "+35 Intelligence"
+6249:
+  - special_bonus_movement_speed_45
+  - "+45 Movement Speed"
+6250:
+  - special_bonus_strength_9
+  - "+9 Strength"
+6252:
+  - special_bonus_all_stats_14
+  - "+14 All Stats"
+6253:
+  - special_bonus_attack_damage_45
+  - "+45 Damage"
+6254:
+  - special_bonus_mp_350
+  - "+350 Mana"
+6255:
+  - special_bonus_mp_regen_14
+  - "+14 Mana Regen"
+6257:
+  - special_bonus_unique_broodmother_1
+  - "+8 Max Webs"
+6258:
+  - special_bonus_unique_broodmother_2
+  - "+200 Spiders Health"
+6259:
+  - special_bonus_unique_chen_1
+  - "+2 Holy Persuation Max Count"
+6260:
+  - special_bonus_unique_chen_2
+  - "+200 Hand of God Heal"
+6261:
+  - special_bonus_unique_lone_druid_1
+  - "+30 Spirit Bear Damage"
+6262:
+  - special_bonus_unique_lone_druid_2
+  - "+7 Spirit Bear Armor"
+6263:
+  - special_bonus_unique_lone_druid_3
+  - "+1.5s Entangle Duration"
+6265:
+  - special_bonus_unique_wisp
+  - "+150 Spirits Damage"
+6268:
+  - special_bonus_unique_lone_druid_4
+  - "-10s Savage Roar Cooldown"
+6269:
+  - special_bonus_respawn_reduction_50
+  - "-50s Respawn Time"
+6270:
+  - spawnlord_master_stomp
+6278:
+  - spawnlord_master_freeze
+6280:
+  - special_bonus_unique_drow_ranger_3
+  - "+25 Marksmanship Agility"
+6281:
+  - special_bonus_strength_14
+  - "+14 Strength"
+6282:
+  - special_bonus_unique_techies
+  - "+400 Blast Off Damage"
+6285:
+  - special_bonus_undefined
+  - "Undefined"
+6286:
+  - special_bonus_armor_12
+  - "+12 Armor"
+6287:
+  - special_bonus_unique_arc_warden
+  - "+175 Spark Wraith Damage"
+6288:
+  - special_bonus_unique_meepo
+  - "-3s Poof Cooldown"
+6289:
+  - special_bonus_lifesteal_15
+  - "15% Lifesteal"
+6291:
+  - special_bonus_unique_ancient_apparition_2
+  - "+80 Chilling Touch Damage"
+6292:
+  - special_bonus_unique_lich_2
+  - "Attacks Apply 30% MS and AS Slow"
+6293:
+  - special_bonus_unique_shadow_demon_2
+  - "-1s Shadow Poison Cooldown"
+6295:
+  - special_bonus_unique_shadow_shaman_2
+  - "+3s Shackles Duration"
+6296:
+  - special_bonus_unique_spirit_breaker_2
+  - "+500 Charge Speed"
+6297:
+  - special_bonus_unique_winter_wyvern_2
+  - "-3s Splinter Blast Cooldown"
+6298:
+  - special_bonus_unique_witch_doctor_2
+  - "+20 Voodoo Restoration Heal"
+6299:
+  - special_bonus_magic_resistance_12
+  - "+12% Magic Resistance"
+6300:
+  - special_bonus_unique_omniknight_2
+  - "-16% Degen Aura"
+6301:
+  - special_bonus_gold_income_40
+  - "+240 Gold/Min"
+6302:
+  - special_bonus_hp_regen_50
+  - "+50 Health Regen"
+6303:
+  - special_bonus_unique_monkey_king
+  - "+100% Boundless Strike Crit"
+6305:
+  - special_bonus_unique_sniper_1
+  - "+20 Shrapnel DPS"
+6306:
+  - special_bonus_movement_speed_50
+  - "+50 Movement Speed"
+6307:
+  - special_bonus_attack_range_400
+  - "+400 Attack Range"
+6308:
+  - special_bonus_hp_regen_25
+  - "+25 Health Regen"
+6309:
+  - special_bonus_all_stats_20
+  - "+20 All Stats"
+6310:
+  - special_bonus_unique_vengeful_spirit_1
+  - "+100 Magic Missile Damage"
+6311:
+  - special_bonus_hp_275
+  - "+275 Health"
+6312:
+  - special_bonus_unique_gyrocopter_2
+  - "+4 Flak Cannon Attacks"
+6313:
+  - special_bonus_unique_lina_2
+  - "+1 Firey Soul Max Stacks"
+6314:
+  - special_bonus_unique_doom_2
+  - "Devour Can Target Ancients"
+6316:
+  - necrolyte_sadist_stop
+6317:
+  - special_bonus_exp_boost_30
+  - "+30% XP Gain"
+6318:
+  - special_bonus_gold_income_50
+  - "+300 Gold/Min"
+6320:
+  - special_bonus_unique_visage_2
+  - "+120 Familiars Movement Speed"
+6321:
+  - special_bonus_mp_400
+  - "+400 Mana"
+6322:
+  - special_bonus_unique_centaur_1
+  - "Gains Return Aura"
+6325:
+  - zuus_cloud
+  - "Nimbus"
+6326:
+  - special_bonus_spell_amplify_12
+  - "+12% Spell Amplification"
+6327:
+  - special_bonus_spell_amplify_25
+  - "+25% Spell Amplification"
+6328:
+  - courier_transfer_items_to_other_player
+6330:
+  - special_bonus_unique_riki_1
+  - "+0.4 Backstab Multiplier"
+6331:
+  - special_bonus_unique_enchantress_1
+  - "+8s Nature's Attendants Duration"
+6670:
+  - special_bonus_unique_nevermore_1
+  - "+2 Damage Per Soul"
+9990:
+  - roshan_halloween_candy
+9991:
+  - roshan_halloween_angry
+9993:
+  - roshan_halloween_wave_of_force
+9994:
+  - roshan_halloween_greater_bash
+9995:
+  - roshan_halloween_toss
+9997:
+  - roshan_halloween_shell
+9998:
+  - roshan_halloween_apocalypse
+9999:
+  - roshan_halloween_burn
+10000:
+  - roshan_halloween_levels
+10001:
+  - roshan_halloween_summon
+10002:
+  - roshan_halloween_fireball

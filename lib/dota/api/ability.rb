@@ -5,11 +5,12 @@ module Dota
 
       attr_reader :id, :name, :full_name
 
+      alias_method :full_name, :name
+
       def initialize(id)
         @id = id
         @internal_name = mapping[id][0]
         @name = mapping[id][1]
-        @full_name = mapping[id][2]
       end
 
       def image_url(type = :lg)

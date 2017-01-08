@@ -4,7 +4,7 @@ RSpec.describe Dota::API::Ability do
   specify ".all" do
     abilities = described_class.all
     expect(abilities.first).to be_a described_class
-    expect(abilities.count).to eq 570
+    expect(abilities.count).to eq 1077
   end
 
   specify "#id" do
@@ -16,7 +16,9 @@ RSpec.describe Dota::API::Ability do
   end
 
   specify "#full_name" do
-    expect(ability.full_name).to eq "Antimage Mana Break"
+    # DEPRECATED: Used to just concatenate hero name
+    # with ability (e.g., "Antimage Mana Break")
+    expect(ability.full_name).to eq "Mana Break"
   end
 
   specify "#image_url" do
