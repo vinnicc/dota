@@ -10,7 +10,7 @@ module Dota
       def initialize(id)
         @id = id
         @internal_name = mapping[id][0]
-        @name = mapping[id][1]
+        @name = mapping[id][1] || @internal_name
       end
 
       def image_url(type = :lg)
@@ -19,11 +19,7 @@ module Dota
         # :hp2 - 105x105 PNG image
         # :lg - 128x128 PNG image
 
-        if internal_name == 'stats'
-          "https://steamcdn-a.akamaihd.net/apps/dota2/images/workshop/itembuilder/stats.png"
-        else
-          "http://cdn.dota2.com/apps/dota2/images/abilities/#{internal_name}_#{type}.png"
-        end
+        "http://cdn.dota2.com/apps/dota2/images/abilities/#{internal_name}_#{type}.png"
       end
 
       private

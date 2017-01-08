@@ -60,6 +60,7 @@
   - "Frost Arrows"
 5020:
   - drow_ranger_silence
+  - "Silence"
 5021:
   - drow_ranger_trueshot
   - "Precision Aura"
@@ -483,8 +484,10 @@
   - "Chaotic Offering"
 5166:
   - warlock_golem_flaming_fists
+  - "Flaming Fists"
 5167:
   - warlock_golem_permanent_immolation
+  - "Permanent Immolation"
 5168:
   - beastmaster_wild_axes
   - "Wild Axes"

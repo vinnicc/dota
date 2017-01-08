@@ -11,8 +11,15 @@ RSpec.describe Dota::API::Ability do
     expect(ability.id).to eq 5003
   end
 
-  specify "#name" do
-    expect(ability.name).to eq "Mana Break"
+  describe "#name" do
+    specify "returns a human-friendly name" do
+      expect(ability.name).to eq "Mana Break"
+    end
+
+    specify "falls back to internal name" do
+      ability = described_class.new(9993)
+      expect(ability.name).to eq "roshan_halloween_wave_of_force"
+    end
   end
 
   specify "#full_name" do
