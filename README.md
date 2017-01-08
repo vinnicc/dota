@@ -300,7 +300,6 @@ ability_upgrade.ability # Dota::API::Ability
 ```ruby
 ability.id        # Integer, ID of the ability
 ability.name      # String, Name of the ability (for example, "Mana Break")
-ability.full_name # String, Full name of the ability (for example, "Antimage Mana Break")
 ability.image_url # String, URL of the ability image
                   # Allowed arguments:
                   # :lg  - default, 128x128 PNG image
