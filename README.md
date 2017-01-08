@@ -24,7 +24,8 @@ Unsupported endpoints (including `GetSupportedAPIList`) can still be queried via
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'dota'
+gem 'dota', '~> 0.0.21'
+
 ```
 
 And then execute:
