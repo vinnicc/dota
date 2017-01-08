@@ -32,9 +32,9 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Or install it in your local repository:
 
-    $ gem install dota
+    $ gem install dota -v 0.0.21
 
 ## Usage
 
