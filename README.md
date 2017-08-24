@@ -79,7 +79,7 @@ api.matches                      # => A list of matches
 api.matches(hero_id: 43)         #    Allowed options:
                                  #
                                  #    :hero_id     - Integer, With this hero. See Dota::API::Hero.mapping
-                                 #    :after       - Integer, With match IDs equal or greater than this
+                                 #    :after       - Integer, With match IDs equal or less than this
                                  #    :player_id   - Integer, With this player (32-bit Steam ID)
                                  #    :league_id   - Integer, In this league. Use Dota.leagues to get a list of leagues
                                  #    :mode_id     - Integer, In this game mode. See Dota::API::Match::MODES
