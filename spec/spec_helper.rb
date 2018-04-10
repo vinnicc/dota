@@ -2,7 +2,7 @@ require "codeclimate-test-reporter"
 CodeClimate::TestReporter.start
 
 require 'dotenv'
-Dotenv.load
+Dotenv.load ".env.test"
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
